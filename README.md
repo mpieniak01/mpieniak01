@@ -46,11 +46,11 @@ My journey into AI architecture started with building physical agents.
 ---
 
 ### 📊 GitHub Stats
-<p align="left">
-<a href="https://github.com/mpieniak01">
-  <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api?username=mpieniak01&show_icons=true&theme=tokyonight&hide_border=true" alt="MPieniak Stats" />
-</a>
-<a href="https://github.com/mpieniak01">
-  <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mpieniak01&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="MPieniak Langs" />
-</a>
-</p>
+<div align="center">
+  <a href="https://github.com/mpieniak01">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mpieniak01&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="Stats" />
+  </a>
+  <a href="https://github.com/mpieniak01">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mpieniak01&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="180" alt="Langs" />
+  </a>
+</div>
