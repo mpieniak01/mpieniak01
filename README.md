@@ -56,6 +56,6 @@ Python · FastAPI · Docker · AI/ML · IoT/Robotics · System Architecture
 ---
 
 ### 📊 GitHub Activity
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=mpieniak01&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" />
-</p>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mpieniak01&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
+
