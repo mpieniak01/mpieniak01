@@ -36,7 +36,8 @@ My journey into AI architecture started with building physical agents.
     * Offloaded heavy ML models (Vision, Voice) to a dedicated unit.
 
 * **3. Venom** (The Conscience)
-    * The final layer: Abstracting the decision-making logic into a standalone meta-system.
+    * An evolutionary layer built on top of Rider-PC.
+    * Abstracts decision-making, intent resolution and agent coordination into a standalone, reusable cognitive control system.
 
 ---
 
