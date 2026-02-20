@@ -552,35 +552,28 @@ Presented below is a list of our requirements for an Assistant AI class system a
 • Yes - feature available.
 • In progress - I hope that it will be developed in the future
 
-No Requirement Meets
-Gemini
-Meets
-Copilot
-1 Calendar and meeting management
-1.1  Scheduling meetings, sending invitations, and reserving
-resources In progress In progress
-1.2  Setting reminders In progress In progress
-2 Travel arrangements
-2.1  Booking airline and train tickets (optimal connections) In progress In progress
-2.2  Booking a hotel (considering preferences) In progress In progress
-2.3  Determining the optimal travel plan (attractions, route,
-documents) In progress In progress
-3 Task management
-3.1  Assigning tasks to other people or systems In progress In progress
-3.2  Monitoring the progress of work on tasks In progress In progress
-3.3  Monitoring and informing about deadlines and potential delays  In progress In progress
-4  Providing information
-4.1  Providing information in an initiative-taking and on-demand mode Yes Yes
-4.2  Preparing translations, product descriptions, articles, graphic
-designs Yes Yes
-4.3  Preparing reports, summaries, analyses Yes Yes
-4.4  Analysis of monitored content Y
-
-5 Improving work efficiency
-5.1  Identification and solving problems (based on data analysis) In progress Yes
-5.2  Automation of routine tasks (e.g., sending emails) In progress Yes
-5.3  Real-time language translation (during conversations) -
-generating meeting summaries In progress Yes
+| No | Requirement | Meets Gemini | Meets Copilot |
+|---:|---|---|---|
+| 1 | Calendar and meeting management |  |  |
+| 1.1 | Scheduling meetings, sending invitations, and reserving resources | In progress | In progress |
+| 1.2 | Setting reminders | In progress | In progress |
+| 2 | Travel arrangements |  |  |
+| 2.1 | Booking airline and train tickets (optimal connections) | In progress | In progress |
+| 2.2 | Booking a hotel (considering preferences) | In progress | In progress |
+| 2.3 | Determining the optimal travel plan (attractions, route, documents) | In progress | In progress |
+| 3 | Task management |  |  |
+| 3.1 | Assigning tasks to other people or systems | In progress | In progress |
+| 3.2 | Monitoring the progress of work on tasks | In progress | In progress |
+| 3.3 | Monitoring and informing about deadlines and potential delays | In progress | In progress |
+| 4 | Providing information |  |  |
+| 4.1 | Providing information in an initiative-taking and on-demand mode | Yes | Yes |
+| 4.2 | Preparing translations, product descriptions, articles, graphic designs | Yes | Yes |
+| 4.3 | Preparing reports, summaries, analyses | Yes | Yes |
+| 4.4 | Analysis of monitored content | Y |  |
+| 5 | Improving work efficiency |  |  |
+| 5.1 | Identification and solving problems (based on data analysis) | In progress | Yes |
+| 5.2 | Automation of routine tasks (e.g., sending emails) | In progress | Yes |
+| 5.3 | Real-time language translation (during conversations) - generating meeting summaries | In progress | Yes |
 Table 8 - Comparison of AI Assistants’ Maturity Levels
 As you can see in the table above, many of the functions I expected from an AI Assistant class system
 have not been implemented. This could be due to various reasons, such as inadequate autonomy,
