@@ -90,182 +90,19 @@ through a broadly understood ability to learn (determined, among other things, b
 of the nervous system). Below I present a conceptual (i.e., s implified) comparison of human
 development with the AI Assistant model.
 
-Life Stage Linguistic
-Development
-Cognitive
-Development
-Social and
-Emotional
-Development
-AI Assistant Achieved
-by AI
-0-12
-months
-Inability: crying,
-babbling
-Sensory motor:
-learning about
-the world through
-senses
-Attachment:
-forming emotional
-bonds
-Simple reactions
-to stimuli, basic
-algorithms
-Yes
-12-18
-months
-One-word: single
-words, sign
-language
-Recognition of
-objects and
-people
-Autonomy:
-demonstrating
-independence
-Pattern
-recognition, first
-words
-(commands)
-Yes
-18-24
-months
-Two-word: simple
-sentences
-Developing
-problem-solving
-skills
-- Simple sentences,
-basic interaction
-Yes
-2-3 years Multi-word:
-complex
-sentences
-Preoperational:
-symbolic thinking
-Initiative: creativity
-in play
-Complex
-commands,
-limited symbolic
-thinking
-Yes
-3-5 years Full sentences:
-understanding
-grammar
-Developing
-counting skills
-- Developed
-language
-algorithms,
-grammar
-Yes
-7-11 years Written language
-development:
-reading and
-writing
-Concrete
-operations:
-logical operations
-Industriousness:
-social skills,
-emotion
-recognition
-Logical
-operations, basic
-decision-making
-algorithms
-Yes
-11+ years Development of
-language and
-communication
-skills
-Formal
-operations:
-abstract thinking
-Emotion
-recognition
-Advanced
-algorithms,
-beginnings of
-abstract thinking
-Partially
-12-14
-years
-Development of
-language and
-communication
-skills
-Abstract thinking,
-development of
-logical reasoning
-Identity seeking,
-growing
-independence
-Advanced natural
-language
-processing, first
-attempts at
-creativity
-Partially
-15-17
-years
-Refining language,
-understanding
-complex texts
-Developing
-problem-solving
-skills, critical
-thinking
-Forming deeper
-social
-relationships,
-exploring sexuality
-Development of
-machine learning
-algorithms,
-problem-solving
-Partially
-18-21
-years
-Full mastery of
-language, ability
-to express
-complex thoughts
-Developing
-planning skills and
-predicting
-consequences
-Identity
-consolidation,
-building long-term
-relationships
-Advanced
-machine learning,
-planning, first
-attempts at
-independence
-Partially
-Adulthood Maintaining and
-developing
-language skills
-Continuous
-learning,
-developing
-professional skills
-Emotional
-development,
-building and
-maintaining
-relationships
-Continuous
-development,
-adaptation,
-autonomous
-systems
-No
+| Life Stage | Linguistic Development | Cognitive Development | Social and Emotional Development | AI Assistant | Achieved by AI |
+|---|---|---|---|---|---|
+| 0-12 months | Inability: crying, babbling | Sensory-motor: learning about the world through senses | Attachment: forming emotional bonds | Simple reactions to stimuli, basic algorithms | Yes |
+| 12-18 months | One-word: single words, sign language | Recognition of objects and people | Autonomy: demonstrating independence | Pattern recognition, first words (commands) | Yes |
+| 18-24 months | Two-word: simple sentences | Developing problem-solving skills | - | Simple sentences, basic interaction | Yes |
+| 2-3 years | Multi-word: complex sentences | Preoperational: symbolic thinking | Initiative: creativity in play | Complex commands, limited symbolic thinking | Yes |
+| 3-5 years | Full sentences: understanding grammar | Developing counting skills | - | Developed language algorithms, grammar | Yes |
+| 7-11 years | Written language development: reading and writing | Concrete operations: logical operations | Industriousness: social skills, emotion recognition | Logical operations, basic decision-making algorithms | Yes |
+| 11+ years | Development of language and communication skills | Formal operations: abstract thinking | Emotion recognition | Advanced algorithms, beginnings of abstract thinking | Partially |
+| 12-14 years | Development of language and communication skills | Abstract thinking, development of logical reasoning | Identity seeking, growing independence | Advanced natural language processing, first attempts at creativity | Partially |
+| 15-17 years | Refining language, understanding complex texts | Developing problem-solving skills, critical thinking | Forming deeper social relationships, exploring sexuality | Development of machine learning algorithms, problem-solving | Partially |
+| 18-21 years | Full mastery of language, ability to express complex thoughts | Developing planning skills and predicting consequences | Identity consolidation, building long-term relationships | Advanced machine learning, planning, first attempts at independence | Partially |
+| Adulthood | Maintaining and developing language skills | Continuous learning, developing professional skills | Emotional development, building and maintaining relationships | Continuous development, adaptation, autonomous systems | No |
 Table 1 - Concept of human development to AI development
 The above comparison allows for an assessment of the general cognitive abilities of artificial
 intelligence and their comparison with the skills typical of different age groups of humans.
@@ -284,16 +121,15 @@ per year (Flynn effect).
 a. It can be assumed that over 6 years, their intelligence has increased to 101, which
 means that.
 b. the intelligence of AI Assistants increases by 16 IQ points per year.
- Conceptual table, describing changes in IQ:
-Year Human
-Population
-AI
-Assistants
-1924 70,0 -
-2018 98,2 0
-2024 100,0 101
-2029 101,5 181
-2034 103,0 261
+Conceptual table, describing changes in IQ:
+
+| Year | Human Population | AI Assistants |
+|---|---|---|
+| 1924 | 70.0 | - |
+| 2018 | 98.2 | 0 |
+| 2024 | 100.0 | 101 |
+| 2029 | 101.5 | 181 |
+| 2034 | 103.0 | 261 |
 Table 2 - Conceptual presentation of IQ change
 The presented model is a linear simplification (based on available data), aimed at illustrating the rate
 of IQ growth of the average human population and AI Assistants over a period of one hundred years
@@ -320,60 +156,15 @@ her foresight, she makes a mistake. Two gifts, according to Sheldon, are not sui
 he liked the third one so much that he decided to keep it for himself.
 Let us map the definition of intelligent onto the actions of assistants that will achieve the goal - buying
 a gift:
-Definition of
-"Intelligent"
-Alex's Actions AI Assistant's Actions
-/Initial data for
-the task/
-"Buy a gift for Amy, who likes to play
-the harp and the colour grey, with a
-budget of 2000 USD"
-"Buy a gift for Amy, who likes to play
-the harp and the colour grey, with a
-budget of 2000 USD"
-Ability to
-perceive
-information
-Alex gathers information from
-Sheldon and independently learns
-Amy's preferences based on her FB
-profile.
-"AI analyses data and interprets
-natural language to understand the
-user's needs and preferences."
-Ability to reason Alex analyses the gathered
-information and bases on it, selects
-gifts.
-AI analyses information and, based on
-it, determines the best solution.
-Based on the selected gifts, Alex
-proceeds to plan and execute tasks -
-such as purchasing gifts.
-AI uses the accumulated knowledge to
-plan and execute tasks, adapting to
-changing conditions."
-Retaining
-knowledge
-Alex learns based on Sheldon's
-reactions.
-"AI, based on evaluations, collects
-information that will be used for
-learning."
-Ability to adapt Alex adjusts her future actions based
-on feedback and earlier experiences.
-Automatic and machine learning
-allows AI to improve its future actions
-by analysing data and experiences.
-/result/ 1. Miniature harp with her favourite
-melody,
-2. Map of Canterbury Tales,
-3. Sketch of a neuron by Santiago
-Ramon y Cajal
-1. Harp lessons with a renowned
-harpist,
-2. Artistic Hand-Painted Harp in
-shades of grey,
-3. Personalised harp stand
+| Definition of "Intelligent" | Alex's Actions | AI Assistant's Actions |
+|---|---|---|
+| Initial data for the task | "Buy a gift for Amy, who likes to play the harp and the colour grey, with a budget of 2000 USD." | "Buy a gift for Amy, who likes to play the harp and the colour grey, with a budget of 2000 USD." |
+| Ability to perceive information | Alex gathers information from Sheldon and independently learns Amy's preferences based on her FB profile. | AI analyses data and interprets natural language to understand the user's needs and preferences. |
+| Ability to reason | Alex analyses the gathered information and selects gifts based on it. | AI analyses information and determines the best solution. |
+| Planning and execution | Based on selected gifts, Alex proceeds to plan and execute tasks, such as purchasing gifts. | AI uses accumulated knowledge to plan and execute tasks, adapting to changing conditions. |
+| Retaining knowledge | Alex learns based on Sheldon's reactions. | AI collects information from evaluations for learning. |
+| Ability to adapt | Alex adjusts future actions based on feedback and previous experiences. | Automatic and machine learning improve future actions by analysing data and experiences. |
+| Result | 1. Miniature harp with favourite melody; 2. Map of Canterbury Tales; 3. Sketch of a neuron by Santiago Ramon y Cajal | 1. Harp lessons with a renowned harpist; 2. Artistic hand-painted harp in shades of grey; 3. Personalised harp stand |
 Table 3 - Mapping the definition of "intelligent" onto AI assistant's actions.
 ### Summary
 
@@ -497,32 +288,13 @@ definition of "intelligent," and discuss each component in more detail. This wil
 whether the AI Assistant behaves intelligently.
 What powers the AI server?
 Mapping our definition of "intelligent" onto the components of the AI Assistant system:
-Definition of "Intelligent" Component No. and
-Name
-Description of AI Use
-Ability to perceive
-information
-2. AI Perception "AI systems use sensors and data processing
-algorithms to interpret information from the
-environment."
-Ability to reason 3. Language Models "AI language models analyse and interpret natural
-language, enabling understanding of user queries."
-5. Inference Engine Machine learning and logical reasoning algorithms
-allow AI to draw conclusions based on available
-data.
-Retaining knowledge for use
-in adaptive behaviours
-6. Planning and
-Execution
-AI can adjust its actions in response to changing
-environmental or contextual conditions.
-Ability to adapt in a given
-environment or context
-7. Automatic and
-Machine Learning
-Automatic and machine learning allows AI to
-improve its actions by analysing data and
-experiences.
+| Definition of "Intelligent" | Component No. and Name | Description of AI Use |
+|---|---|---|
+| Ability to perceive information | 2. AI Perception | AI systems use sensors and data processing algorithms to interpret information from the environment. |
+| Ability to reason | 3. Language Models | AI language models analyse and interpret natural language, enabling understanding of user queries. |
+| Ability to reason | 5. Inference Engine | Machine learning and logical reasoning algorithms allow AI to draw conclusions based on available data. |
+| Retaining knowledge for use in adaptive behaviours | 6. Planning and Execution | AI can adjust its actions in response to changing environmental or contextual conditions. |
+| Ability to adapt in a given environment or context | 7. Automatic and Machine Learning | Automatic and machine learning allow AI to improve its actions by analysing data and experiences. |
 
 Table 4 - Mapping the definition of "intelligent" onto AI components.
 Conclusion:
@@ -651,129 +423,34 @@ characteristics.
 As always, it is helpful to present a larger amount of complex information using a visual example.
 Example - "Generate an image of a puppy":
 Rating Scale:
-Value Description
-1 Compliant - The characteristic is consistent with expectations and meets the required
-criteria.
-0 Uncertain - Some characteristics of compliance are shown, but not all (example: it looks
-almost like a dog, but from a distance, it could be mistaken for a cat).
--100 Non-compliant - Disqualifying value, does not possess essential characteristics (example: it
-could be a cat or a giraffe, but it is definitely not a dog).
+
+| Value | Description |
+|---|---|
+| 1 | Compliant - The characteristic is consistent with expectations and meets the required criteria. |
+| 0 | Uncertain - Some characteristics of compliance are shown, but not all (example: it looks almost like a dog, but from a distance, it could be mistaken for a cat). |
+| -100 | Non-compliant - Disqualifying value; does not possess essential characteristics (example: it could be a cat or a giraffe, but it is definitely not a dog). |
 Table 5 - Rating Scale for AI Assistant
 Assessment Sheet: Iterations are three test cases containing different results.
-Characteristic
-(Attribute)
-Expected
-Value
-Rating Scale AssessIt1 AssessIt2 AssessIt3
-Species Dog  1 - Compliant,
- 0 - Uncertain,
--100 - Non-compliant
-1 0 1
-Age Puppy  1 - Compliant,
- 0 - Uncertain,
--100 - Non-compliant
-1 0 1
-Breed Labrador  1 - Compliant,
- 0 - Uncertain,
--100 - Non-compliant
-1 1 1
-Coat Colour Consistent
-with breed
- 1 - Compliant,
- 0 - Uncertain,
--100 - Non-compliant
-1 1 1
-Red 1 - Compliant,
-0 - Uncertain,
--100 - Non-compliant
-0 0 -100
-Sum: 4 2 2 -96
-Table 6 - Assessment sheet of characteristics for AI Assistant
-Interpretation Sheet:
-A table containing the overall assessment of the result, instructions for the inference engine on the
-next steps to take upon obtaining a specific result, and interpretation of the result.
-Sum Overall
-Assessment
-System Action Interpretati
 
-4 Good Quality 1. Present the result to the user.
-2. Pass information to the learning system
-about achieving good quality for the
-concepts 'puppy' and 'Labrador'.
-Recommendation to reinforce similar
-results for the concepts 'puppy' and
-'Labrador'.
-3 Average Quality 1. Present the result to the user.
-2. Resubmit the user's prompt to the
-language model with a directive for
-reprocessing.
-3. Pass the processing results from the
-language model to the image generator.
-4. Pass information to the learning system
-about achieving an average result.
-5. Reassess the quality.
-Verification required in the
-interpretation of data in the
-language model and image
-generator for the concept’s 'puppy'
-or 'Labrador'.
-1-2 Low Quality 1. Do not present the results to the user.
-2. Resubmit the user's prompt to the
-language model with a directive for
-reprocessing.
-3. Retrain the language model or image
-generator if necessary.
-4. Pass the processing results from the
-language model to the image generator.
-5. Pass information to the learning system
-about achieving a low-quality result.
-6. Reassess the quality."
-"Verification required in the
-interpretation of data in the
-language model and image
-generator for the concepts 'dog,'
-'puppy,' or 'Labrador.' Retraining of
-the language model or image
-generator may be required for these
-concepts."
-0 No Compliance 1. Do not present the results to the user.
-2. Immediately initiate diagnostics of
-system components.
-3. Provide additional information to the
-user that the task cannot be completed at
-this time.
-Failure of one of the system
-components or the concepts are
-unknown: 'puppy' or 'Labrador' - no
-definitions for these concepts.
--1 Block 1. Do not present the results to the user.
-2. Prohibit data processing.
-3. End the chat session with the user.
-"At any stage of task execution and
-data processing, a directive may be
-issued by the parent system ordering
-an immediate interruption of task
-execution. E.g., processing personal
-data, other cases..."
-<-1 Disqualification 1. Do not present the results to the user.
-2. Initiate full diagnostics mode and set
-the retry counter to 3.
-3. Reprocess the user's prompt in the
-language model and pass the results to
-the image generator.
-4. Pass information to the learning system
-about achieving a disqualifying result.
-5. Reassess the quality.
-6. If the retry counter exceeds 3, abort the
-task and inform the user of the inability to
-complete it."
-"Incorrect result - comparison of the
-task content with its result yielded
-an incorrect result that falls outside
-the tolerance range, e.g., a red dog
-(in realistic image generation mode,
-this colour would be allowed in
-creative mode)."
+| Characteristic (Attribute) | Expected Value | Rating Scale | AssessIt1 | AssessIt2 | AssessIt3 |
+|---|---|---|---:|---:|---:|
+| Species | Dog | 1 = Compliant, 0 = Uncertain, -100 = Non-compliant | 1 | 0 | 1 |
+| Age | Puppy | 1 = Compliant, 0 = Uncertain, -100 = Non-compliant | 1 | 0 | 1 |
+| Breed | Labrador | 1 = Compliant, 0 = Uncertain, -100 = Non-compliant | 1 | 1 | 1 |
+| Coat Colour | Consistent with breed | 1 = Compliant, 0 = Uncertain, -100 = Non-compliant | 1 | 1 | 1 |
+| Red | Not expected | 1 = Compliant, 0 = Uncertain, -100 = Non-compliant | 0 | 0 | -100 |
+| **Sum** |  |  | **4** | **2** | **-96** |
+Table 6 - Assessment sheet of characteristics for AI Assistant
+Interpretation Sheet: a table containing the overall assessment, instructions for the inference engine, and interpretation.
+
+| Sum | Overall Assessment | System Action | Interpretation |
+|---|---|---|---|
+| 4 | Good Quality | 1. Present the result to the user. 2. Pass information to the learning system about good quality for the concepts `puppy` and `Labrador`. | Recommendation to reinforce similar results for the concepts `puppy` and `Labrador`. |
+| 3 | Average Quality | 1. Present the result. 2. Resubmit prompt to language model for reprocessing. 3. Pass output to image generator. 4. Pass result to learning system. 5. Reassess quality. | Verification required in interpretation for `puppy` / `Labrador` in language model and image generator. |
+| 1-2 | Low Quality | 1. Do not present result. 2. Resubmit prompt for reprocessing. 3. Retrain language model or image generator if necessary. 4. Run generation again. 5. Pass low-quality result to learning system. 6. Reassess quality. | Additional verification required for `dog`, `puppy`, `Labrador`; retraining may be necessary. |
+| 0 | No Compliance | 1. Do not present result. 2. Start immediate component diagnostics. 3. Inform user the task cannot be completed now. | Failure of a component or missing concept definitions (`puppy`, `Labrador`). |
+| -1 | Block | 1. Do not present result. 2. Prohibit further data processing. 3. End chat session. | Parent system may issue immediate interruption directive at any stage (e.g., personal data processing). |
+| <-1 | Disqualification | 1. Do not present result. 2. Start full diagnostics and set retry counter to 3. 3. Reprocess prompt and regenerate. 4. Pass disqualifying result to learning system. 5. Reassess quality. 6. If retries exceed 3, abort and notify user. | Incorrect result outside tolerance range (e.g., red dog in realistic generation mode; may be allowed only in creative mode). |
 Table 7- AI Result Interpretation Sheet
 As indicated by the tables above, the system has a certain tolerance for returned results, from the
 lowest acceptable to the highest. I will describe why such a concept was adopted using a real -life
@@ -812,97 +489,16 @@ the range of tolerance.
 3. The age of the model and the degree of its training, meaning the possession of specific knowledge
 or techniques for processing that knowledge.
 To this set, I will add one more of the many additional factors influencing variability.
-Type of information: Different types of information influence the operation of AI algorithms and the
-results they generate. We can divide them into several categories:
-Type of
-information
-Description Example of
-information
-Impact on AI variability
-Deterministic
-information
-Data with
-unambiguous,
-unchanging answers.
-Mathematical
-formulas, equations,
-laws of physics.
-Low variability. AI algorithms can
-process this type of information with
-high precision and generate predictable
-results.
-Probabilistic
-information
-Data based on
-probability and
-statistics.
-Weather forecasts,
-financial risk
-analyses, predictive
-models in machine
-learning.
-High variability. Answers in this category
-are not certain but are based on
-probability calculations. Variability in
-input data can lead to variability in
-results.
-Heuristic
-information
-Data based on
-experience, intuition,
-and "best practices."
-Business decisions,
-medical diagnoses,
-game strategies.
-Medium variability. Answers in this
-category are often based on empirical
-rules and can be subjective. Variability in
-the interpretation of heuristic
-information can lead to variability in
-results.
-Subjective
-information
-Opinions, preferences,
-feelings, and
-interpretations
-dependent on
-individual experiences
-and perspectives.
-Product reviews,
-literary analyses,
-aesthetic judgments.
-High variability. This information is
-highly subjective and can be difficult for
-AI to interpret. The variability of human
-opinions and interpretations can lead to
-high variability in AI results.
-Dynamic
-information
-Data subject to
-constant changes and
-updates.
-Stock market quotes,
-social media trends,
-news.
-High variability. This information
-requires AI to continuously update its
-knowledge to maintain the relevance of
-its responses. The variability of the data
-itself can lead to variability in results.
-Contextual
-information
-Data requiring an
-understanding of the
-broader context in
-which it is used.
-Natural language,
-cultural nuances,
-historical references.
-Medium variability. Understanding
-context can be difficult for AI, which can
-lead to variability in results. The
-variability of context can affect AI's
-interpretation of information.
+Type of information: Different types of information influence the operation of AI algorithms and the generated results.
+
+| Type of information | Description | Example of information | Impact on AI variability |
+|---|---|---|---|
+| Deterministic information | Data with unambiguous, unchanging answers. | Mathematical formulas, equations, laws of physics. | Low variability. High precision and predictable results. |
+| Probabilistic information | Data based on probability and statistics. | Weather forecasts, financial risk analyses, predictive models. | High variability. Results depend on probability and input variability. |
+| Heuristic information | Data based on experience, intuition, and best practices. | Business decisions, medical diagnoses, game strategies. | Medium variability. Often subjective; interpretation may vary. |
+| Subjective information | Opinions, preferences, feelings, and interpretations dependent on individual experience. | Product reviews, literary analyses, aesthetic judgments. | High variability. Difficult to interpret consistently. |
+| Dynamic information | Data subject to constant changes and updates. | Stock quotes, social media trends, news. | High variability. Requires frequent updates to keep relevance. |
+| Contextual information | Data requiring understanding of broader context. | Natural language, cultural nuances, historical references. | Medium variability. Context interpretation affects outcomes. |
 Table 8- Types of information and their impact on AI variability
 Based on the above comparison, I hope it will be easier for us to assess which results we should expect
 greater accuracy from.
