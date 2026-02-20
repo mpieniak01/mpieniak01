@@ -46,6 +46,17 @@ My journey into AI architecture started with building physical agents.
 
 ---
 
+### 📝 Articles
+Selected long-form articles on AI assistants, decision systems, and ethics:
+
+* [To use AI or not to use AI, that is the question?](./articles/AI_Assistants_Analysis_by_M_Pieniak.md)
+* [Is AI intelligent?](./articles/Is_AI_intelligent_by_M_Pieniak.md)
+* [The concept of implementing Ethics in AI Assistants](./articles/Ethics_in_AI_by_M_Pieniak.md)
+* [AI in the Sociological Perspective – 2026](./articles/Quick_Review_of_AI_2026_by_M_Pieniak.md)
+* [AI: From Theory to Practice - The Venom v1.5 Case Study](./articles/AI_From_Theory_to_Practice_M_Pieniak.md)
+
+---
+
 ### 📊 GitHub Stats
 <div align="center">
   <a href="https://github.com/mpieniak01">
