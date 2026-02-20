@@ -444,191 +444,32 @@ Table 4 - Comparison of DOS and AI Assistant in Terms of Communication Language
 
 So how does the AI Assistant class system work? Below is a conceptual workflow that covers the basic
 assumptions:
-Step Step name Actor Component
-AI
-Description Application
-example
-1 Data input User User
-Interface
-The user writes a text
-prompt.
-"Write a poem
-about Warsaw"
-1.1 Entering
-parameters
-(optional)
-User User
-Interface
-Optional: the user can
-specify the context,
-mode, expected
-response format and
-other parameters.
-"Write a rhyming
-poem about
-Warsaw in a
-romantic style"
-2 Data preprocessing (preprocessor)
-2.1 Data
-normalization
-AI AI
-perception
-The AI system converts
-the text to a common
-format.
-"Write a poem
-about Warsaw in a
-romantic style" ->
-"write a poem
-about Warsaw in a
-romantic style"
-2.2 Tokenization AI AI
-perception
-The AI system divides the
-text into tokens (e.g.,
-words).
-"write a poem
-about Warsaw in a
-romantic style" ->
-["write", "poem",
-"about", "Warsaw",
-"w", "style",
-"romantic"]
-2.3 Error
-correction
-(optional)
-AI AI
-perception
-The AI system checks
-and corrects spelling and
-grammatical errors.
-"write a poem
-about Warsaw in a
-romantic style" ->
-"write a poem
-about Warsaw in a
-romantic style"
-2.4 Isolating
-features and
-intentions
-AI AI
-perception
-The AI system identifies
-key characteristics and
-intentions from the input
-data.
-["write", "poem",
-"about",
-"Warszawa", "w",
-"style", "romantic"]
--> {"task":
-"generate text",
-"type": "poem", "
-subject":
-"Warszawa",
-"style": "romantic"}
-3 Input data analysis
+### Workflow Table
 
-Step Step name Actor Component
-AI
-Description Application
-example
-3.1 Classification AI Inference
-engine
-The AI system analyzes
-characteristics and
-intentions to determine
-the type of task.
-Task type: Text
-generation
-3.2 Algorithm
-selection
-AI Inference
-engine
-The AI system selects an
-algorithm appropriate to
-the type of task and
-mode.
-Algorithm:
-Transformation
-3.3 Using the
-knowledge
-base (optional)
-AI Knowledge
-base
-The AI system retrieves
-information relevant to
-the task from the
-knowledge base.
--
-3.4 Generating
-responses
-AI Language
-models
-The AI system uses a
-language model to
-generate the response.
-Answer: "The
-capital of Poland,
-on the Vistula..."
-3.5 Evaluate the
-response
-AI Inference
-engine
-The AI system evaluates
-the quality of the
-response in terms of its
-adequacy, consistency,
-and grammatical
-correctness.
-Rating: High
-4 Post-processing of data (post-processor)
-4.1 Response
-formatting
-(optional)
-AI (function) Adapting the response
-format to user
-preferences
-Formatted response
-4.2 Presentation of
-output data
-AI User
-Interface
-The AI assistant presents
-the final answer to the
-user.
-Answer: "The
-capital of Poland,
-on the Vistula..."
-5 Interaction
-(optional)
-User User
-Interface
-The user can interact
-with the AI Assistant to
-clarify a task, obtain
-additional information,
-or rephrase a prompt.
-"Can you add more
-descriptions of the
-architecture?"
-6 Refine the AI
-model
-(optional)
-AI Machine
-learning
-The AI system collects
-feedback from users and
-uses it to update
-algorithms and
-knowledge bases.
-Opinions: "I would
-add more
-descriptions of
-monuments"
+| Step | Step name | Actor | AI component | Description | Application example |
+|---|---|---|---|---|---|
+| 1 | Data input | User | User Interface | The user writes a text prompt. | "Write a poem about Warsaw" |
+| 1.1 | Entering parameters (optional) | User | User Interface | Optional: the user specifies context, mode, expected response format, and other parameters. | "Write a rhyming poem about Warsaw in a romantic style" |
+| 2 | Data preprocessing (preprocessor) | AI | AI perception | Input is prepared for further processing. | - |
+| 2.1 | Data normalization | AI | AI perception | The AI system converts the text to a common format. | "Write a poem about Warsaw in a romantic style" -> "write a poem about Warsaw in a romantic style" |
+| 2.2 | Tokenization | AI | AI perception | The AI system divides the text into tokens (e.g., words). | `["write", "poem", "about", "Warsaw", "in", "romantic", "style"]` |
+| 2.3 | Error correction (optional) | AI | AI perception | The AI system checks and corrects spelling and grammatical errors. | "write a poem..." -> "write a poem..." |
+| 2.4 | Isolating features and intentions | AI | AI perception | The AI system identifies key characteristics and intentions from the input data. | `{"task":"generate text","type":"poem","subject":"Warsaw","style":"romantic"}` |
+| 3 | Input data analysis | AI | Inference engine | The AI system analyzes the processed input to plan response generation. | - |
+| 3.1 | Classification | AI | Inference engine | The AI system determines the type of task. | Task type: text generation |
+| 3.2 | Algorithm selection | AI | Inference engine | The AI system selects an algorithm suitable for the task and mode. | Algorithm: transformation |
+| 3.3 | Using the knowledge base (optional) | AI | Knowledge base | The AI system retrieves relevant information from the knowledge base. | - |
+| 3.4 | Generating responses | AI | Language models | The AI system uses a language model to generate the response. | "The capital of Poland, on the Vistula..." |
+| 3.5 | Response evaluation | AI | Inference engine | The AI system evaluates adequacy, consistency, and grammatical correctness. | Rating: high |
+| 4 | Post-processing (post-processor) | AI | Response layer | The AI system prepares the generated response for final delivery. | - |
+| 4.1 | Response formatting (optional) | AI | Response layer | The response format is adapted to user preferences. | Formatted response |
+| 4.2 | Output presentation | AI | User Interface | The AI assistant presents the final response to the user. | "The capital of Poland, on the Vistula..." |
+| 5 | Interaction (optional) | User | User Interface | The user can clarify a task, request additional details, or rephrase the prompt. | "Can you add more descriptions of the architecture?" |
+| 6 | Model refinement (optional) | AI | Machine learning | The AI system uses user feedback to improve algorithms and knowledge quality. | "I would add more descriptions of monuments." |
+
 Table 5 - Workflow of the AI Assistant
 
-Descriptive Explanation:
+### Descriptive Explanation
 Think of your AI Assistant as an eager new employee meticulously following your instructions.
 Here is what it does:
 1. Organizes and categorizes your information.
