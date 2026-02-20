@@ -487,97 +487,16 @@ The "Frequency" column shows how often I encountered the problem. I conducted 10
 which I performed various types of editorial work on the article. If I encountered a problem, I classified
 it and added it to the appropriate row. Then I calculated the results according to the rating scale below
 the table in the Legend. For simplicity, I used a scale of links. Below is the summary:
-Negative aspect Freq Description Example
-Fabricating
-results
-1 AI systems can generate results that have
-no basis in reality. This is more likely with
-poorly trained models or when prompts
-ask for creative output without
-emphasizing factual accuracy.
-An AI model asked to
-predict stock prices claims
-that a company's stock will
-increase by 200% in a
-week, which is unlikely in
-most markets.
-Errors in
-information
-processing
-2 AI models can make mistakes, such as
-misinterpreting data or misclassifying
-information.
-An AI assistant incorrectly
-categorizes an important
-email as spam.
-Too optimistic
-attitude
-1 AI predictions and analyzes can be overly
-optimistic if models are over-fit to training
-data. This optimism can mislead decision-
-making.
-An AI model predicts
-millions of sales of a new
-product on its first day,
-which exceeds the
-company's historical
-performance.
-Inappropriate
-use of language
-1 AI can generate phrases unrelated to the
-context, potentially due to a lack of
-situational awareness or translation
-errors.
-Asked about the weather,
-the AI responds with
-technical programming
-jargon.
-
-Negative aspect Freq Description Example
-Outdated
-information
-2 AI can provide inaccurate information if
-models are not updated frequently or
-trained on old data.
-An AI predicting market
-trends in the current year
-relies solely on data from
-the previous year, ignoring
-recent changes.
-Lack of
-transparency
-(black box
-problem)
-1 Complex AI systems may not fully explain
-the rationale for their results, especially in
-deep learning models. This can make it
-difficult to trust and understand them.
-An AI classifies an email as
-spam but cannot articulate
-the specific reasons for its
-decision.
-Loss of context 2 AI can have difficulty maintaining
-understanding during long conversations
-or sessions. Previous knowledge may not
-be available in later interactions.
-An AI recommends a
-laptop, but in a later
-session forgets the user's
-preferences when asked
-follow-up questions.
-Potential
-invasion of
-privacy
-0 AI, especially that which handles large
-datasets, can pose a privacy risk due to
-improper data handling, inadequate
-security, or excessive data collection
-practices.
-Without explicit consent,
-an AI-based advertising
-system tracks a user's
-physical location to target
-ads.
+| Negative aspect | Freq | Description | Example |
+|---|---:|---|---|
+| Fabricating results | 1 | AI systems can generate results that have no basis in reality. This is more likely with poorly trained models or when prompts ask for creative output without emphasizing factual accuracy. | An AI model asked to predict stock prices claims that a company's stock will increase by 200% in a week, which is unlikely in most markets. |
+| Errors in information processing | 2 | AI models can make mistakes, such as misinterpreting data or misclassifying information. | An AI assistant incorrectly categorizes an important email as spam. |
+| Too optimistic attitude | 1 | AI predictions and analyses can be overly optimistic if models are overfit to training data. This optimism can mislead decision-making. | An AI model predicts millions of sales of a new product on its first day, which exceeds the company's historical performance. |
+| Inappropriate use of language | 1 | AI can generate phrases unrelated to context, potentially due to lack of situational awareness or translation errors. | Asked about the weather, the AI responds with technical programming jargon. |
+| Outdated information | 2 | AI can provide inaccurate information if models are not updated frequently or trained on old data. | An AI predicting market trends in the current year relies solely on data from the previous year, ignoring recent changes. |
+| Lack of transparency (black box problem) | 1 | Complex AI systems may not fully explain the rationale for their results, especially in deep learning models. This can make it difficult to trust and understand them. | An AI classifies an email as spam but cannot articulate the specific reasons for its decision. |
+| Loss of context | 2 | AI can have difficulty maintaining understanding during long conversations or sessions. Previous knowledge may not be available in later interactions. | An AI recommends a laptop, but in a later session forgets the user's preferences when asked follow-up questions. |
+| Potential invasion of privacy | 0 | AI, especially that which handles large datasets, can pose a privacy risk due to improper data handling, inadequate security, or excessive data collection practices. | Without explicit consent, an AI-based advertising system tracks a user's physical location to target ads. |
 Legend: 5-point linear scale of the frequency of negative aspects of AI:
 ● 0 - Did not occur: The problem has not occurred once during 100 sessions of working with
 AI.
@@ -597,78 +516,14 @@ AI models can provide incorrect or unrealistic results, especially if they are p
 I have prepared a similar table for the positive aspects, with an analogous scale described below in
 the Legend for the "Freq" column, which indicates how often the support effect occurred.
 
-Positive aspect Freq Description Example
-Automation and
-efficiency
-4 AI excels at automating repetitive
-tasks, freeing up human time and
-resources for more complex or
-creative work.
-An AI model automatically
-categorizes incoming
-emails into appropriate
-folders, saving the user a
-significant amount of time.
-Improved data
-analysis and pattern
-recognition
-5 AI systems can process huge
-datasets with speed and accuracy
-beyond human capabilities, revealing
-patterns and trends that might
-otherwise remain hidden.
-An AI tool analyzes
-massive amounts of
-financial data to identify
-investment opportunities or
-predict market changes.
-Better language
-understanding and
-translation
-3 AI facilitates language analysis, text
-generation, suggesting edits, and
-providing more accurate translations.
-This streamlines communication and
-breaks down language barriers.
-An AI-powered writing
-assistant suggests stylistic
-improvements and offers
-seamless translations
-across multiple languages.
-Creative support 3 AI can act as a brainstorming
-partner, generating ideas or
-producing summaries. This helps
-users explore new possibilities and
-solve problems from a fresh
-perspective.
-An AI model helps a writer
-brainstorm potential plot
-lines for a fictional story.
-Access to open
-knowledge
-4 AI can tap into vast repositories of
-knowledge, providing quick and
-informative answers to a wide range
-of questions. This promotes rapid
-learning and access to information.
-An AI assistant draws from
-Wikipedia and credible
-databases to answer a
-user's complex historical
-question.
-Development of user
-skills
-3 Interactions with AI can promote
-analytical thinking, logical reasoning,
-and problem-solving skills. This
-happens as users refine their queries
-and interpret AI outputs.
-An AI model helps a
-business analyst practice
-data interpretation and
-visualization, building their
-market research
-competencies.
+| Positive aspect | Freq | Description | Example |
+|---|---:|---|---|
+| Automation and efficiency | 4 | AI excels at automating repetitive tasks, freeing up human time and resources for more complex or creative work. | An AI model automatically categorizes incoming emails into appropriate folders, saving the user a significant amount of time. |
+| Improved data analysis and pattern recognition | 5 | AI systems can process huge datasets with speed and accuracy beyond human capabilities, revealing patterns and trends that might otherwise remain hidden. | An AI tool analyzes massive amounts of financial data to identify investment opportunities or predict market changes. |
+| Better language understanding and translation | 3 | AI facilitates language analysis, text generation, suggesting edits, and providing more accurate translations. This streamlines communication and breaks down language barriers. | An AI-powered writing assistant suggests stylistic improvements and offers seamless translations across multiple languages. |
+| Creative support | 3 | AI can act as a brainstorming partner, generating ideas or producing summaries. This helps users explore new possibilities and solve problems from a fresh perspective. | An AI model helps a writer brainstorm potential plot lines for a fictional story. |
+| Access to open knowledge | 4 | AI can tap into vast repositories of knowledge, providing quick and informative answers to a wide range of questions. This promotes rapid learning and access to information. | An AI assistant draws from Wikipedia and credible databases to answer a user's complex historical question. |
+| Development of user skills | 3 | Interactions with AI can promote analytical thinking, logical reasoning, and problem-solving skills. This happens as users refine their queries and interpret AI outputs. | An AI model helps a business analyst practice data interpretation and visualization, building their market research competencies. |
 Legend: 5-point linear frequency scale of positive aspects of AI:
 ● 0 - Did not occur: The aspect did not occur once in 100 AI work sessions.
 ● 1 - Rarely (0-20%): The aspect occurred 1-20 times in 100 sessions.
