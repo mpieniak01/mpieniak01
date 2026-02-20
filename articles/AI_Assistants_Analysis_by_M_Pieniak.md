@@ -53,13 +53,13 @@ chess, solving logical problems and natural language processing.
 
 Artificial intelligence (AI) is a vast field encompassing many different areas. Among the most important
 are:
-• Robotics: Focuses on the design, construction, and control of robots capable of autonomous
+- Robotics: Focuses on the design, construction, and control of robots capable of autonomous
 existence and interaction with the environment.
-• Machine Learning: Develops algorithms that enable computers to learn from data and
+- Machine Learning: Develops algorithms that enable computers to learn from data and
 improve their performance without explicit programming.
-• Computer Vision: Enables computers to analyze and interpret images and videos, including
+- Computer Vision: Enables computers to analyze and interpret images and videos, including
 tasks like object recognition, motion tracking, and scene reconstruction.
-• Natural Language Processing (NLP): Investigates the interaction between computers and
+- Natural Language Processing (NLP): Investigates the interaction between computers and
 human language, encompassing tasks such as natural language understanding, speech
 recognition, and speech synthesis.
 ## Assistant
@@ -76,20 +76,20 @@ simplification, my focus will remain on presenting the core aspects.
 ### Who is the Assistant?
 
 Word origin:
-● The word "assistant" comes from the Latin word "assistere", meaning "to stand by", "to
+- The word "assistant" comes from the Latin word "assistere", meaning "to stand by", "to
 help".
 Extended definition:
-● An assistant is a person who proactively supports another person in achieving tasks and
+- An assistant is a person who proactively supports another person in achieving tasks and
 goals, operating within established norm.
-● I have enriched the basic definition resulting from the meaning of the word itself with
+- I have enriched the basic definition resulting from the meaning of the word itself with
 contemporary needs:
-o Proactivity: Independent and effective operation.
-o Norm: Sets the limits of proactivity (e.g., applicable laws, procedures, policies, etc.).
-o Another Person: Referred to in this aspect as a superior.
+  - Proactivity: Independent and effective operation.
+  - Norm: Sets the limits of proactivity (e.g., applicable laws, procedures, policies, etc.).
+  - Another Person: Referred to in this aspect as a superior.
 Areas of Activity:
-• The term "assistant" is widely used in various fields (e.g., sports, medicine, social work,
+- The term "assistant" is widely used in various fields (e.g., sports, medicine, social work,
 business) – anywhere support is required.
-• A specific category within the broader group of assistants is the personal assistant, who
+- A specific category within the broader group of assistants is the personal assistant, who
 works directly for a single supervisor.
 Operating Range:
 The Assistant's specific work can be very diverse, influenced by factors such as industry, the
@@ -97,22 +97,22 @@ supervisor's position, and individual needs. Tasks assigned to an assistant may 
 complexity.
 Task examples:
 Very simple:
-• Manager: calls his Assistant "I just landed in Tokyo, what time is it now in Warsaw?"
-• Assistant: "It's 8:15 here."
+- Manager: calls his Assistant "I just landed in Tokyo, what time is it now in Warsaw?"
+- Assistant: "It's 8:15 here."
 Complex:
-• Manager: sends an e-mail to his assistant "Please prepare new advertising leaflets for our
+- Manager: sends an e-mail to his assistant "Please prepare new advertising leaflets for our
 product."
-• Assistant: writes back “Fine, I will take care of it. May I suggest a meeting to discuss the
+- Assistant: writes back “Fine, I will take care of it. May I suggest a meeting to discuss the
 details?”
 So, let us consider what features an employee should have role assistant.
 
 ### Assistant Features
-• Ability to learn: Continuously improves skills and adapts to new situations based on
+- Ability to learn: Continuously improves skills and adapts to new situations based on
 experience.
-• Problem-solving ability: Analyses information and identifies optimal solutions, weighing
+- Problem-solving ability: Analyses information and identifies optimal solutions, weighing
 different factors.
-• Organizational skills: Manages time and tasks effectively.
-• Communication skills: Transfers information clearly and actively listens to understand needs.
+- Organizational skills: Manages time and tasks effectively.
+- Communication skills: Transfers information clearly and actively listens to understand needs.
 The assistant applies these features interchangeably and continuously, adapting their use based on
 the task at hand and their growing experience.
 Assistant functions:
@@ -337,19 +337,19 @@ These natural ways of communicating with the environment also shape how we inter
 computer systems.
 
 Over the years, several technologies have been developed to facilitate this interaction:
-• Speech Recognition: Smartphones can readily convert human speech into text.
-• Image Processing:  Systems can extract text from images (including handwriting), recognize
+- Speech Recognition: Smartphones can readily convert human speech into text.
+- Image Processing:  Systems can extract text from images (including handwriting), recognize
 people by facial features, and even assess emotions.
-• Language Models:  Represent a significant shift from older dictionary- and rule-based
+- Language Models:  Represent a significant shift from older dictionary- and rule-based
 approaches. Current models use machine learning, resulting in vastly improved language
 fluency.
 While the ability to read information is essential, full communication requires providing feedback. This
 means interpreting received information to formulate a response.
 Early chatbots attempted to mimic human language, relying on rigid question-and-answer templates
 or rules and dictionaries. This approach had several challenges:
-• Incorrectly identifying user intent.
-• Unnatural conversational flow.
-• Grammatical and other errors.
+- Incorrectly identifying user intent.
+- Unnatural conversational flow.
+- Grammatical and other errors.
 These issues could lead to user frustration and the conversation ending without the user receiving
 necessary information.
 ## Communication on the example of various systems
@@ -384,8 +384,8 @@ of DOS-like systems offer speed and security benefits.
 Past systems relying on rigid question -and-answer templates, rules, and dictionaries were often
 cumbersome and restrictive. Technological advancements have revolutionized the communication
 paradigm:
-• In the past, humans programmed how the system should communicate.
-• Now, the system learns human language to communicate with humans.
+- In the past, humans programmed how the system should communicate.
+- Now, the system learns human language to communicate with humans.
 Modern language models like LaMDA, GPT-3, and Bard employ advanced machine learning
 algorithms to analyze language at multiple levels:
 1. Lexical: Recognizing and categorizing words, identifying their parts of speech.
@@ -470,10 +470,10 @@ with appropriate formatting and style
 
 Since starting work on this article, I believe I have learned a lot and discovered many new
 applications for AI assistants, such as:
-• Building consistent definitions
-• Creating complex conceptual objects
-• Formulating "theses" based on arguments and counterarguments.
-• Conducting thought experiments
+- Building consistent definitions
+- Creating complex conceptual objects
+- Formulating "theses" based on arguments and counterarguments.
+- Conducting thought experiments
 I will present more about my recent experiences with AI in future articles.
 ## Aspects of using the AI Assistant
 
@@ -498,13 +498,13 @@ the table in the Legend. For simplicity, I used a scale of links. Below is the s
 | Loss of context | 2 | AI can have difficulty maintaining understanding during long conversations or sessions. Previous knowledge may not be available in later interactions. | An AI recommends a laptop, but in a later session forgets the user's preferences when asked follow-up questions. |
 | Potential invasion of privacy | 0 | AI, especially that which handles large datasets, can pose a privacy risk due to improper data handling, inadequate security, or excessive data collection practices. | Without explicit consent, an AI-based advertising system tracks a user's physical location to target ads. |
 Legend: 5-point linear scale of the frequency of negative aspects of AI:
-● 0 - Did not occur: The problem has not occurred once during 100 sessions of working with
+- 0 - Did not occur: The problem has not occurred once during 100 sessions of working with
 AI.
-● 1 - Rare (0-20%): The problem occurred 1 to 20 times in 100 sessions.
-● 2 - Intermittent (21-40%): The problem occurred 21-40 times in 100 sessions.
-● 3 - Moderate (41-60%): The problem occurred 41-60 times over 100 sessions.
-● 4 - Frequent (61-80%): The problem occurred 61-80 times in 100 sessions.
-● 5 - Very common (81-100%): The problem occurred every time (81-100 times) during 100
+- 1 - Rare (0-20%): The problem occurred 1 to 20 times in 100 sessions.
+- 2 - Intermittent (21-40%): The problem occurred 21-40 times in 100 sessions.
+- 3 - Moderate (41-60%): The problem occurred 41-60 times over 100 sessions.
+- 4 - Frequent (61-80%): The problem occurred 61-80 times in 100 sessions.
+- 5 - Very common (81-100%): The problem occurred every time (81-100 times) during 100
 sessions.
 Table 6 - Negative Aspects of Using an AI Assistant
 List Summary:
@@ -525,12 +525,12 @@ the Legend for the "Freq" column, which indicates how often the support effect o
 | Access to open knowledge | 4 | AI can tap into vast repositories of knowledge, providing quick and informative answers to a wide range of questions. This promotes rapid learning and access to information. | An AI assistant draws from Wikipedia and credible databases to answer a user's complex historical question. |
 | Development of user skills | 3 | Interactions with AI can promote analytical thinking, logical reasoning, and problem-solving skills. This happens as users refine their queries and interpret AI outputs. | An AI model helps a business analyst practice data interpretation and visualization, building their market research competencies. |
 Legend: 5-point linear frequency scale of positive aspects of AI:
-● 0 - Did not occur: The aspect did not occur once in 100 AI work sessions.
-● 1 - Rarely (0-20%): The aspect occurred 1-20 times in 100 sessions.
-● 2 - Intermittent (21-40%): The aspect occurred 21-40 times in 100 sessions.
-● 3 - Moderate (41-60%): The aspect occurred 41-60 times in 100 sessions.
-● 4 - Frequent (61-80%): The aspect occurred 61-80 times in 100 sessions.
-● 5 - Very often (81-100%): The aspect occurred every time (81-100 times) during 100
+- 0 - Did not occur: The aspect did not occur once in 100 AI work sessions.
+- 1 - Rarely (0-20%): The aspect occurred 1-20 times in 100 sessions.
+- 2 - Intermittent (21-40%): The aspect occurred 21-40 times in 100 sessions.
+- 3 - Moderate (41-60%): The aspect occurred 41-60 times in 100 sessions.
+- 4 - Frequent (61-80%): The aspect occurred 61-80 times in 100 sessions.
+- 5 - Very often (81-100%): The aspect occurred every time (81-100 times) during 100
 sessions.
 Table 7-Positive Aspects of Using an AI Assistant
 
@@ -549,8 +549,8 @@ This helps ensure the accuracy and reliability of the content in the article.
 ## AI Assistant Maturity Assessment
 
 Presented below is a list of our requirements for an Assistant AI class system and data filled in:
-• Yes - feature available.
-• In progress - I hope that it will be developed in the future
+- Yes - feature available.
+- In progress - I hope that it will be developed in the future
 
 | No | Requirement | Meets Gemini | Meets Copilot |
 |---:|---|---|---|
@@ -586,18 +586,18 @@ increased by introducing the GPT-4 model and other faster models. More about the
 described in the next chapter "AI Assistants in 2024".
 Summary of AI assistants
 AI Assistants definitely support the user by:
-• Analyzing and evaluating provided materials.
-• Having a knowledge base that provides substantive background.
-• Suggesting new aspects to consider.
-• Inspiring.
+- Analyzing and evaluating provided materials.
+- Having a knowledge base that provides substantive background.
+- Suggesting new aspects to consider.
+- Inspiring.
 However, artificial intelligence does not yet have the mature ability to analyze and evaluate data:
-• It relies on algorithms that process all available information without critical evaluation.
-• This can lead to incorrect conclusions if the data is incomplete, outdated, biased, or
+- It relies on algorithms that process all available information without critical evaluation.
+- This can lead to incorrect conclusions if the data is incomplete, outdated, biased, or
 inaccurate.
 Artificial intelligence can be a useful tool, but it currently does not replace human judgment and data
 evaluation skills:
-• It is desirable to create mechanisms for assessing the quality and evaluation of information.
-• In case of data uncertainty, the system should inform about potential implications in an
+- It is desirable to create mechanisms for assessing the quality and evaluation of information.
+- In case of data uncertainty, the system should inform about potential implications in an
 understandable way.
 At the present stage, AI Assistants can be treated as experimental software.
 
@@ -669,27 +669,27 @@ Table 10 - Gemini Implementation Plan
 Artificial Intelligence technology. Below I present a few trends that I hope will be realized in the coming
 year, but also shape the future:
 AI Assistants:
-• Entry into the market of technology giants with their products will have a positive impact on
+- Entry into the market of technology giants with their products will have a positive impact on
 the price-quality ratio.
-• I expect better integration with office suites, including email and communicators, as well as
+- I expect better integration with office suites, including email and communicators, as well as
 the ability to work on the user's own files.
-• Development of integration of AI Assistants with search engines. This will allow context-
+- Development of integration of AI Assistants with search engines. This will allow context-
 aware serving of the right information by AI Assistants.
 Increased synergy between AI and IoT (Internet of Things):
-• More devices can be controlled remotely using dedicated applications. The introduction of
+- More devices can be controlled remotely using dedicated applications. The introduction of
 standardization will allow connecting devices to our central management system on a PnP
 (plug and play) basis, in which the AI Assistant will be one of the resource control interfaces.
-• This will develop the concept of smart homes and bring us closer to the vision of smart cities:
-• In areas of sustainable development (optimal energy consumption, waste management,
+- This will develop the concept of smart homes and bring us closer to the vision of smart cities:
+- In areas of sustainable development (optimal energy consumption, waste management,
 traffic control and public transport).
-• In the field of detection and management of threats (fires, burglaries, failures).
-• The AI Assistant will play a key role in this ecosystem in ensuring the safety, comfort of life
+- In the field of detection and management of threats (fires, burglaries, failures).
+- The AI Assistant will play a key role in this ecosystem in ensuring the safety, comfort of life
 and health of the inhabitants of smart cities.
 Legal regulations:
-• Along with the growing importance of AI technology in our lives, the introduction of
+- Along with the growing importance of AI technology in our lives, the introduction of
 appropriate regulations is expected. This will ensure the sustainable development of this
 field, taking into account many aspects, including social, ethical, legal and economic.
-• Meeting the above conditions may lead to AI Assistants becoming the main communication
+- Meeting the above conditions may lead to AI Assistants becoming the main communication
 interface between the user and our devices. This will make them a good alternative to
 specialized
 
@@ -700,13 +700,13 @@ excited to see what the future holds.
 
 Initially, the article contained various examples of interactions with artificial intelligence, some of
 which were humorous. However, they were eventually omitted for the following reasons:
-• Developmental phase: In my opinion, current AI solutions, even those commercially
+- Developmental phase: In my opinion, current AI solutions, even those commercially
 available, are still in the development or beta testing phase.
-• Continuous improvement: Thanks to the use of self-learning algorithms and better goal
+- Continuous improvement: Thanks to the use of self-learning algorithms and better goal
 definition, subsequent attempts ("re-tests") were successful.
-• Maintaining neutrality: At this stage, I do not want to promote any specific company's
+- Maintaining neutrality: At this stage, I do not want to promote any specific company's
 product.
-• Value of discovery: Providing ready-made examples with specific solutions would deprive
+- Value of discovery: Providing ready-made examples with specific solutions would deprive
 readers of the valuable experience of discovering how to effectively communicate using
 artificial intelligence. This journey of discovery deepens the understanding of the potential of
 artificial intelligence and best practices.

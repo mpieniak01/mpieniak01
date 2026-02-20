@@ -43,25 +43,25 @@ assumptions and implementation. He obtained results depending on the model rangi
 101. I invite you to read the publication “Top AIs still fail IQ tests.”
 Based on various sources, I will present some general information about IQ tests:
 1. There is no single universal and constant IQ test:
-• IQ tests are developed by specialists in the field of psychometrics. They are adapted based on
+- IQ tests are developed by specialists in the field of psychometrics. They are adapted based on
 statistical research to specific research or diagnostic needs. They can examine different areas
 of cognitive abilities to varying degrees, such as linguistic, arithmetic, associative, analytical,
 and spatial thinking.
 2. IQ Test Calibration:
-• IQ tests are calibrated specifically for the human population and take into account the age of
+- IQ tests are calibrated specifically for the human population and take into account the age of
 the test taker. The test used in the article "Top AIs still fail IQ tests" was designed for
 individuals over 18 years old.
-• IQ tests can be developed on different scoring scales, e.g., (0-100, 0-150, 0-200, etc.). The
+- IQ tests can be developed on different scoring scales, e.g., (0-100, 0-150, 0-200, etc.). The
 test used in the article "Top AIs still fail IQ tests" had a maximum achievable score of 126.
-• For example, Mensa accepts individuals with a score of 131 or higher (which represents
+- For example, Mensa accepts individuals with a score of 131 or higher (which represents
 about 2% of the population).
 3. Distribution of results:
-• The results of most of the population fall within the range of 90 to 110, which is considered
+- The results of most of the population fall within the range of 90 to 110, which is considered
 the average level of intelligence.
 4. IQ tests and their interpretation:
-• Fun tests, such as the national intelligence test or tests available on websites, should be
+- Fun tests, such as the national intelligence test or tests available on websites, should be
 taken with a grain of salt.
-• Professional tests, used in scientific research or diagnostics, are conducted in a specific way.
+- Professional tests, used in scientific research or diagnostics, are conducted in a specific way.
 The interpretation of the results of these tests should be carried out by a specialist, such as a
 psychologist.
 My first thought after reading the article "Top AIs still fail IQ tests" was to repeat the test on myself
@@ -70,8 +70,8 @@ and the AI Assistants I use (Gemini and Copilot). I used "Exercise 2" for this t
 I confirm that both AI Assistants gave the correct answer - E. I will not reveal my test result, let us say
 for the sake of sensitive data protection.
 The correct solution to the task indicates that:
-• AI Perception - processing a graphic image works correctly.
-• AI Reasoning - has the ability to correctly classify the goal, memorize data and analyse it, and
+- AI Perception - processing a graphic image works correctly.
+- AI Reasoning - has the ability to correctly classify the goal, memorize data and analyse it, and
 find a common pattern to solve the task.
 I mentioned that in tests prepared for people, a factor such as age is taken into account. A 2-year-old
 will have problems solving a test intended for a 10-year-old.
@@ -137,8 +137,8 @@ back and 10 years forward.
 Optimistic forecasts:
 There is a chance to double the growth of intelligence among both the human population and AI
 Assistants:
-• Based on the phenomenon of synergy between the human population and AI Assistants and
-• Based on technological development, model optimization, and their retraining.
+- Based on the phenomenon of synergy between the human population and AI Assistants and
+- Based on technological development, model optimization, and their retraining.
 This would mean that in 4 -5 years, the average IQ of the human population will reach 103, and the
 level of AI Assistants will reach 261.
 This material was intended to serve as an interesting intr
@@ -310,24 +310,24 @@ bases and language models to analyse input data, formulate logical conclusions, 
 Below, I present a simplified example of how an in ference engine works in response to the question:
 "What do 3-month-old Labrador puppies eat?".
 1. Interpretation:
-• The language model analyses the question and recognises its intent (to provide information)
+- The language model analyses the question and recognises its intent (to provide information)
 and key elements ("Labrador puppies," "3 months").
 2. Content Analysis:
-• The language model uses its knowledge about Labradors, their diet, the nutritional needs of
+- The language model uses its knowledge about Labradors, their diet, the nutritional needs of
 puppies, and the influence of age on nutrition.
-• The language model understands that 3-month-old Labrador puppies are in a phase of
+- The language model understands that 3-month-old Labrador puppies are in a phase of
 intensive growth and need a special diet.
 3. Access to Knowledge Base:
-• The model accesses the general knowledge base (GKB) to obtain detailed information about
+- The model accesses the general knowledge base (GKB) to obtain detailed information about
 feeding 3-month-old Labrador puppies, such as:
-o Recommended caloric values and proportions of nutrients (protein, fat,
+  - Recommended caloric values and proportions of nutrients (protein, fat,
 carbohydrates).
-o List of suitable foods (dry food, wet food, natural products).
+  - List of suitable foods (dry food, wet food, natural products).
 4. Development of Response and Presentation of Result:
-• Based on the analysis of the question's content and information from the knowledge base,
+- Based on the analysis of the question's content and information from the knowledge base,
 the language model generates a response and presents it in the user's preferred format.
 5. User Evaluation and Improvement:
-• The user can assess
+- The user can assess
 
 Language models
 Advanced artificial intelligence systems process and understand natural language through multi-level
@@ -398,9 +398,9 @@ could work on it endlessly. However, the goal of the task is not to demonstrate 
 with AI, but to present the process of image generation by AI using two models. Therefore, I will omit
 my own assessment and focus on the context of image generation.
 When choosing the subject for image generation, I applied a simple and quick heuristic, considering:
-• The popularity and neutrality of the object (cats)
-• Introducing a challenge (fog - which can be a difficult topic)
-• Adding a characteristic accent in the form of Picasso's style (giving it a specific, unique
+- The popularity and neutrality of the object (cats)
+- Introducing a challenge (fog - which can be a difficult topic)
+- Adding a characteristic accent in the form of Picasso's style (giving it a specific, unique
 character)
 Based on these assumptions (in my opinion, neutral), the first generated image was not presented
 because it depicted a surreal act, which is consistent with Picasso's artistic convention and the rich
@@ -415,10 +415,10 @@ automatic quality assessment system aims to objectify this process by applying s
 rating scales.
 
 To perform an automatic quality assessment, the following approach can be used:
-• Identify the characteristics (criteria) based on which the result will be evaluated. These can
+- Identify the characteristics (criteria) based on which the result will be evaluated. These can
 be expressed as desirable or undesirable traits.
-• Develop a rating scale to unambiguously assess each characteristic.
-• Develop an interpretation of the obtained sum of results from the assessment of individual
+- Develop a rating scale to unambiguously assess each characteristic.
+- Develop an interpretation of the obtained sum of results from the assessment of individual
 characteristics.
 As always, it is helpful to present a larger amount of complex information using a visual example.
 Example - "Generate an image of a puppy":
@@ -531,7 +531,7 @@ accordance with established standards.
 AI Assistant: A computer program utilising artificial intelligence (AI) that supports the user in
 achieving goals proactively, in accordance with established standards.
 
-• I have
+- I have
 
 The above factors may promote the tendency to provide information at all costs as a better
 alternative than not providing an answer at all. The phenomenon of taking greater risks to potentially
@@ -557,22 +557,22 @@ emulating certain human functions. In our considerations, we have delved deep en
 understand the discussed issues. I hope that the formulated knowledge will facilitate understanding
 the functioning of AI Assistant class systems.
 ### Concluding remarks
-• AI Assistants have already achieved a certain degree of human intelligence.
-• The key component of an AI Assistant is the decision -making system, which utilizes, among
+- AI Assistants have already achieved a certain degree of human intelligence.
+- The key component of an AI Assistant is the decision -making system, which utilizes, among
 other things, heuristics.
-• Thanks to components imitating human cognitive processes, such as machine learning
+- Thanks to components imitating human cognitive processes, such as machine learning
 algorithms, they analyse data to find optimal patterns for solving tasks, including new ones.
-o AI systems have the ability to self -repair and optimize, allowing them to deliver
+  - AI systems have the ability to self -repair and optimize, allowing them to deliver
 increasingly better results. This distinguishes them from traditional computer systems,
 which either work correctly or incorrectly.
-o To perform certain tasks, specialized tools are required; for drawing images from text,
+  - To perform certain tasks, specialized tools are required; for drawing images from text,
 image generator tools based on stable diffusion are used.
-o Access to tools can be achieved through integration with other systems, e.g., through
+  - Access to tools can be achieved through integration with other systems, e.g., through
 APIs.
-• A task can be performed in many ways, depending on its interpretation and the available
+- A task can be performed in many ways, depending on its interpretation and the available
 knowledge.
 
-o Due to the dynamic and complex nature of our cognitive processes and their
+  - Due to the dynamic and complex nature of our cognitive processes and their
 adaptation to AI Assistants, we can only expect results within a certain tolerance of
 accuracy and the best possible at a given moment.
 Some believe that a sense of humour is a measure of intelligence. My AI Assistants definitely have it,
@@ -582,7 +582,7 @@ article, I will try to answer the next important question: "Does AI have feeling
 cordially invite you. In the meantime, I encourage you to comment on the article and share your
 experiences with AI.
 
-o Due to the dynamic and complex nature of our cognitive processes and their
+  - Due to the dynamic and complex nature of our cognitive processes and their
 adaptation to AI Assistants, we can only expect results within a certain tolerance of
 accuracy and the best possible at a given moment.
 Some believe that a sense of humour is a measure of intelligence. My AI Assistants definitely have it,

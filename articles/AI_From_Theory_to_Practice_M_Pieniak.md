@@ -21,10 +21,10 @@ Over the past few months, I have created several GitHub repositories as the resu
 process automation, based on architectures designed for specific, clearly defined goals. One of those
 projects is Venom.
 Venom was designed to verify two key assumptions:
-• Whether the concept of an AI Assistant — with clearly defined norms and an explicitly
+- Whether the concept of an AI Assistant — with clearly defined norms and an explicitly
 established level of autonomy — can be effectively implemented in a working system that
 supports decision-making processes.
-• Whether, based on open-source technologies, it is possible to architecturally and functionally
+- Whether, based on open-source technologies, it is possible to architecturally and functionally
 approach commercial solutions developed by the largest technology companies in the AI
 domain.
 
@@ -55,12 +55,12 @@ services or commercial APIs is either referential or serves to acquire auxiliary
 local system results are unsatisfactory.
 An integral part of Venom is a web interface designed as an operational tool. Its purpose is to provide
 insight into:
-• the course of decision-making processes,
-• the current state of the system,
-• dependencies between components.
+- the course of decision-making processes,
+- the current state of the system,
+- dependencies between components.
 Key elements of the interface include:
-• the Inspector — enabling tracing of the decision path for individual interactions,
-• the Knowledge Graph — presenting a dynamic model of context and relationships between
+- the Inspector — enabling tracing of the decision path for individual interactions,
+- the Knowledge Graph — presenting a dynamic model of context and relationships between
 information.
 In designing the interface, the “data close to the user” strategy was applied, meaning that information
 is presented according to priority, with the ability to drill down into details using a one-click principle.
@@ -109,37 +109,37 @@ Within 50 days, Venom evolved from a proof-of-concept script into a modular ecos
 repository structure now reflects clear responsibility domains.
 The system consists of five cooperating layers:
 1. Venom Core (/venom_core) — The Operations Brain
-• The decision-making engine of the Assistant.
-• It implements orchestration, agent coordination, and memory management.
-• The Core performs the “thinking” process and exposes an API, but has no graphical interface.
+- The decision-making engine of the Assistant.
+- It implements orchestration, agent coordination, and memory management.
+- The Core performs the “thinking” process and exposes an API, but has no graphical interface.
 It is pure business logic.
 2. Web Next (/web-next) — Control Plane
-• The operational layer separated from the logic.
-• It provides real-time visibility into agent states, decision traces, and system metrics.
-• Separating presentation from execution enables asynchronous interaction and observability.
+- The operational layer separated from the logic.
+- It provides real-time visibility into agent states, decision traces, and system metrics.
+- Separating presentation from execution enables asynchronous interaction and observability.
 3. Venom Spore (/venom_spore) — Execution Units
-• A lightweight execution component enabling distributed task handling.
-• It allows heavy or isolated operations to run outside the main Core, preparing the system for
+- A lightweight execution component enabling distributed task handling.
+- It allows heavy or isolated operations to run outside the main Core, preparing the system for
 multi-node environments.
 4. The Academy — Learning Layer
-• A mechanism that transforms system history into development material.
-• Venom can distill operational experience and use it to refine models through controlled fine-
+- A mechanism that transforms system history into development material.
+- Venom can distill operational experience and use it to refine models through controlled fine-
 tuning, preserving versioning and change traceability.
-• This marks the transition from a prompt executor to a system capable of structured learning.
+- This marks the transition from a prompt executor to a system capable of structured learning.
 5. Workflow Control — Plan Before Apply
-• A governance layer for configuration and structural changes.
-• It introduces a controlled Plan → Apply flow, ensuring validation before modification.
-• Changes are audited and predictable, reducing configuration risk in agent-based systems.
+- A governance layer for configuration and structural changes.
+- It introduces a controlled Plan → Apply flow, ensuring validation before modification.
+- Changes are audited and predictable, reducing configuration risk in agent-based systems.
 6. Security Policy — Dual Trust Model
-• As autonomy increases, boundaries become critical.
-• Venom is designed to be secure both against uncontrolled agent actions and against
+- As autonomy increases, boundaries become critical.
+- Venom is designed to be secure both against uncontrolled agent actions and against
 unintended operator interference.
-• System areas and workspace are clearly separated, and mutating operations require explicit
+- System areas and workspace are clearly separated, and mutating operations require explicit
 authorization and traceability.
 7. Metrics and Observability
-• Venom treats AI as an engineering system, not a black box.
-• Token economy, latency, and decision traces are monitored.
-• This enables debugging not only of code, but of reasoning paths themselves.
+- Venom treats AI as an engineering system, not a black box.
+- Token economy, latency, and decision traces are monitored.
+- This enables debugging not only of code, but of reasoning paths themselves.
 ## Summary
 The Venom project serves as a practical verification of the thesis that the primary challenge in LLM -
 based systems is not response generation, but decision control and responsibility management.
