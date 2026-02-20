@@ -606,47 +606,32 @@ At the present stage, AI Assistants can be treated as experimental software.
 Based on my experience with AI Assistants, I have prepared a few tips that may be helpful during
 your work:
 1. First, select or configure the AI Assistant:
-• Working mode:
-o Creative: The AI Assistant will propose various new solutions, even if they are not
-entirely practical or true.
-o Precise: The AI Assistant will focus on completing tasks according to your
-instructions.
-• Determine whether the Assistant has access to current data from the Internet and what type
-of data it has.
+   - Working mode:
+     - Creative: The AI Assistant will propose various new solutions, even if they are not entirely practical or true.
+     - Precise: The AI Assistant will focus on completing tasks according to your instructions.
+   - Determine whether the Assistant has access to current data from the Internet and what type of data it has.
 2. Clearly define your expectations:
-• The more details you provide, the better the results you will get. Remember, the AI Assistant
-cannot read minds!
-• Specify the goal, format, and expected results. The more information you provide, the easier
-it will be for the AI Assistant to complete the task according to your expectations.
+   - The more details you provide, the better the results you will get. Remember, the AI Assistant cannot read minds!
+   - Specify the goal, format, and expected results. The more information you provide, the easier it will be for the AI Assistant to complete the task according to your expectations.
 3. Remember the context of the conversation:
-• You and the Assistant are building the context of the conversation on a given topic:
-• Give the AI Assistant time to learn. Understanding the full context will improve the work.
-• Remember that the conversation context is lost after the session ends. Save the results of
-your work.
-• Sometimes the Assistant may get stuck on a detail. In such a situation, it is worth starting a
-new session to "reset the system."
+   - You and the Assistant are building the context of the conversation on a given topic.
+   - Give the AI Assistant time to learn. Understanding the full context will improve the work.
+   - Remember that the conversation context is lost after the session ends. Save the results of your work.
+   - Sometimes the Assistant may get stuck on a detail. In such a situation, it is worth starting a new session to "reset the system."
 4. Verify and correct the results:
-• Errors happen, both in simple processing of tabular data, but also a minor stylistic correction
-of the text can completely change the context you wanted to convey. Therefore, always
-check the results of the AI Assistant's work.
-• Provide precise instructions to correct errors and obtain the desired results.
+   - Errors happen, both in simple processing of tabular data, but also a minor stylistic correction of the text can completely change the context you wanted to convey. Therefore, always check the results of the AI Assistant's work.
+   - Provide precise instructions to correct errors and obtain the desired results.
 5. Be patient and helpful (addition to point 3):
-• Remember, the solution is innovative and may have technical or other errors on the part of
-the AI Assistant, but errors may also be on your side, from a small typo to a lack of a precisely
-defined goal.
-• Perform mutual ev
-
-o If you find the topic interesting and important, you can have a debate with the AI
-Assistant.
-• Use the creativity of the AI Assistant and access to its knowledge base,
-• Remember the limitations of the AI Assistant and look for alternative solutions.
+   - Remember, the solution is innovative and may have technical or other errors on the part of the AI Assistant, but errors may also be on your side, from a small typo to a lack of a precisely defined goal.
+   - Perform mutual evaluation.
+6. Use discussion and creativity features:
+   - If you find the topic interesting and important, you can have a debate with the AI Assistant.
+   - Use the creativity of the AI Assistant and access to its knowledge base.
+   - Remember the limitations of the AI Assistant and look for alternative solutions.
 7. Be the project manager:
-• As the name suggests, the Assistant supports and helps, but you, as the Manager, must have
-a vision of the whole thing:
-• Do not lose control over the project scope. You probably won’t consider all the important
-aspects of work at the beginning, which will become clear during the process, but don’t let
-the side threads multiply indefinitely.
-• Set an acceptable quality of work.
+   - As the name suggests, the Assistant supports and helps, but you, as the Manager, must have a vision of the whole thing.
+   - Do not lose control over the project scope. You probably won't consider all the important aspects of work at the beginning, which will become clear during the process, but do not let the side threads multiply indefinitely.
+   - Set an acceptable quality of work.
 ## AI assistants in 2024
 
 What will 2024 bring for AI Assistants? Let us  start with development plans and then outline the
