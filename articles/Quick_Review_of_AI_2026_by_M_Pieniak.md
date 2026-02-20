@@ -63,7 +63,7 @@ Some indicative data on AI adoption:
 - In Poland — as many as 70% of people use AI regularly (often without their employer’s
 knowledge).
 - In Poland, only 6% of companies have implemented AI in business operations, placing the
-country at the boƩom of the region.
+country at the bottom of the region.
 The data comes from late 2025 from experimental studies (“Global AI Popularity Indicators”) using
 Deep Research tools (Gemini / ChatGPT). I treat it as unverified, but an interesting signal of trends.
 AI became a global phenomenon faster than electricity or the Internet. The scale and speed of
@@ -101,7 +101,7 @@ An example of knowledge currently under revision? The Pythagorean theorem. It is
 repeated at every stage of education. The total time spent learning and practicing it across a population
 amounts to millions of hours.
 In practice, only a small fraction of society uses it. The world around us is mostly based on rectangles
-and circles. Personally, the last time I faced a “triangle problem” was several years ago when cuƫ ng a
+and circles. Personally, the last time I faced a “triangle problem” was several years ago when cutting a
 piece of carpet — I solved it by tracing the shape, not by mathematical calculation.
 Of course, many calculations are triangle-based, but with modern progress, this knowledge becomes
 increasingly specialized and should be reinforced in specialist education, not general schooling.
@@ -124,11 +124,11 @@ This is another paradigm that needs to change:
 distribution” heuristic and treating 50% risk as consensus when knowledge is missing.
 - “We don’t know, but we can assume” is a natural starting point for exploration — as long as,
 over time, this assumption is not silently replaced with a claim.
-Interestingly, this approach can reduce “hallucinations” on both sides — human and AI 뇤눈눉눊눍눋눌 .
+Interestingly, this approach can reduce “hallucinations” on both sides — human and AI.
 
 ## Example of a Task in a New Educational Paradigm
 “Calculate how many blocks are needed to build a bridge between two banks of a drawn river.
-You may use AI assistance, but no longer than 10 minutes — that’s how long your phone baƩery lasts.
+You may use AI assistance, but no longer than 10 minutes — that’s how long your phone battery lasts.
 Then build the bridge using the planned number of blocks. Finally, present your work and justify why
 you used that number of blocks. You may work in pairs.”
 In this approach, as AI becomes widespread, key competencies will include:
@@ -163,7 +163,7 @@ Today, we view these fears with distance — and it is possible that current fea
 similarly.
 
 ## Pace of Change
-In technological and social evolution, two extreme aƫ tudes toward change can be identified, strongly
+In technological and social evolution, two extreme attitudes toward change can be identified, strongly
 influencing the pace and manner of adaptation.
 - Revolution — a rapid, significant change in a short time. History shows that revolutions often
 come with high adaptation costs: conflict, losses, and the risk of distorting the original goals.
@@ -177,14 +177,14 @@ improvement remains an autonomous organizational decision, based on strategy.
 ## Cognitive Utopia
 Even though I consciously live in my own information bubble, sometimes something reaches me. For
 example:
-“Today we will talk to an AI Expert about the best methods of breasƞeeding.”
+“Today we will talk to an AI Expert about the best methods of breastfeeding.”
 I mention trends and changes in thinking, but I am far from cognitive utopia. AI is not a single field, but
 a technological conglomerate processing different types of data (knowledge). Meaningful statements
 come from domain specialists on specific topics — not from an abstract “AI Expert”.
 I do not even know whether the “AI Expert” mentioned above was a person who could write a prompt,
-or an AI Agent instance speaking with a human voice 뇤눈눉눊눍눋눌
+or an AI Agent instance speaking with a human voice.
 For me, critical and systems thinking still applies. Let’s not assume someone can think for us.
-In this sense, the “AI Expert” becomes a symbol of cognitive utopia — an aƩempt to shift responsibility
+In this sense, the “AI Expert” becomes a symbol of cognitive utopia — an attempt to shift responsibility
 for thinking from oneself to an external authority, and in the AI context — from a human to a tool.
 
 ## Summary
