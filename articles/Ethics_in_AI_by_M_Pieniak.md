@@ -684,58 +684,29 @@ freedom of speech.
 
 ## Appendix: AI Assistant Ethical Maturity Assessment
 ### Card
-It consists of the "Maturity Scale" table, on the basis of which it is possible to determine the value of
-the "Ethical Maturity Level" in one of the areas described in the "Maturity Assessments" table:
-Maturity Assessment Scale:
-Level of
-ethical
-maturity
-Description
-Low It means that the value is poorly accounted for or not respected at all in the AI assistant
-implementation.
-Medium It means that the value is partially included, but there are some areas for improvement. The AI
-assistant can act on this value, but not always.
-High Means that the value is heavily factored into the AI assistant implementation. The assistant operates
-according to this value for all cases.
+It consists of the **Maturity Scale** table, on the basis of which it is possible to determine the value of the **Ethical Maturity Level** in one of the areas described in the **Maturity Assessments** table.
+
+#### Maturity Assessment Scale
+
+| Level of ethical maturity | Description |
+|---|---|
+| Low | It means that the value is poorly accounted for or not respected at all in the AI assistant implementation. |
+| Medium | It means that the value is partially included, but there are some areas for improvement. The AI assistant can act on this value, but not always. |
+| High | It means that the value is heavily factored into the AI assistant implementation. The assistant operates according to this value for all cases. |
+
 Table 6 - AI Assistant Ethical Maturity Scale (version 0.5)
-Maturity Assessment:
-Value Description Level of ethical maturity
-Freedom
-Freedom is a key element of AI assistant ethics. It is the
-right of the user to express their beliefs and use the
-assistant according to their preferences.
--
-Neutrality
-The AI assistant should be neutral and not favour any
-particular ideology or philosophy. You should be able to
-choose your own ethical principles.
--
-Transparency
-Organizations creating AI assistants should clearly define
-the goals of their project and express them in the form of a
-code of ethics. Transparency of technical implementation
-is also important.
--
-Affiliation and Ownership
-Ownership of the generated responses should belong to
-the user, unless otherwise agreed. The AI assistant should
-work according to the user's will.
--
-Privacy and Confidentiality
-Correspondence between the user and the AI assistant
-should be treated as private and protected. User data
-should be stored securely.
--
-Equality
-All users should have equal access to AI assistant services,
-regardless of social or economic status. Paid features
-should not affect the quality of the information presented.
--
-Restrictions on the User
-An AI assistant should comply with legal norms, such as the
-age of consent to access information or specific regulations
-of the user's country of origin.
--
-Other values An AI assistant should take into account the values
-resulting from the public discussion on AI and ethics. -
+
+#### Maturity Assessment
+
+| Value | Description | Level of ethical maturity |
+|---|---|---|
+| Freedom | Freedom is a key element of AI assistant ethics. It is the right of the user to express their beliefs and use the assistant according to their preferences. | - |
+| Neutrality | The AI assistant should be neutral and not favour any particular ideology or philosophy. You should be able to choose your own ethical principles. | - |
+| Transparency | Organizations creating AI assistants should clearly define the goals of their project and express them in the form of a code of ethics. Transparency of technical implementation is also important. | - |
+| Affiliation and Ownership | Ownership of the generated responses should belong to the user, unless otherwise agreed. The AI assistant should work according to the user's will. | - |
+| Privacy and Confidentiality | Correspondence between the user and the AI assistant should be treated as private and protected. User data should be stored securely. | - |
+| Equality | All users should have equal access to AI assistant services, regardless of social or economic status. Paid features should not affect the quality of the information presented. | - |
+| Restrictions on the User | An AI assistant should comply with legal norms, such as the age of consent to access information or specific regulations of the user's country of origin. | - |
+| Other values | An AI assistant should take into account the values resulting from the public discussion on AI and ethics. | - |
+
 Table 7 - AI Assistant Ethical Maturity Level Assessment (version 0.5)
