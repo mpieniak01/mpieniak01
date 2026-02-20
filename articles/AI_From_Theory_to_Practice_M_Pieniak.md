@@ -84,65 +84,27 @@ In my projects, I prefer real-world analogies instead of internal code names. A 
 In systems of this type, it is easy to fall into ambition-driven design and aim for “the system should do
 everything.” Clear versioning and execution order prevent architectural chaos.
 Below is a conceptual overview of Venom components.
-Organ Function Role in the organism Technology Version
-Habitat Environment Sandbox WSL2 + Dev Containers v1.0
-Communication Thought
-exchange
-Inference engine Ollama / vLLM, FastAPI
-+ WebSocket, Next.js
-v1.0
-Nervous system Orchestration Dialogue, decision
-loops
-AutoGen + Orchestrator
-(FastAPI)
-v1.0
-Metabolism Performance Model execution ONNX / GGUF v1.0
-Circulatory system
-(Hive)
-Queues &
-distribution
-Task routing &
-statuses
-Redis + ARQ v1.0
-Frontal lobe Fast thinking Generates ~90% of
-code
-Phi-3 (ONNX/GGUF),
-Ollama/vLLM
-v2.0
-Oracle Deep thinking Hard problems OpenAI GPT-4o, Gemini,
-Claude
-v1.0
-Extended
-intelligence
-External sense Internet knowledge Researcher Agent +
-DDG/Tavily
-v2.0
-Hippocampus Memory Knowledge map GraphRAG + LanceDB v1.0
-Cerebellum Learning (Fine-
-tuning)
-Muscle memory,
-reflexes
-The Academy
-(LoRA/QLoRA)
-v1.5
-Prefrontal Cortex Control  Conscious
-planning
-Workflow Control Plane v1.5
-Hands Action Files, shell, git Semantic Kernel + Skills v1.0
-Eyes (digital) UI perception Screenshot analysis
-(eyes.py)
-Ollama (vision) / OpenAI
-GPT-4o
-v1.6
-Eyes (digital) UI perception Target local engine Florence-2 ONNX v2.0
-Ears Hearing (STT) Audio transcription faster-whisper
-(CTranslate2)
-v1.6
-Mouth Speech (TTS) Voice synthesis Piper TTS (ONNX) v1.6
-Eyes (physical) World
-perception
-Objects, obstacles YOLO ONNX v2.0
-Legs Movement Mobility Rider-Pi integration v2.0
+
+| Organ | Function | Role in the organism | Technology | Version |
+|---|---|---|---|---|
+| Habitat | Environment | Sandbox | WSL2 + Dev Containers | v1.0 |
+| Communication | Thought exchange | Inference engine | Ollama / vLLM, FastAPI + WebSocket, Next.js | v1.0 |
+| Nervous system | Orchestration | Dialogue, decision loops | AutoGen + Orchestrator (FastAPI) | v1.0 |
+| Metabolism | Performance | Model execution | ONNX / GGUF | v1.0 |
+| Circulatory system (Hive) | Queues & distribution | Task routing & statuses | Redis + ARQ | v1.0 |
+| Frontal lobe | Fast thinking | Generates ~90% of code | Phi-3 (ONNX/GGUF), Ollama/vLLM | v2.0 |
+| Oracle | Deep thinking | Hard problems | OpenAI GPT-4o, Gemini, Claude | v1.0 |
+| Extended intelligence | External sense | Internet knowledge | Researcher Agent + DDG/Tavily | v2.0 |
+| Hippocampus | Memory | Knowledge map | GraphRAG + LanceDB | v1.0 |
+| Cerebellum | Learning (Fine-tuning) | Muscle memory, reflexes | The Academy (LoRA/QLoRA) | v1.5 |
+| Prefrontal Cortex | Control | Conscious planning | Workflow Control Plane | v1.5 |
+| Hands | Action | Files, shell, git | Semantic Kernel + Skills | v1.0 |
+| Eyes (digital) | UI perception | Screenshot analysis (eyes.py) | Ollama (vision) / OpenAI GPT-4o | v1.6 |
+| Eyes (digital) | UI perception | Target local engine | Florence-2 ONNX | v2.0 |
+| Ears | Hearing (STT) | Audio transcription | faster-whisper (CTranslate2) | v1.6 |
+| Mouth | Speech (TTS) | Voice synthesis | Piper TTS (ONNX) | v1.6 |
+| Eyes (physical) | World perception | Objects, obstacles | YOLO ONNX | v2.0 |
+| Legs | Movement | Mobility | Rider-Pi integration | v2.0 |
 
 ## IV. Architecture Evolution
 Within 50 days, Venom evolved from a proof-of-concept script into a modular ecosystem. The
