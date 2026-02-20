@@ -2,8 +2,6 @@
 
 **Date:** Warsaw, February 16, 2026
 **Author:** Maciej Pieniak
-**LinkedIn (oryginał):** [UZUPEŁNIJ_LINK](https://www.linkedin.com/in/UZUPELNIJ/)
-
 **Original Publication:** [Venom v1.5 – A Decision-Centric Multi-Agent Architecture](https://www.linkedin.com/pulse/venom-v15-decision-centric-multi-agent-architecture-maciej-pieniak-1encf/)
 
 

@@ -2,7 +2,6 @@
 
 **Date:** Warsaw, 1 June 2024
 **Author:** Maciej Pieniak
-
 **Original Publication:** [The concept of implementing Ethics in AI Assistants](https://www.linkedin.com/pulse/concept-implementing-ethics-ai-assistants-maciej-pieniak-428pf/)
 
 **Collaboration:** Copilot and Gemini
