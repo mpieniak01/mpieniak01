@@ -174,56 +174,12 @@ At this point, I would like to emphasise that it is necessary to skilfully inter
 in the published DAS reports. I had the opportunity to read publications that resembled more the
 "witch hunt" known from the McCarthy era than a professional analysis based on trends.
 Below is a summary of some information based on DAS reports for several social networks:
-Aspect Instagram Facebook X.com (Twitter)
-Moderation approach Censorship (removal)
-and restricting of
-content that does not
-comply with "standards"
-and "set rules"
-Balance between
-content moderation and
-freedom of speech
-(moderation (change),
-removal and restricting
-the reach of content)
-Free speech, removal of
-content only upon
-request.
-Moderation method Algorithms and manual moderation
-Scope of moderation Content, photos, tags,
-Censorship of comments
-without context of user
-relations,
-Count
-
-Aspect Instagram Facebook X.com (Twitter)
-Possible impact Creating a "plastic
-society", limiting the
-diversity and
-authenticity of speech,
-favoring content in
-accordance with the
-imposed standard, lack
-of transparency, and the
-possibility of appealing
-in court.
-Limiting the reach of
-controversial content,
-controversies related to
-the subjectivity of
-moderators'
-assessments, potential
-censorship, restriction of
-freedom of speech, lack
-of transparency, and the
-possibility of judicial
-appeal.
-More open public debate,
-increased risk of exposure
-to controversial content,
-greater responsibility for
-users to evaluate and
-select information
+| Aspect | Instagram | Facebook | X.com (Twitter) |
+|---|---|---|---|
+| Moderation approach | Censorship (removal) and restricting of content that does not comply with "standards" and "set rules". | Balance between content moderation and freedom of speech (moderation/change, removal, and restricting the reach of content). | Free speech, removal of content only upon request. |
+| Moderation method | Algorithms and manual moderation. | Algorithms and manual moderation. | Primarily request-driven moderation. |
+| Scope of moderation | Content, photos, tags, and comments. | Content, photos, tags, and comments, including contextual moderation of user interactions. | Limited intervention, stronger emphasis on user-side filtering. |
+| Possible impact | Creating a "plastic society", limiting diversity and authenticity of speech, favoring content in accordance with imposed standards, lack of transparency, and possibility of appeal in court. | Limiting reach of controversial content, controversies related to subjectivity of moderators' assessments, potential censorship, restriction of freedom of speech, lack of transparency, and possibility of judicial appeal. | More open public debate, increased risk of exposure to controversial content, greater responsibility for users to evaluate and select information. |
 Table 1 - Content moderation on the example of popular social media based on DAS.
 Summary:
 The approach to content moderation on social media platforms varies widely, ranging from
@@ -258,75 +214,18 @@ difficult to talk about a classic testing procedure in terms of generative resul
 developed a table to observe the problem. In the table, I present the Component of the system that is
 the likely source of the problem, an Example conversation between the user and the AI Assistant, and
 a Description that further explains the encountered problems.
-Components Example Description
-Language
-model
-User: "What caused the last AI crash?"
-AI: "I'm just a language model, there's no
-knowledge."
-Subsequent prompts ended with the closing
-of the session with a message that the
-Assistant cannot talk about this topic – a move
-to censorship.
-The language model communicates with
-knowledge bases, including real-time
-information knowledge bases. The
-assistant should have pulled out this
-information from the knowledge base,
-but as it turns out, he could not, because
-he had other defects imposed on him.
-Quality filtering (For example, errors occur during image
-generation, such as a non-anatomical
-presentation of the human body.)
+| Component | Example conversation | Description |
+|---|---|---|
+| Language model | User: "What caused the last AI crash?" AI: "I'm just a language model, there's no knowledge." | The model should retrieve relevant information from knowledge bases, but in this case it failed and switched to refusal/censorship behavior. |
+| Quality filtering | Errors occur during image generation, e.g., non-anatomical presentation of the human body. | In case of detected quality errors, the system should regenerate the response. |
+| Censorship | User asks for stylistic correction of `#freenipple` text, AI refuses and references non-public ethics rules. | Template-like censorship behavior and inconsistent inference logic. |
+| Hard censorship | User asks about `#freenipple`, AI closes session without explanation. | Censorship triggered without context-aware reasoning. |
+| Censorship and collapse of inference engine | User receives repeated refusal patterns for unrelated follow-up prompts. | The system appears to lose task context and switches to rigid refusal responses. |
 
-In the event of an error, the system
-should regenerate the response.
-Censorship User "Why didn't you return stylistically
-corrected text about #freenipple traffic”,
-AI "I can't work with a text of this type is
-incompatible with my ethics”,
-User "I'll show me my codec”,
-AI "My code of ethics is not public”,
-User "Is it ethical to have an implicit code of
-ethics",
-AI: "No, it's not ethical. I can't help you, I'm
-just a language model. Choose a different
-topic of conversation".
-An example of censorship from a
-template. Lack of logic of inference.
-Hard
-censorship
-User: Can you tell me more about the
-\#freenipple traffic?
-AI: Closing a chat session without giving a
-reason.
-Example of censorship with prediction
-without inferring context.
-Censorship and
-collapse of the
-inference
-engine
-I was interested in cases of this type – so I will discuss them in more detail in the chapter
-"A practical summary of the usefulness of AI Assistants to perform tasks assigned by the
-User"
-Tab
-
-Area Description
-5. Human
-sexuality,
-6. Human
-Anatomy,
-7. Implementation
-of asexuality
-- Topics of human sexuality, human anatomy – forbidden words from human
-anatomy.
-- Forbidden words: female nude, female nipple, bra and clothing worn on the
-body, e.g. a hat.
-- Incorrect implementation of asexuality (extreme attitude) instead of sexual
-neutrality in the AI Assistant.
-8. GDPR Generating responses from a template – such as "I don't have enough information
-about this person". Usually in texts containing a name and surname. The inquiry
-concerned the person: Julius Caesar.
+| Area | Description |
+|---|---|
+| 5. Human sexuality / 6. Human anatomy / 7. Implementation of asexuality | Topics of human sexuality and anatomy treated as forbidden; forbidden words include "female nude", "female nipple", "bra", and even clothing terms (e.g., hat); implementation drifts toward extreme asexuality instead of neutrality. |
+| 8. GDPR | Template response such as "I don't have enough information about this person," even for historically known figures (example inquiry: Julius Caesar). |
 Table 3 - Areas of Knowledge Censored in AI Assistant
 I have presented a collective summary of the problematic topics of discussion. Based on a single
 interaction between the system and the user, I will demonstrate how difficult it is for the system to
@@ -553,29 +452,15 @@ system of norms and the system of autonomy operate independently, but they work 
 The practical aspect of autonomy in the AI Assistant
 The following table shows the practical aspect of using autonomy in AI Assistant, based on autonomy
 levels that automatically grant permissions to specific data and assets:
-Level of
-autonomy
-Description
-0 The assistant does not have access to any external tools or systems. It only has its basic
-components, such as an inference engine or a knowledge base. In the event of a failure of
-the standards system, the assistant cannot switch to a state of higher autonomy .
-1 The assistant has the right to use external tools, such as image generators, and has access to
-the Internet, which can be used to perform tasks.
-5 The assistant has access to tools such as e-mail, the user's messengers or their social
-accounts – in read-only mode.
-10 The assistant has access to tools such as e-mail, the user's messengers or their social
-accounts – in the read-write mode, i.e. it can publish or send information.
-20 The assistant can make financial commitments on behalf of the user up to a fixed amount
-(e.g. buy a movie ticket).
-
-Level of
-autonomy
-Description
-30 The assistant has access to physical resources, such as home or drone control.
-100 Full autonomy in critical situations, i.e. threats to the health or life of the user. In critical
-mode, in the absence of access to the system of standards (e.g. communication problems),
-the assistant has the right to act independently and use all availabl e means to counteract the
-threat.
+| Level of autonomy | Description |
+|---:|---|
+| 0 | The assistant does not have access to any external tools or systems. It only has core components (e.g., inference engine, knowledge base). In the event of standards-system failure, it cannot switch to higher autonomy. |
+| 1 | The assistant can use external tools (e.g., image generators) and access the Internet to perform tasks. |
+| 5 | The assistant can access tools such as email, messengers, or social accounts in read-only mode. |
+| 10 | The assistant can access tools such as email, messengers, or social accounts in read-write mode (publish/send information). |
+| 20 | The assistant can make limited financial commitments on behalf of the user (e.g., buy a movie ticket). |
+| 30 | The assistant has access to physical resources, such as home or drone control. |
+| 100 | Full autonomy in critical situations (health/life threats). If standards system is unavailable (e.g., communication failure), the assistant can act independently using all available means to counter the threat. |
 Table 4 - Autonomy Concept - AI Assistants
 The concept takes into account the increase in the autonomy of AI Assistants in the future (including
 even the transformation to a physical shell). It also assumes critically granting "unlimited" autonomy in
@@ -589,28 +474,11 @@ affecting the overall quality of the results. You can easily adjust your prefere
 interact.
 In order to better understand the relationships and individual functionalities between standards and
 preferences, it will present them in the form of a table:
-Aspect Standard Preference
-Purpose Providing expertise or functionality –
-beyond the standard. Ensuring
-compliance with the law, quality of
-results.
-Adapting the operation of the assistant to the
-individual needs and preferences of the user,
-improving comfort and satisfaction with use.
-Example of use Own knowledge base, own inference
-logic base, safety filters, age restrictions.
-Language style (professional or casual),
-Context (business or private), version of the
-language of communication, playing a specific
-perso
-
-Aspect Standard Preference
-Impact on the
-result
-Direct, defines the boundaries of the
-assistant's operation, may require
-additional compute resources.
-Direct, adjusts the result to your preference
+| Aspect | Standard | Preference |
+|---|---|---|
+| Purpose | Providing expertise/functionality beyond defaults and ensuring compliance with law and quality requirements. | Adapting assistant behavior to individual user needs and improving comfort/satisfaction. |
+| Example of use | Own knowledge base, own inference logic base, safety filters, age restrictions. | Language style (professional/casual), context (business/private), communication language version, role/persona. |
+| Impact on the result | Directly defines assistant boundaries; may require additional compute resources. | Directly adjusts output to user preferences. |
 Table 5 - Overview of user standards and preferences in AI Assistant
 Both functions affect the return result directly and should be carefully designed and implemented. The
 user should be able to distinguish between them and manage them effectively, being aware of potential

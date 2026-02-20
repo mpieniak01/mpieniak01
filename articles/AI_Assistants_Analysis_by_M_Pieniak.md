@@ -119,70 +119,17 @@ Assistant functions:
 Now, let us consider how an assistant might approach task implementation. I will use phases analogous
 to those in project or activity management. (Note: For simplification, this model assumes the assistant
 performs tasks directly, rather than outsourcing them.)
-Function Goal Example: Very simple Example: Complex
-Preparation Collecting and
-assessing the
-assignment
-"I didn't take my watch
-with me. Please tell me
-what time it is."
-"Please prepare new
-advertising leaflets for our
-product."
-Collecting
-information
-Collecting
-information
-necessary to
-complete the task
-Check available
-information
-Collecting additional
-information (product features,
-target group, budget, deadline)
-Organization Developing a plan
-of action
-N/A Developing a strategy to solve
-the problem; setting goals,
-dividing work into tasks,
-selecting tools (resources) to
-complete the task, assigning
-tasks to selected tools,
-preparing an implementation
-schedule
-Execution Task realization "It's 8:15." Ordering work according to the
-developed strategy
-Evaluation Monitoring work
-progress and
-making corrections
-N/A Monitoring the implementation
-of the strategy and adjusting
-the strategy
-Presentation
-of results
-Project
-presentation to
-your supervisor
-N/A Project presentation to your
-supervisor
-Performance
-evaluation
-Project evaluation N/A Project evaluation (compliance
-with campaign goals and
-expectations)
-Perfecting Gathering
-experience and
-improving skills
-N/A Analyzing the campaign results
-and drawing conclusions
-
-Function Goal Example: Very simple Example: Complex
-General Proactively
-supports the
-supervisor in
-achieving their
-goals
-- -
+| Function | Goal | Example: Very simple | Example: Complex |
+|---|---|---|---|
+| Preparation | Collecting and assessing the assignment | "I didn't take my watch with me. Please tell me what time it is." | "Please prepare new advertising leaflets for our product." |
+| Collecting information | Collecting information necessary to complete the task | Check available information | Collecting additional information (product features, target group, budget, deadline) |
+| Organization | Developing a plan of action | N/A | Developing a strategy to solve the problem; setting goals, dividing work into tasks, selecting tools (resources), assigning tasks, preparing an implementation schedule |
+| Execution | Task realization | "It's 8:15." | Ordering work according to the developed strategy |
+| Evaluation | Monitoring work progress and making corrections | N/A | Monitoring implementation of the strategy and adjusting it |
+| Presentation of results | Project presentation to your supervisor | N/A | Project presentation to your supervisor |
+| Performance evaluation | Project evaluation | N/A | Project evaluation (compliance with campaign goals and expectations) |
+| Perfecting | Gathering experience and improving skills | N/A | Analyzing campaign results and drawing conclusions |
+| General | Proactively supports the supervisor in achieving their goals | - | - |
 Table 1 - Summary of Assistant Features
 With a general understanding of the Assistant's work, we can move on to the next chapter describing
 the AI Assistant.
@@ -220,35 +167,14 @@ for this class of software applications.
 ## Development of AI Assistants
 
 Below we present the key stages on the way to popularizing AI Assistants.
-Year Technology Name Description
-1960 Rule-Based
-Systems
-ELIZA The first rule-based systems, representing a milestone
-in the development of artificial intelligence.
-1990 Virtual Assistant Siri Development of statistics-based systems, emphasizing
-user interface improvement and personalization.
-2022 Generative Pre-
-trained
-Transformer
-Chat
-Chat GPT OpenAI chatbot model built on GPT-3, known for
-smooth and realistic conversations.
-2022 Image
-Generators
-DALE 2 Artificial intelligence models that generate images from
-text or other images, opening up new possibilities in
-graphics and design.
-2023-
-2024
-AI Assistant Gemini The Google chatbot model from the LaMDA family
-offers a wide range of skills (fluent conversations,
-translations, writing various types of content,
-comprehensive answers to questions).
-2023-
-2024
-AI Assistant Copilot GitHub development tool that uses artificial intelligence
-to generate code, automate tasks and talk to the
-developer to improve their work.
+| Year | Technology | Name | Description |
+|---|---|---|---|
+| 1960 | Rule-Based Systems | ELIZA | The first rule-based systems, representing a milestone in the development of artificial intelligence. |
+| 1990 | Virtual Assistant | Siri | Development of statistics-based systems, emphasizing user interface improvement and personalization. |
+| 2022 | Generative Pre-trained Transformer Chat | Chat GPT | OpenAI chatbot model built on GPT-3, known for smooth and realistic conversations. |
+| 2022 | Image Generators | DALL-E 2 | Artificial intelligence models that generate images from text or other images, opening up new possibilities in graphics and design. |
+| 2023-2024 | AI Assistant | Gemini | The Google chatbot model from the LaMDA family offers a wide range of skills (fluent conversations, translations, writing various types of content, comprehensive answers to questions). |
+| 2023-2024 | AI Assistant | Copilot | GitHub development tool that uses artificial intelligence to generate code, automate tasks and talk to the developer to improve their work. |
 Table 2 - Milestones in the Development of AI Assistants
 In 2022, the public GPT Chat debuted. As a technology enthusiast, I initially assessed it as a "cool
 gadget" with potential, but lacking immediate practical use. I decided to revisit the topic later, once AI
@@ -361,12 +287,9 @@ System navigation required understanding directories and correct syntax.
 AI Assistant System: Software leveraging artificial intelligence (AI) to execute various tasks upon user
 request. AI Assistants can be accessed through various interfaces such as voice, text, and graphical.
 The table highlights key differences between these systems:
-Characteristic System (CMD DOS/Windows) AI Assistant System
-Complexity Typically focused on single tasks
-(e.g., file manipulation).
-Straightforward syntax. Limited
-feature set.
-May involve multiple steps. Syntax may b
+| Characteristic | System (CMD DOS/Windows) | AI Assistant System |
+|---|---|---|
+| Complexity | Typically focused on single tasks (e.g., file manipulation). Straightforward syntax. Limited feature set. | May involve multiple steps and broader workflows. Syntax and interaction are more flexible and conversational. |
 
 Summary:
 The distinction between DOS -like and AI -based systems extends beyond language and features. It
@@ -395,17 +318,8 @@ algorithms to analyze language at multiple levels:
 This enables the generation of natural and fluid responses, delivering information tailored to the
 user's needs.
 
-Characteristic System (CMD DOS/Windows) AI Assistant System
-Possibilities Focus on system and file
-management. Limited range of
-functions, e.g., copying, deleting,
-running programs.
-Wide range of capabilities: data analysis,
-content generation, process automation,
-translation, device control.
-Language Windows command language
-(familiar to Windows users)
-Natural language (e.g., English, Polish)
+| Possibilities | Focus on system and file management. Limited range of functions, e.g., copying, deleting, running programs. | Wide range of capabilities: data analysis, content generation, process automation, translation, device control. |
+| Language | Windows command language (familiar to Windows users). | Natural language (e.g., English, Polish). |
 Table 4 - Comparison of DOS and AI Assistant in Terms of Communication Language
 
 ## AI assistant workflow
@@ -641,26 +555,25 @@ outlook for the near future.
 Based on data collected from AI assistants themselves, Copilot and Gemini, below is a list of software
 versions in 2024.
 For Microsoft Copilot:
-Version release date
-Copilot for Windows 1.0 September, 2024
-Microsoft 365 Copilot 1.0 November, 2024
-Copilot for Outlook 1.0 Planned for 2024
-The use of generative activities 2.0 April, 2024
+
+| Version | Release date |
+|---|---|
+| Copilot for Windows 1.0 | September, 2024 |
+| Microsoft 365 Copilot 1.0 | November, 2024 |
+| Copilot for Outlook 1.0 | Planned for 2024 |
+| The use of generative activities 2.0 | April, 2024 |
+
 Table 9 - Copilot Implementation Plan
+
 For Google Gemini:
-Edition Description release date
-Gemini 1.11 It introduces new features such as: - Polish language support -
-Improved user interface
-February, 2024
-Gemini 1.12 Includes bug fixes found in version 1.11 and minor stability
-improvements.
-May, 2024
-Gemini 1.5 Introduces new features such as: - Google Search Integration -
-Improved Code Generation - Improved Language Translation
-August, 2024
-Gemini 2.0 It introduces significant changes to the Gemini architecture, as
-well as new features and user interface improvements.
- Planned for 2024
+
+| Edition | Description | Release date |
+|---|---|---|
+| Gemini 1.11 | Introduces new features such as Polish language support and an improved user interface. | February, 2024 |
+| Gemini 1.12 | Includes bug fixes found in version 1.11 and minor stability improvements. | May, 2024 |
+| Gemini 1.5 | Introduces new features such as Google Search Integration, improved code generation, and improved language translation. | August, 2024 |
+| Gemini 2.0 | Introduces significant changes to the Gemini architecture, as well as new features and user interface improvements. | Planned for 2024 |
+
 Table 10 - Gemini Implementation Plan
 
 ### Outlook for 2024
