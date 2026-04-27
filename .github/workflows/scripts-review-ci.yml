@@ -1,0 +1,59 @@
+name: Research Scripts Review CI
+
+on:
+  push:
+    paths:
+      - "research-venom/tools/**"
+      - "research-venom/config/**"
+      - "research-venom/205F/inputs/**"
+      - ".github/workflows/scripts-review-ci.yml"
+      - ".github/copilot-instructions.md"
+  pull_request:
+    paths:
+      - "research-venom/tools/**"
+      - "research-venom/config/**"
+      - "research-venom/205F/inputs/**"
+      - ".github/workflows/scripts-review-ci.yml"
+      - ".github/copilot-instructions.md"
+
+jobs:
+  python-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python syntax check
+        run: |
+          python -m py_compile research-venom/tools/*.py
+
+      - name: Export dry-run (scripts review manifest)
+        run: |
+          python research-venom/tools/205f_export_research_pack.py \
+            --repo-root "$GITHUB_WORKSPACE/research-venom" \
+            --manifest "$GITHUB_WORKSPACE/research-venom/config/205_export_manifest_scripts_review_v01.txt" \
+            --dry-run
+
+  powershell-parse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: PowerShell parse check
+        shell: pwsh
+        run: |
+          $errors = @()
+          Get-ChildItem -Path research-venom/tools -Filter *.ps1 | ForEach-Object {
+            $null = $tokens = $null
+            $ast = [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$errors)
+          }
+          if ($errors.Count -gt 0) {
+            $errors | ForEach-Object { Write-Host $_.Message }
+            throw "PowerShell parse errors detected."
+          }

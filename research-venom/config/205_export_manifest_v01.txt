@@ -1,0 +1,55 @@
+# 205 research export manifest (whitelist)
+# Each non-empty line is a glob relative to repository root.
+# Only matched files are exported.
+
+# Core docs/config
+README.md
+tools/README.md
+config/205f_pipeline_config_v01.json
+config/205_export_manifest_v01.txt
+.gitignore
+.github/copilot-instructions.md
+.github/workflows/scripts-review-ci.yml
+
+# PR scope docs (study definitions)
+205/205_pr_studies_ai_software_process_automation_git_code_analysis_dev.md
+205B/205B_pr_studies_market_benchmark_sonar_api_problem_definition_dev.md
+205C/205C_pr_studies_market_benchmark_github_api_repository_search_dev.md
+205D/205D_pr_studies_pr_flow_efficiency_git_github_dev.md
+205E/205E_pr_studies_comments_evidence_dev.md
+205F/205F_pr_studies_excel_visualization_benchmark_dev.md
+
+# Analysis outputs (compact)
+205/analysis/*.md
+205/analysis/*.json
+205B/analysis/*.md
+205B/analysis/*.json
+205C/analysis/*.md
+205C/analysis/*.json
+205D/analysis/*.md
+205D/analysis/*.json
+205E/analysis/*.md
+205E/analysis/*.json
+205F/analysis/*.md
+205F/analysis/*.json
+
+# Inputs/specs for reproducibility
+205F/inputs/*.csv
+205F/inputs/*.json
+205F/inputs/*.md
+
+# Aggregated benchmark tables only (no raw per-repo dumps)
+205B/timeseries/205B_timeseries_q1_2026.csv
+205C/timeseries/205C_github_benchmark_q1_2026.csv
+205D/timeseries/205D_pr_flow_q1_2026.csv
+205E/timeseries/csv/205E_pr_comments_q1_2026_daily.csv
+205E/timeseries/csv/205E_pr_comments_q1_2026_summary.csv
+
+# Tools used in 205 workflow
+tools/*.py
+tools/*.ps1
+
+# Final products (lightweight set)
+produkty/excel/workspace/205F_visualization_workspace_v01.xlsx
+produkty/word/final/205F_embed_canvas_v01.docx
+produkty/word/final/205F_embed_canvas_v02.docx
