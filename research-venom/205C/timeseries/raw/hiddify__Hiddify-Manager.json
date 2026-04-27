@@ -1,0 +1,1508 @@
+{
+  "generated_at": "2026-04-22T19:43:26Z",
+  "project_key": "hiddify/Hiddify-Manager",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 65,
+    "active_days_q1": 23,
+    "authors_q1": 3,
+    "additions_q1": 1043,
+    "deletions_q1": 299,
+    "churn_q1": 1342,
+    "truncated": false,
+    "fetched_commits": 65
+  },
+  "daily_rows": [
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-22",
+      "commits": 2,
+      "authors": 1,
+      "additions": 43,
+      "deletions": 9,
+      "churn": 52,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-23",
+      "commits": 1,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-24",
+      "commits": 1,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-25",
+      "commits": 4,
+      "authors": 1,
+      "additions": 22,
+      "deletions": 8,
+      "churn": 30,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-07",
+      "commits": 3,
+      "authors": 1,
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-08",
+      "commits": 3,
+      "authors": 2,
+      "additions": 5,
+      "deletions": 5,
+      "churn": 10,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-09",
+      "commits": 8,
+      "authors": 2,
+      "additions": 58,
+      "deletions": 38,
+      "churn": 96,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-11",
+      "commits": 1,
+      "authors": 1,
+      "additions": 7,
+      "deletions": 7,
+      "churn": 14,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-12",
+      "commits": 3,
+      "authors": 2,
+      "additions": 9,
+      "deletions": 9,
+      "churn": 18,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-14",
+      "commits": 1,
+      "authors": 1,
+      "additions": 9,
+      "deletions": 2,
+      "churn": 11,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-15",
+      "commits": 5,
+      "authors": 1,
+      "additions": 207,
+      "deletions": 45,
+      "churn": 252,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-16",
+      "commits": 7,
+      "authors": 1,
+      "additions": 261,
+      "deletions": 76,
+      "churn": 337,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-18",
+      "commits": 1,
+      "authors": 1,
+      "additions": 13,
+      "deletions": 28,
+      "churn": 41,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-19",
+      "commits": 1,
+      "authors": 1,
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-20",
+      "commits": 5,
+      "authors": 1,
+      "additions": 147,
+      "deletions": 14,
+      "churn": 161,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-21",
+      "commits": 4,
+      "authors": 1,
+      "additions": 17,
+      "deletions": 10,
+      "churn": 27,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-23",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-02-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-05",
+      "commits": 6,
+      "authors": 1,
+      "additions": 198,
+      "deletions": 16,
+      "churn": 214,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-06",
+      "commits": 2,
+      "authors": 1,
+      "additions": 7,
+      "deletions": 7,
+      "churn": 14,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-24",
+      "commits": 1,
+      "authors": 1,
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-25",
+      "commits": 2,
+      "authors": 1,
+      "additions": 16,
+      "deletions": 6,
+      "churn": 22,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-28",
+      "commits": 1,
+      "authors": 1,
+      "additions": 5,
+      "deletions": 3,
+      "churn": 8,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-29",
+      "commits": 2,
+      "authors": 1,
+      "additions": 4,
+      "deletions": 3,
+      "churn": 7,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "21308e931bb33bb75c3efd81643aefed08d34ac0",
+      "date": "2026-03-29T11:46:07Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 3,
+      "churn": 5,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/21308e931bb33bb75c3efd81643aefed08d34ac0"
+    },
+    {
+      "sha": "fd3606a06201904fa8b89e88c9b97b8c2b976445",
+      "date": "2026-03-29T08:27:12Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/fd3606a06201904fa8b89e88c9b97b8c2b976445"
+    },
+    {
+      "sha": "8ad176082d55dd770960076a52d5bf53a1908d40",
+      "date": "2026-03-28T22:40:05Z",
+      "author": "hiddify-com",
+      "additions": 5,
+      "deletions": 3,
+      "churn": 8,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/8ad176082d55dd770960076a52d5bf53a1908d40"
+    },
+    {
+      "sha": "83f4afd45dd0985894a89a5e8ac0768438313255",
+      "date": "2026-03-25T20:03:45Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/83f4afd45dd0985894a89a5e8ac0768438313255"
+    },
+    {
+      "sha": "e034cbfe49ea295098719cc66a728b6cf2e46a48",
+      "date": "2026-03-25T20:02:19Z",
+      "author": "hiddify-com",
+      "additions": 12,
+      "deletions": 4,
+      "churn": 16,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/e034cbfe49ea295098719cc66a728b6cf2e46a48"
+    },
+    {
+      "sha": "40ee517ffb2037b4888a32b0fa3d631df7899ef9",
+      "date": "2026-03-24T22:14:22Z",
+      "author": "hiddify-com",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/40ee517ffb2037b4888a32b0fa3d631df7899ef9"
+    },
+    {
+      "sha": "bfd325708184e4cc0e72351355a02e164a9c5831",
+      "date": "2026-03-06T00:52:14Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/bfd325708184e4cc0e72351355a02e164a9c5831"
+    },
+    {
+      "sha": "e04aa82bdf162e14aa9bdcb27405c3664d663aa9",
+      "date": "2026-03-06T00:12:08Z",
+      "author": "hiddify-com",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/e04aa82bdf162e14aa9bdcb27405c3664d663aa9"
+    },
+    {
+      "sha": "638a1c0131036feccf038571680fb23495e283de",
+      "date": "2026-02-23T20:49:04Z",
+      "author": "hiddify-com",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/638a1c0131036feccf038571680fb23495e283de"
+    },
+    {
+      "sha": "71f9720297b5d6f04b928620eef40a23dc9cbbf1",
+      "date": "2026-03-05T23:56:19Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/71f9720297b5d6f04b928620eef40a23dc9cbbf1"
+    },
+    {
+      "sha": "982707976ecee558bd2e7837a989f59c29fb98d9",
+      "date": "2026-03-05T23:34:06Z",
+      "author": "hiddify-com",
+      "additions": 8,
+      "deletions": 2,
+      "churn": 10,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/982707976ecee558bd2e7837a989f59c29fb98d9"
+    },
+    {
+      "sha": "5c1c9a3c870569b2b9ea4b8d8481c2889e836c11",
+      "date": "2026-03-05T22:40:48Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/5c1c9a3c870569b2b9ea4b8d8481c2889e836c11"
+    },
+    {
+      "sha": "7194c7a23841b4df1c859e3888cb0f20b8469582",
+      "date": "2026-03-05T21:12:57Z",
+      "author": "hiddify-com",
+      "additions": 13,
+      "deletions": 6,
+      "churn": 19,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/7194c7a23841b4df1c859e3888cb0f20b8469582"
+    },
+    {
+      "sha": "cfa71bbbb2562e27eebc3cbe58d845f72c67551e",
+      "date": "2026-03-05T20:29:29Z",
+      "author": "hiddify-com",
+      "additions": 9,
+      "deletions": 2,
+      "churn": 11,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/cfa71bbbb2562e27eebc3cbe58d845f72c67551e"
+    },
+    {
+      "sha": "d2d34810fd295970f0dc8bfb3723ab74021d83ae",
+      "date": "2026-03-05T20:27:30Z",
+      "author": "hiddify-com",
+      "additions": 164,
+      "deletions": 2,
+      "churn": 166,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/d2d34810fd295970f0dc8bfb3723ab74021d83ae"
+    },
+    {
+      "sha": "0feeafc129ff93cd5acd0898e4dda526f513ad23",
+      "date": "2026-02-21T14:00:07Z",
+      "author": "hiddify-com",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/0feeafc129ff93cd5acd0898e4dda526f513ad23"
+    },
+    {
+      "sha": "18bee17c64ba80035a9d586332fa069a1faf29c8",
+      "date": "2026-02-21T13:52:19Z",
+      "author": "hiddify-com",
+      "additions": 7,
+      "deletions": 3,
+      "churn": 10,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/18bee17c64ba80035a9d586332fa069a1faf29c8"
+    },
+    {
+      "sha": "8fe7246e5cef4426bc81c6022f1b0bdbc8642486",
+      "date": "2026-02-21T13:43:41Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/8fe7246e5cef4426bc81c6022f1b0bdbc8642486"
+    },
+    {
+      "sha": "889caffaac81a43018b111d5474919499dd4b3ab",
+      "date": "2026-02-21T13:39:04Z",
+      "author": "hiddify-com",
+      "additions": 3,
+      "deletions": 2,
+      "churn": 5,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/889caffaac81a43018b111d5474919499dd4b3ab"
+    },
+    {
+      "sha": "d607b00c12dafedcf158636a8cdcc41218036e9c",
+      "date": "2026-02-20T23:08:11Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/d607b00c12dafedcf158636a8cdcc41218036e9c"
+    },
+    {
+      "sha": "6dfc5c009ba94757578efeb7c30d2ea4cdf14ca0",
+      "date": "2026-02-20T22:58:26Z",
+      "author": "hiddify-com",
+      "additions": 131,
+      "deletions": 2,
+      "churn": 133,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/6dfc5c009ba94757578efeb7c30d2ea4cdf14ca0"
+    },
+    {
+      "sha": "5e8bc174dc6af65caeb6da5c537ed0ad6978302a",
+      "date": "2026-02-20T18:27:10Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/5e8bc174dc6af65caeb6da5c537ed0ad6978302a"
+    },
+    {
+      "sha": "7346ceac55ab70695ecb35d572816fb74f17f3d1",
+      "date": "2026-02-20T17:54:24Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/7346ceac55ab70695ecb35d572816fb74f17f3d1"
+    },
+    {
+      "sha": "9bf4433c91caea6cbda9544f21256e7de4b17a71",
+      "date": "2026-02-20T17:42:05Z",
+      "author": "hiddify-com",
+      "additions": 6,
+      "deletions": 6,
+      "churn": 12,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/9bf4433c91caea6cbda9544f21256e7de4b17a71"
+    },
+    {
+      "sha": "cfdae181cecc338f32b803de1b9861e6808befb8",
+      "date": "2026-02-19T22:34:04Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/cfdae181cecc338f32b803de1b9861e6808befb8"
+    },
+    {
+      "sha": "7d03f2af325d23ef83ccc52d1e686d07982bd3c8",
+      "date": "2026-02-18T08:03:49Z",
+      "author": "hiddify-com",
+      "additions": 13,
+      "deletions": 28,
+      "churn": 41,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/7d03f2af325d23ef83ccc52d1e686d07982bd3c8"
+    },
+    {
+      "sha": "6e929e07c5da62c9495e2ce7e463d0f7747b335d",
+      "date": "2026-02-16T23:56:10Z",
+      "author": "hiddify-com",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/6e929e07c5da62c9495e2ce7e463d0f7747b335d"
+    },
+    {
+      "sha": "527edd618f342d0075919973e7f24d740ead3165",
+      "date": "2026-02-16T23:27:45Z",
+      "author": "hiddify-com",
+      "additions": 113,
+      "deletions": 2,
+      "churn": 115,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/527edd618f342d0075919973e7f24d740ead3165"
+    },
+    {
+      "sha": "04865f054d336e4293507927e923bc83928658c9",
+      "date": "2026-02-16T22:32:16Z",
+      "author": "hiddify-com",
+      "additions": 79,
+      "deletions": 52,
+      "churn": 131,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/04865f054d336e4293507927e923bc83928658c9"
+    },
+    {
+      "sha": "2f3995e8f6a9a17a6d9b0f00e2ca4551b96ecd30",
+      "date": "2026-02-16T18:29:10Z",
+      "author": "hiddify-com",
+      "additions": 6,
+      "deletions": 3,
+      "churn": 9,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/2f3995e8f6a9a17a6d9b0f00e2ca4551b96ecd30"
+    },
+    {
+      "sha": "00d6691f9e77955f203393364b8d6b9743e21f9c",
+      "date": "2026-02-16T17:28:08Z",
+      "author": "hiddify-com",
+      "additions": 30,
+      "deletions": 6,
+      "churn": 36,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/00d6691f9e77955f203393364b8d6b9743e21f9c"
+    },
+    {
+      "sha": "5d298d9f6e75fe5513d7023b73df69a9381c772d",
+      "date": "2026-02-16T07:23:30Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/5d298d9f6e75fe5513d7023b73df69a9381c772d"
+    },
+    {
+      "sha": "f03d3dcc4e91c19fd28f32c53e753e726654369c",
+      "date": "2026-02-16T07:22:13Z",
+      "author": "hiddify-com",
+      "additions": 27,
+      "deletions": 11,
+      "churn": 38,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/f03d3dcc4e91c19fd28f32c53e753e726654369c"
+    },
+    {
+      "sha": "6946e470a3412ccdc6201a969869094eefd76e26",
+      "date": "2026-02-15T23:48:50Z",
+      "author": "hiddify-com",
+      "additions": 3,
+      "deletions": 1,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/6946e470a3412ccdc6201a969869094eefd76e26"
+    },
+    {
+      "sha": "4f08d72d0da47297ea072f68bd169fca5a8cd79a",
+      "date": "2026-02-15T20:05:09Z",
+      "author": "hiddify-com",
+      "additions": 33,
+      "deletions": 1,
+      "churn": 34,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/4f08d72d0da47297ea072f68bd169fca5a8cd79a"
+    },
+    {
+      "sha": "3fbe323db386ed70410ce4796022f441938052d2",
+      "date": "2026-02-15T19:05:21Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/3fbe323db386ed70410ce4796022f441938052d2"
+    },
+    {
+      "sha": "0d8156d9018af2dd48087bd4df94c266c2e8d22d",
+      "date": "2026-02-15T18:44:34Z",
+      "author": "hiddify-com",
+      "additions": 160,
+      "deletions": 39,
+      "churn": 199,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/0d8156d9018af2dd48087bd4df94c266c2e8d22d"
+    },
+    {
+      "sha": "2d7c919a05ad9752b3b630532b6ca437fe729810",
+      "date": "2026-02-15T16:12:49Z",
+      "author": "hiddify-com",
+      "additions": 9,
+      "deletions": 2,
+      "churn": 11,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/2d7c919a05ad9752b3b630532b6ca437fe729810"
+    },
+    {
+      "sha": "36f795909e1bfc213daadd82772758d31632fcb0",
+      "date": "2026-02-14T17:39:17Z",
+      "author": "SfMustafa",
+      "additions": 9,
+      "deletions": 2,
+      "churn": 11,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/36f795909e1bfc213daadd82772758d31632fcb0"
+    },
+    {
+      "sha": "a5bfa1244f48f72b5fda138a1a012ae091b9cb1a",
+      "date": "2026-02-12T21:38:51Z",
+      "author": "hiddify-com",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/a5bfa1244f48f72b5fda138a1a012ae091b9cb1a"
+    },
+    {
+      "sha": "fe66ac4c34cee66181b63f29ac853cd54c5fd719",
+      "date": "2026-02-12T13:09:17Z",
+      "author": "Alighaemi9731",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/fe66ac4c34cee66181b63f29ac853cd54c5fd719"
+    },
+    {
+      "sha": "b6e453c76a99e458d13e2e9373d06dea4d423b27",
+      "date": "2026-02-12T08:09:35Z",
+      "author": "hiddify-com",
+      "additions": 7,
+      "deletions": 7,
+      "churn": 14,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/b6e453c76a99e458d13e2e9373d06dea4d423b27"
+    },
+    {
+      "sha": "79440d456c059a3dd659cd0180e99a6f6ea3dedb",
+      "date": "2026-02-11T15:54:19Z",
+      "author": "SfMustafa",
+      "additions": 7,
+      "deletions": 7,
+      "churn": 14,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/79440d456c059a3dd659cd0180e99a6f6ea3dedb"
+    },
+    {
+      "sha": "97816acdf5f98848fd7c867d0b4cced01760d1a8",
+      "date": "2026-02-09T22:51:03Z",
+      "author": "hiddify-com",
+      "additions": 28,
+      "deletions": 9,
+      "churn": 37,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/97816acdf5f98848fd7c867d0b4cced01760d1a8"
+    },
+    {
+      "sha": "92afd64f79cf225cc0b6b41eaa1f0aeff4b33f0e",
+      "date": "2026-02-09T19:51:13Z",
+      "author": "hiddify-com",
+      "additions": 6,
+      "deletions": 7,
+      "churn": 13,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/92afd64f79cf225cc0b6b41eaa1f0aeff4b33f0e"
+    },
+    {
+      "sha": "14e2d27d72f396fc650198dd4fc67f1d804e4359",
+      "date": "2026-02-09T18:35:17Z",
+      "author": "hiddify-com",
+      "additions": 1,
+      "deletions": 2,
+      "churn": 3,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/14e2d27d72f396fc650198dd4fc67f1d804e4359"
+    },
+    {
+      "sha": "6cb011149b26a82ed65642a14dab899c15ea90de",
+      "date": "2026-02-09T18:34:00Z",
+      "author": "hiddify-com",
+      "additions": 15,
+      "deletions": 8,
+      "churn": 23,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/6cb011149b26a82ed65642a14dab899c15ea90de"
+    },
+    {
+      "sha": "83ed348d0a1dfe805238bad74f6cd22ce350e56a",
+      "date": "2026-02-09T18:32:21Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 4,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/83ed348d0a1dfe805238bad74f6cd22ce350e56a"
+    },
+    {
+      "sha": "655385da7a544f1f2733033f344750b98c8e0e3b",
+      "date": "2026-02-09T18:32:13Z",
+      "author": "hiddify-com",
+      "additions": 1,
+      "deletions": 2,
+      "churn": 3,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/655385da7a544f1f2733033f344750b98c8e0e3b"
+    },
+    {
+      "sha": "19ed61c5c1b7e6228540e436c4aec7da7d996537",
+      "date": "2026-02-09T13:03:26Z",
+      "author": "SfMustafa",
+      "additions": 3,
+      "deletions": 4,
+      "churn": 7,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/19ed61c5c1b7e6228540e436c4aec7da7d996537"
+    },
+    {
+      "sha": "1306f6dfdf11dc34455cf552723ab5a6aba1cd56",
+      "date": "2026-02-09T12:57:37Z",
+      "author": "SfMustafa",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/1306f6dfdf11dc34455cf552723ab5a6aba1cd56"
+    },
+    {
+      "sha": "f32fb8e86bbb3ad47c7edbaec8bccc325fe1b6d2",
+      "date": "2026-02-08T22:14:23Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/f32fb8e86bbb3ad47c7edbaec8bccc325fe1b6d2"
+    },
+    {
+      "sha": "963bed07eedbd1b5f7aad34c7c088150f8fed33c",
+      "date": "2026-02-08T22:13:35Z",
+      "author": "hiddify-com",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/963bed07eedbd1b5f7aad34c7c088150f8fed33c"
+    },
+    {
+      "sha": "1e65f77ae2e519f071846cf1033153756771df1d",
+      "date": "2026-02-08T13:15:00Z",
+      "author": "SfMustafa",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/1e65f77ae2e519f071846cf1033153756771df1d"
+    },
+    {
+      "sha": "882e1f5328eb895b16f0193558594ee32a24d605",
+      "date": "2026-02-07T20:37:16Z",
+      "author": "Alighaemi9731",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/882e1f5328eb895b16f0193558594ee32a24d605"
+    },
+    {
+      "sha": "323371db877bd6a0f63defb22fc87c486c88c587",
+      "date": "2026-02-07T20:27:28Z",
+      "author": "Alighaemi9731",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/323371db877bd6a0f63defb22fc87c486c88c587"
+    },
+    {
+      "sha": "2c5c4b576dcbfc836b0757d5de12c93e8136b726",
+      "date": "2026-02-07T19:52:13Z",
+      "author": "Alighaemi9731",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/2c5c4b576dcbfc836b0757d5de12c93e8136b726"
+    },
+    {
+      "sha": "59bc01a1c756742cf68055fae0c4d660cae6d51c",
+      "date": "2026-01-25T13:17:48Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/59bc01a1c756742cf68055fae0c4d660cae6d51c"
+    },
+    {
+      "sha": "f6b4037b6b2d14df5527010526caddbb38986697",
+      "date": "2026-01-25T10:26:26Z",
+      "author": "hiddify-com",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/f6b4037b6b2d14df5527010526caddbb38986697"
+    },
+    {
+      "sha": "84a50373bafc2c5275b087805283c5fbf182931b",
+      "date": "2026-01-25T10:08:50Z",
+      "author": "hiddify-com",
+      "additions": 9,
+      "deletions": 2,
+      "churn": 11,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/84a50373bafc2c5275b087805283c5fbf182931b"
+    },
+    {
+      "sha": "6bfe3c9598927efa4f5b5e6b72fd273ad9f852e4",
+      "date": "2026-01-25T10:07:47Z",
+      "author": "hiddify-com",
+      "additions": 8,
+      "deletions": 1,
+      "churn": 9,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/6bfe3c9598927efa4f5b5e6b72fd273ad9f852e4"
+    },
+    {
+      "sha": "833d125b4506c0f19d6fcb38fab03269c5df4c04",
+      "date": "2026-01-24T10:19:27Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/833d125b4506c0f19d6fcb38fab03269c5df4c04"
+    },
+    {
+      "sha": "29720b41d1cc56d630e487c97c6de1451bfcdfac",
+      "date": "2026-01-23T08:53:16Z",
+      "author": "hiddify-com",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/29720b41d1cc56d630e487c97c6de1451bfcdfac"
+    },
+    {
+      "sha": "865319f45b5cda3489f676e32907afb576255aa0",
+      "date": "2026-01-22T23:51:15Z",
+      "author": "hiddify-com",
+      "additions": 9,
+      "deletions": 2,
+      "churn": 11,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/865319f45b5cda3489f676e32907afb576255aa0"
+    },
+    {
+      "sha": "f7ee39b04a54ca7cc5219e1655f8f75d205fc771",
+      "date": "2026-01-22T23:49:01Z",
+      "author": "hiddify-com",
+      "additions": 34,
+      "deletions": 7,
+      "churn": 41,
+      "html_url": "https://github.com/hiddify/Hiddify-Manager/commit/f7ee39b04a54ca7cc5219e1655f8f75d205fc771"
+    }
+  ]
+}

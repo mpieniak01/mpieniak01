@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-04-22T18:46:58Z",
+  "source": {
+    "from_date": "2026-01-01",
+    "to_date": "2026-03-31",
+    "language": "Python",
+    "size_min_kb": 50000,
+    "size_max_kb": 0,
+    "project_limit": 10,
+    "candidate_limit": 120,
+    "min_commits_q1": 1,
+    "search_sort": "updated",
+    "search_order": "desc"
+  },
+  "selected": [
+    {
+      "full_name": "neuropsychology/NeuroKit",
+      "html_url": "https://github.com/neuropsychology/NeuroKit",
+      "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+      "language": "Python",
+      "size_kb": 4674896,
+      "stargazers_count": 2201,
+      "forks_count": 517,
+      "pushed_at": "2026-03-19T22:55:39Z",
+      "commits_q1": 105
+    },
+    {
+      "full_name": "allenai/olmocr",
+      "html_url": "https://github.com/allenai/olmocr",
+      "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+      "language": "Python",
+      "size_kb": 357497,
+      "stargazers_count": 17160,
+      "forks_count": 1383,
+      "pushed_at": "2026-03-25T17:52:37Z",
+      "commits_q1": 94
+    },
+    {
+      "full_name": "virt-manager/virt-manager",
+      "html_url": "https://github.com/virt-manager/virt-manager",
+      "description": "Desktop tool for managing virtual machines via libvirt",
+      "language": "Python",
+      "size_kb": 99926,
+      "stargazers_count": 3116,
+      "forks_count": 515,
+      "pushed_at": "2026-03-30T16:15:41Z",
+      "commits_q1": 66
+    },
+    {
+      "full_name": "hiddify/Hiddify-Manager",
+      "html_url": "https://github.com/hiddify/Hiddify-Manager",
+      "description": "Multi-user anti-filtering panel, with an effortless installation and supporting more than 20 protocols to circumvent filtering plus the telegram proxy. ",
+      "language": "Python",
+      "size_kb": 76732,
+      "stargazers_count": 8711,
+      "forks_count": 974,
+      "pushed_at": "2026-03-29T17:44:31Z",
+      "commits_q1": 65
+    },
+    {
+      "full_name": "JefferyHcool/BiliNote",
+      "html_url": "https://github.com/JefferyHcool/BiliNote",
+      "description": "AI 视频笔记生成工具 让 AI 为你的视频做笔记",
+      "language": "Python",
+      "size_kb": 58932,
+      "stargazers_count": 5743,
+      "forks_count": 730,
+      "pushed_at": "2026-03-23T10:55:35Z",
+      "commits_q1": 62
+    },
+    {
+      "full_name": "originalankur/maptoposter",
+      "html_url": "https://github.com/originalankur/maptoposter",
+      "description": "Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
+      "language": "Python",
+      "size_kb": 319926,
+      "stargazers_count": 13004,
+      "forks_count": 1153,
+      "pushed_at": "2026-03-04T17:39:13Z",
+      "commits_q1": 51
+    },
+    {
+      "full_name": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "The largest open-source medical AI skills library for OpenClaw🦞.",
+      "language": "Python",
+      "size_kb": 77628,
+      "stargazers_count": 2145,
+      "forks_count": 301,
+      "pushed_at": "2026-03-27T02:21:01Z",
+      "commits_q1": 46
+    },
+    {
+      "full_name": "xlenore/ps2-covers",
+      "html_url": "https://github.com/xlenore/ps2-covers",
+      "description": "PS2 Covers Collection",
+      "language": "Python",
+      "size_kb": 8549266,
+      "stargazers_count": 4129,
+      "forks_count": 196,
+      "pushed_at": "2026-03-22T00:04:46Z",
+      "commits_q1": 45
+    },
+    {
+      "full_name": "omkarcloud/botasaurus",
+      "html_url": "https://github.com/omkarcloud/botasaurus",
+      "description": "The All in One Framework to Build Undefeatable Scrapers",
+      "language": "Python",
+      "size_kb": 91623,
+      "stargazers_count": 4375,
+      "forks_count": 370,
+      "pushed_at": "2026-03-18T07:44:07Z",
+      "commits_q1": 43
+    },
+    {
+      "full_name": "khoj-ai/khoj",
+      "html_url": "https://github.com/khoj-ai/khoj",
+      "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "language": "Python",
+      "size_kb": 117335,
+      "stargazers_count": 34194,
+      "forks_count": 2164,
+      "pushed_at": "2026-03-26T03:35:43Z",
+      "commits_q1": 40
+    }
+  ]
+}

@@ -1,0 +1,1769 @@
+{
+  "generated_at": "2026-04-22T19:42:23Z",
+  "project_key": "allenai/olmocr",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 94,
+    "active_days_q1": 21,
+    "authors_q1": 2,
+    "additions_q1": 23589,
+    "deletions_q1": 8145,
+    "churn_q1": 31734,
+    "truncated": false,
+    "fetched_commits": 94
+  },
+  "daily_rows": [
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-07",
+      "commits": 3,
+      "authors": 1,
+      "additions": 11,
+      "deletions": 3,
+      "churn": 14,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-08",
+      "commits": 10,
+      "authors": 1,
+      "additions": 34,
+      "deletions": 63,
+      "churn": 97,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-09",
+      "commits": 10,
+      "authors": 1,
+      "additions": 681,
+      "deletions": 482,
+      "churn": 1163,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-12",
+      "commits": 4,
+      "authors": 1,
+      "additions": 363,
+      "deletions": 205,
+      "churn": 568,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-14",
+      "commits": 2,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-16",
+      "commits": 1,
+      "authors": 1,
+      "additions": 59,
+      "deletions": 0,
+      "churn": 59,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-20",
+      "commits": 8,
+      "authors": 1,
+      "additions": 79,
+      "deletions": 50,
+      "churn": 129,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-23",
+      "commits": 16,
+      "authors": 1,
+      "additions": 316,
+      "deletions": 1038,
+      "churn": 1354,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-25",
+      "commits": 2,
+      "authors": 1,
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-13",
+      "commits": 1,
+      "authors": 1,
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-17",
+      "commits": 2,
+      "authors": 1,
+      "additions": 1435,
+      "deletions": 1496,
+      "churn": 2931,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-19",
+      "commits": 4,
+      "authors": 1,
+      "additions": 1023,
+      "deletions": 209,
+      "churn": 1232,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-20",
+      "commits": 1,
+      "authors": 1,
+      "additions": 362,
+      "deletions": 180,
+      "churn": 542,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-26",
+      "commits": 3,
+      "authors": 1,
+      "additions": 783,
+      "deletions": 38,
+      "churn": 821,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-02-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-06",
+      "commits": 3,
+      "authors": 1,
+      "additions": 132,
+      "deletions": 50,
+      "churn": 182,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-09",
+      "commits": 4,
+      "authors": 1,
+      "additions": 289,
+      "deletions": 255,
+      "churn": 544,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-12",
+      "commits": 4,
+      "authors": 1,
+      "additions": 289,
+      "deletions": 190,
+      "churn": 479,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-14",
+      "commits": 1,
+      "authors": 1,
+      "additions": 27,
+      "deletions": 27,
+      "churn": 54,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-17",
+      "commits": 1,
+      "authors": 1,
+      "additions": 84,
+      "deletions": 3,
+      "churn": 87,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-23",
+      "commits": 12,
+      "authors": 1,
+      "additions": 17605,
+      "deletions": 3846,
+      "churn": 21451,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-25",
+      "commits": 2,
+      "authors": 1,
+      "additions": 7,
+      "deletions": 2,
+      "churn": 9,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "f7cfe4c22098b154c76b6ec950d1c0a464eecf8d",
+      "date": "2026-03-25T17:52:36Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/allenai/olmocr/commit/f7cfe4c22098b154c76b6ec950d1c0a464eecf8d"
+    },
+    {
+      "sha": "fddc616ad069093a808c2f77358f9c06f8151d9d",
+      "date": "2026-03-25T17:43:53Z",
+      "author": "jakep-allenai",
+      "additions": 5,
+      "deletions": 0,
+      "churn": 5,
+      "html_url": "https://github.com/allenai/olmocr/commit/fddc616ad069093a808c2f77358f9c06f8151d9d"
+    },
+    {
+      "sha": "bdfed92709b31bb6f26a2eb875f0a170286a1c23",
+      "date": "2026-03-23T22:47:23Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/allenai/olmocr/commit/bdfed92709b31bb6f26a2eb875f0a170286a1c23"
+    },
+    {
+      "sha": "42b9acccf12709eee83dfaf1477682a14ce7740e",
+      "date": "2026-03-23T22:41:55Z",
+      "author": "jakep-allenai",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/allenai/olmocr/commit/42b9acccf12709eee83dfaf1477682a14ce7740e"
+    },
+    {
+      "sha": "4044b9ae3a555e500e2ec49bbdb6f43942246e04",
+      "date": "2026-03-23T22:00:30Z",
+      "author": "jakep-allenai",
+      "additions": 0,
+      "deletions": 42,
+      "churn": 42,
+      "html_url": "https://github.com/allenai/olmocr/commit/4044b9ae3a555e500e2ec49bbdb6f43942246e04"
+    },
+    {
+      "sha": "d4c4a8f6d05500e0febaa5924f783ca98d4ea637",
+      "date": "2026-03-23T21:58:30Z",
+      "author": "jakep-allenai",
+      "additions": 1312,
+      "deletions": 0,
+      "churn": 1312,
+      "html_url": "https://github.com/allenai/olmocr/commit/d4c4a8f6d05500e0febaa5924f783ca98d4ea637"
+    },
+    {
+      "sha": "48004b9e93a5a99b062d95697837ffdf0a2cf344",
+      "date": "2026-03-23T21:50:11Z",
+      "author": "jakep-allenai",
+      "additions": 6,
+      "deletions": 6,
+      "churn": 12,
+      "html_url": "https://github.com/allenai/olmocr/commit/48004b9e93a5a99b062d95697837ffdf0a2cf344"
+    },
+    {
+      "sha": "6516474095deb4e912c52a421666b3ce08fae77d",
+      "date": "2026-03-23T21:46:29Z",
+      "author": "jakep-allenai",
+      "additions": 9,
+      "deletions": 7,
+      "churn": 16,
+      "html_url": "https://github.com/allenai/olmocr/commit/6516474095deb4e912c52a421666b3ce08fae77d"
+    },
+    {
+      "sha": "769dbe46528fc86444d54fd6f30fb01417b783dc",
+      "date": "2026-03-23T21:31:12Z",
+      "author": "jakep-allenai",
+      "additions": 168,
+      "deletions": 94,
+      "churn": 262,
+      "html_url": "https://github.com/allenai/olmocr/commit/769dbe46528fc86444d54fd6f30fb01417b783dc"
+    },
+    {
+      "sha": "92e244035c433d60402e56739150d1122f14944c",
+      "date": "2026-03-23T21:09:30Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 4,
+      "churn": 5,
+      "html_url": "https://github.com/allenai/olmocr/commit/92e244035c433d60402e56739150d1122f14944c"
+    },
+    {
+      "sha": "1672ee771e543ca0fb0c0020141a9b36b87e6b4c",
+      "date": "2026-03-23T19:45:06Z",
+      "author": "jakep-allenai",
+      "additions": 171,
+      "deletions": 0,
+      "churn": 171,
+      "html_url": "https://github.com/allenai/olmocr/commit/1672ee771e543ca0fb0c0020141a9b36b87e6b4c"
+    },
+    {
+      "sha": "e2d173e75888e3e17565dfa6dc43c9ffe139d7b4",
+      "date": "2026-03-23T16:46:19Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 1,
+      "churn": 3,
+      "html_url": "https://github.com/allenai/olmocr/commit/e2d173e75888e3e17565dfa6dc43c9ffe139d7b4"
+    },
+    {
+      "sha": "3e99845fb9540c8ee3dabd0b99e7dd7cd3ab230a",
+      "date": "2026-03-23T16:40:43Z",
+      "author": "jakep-allenai",
+      "additions": 119,
+      "deletions": 176,
+      "churn": 295,
+      "html_url": "https://github.com/allenai/olmocr/commit/3e99845fb9540c8ee3dabd0b99e7dd7cd3ab230a"
+    },
+    {
+      "sha": "c4a7ca8395a90b3d240d7a4ade7aa0d8996cbf60",
+      "date": "2026-03-23T16:38:21Z",
+      "author": "jakep-allenai",
+      "additions": 15811,
+      "deletions": 3512,
+      "churn": 19323,
+      "html_url": "https://github.com/allenai/olmocr/commit/c4a7ca8395a90b3d240d7a4ade7aa0d8996cbf60"
+    },
+    {
+      "sha": "d432097cfb398fc5b5ba0b6e026ba07fa49f5c63",
+      "date": "2026-03-17T17:37:51Z",
+      "author": "jakep-allenai",
+      "additions": 84,
+      "deletions": 3,
+      "churn": 87,
+      "html_url": "https://github.com/allenai/olmocr/commit/d432097cfb398fc5b5ba0b6e026ba07fa49f5c63"
+    },
+    {
+      "sha": "1c35e73284f5a4078da4a6466bf60ab13c995221",
+      "date": "2026-03-14T01:08:07Z",
+      "author": "jakep-allenai",
+      "additions": 27,
+      "deletions": 27,
+      "churn": 54,
+      "html_url": "https://github.com/allenai/olmocr/commit/1c35e73284f5a4078da4a6466bf60ab13c995221"
+    },
+    {
+      "sha": "1e139a5ea61f1668164e6b63357d7284a8391615",
+      "date": "2026-03-12T16:29:20Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/1e139a5ea61f1668164e6b63357d7284a8391615"
+    },
+    {
+      "sha": "3c0ff520fa88b945fe7fe56411d24e27223ae38f",
+      "date": "2026-03-12T16:29:11Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/3c0ff520fa88b945fe7fe56411d24e27223ae38f"
+    },
+    {
+      "sha": "19a1b9038bc93deab8e766f95ede4eacae8dcf7c",
+      "date": "2026-03-12T16:21:20Z",
+      "author": "jakep-allenai",
+      "additions": 0,
+      "deletions": 2,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/19a1b9038bc93deab8e766f95ede4eacae8dcf7c"
+    },
+    {
+      "sha": "7eba43c4a2040963350ae70a6502a4f5f8b3694f",
+      "date": "2026-03-12T16:07:21Z",
+      "author": "jakep-allenai",
+      "additions": 286,
+      "deletions": 187,
+      "churn": 473,
+      "html_url": "https://github.com/allenai/olmocr/commit/7eba43c4a2040963350ae70a6502a4f5f8b3694f"
+    },
+    {
+      "sha": "9fa091e248774800768c6297be3e6071498f0fb8",
+      "date": "2026-03-09T23:11:41Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/allenai/olmocr/commit/9fa091e248774800768c6297be3e6071498f0fb8"
+    },
+    {
+      "sha": "3da5cdefaf4c964f1c1abe9fc0fc64b535714efb",
+      "date": "2026-03-09T23:09:31Z",
+      "author": "jakep-allenai",
+      "additions": 27,
+      "deletions": 27,
+      "churn": 54,
+      "html_url": "https://github.com/allenai/olmocr/commit/3da5cdefaf4c964f1c1abe9fc0fc64b535714efb"
+    },
+    {
+      "sha": "1def17ac2575265ba401ad09cd37ea2978ce1732",
+      "date": "2026-03-09T18:54:39Z",
+      "author": "jakep-allenai",
+      "additions": 132,
+      "deletions": 115,
+      "churn": 247,
+      "html_url": "https://github.com/allenai/olmocr/commit/1def17ac2575265ba401ad09cd37ea2978ce1732"
+    },
+    {
+      "sha": "8854eda39eea58eab2724e84ad3cd0994f3b31cf",
+      "date": "2026-03-09T18:54:39Z",
+      "author": "jakep-allenai",
+      "additions": 129,
+      "deletions": 113,
+      "churn": 242,
+      "html_url": "https://github.com/allenai/olmocr/commit/8854eda39eea58eab2724e84ad3cd0994f3b31cf"
+    },
+    {
+      "sha": "723849a8e21a9b83df92647747a47748c8c2b138",
+      "date": "2026-03-06T23:16:57Z",
+      "author": "rodneykinney",
+      "additions": 4,
+      "deletions": 1,
+      "churn": 5,
+      "html_url": "https://github.com/allenai/olmocr/commit/723849a8e21a9b83df92647747a47748c8c2b138"
+    },
+    {
+      "sha": "1dc419068302cceb1cab489e05b65ee8d93cacc5",
+      "date": "2026-03-06T22:56:36Z",
+      "author": "rodneykinney",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/allenai/olmocr/commit/1dc419068302cceb1cab489e05b65ee8d93cacc5"
+    },
+    {
+      "sha": "24122a056e71cc9dec3ccabc3d01bd2feaa4851b",
+      "date": "2026-03-06T22:46:02Z",
+      "author": "rodneykinney",
+      "additions": 124,
+      "deletions": 47,
+      "churn": 171,
+      "html_url": "https://github.com/allenai/olmocr/commit/24122a056e71cc9dec3ccabc3d01bd2feaa4851b"
+    },
+    {
+      "sha": "4061b7dd93d90614482856107307c78536c2ef38",
+      "date": "2026-02-26T22:52:49Z",
+      "author": "jakep-allenai",
+      "additions": 533,
+      "deletions": 0,
+      "churn": 533,
+      "html_url": "https://github.com/allenai/olmocr/commit/4061b7dd93d90614482856107307c78536c2ef38"
+    },
+    {
+      "sha": "51a27a4774b7c807b702e5331daab5e20005b42c",
+      "date": "2026-02-26T22:24:14Z",
+      "author": "jakep-allenai",
+      "additions": 25,
+      "deletions": 22,
+      "churn": 47,
+      "html_url": "https://github.com/allenai/olmocr/commit/51a27a4774b7c807b702e5331daab5e20005b42c"
+    },
+    {
+      "sha": "fa12822ed1c7db9c9311e095930b9caaeaa578b3",
+      "date": "2026-02-26T22:14:54Z",
+      "author": "jakep-allenai",
+      "additions": 225,
+      "deletions": 16,
+      "churn": 241,
+      "html_url": "https://github.com/allenai/olmocr/commit/fa12822ed1c7db9c9311e095930b9caaeaa578b3"
+    },
+    {
+      "sha": "b47ee1376331eb92ce305aaf78e0e56f8f95415c",
+      "date": "2026-02-20T20:44:02Z",
+      "author": "jakep-allenai",
+      "additions": 362,
+      "deletions": 180,
+      "churn": 542,
+      "html_url": "https://github.com/allenai/olmocr/commit/b47ee1376331eb92ce305aaf78e0e56f8f95415c"
+    },
+    {
+      "sha": "0be41d4e4908459a08fca761a51f5d3f9e16fc4a",
+      "date": "2026-02-19T23:25:29Z",
+      "author": "jakep-allenai",
+      "additions": 784,
+      "deletions": 0,
+      "churn": 784,
+      "html_url": "https://github.com/allenai/olmocr/commit/0be41d4e4908459a08fca761a51f5d3f9e16fc4a"
+    },
+    {
+      "sha": "54f770463ddaa318fc616319203cd55f066fec18",
+      "date": "2026-02-19T18:51:35Z",
+      "author": "jakep-allenai",
+      "additions": 226,
+      "deletions": 201,
+      "churn": 427,
+      "html_url": "https://github.com/allenai/olmocr/commit/54f770463ddaa318fc616319203cd55f066fec18"
+    },
+    {
+      "sha": "302d37c0b98087acc40aa6345c6781804d6acd45",
+      "date": "2026-02-19T17:12:03Z",
+      "author": "jakep-allenai",
+      "additions": 8,
+      "deletions": 3,
+      "churn": 11,
+      "html_url": "https://github.com/allenai/olmocr/commit/302d37c0b98087acc40aa6345c6781804d6acd45"
+    },
+    {
+      "sha": "49cde890324743fdad6bf26f8024653d3a77a231",
+      "date": "2026-02-19T17:10:34Z",
+      "author": "jakep-allenai",
+      "additions": 5,
+      "deletions": 5,
+      "churn": 10,
+      "html_url": "https://github.com/allenai/olmocr/commit/49cde890324743fdad6bf26f8024653d3a77a231"
+    },
+    {
+      "sha": "296bfe646c45240c4881d776651e2e126b3df700",
+      "date": "2026-02-17T23:51:51Z",
+      "author": "jakep-allenai",
+      "additions": 1429,
+      "deletions": 1496,
+      "churn": 2925,
+      "html_url": "https://github.com/allenai/olmocr/commit/296bfe646c45240c4881d776651e2e126b3df700"
+    },
+    {
+      "sha": "7277bfc81763395e9679fd4ec490fc09beb45ef3",
+      "date": "2026-02-17T23:09:41Z",
+      "author": "jakep-allenai",
+      "additions": 6,
+      "deletions": 0,
+      "churn": 6,
+      "html_url": "https://github.com/allenai/olmocr/commit/7277bfc81763395e9679fd4ec490fc09beb45ef3"
+    },
+    {
+      "sha": "7c00ac7aa262587965425478c7ccc3eedf0fd586",
+      "date": "2026-02-13T17:48:53Z",
+      "author": "jakep-allenai",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/allenai/olmocr/commit/7c00ac7aa262587965425478c7ccc3eedf0fd586"
+    },
+    {
+      "sha": "51d7d43c504236bdf9e396408f207b1cb1923afb",
+      "date": "2026-01-25T00:17:02Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/51d7d43c504236bdf9e396408f207b1cb1923afb"
+    },
+    {
+      "sha": "4f8815ca79ff2332c6f61a127a1a9b10d44ea13a",
+      "date": "2026-01-25T00:16:49Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/allenai/olmocr/commit/4f8815ca79ff2332c6f61a127a1a9b10d44ea13a"
+    },
+    {
+      "sha": "84959a95b6989bb53f2f5d0deb5ebf187a294472",
+      "date": "2026-01-23T21:44:25Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/84959a95b6989bb53f2f5d0deb5ebf187a294472"
+    },
+    {
+      "sha": "f516144a465b77b51d0fe82b7bf27a9cd4cd8cd5",
+      "date": "2026-01-23T21:44:21Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/f516144a465b77b51d0fe82b7bf27a9cd4cd8cd5"
+    },
+    {
+      "sha": "0315003adcc0747d2ee9c0149c91528ff80ab1c1",
+      "date": "2026-01-23T21:43:57Z",
+      "author": "jakep-allenai",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/allenai/olmocr/commit/0315003adcc0747d2ee9c0149c91528ff80ab1c1"
+    },
+    {
+      "sha": "5e9b1a309c27b642ce44849f65dc3f57506d3edf",
+      "date": "2026-01-23T19:26:36Z",
+      "author": "jakep-allenai",
+      "additions": 4,
+      "deletions": 1,
+      "churn": 5,
+      "html_url": "https://github.com/allenai/olmocr/commit/5e9b1a309c27b642ce44849f65dc3f57506d3edf"
+    },
+    {
+      "sha": "1109e65178d4eb85575f2894f5d8fc8ba82a01d8",
+      "date": "2026-01-23T19:20:58Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/1109e65178d4eb85575f2894f5d8fc8ba82a01d8"
+    },
+    {
+      "sha": "e5237ea3fc12b9ff10fb9465e935126219b6b03f",
+      "date": "2026-01-23T19:20:46Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/e5237ea3fc12b9ff10fb9465e935126219b6b03f"
+    },
+    {
+      "sha": "2f84b5fad2461ad9e2e35ac746364bc71df2c0e3",
+      "date": "2026-01-23T19:00:51Z",
+      "author": "jakep-allenai",
+      "additions": 3,
+      "deletions": 2,
+      "churn": 5,
+      "html_url": "https://github.com/allenai/olmocr/commit/2f84b5fad2461ad9e2e35ac746364bc71df2c0e3"
+    },
+    {
+      "sha": "c44be5a1665fd668e04b31b04b8b03793a871956",
+      "date": "2026-01-23T18:56:33Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/c44be5a1665fd668e04b31b04b8b03793a871956"
+    },
+    {
+      "sha": "c688f965ba475da407194c4c64350979bc647597",
+      "date": "2026-01-23T18:56:18Z",
+      "author": "jakep-allenai",
+      "additions": 51,
+      "deletions": 29,
+      "churn": 80,
+      "html_url": "https://github.com/allenai/olmocr/commit/c688f965ba475da407194c4c64350979bc647597"
+    },
+    {
+      "sha": "84eb4d8661a85cea58f0941af3572507a7ab1512",
+      "date": "2026-01-23T17:18:07Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/84eb4d8661a85cea58f0941af3572507a7ab1512"
+    },
+    {
+      "sha": "b35bcb5b8383bcb0ef2005f138520f73f81c5505",
+      "date": "2026-01-23T17:18:02Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/b35bcb5b8383bcb0ef2005f138520f73f81c5505"
+    },
+    {
+      "sha": "c275a2e90d7129438e4c09a382778e7b77883ea9",
+      "date": "2026-01-23T17:17:13Z",
+      "author": "jakep-allenai",
+      "additions": 15,
+      "deletions": 4,
+      "churn": 19,
+      "html_url": "https://github.com/allenai/olmocr/commit/c275a2e90d7129438e4c09a382778e7b77883ea9"
+    },
+    {
+      "sha": "9714a304b318ebfe047cf5e406868ea17d499fe9",
+      "date": "2026-01-23T17:16:17Z",
+      "author": "jakep-allenai",
+      "additions": 79,
+      "deletions": 66,
+      "churn": 145,
+      "html_url": "https://github.com/allenai/olmocr/commit/9714a304b318ebfe047cf5e406868ea17d499fe9"
+    },
+    {
+      "sha": "606b9f81bddff6e4da90fe9927e6c4e522980dc4",
+      "date": "2026-01-23T17:12:20Z",
+      "author": "jakep-allenai",
+      "additions": 45,
+      "deletions": 823,
+      "churn": 868,
+      "html_url": "https://github.com/allenai/olmocr/commit/606b9f81bddff6e4da90fe9927e6c4e522980dc4"
+    },
+    {
+      "sha": "16ba667d9635d70ba847f37388b38828149c14b1",
+      "date": "2026-01-23T17:07:25Z",
+      "author": "jakep-allenai",
+      "additions": 41,
+      "deletions": 43,
+      "churn": 84,
+      "html_url": "https://github.com/allenai/olmocr/commit/16ba667d9635d70ba847f37388b38828149c14b1"
+    },
+    {
+      "sha": "77624c4d48f35c11ea72f9b535165024613e224a",
+      "date": "2026-01-23T00:21:45Z",
+      "author": "jakep-allenai",
+      "additions": 63,
+      "deletions": 65,
+      "churn": 128,
+      "html_url": "https://github.com/allenai/olmocr/commit/77624c4d48f35c11ea72f9b535165024613e224a"
+    },
+    {
+      "sha": "c262b85b081ec15b7fb4b531dacf9f9deb88fb6c",
+      "date": "2026-01-20T20:52:56Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/c262b85b081ec15b7fb4b531dacf9f9deb88fb6c"
+    },
+    {
+      "sha": "e79337c561d8eedb589f2ccbfdd559a1fadae26f",
+      "date": "2026-01-20T20:52:29Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/e79337c561d8eedb589f2ccbfdd559a1fadae26f"
+    },
+    {
+      "sha": "cf1b2b1e9b8d3eedfe0fc669fddf5ed02d2418f5",
+      "date": "2026-01-20T20:29:13Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/cf1b2b1e9b8d3eedfe0fc669fddf5ed02d2418f5"
+    },
+    {
+      "sha": "4fb22156b309b92bd71bd2bfae91abc604e8f5cf",
+      "date": "2026-01-20T20:29:07Z",
+      "author": "jakep-allenai",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/allenai/olmocr/commit/4fb22156b309b92bd71bd2bfae91abc604e8f5cf"
+    },
+    {
+      "sha": "9292f0b284f4624b44a352f5bc7de1048c31c9e1",
+      "date": "2026-01-20T19:43:07Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/9292f0b284f4624b44a352f5bc7de1048c31c9e1"
+    },
+    {
+      "sha": "ed6ad8f13ec67218f1969a8c33dd20dd7e80b7eb",
+      "date": "2026-01-20T19:42:59Z",
+      "author": "jakep-allenai",
+      "additions": 25,
+      "deletions": 40,
+      "churn": 65,
+      "html_url": "https://github.com/allenai/olmocr/commit/ed6ad8f13ec67218f1969a8c33dd20dd7e80b7eb"
+    },
+    {
+      "sha": "3d85f23c104ac175e70c0625edad1ec02205e239",
+      "date": "2026-01-20T19:32:50Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/3d85f23c104ac175e70c0625edad1ec02205e239"
+    },
+    {
+      "sha": "f89a952bd0914e9905193a49111f5baa27b21cd8",
+      "date": "2026-01-20T19:32:41Z",
+      "author": "jakep-allenai",
+      "additions": 42,
+      "deletions": 6,
+      "churn": 48,
+      "html_url": "https://github.com/allenai/olmocr/commit/f89a952bd0914e9905193a49111f5baa27b21cd8"
+    },
+    {
+      "sha": "8b8378e76fc80f0d1f71421d2e784be1618e4cc1",
+      "date": "2026-01-16T20:57:18Z",
+      "author": "jakep-allenai",
+      "additions": 59,
+      "deletions": 0,
+      "churn": 59,
+      "html_url": "https://github.com/allenai/olmocr/commit/8b8378e76fc80f0d1f71421d2e784be1618e4cc1"
+    },
+    {
+      "sha": "bb959e88a36fd9e4652bdde9e47f851fa687d032",
+      "date": "2026-01-14T18:21:26Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/bb959e88a36fd9e4652bdde9e47f851fa687d032"
+    },
+    {
+      "sha": "85ad5850d42db303bd287633e607d8c6fcc5e00c",
+      "date": "2026-01-14T18:19:40Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/85ad5850d42db303bd287633e607d8c6fcc5e00c"
+    },
+    {
+      "sha": "238708f6086efef2b6460252eb82966d59c88e2f",
+      "date": "2026-01-12T17:32:03Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/238708f6086efef2b6460252eb82966d59c88e2f"
+    },
+    {
+      "sha": "1ec220d92dc6f01445fdf7fd3161587a462f7be9",
+      "date": "2026-01-12T16:45:25Z",
+      "author": "jakep-allenai",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/allenai/olmocr/commit/1ec220d92dc6f01445fdf7fd3161587a462f7be9"
+    },
+    {
+      "sha": "619e4d2877567a1ca654dcab55955a2008e1422e",
+      "date": "2026-01-12T16:36:48Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/619e4d2877567a1ca654dcab55955a2008e1422e"
+    },
+    {
+      "sha": "d7fd23d542bcac40a591f2f63946e6753780c3d1",
+      "date": "2026-01-12T16:33:46Z",
+      "author": "jakep-allenai",
+      "additions": 356,
+      "deletions": 202,
+      "churn": 558,
+      "html_url": "https://github.com/allenai/olmocr/commit/d7fd23d542bcac40a591f2f63946e6753780c3d1"
+    },
+    {
+      "sha": "69ed1906f70ccb2e5f28372dcbdfa31e8df4371f",
+      "date": "2026-01-09T23:18:10Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 1,
+      "churn": 3,
+      "html_url": "https://github.com/allenai/olmocr/commit/69ed1906f70ccb2e5f28372dcbdfa31e8df4371f"
+    },
+    {
+      "sha": "8b111998bbf7dec46e65da51bfc1f39896e3188b",
+      "date": "2026-01-09T23:07:36Z",
+      "author": "jakep-allenai",
+      "additions": 24,
+      "deletions": 18,
+      "churn": 42,
+      "html_url": "https://github.com/allenai/olmocr/commit/8b111998bbf7dec46e65da51bfc1f39896e3188b"
+    },
+    {
+      "sha": "1a4c695a76dca582f931eb8414e2dc0c5d79ac7d",
+      "date": "2026-01-09T22:57:50Z",
+      "author": "jakep-allenai",
+      "additions": 13,
+      "deletions": 0,
+      "churn": 13,
+      "html_url": "https://github.com/allenai/olmocr/commit/1a4c695a76dca582f931eb8414e2dc0c5d79ac7d"
+    },
+    {
+      "sha": "26a64e3c936e5fe91f6a5dfef79d08fc5dd9e9ee",
+      "date": "2026-01-09T20:32:54Z",
+      "author": "jakep-allenai",
+      "additions": 111,
+      "deletions": 23,
+      "churn": 134,
+      "html_url": "https://github.com/allenai/olmocr/commit/26a64e3c936e5fe91f6a5dfef79d08fc5dd9e9ee"
+    },
+    {
+      "sha": "b46edb7b67424158e003b7f71294a05b4cccbd83",
+      "date": "2026-01-09T19:50:01Z",
+      "author": "jakep-allenai",
+      "additions": 217,
+      "deletions": 236,
+      "churn": 453,
+      "html_url": "https://github.com/allenai/olmocr/commit/b46edb7b67424158e003b7f71294a05b4cccbd83"
+    },
+    {
+      "sha": "a70f7b2e4df10c4267e98938e73970b0e128236a",
+      "date": "2026-01-09T19:18:01Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/a70f7b2e4df10c4267e98938e73970b0e128236a"
+    },
+    {
+      "sha": "5a2423109d8dcb60e964e37806f38109f4f9d633",
+      "date": "2026-01-09T19:17:54Z",
+      "author": "jakep-allenai",
+      "additions": 46,
+      "deletions": 10,
+      "churn": 56,
+      "html_url": "https://github.com/allenai/olmocr/commit/5a2423109d8dcb60e964e37806f38109f4f9d633"
+    },
+    {
+      "sha": "2f91f48598b4dc2ee53a2c51c482696f75e9c697",
+      "date": "2026-01-09T17:57:30Z",
+      "author": "jakep-allenai",
+      "additions": 80,
+      "deletions": 114,
+      "churn": 194,
+      "html_url": "https://github.com/allenai/olmocr/commit/2f91f48598b4dc2ee53a2c51c482696f75e9c697"
+    },
+    {
+      "sha": "f3f39cd04c1cc68b741c32a10a9f5a27724825c6",
+      "date": "2026-01-09T00:44:49Z",
+      "author": "jakep-allenai",
+      "additions": 139,
+      "deletions": 74,
+      "churn": 213,
+      "html_url": "https://github.com/allenai/olmocr/commit/f3f39cd04c1cc68b741c32a10a9f5a27724825c6"
+    },
+    {
+      "sha": "76cf93e0be12b3c66fa35da86c87a1714199d67a",
+      "date": "2026-01-09T00:00:23Z",
+      "author": "jakep-allenai",
+      "additions": 47,
+      "deletions": 6,
+      "churn": 53,
+      "html_url": "https://github.com/allenai/olmocr/commit/76cf93e0be12b3c66fa35da86c87a1714199d67a"
+    },
+    {
+      "sha": "e88851149bb0372faeea619fc922de962be537a9",
+      "date": "2026-01-08T22:06:44Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/e88851149bb0372faeea619fc922de962be537a9"
+    },
+    {
+      "sha": "4d6cdf76841d2d0854913915a8f5900ebb79df97",
+      "date": "2026-01-08T22:06:31Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 2,
+      "churn": 3,
+      "html_url": "https://github.com/allenai/olmocr/commit/4d6cdf76841d2d0854913915a8f5900ebb79df97"
+    },
+    {
+      "sha": "43d49da35e59563df2483c1cd180b60caaa37a29",
+      "date": "2026-01-08T22:03:17Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/43d49da35e59563df2483c1cd180b60caaa37a29"
+    },
+    {
+      "sha": "8b7c5d5bfa94477287ce9fc7a6c49cfd4c636940",
+      "date": "2026-01-08T22:03:09Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 3,
+      "churn": 4,
+      "html_url": "https://github.com/allenai/olmocr/commit/8b7c5d5bfa94477287ce9fc7a6c49cfd4c636940"
+    },
+    {
+      "sha": "13be695d897aa84efe34f89cda9d56cb2658228c",
+      "date": "2026-01-08T22:00:06Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/13be695d897aa84efe34f89cda9d56cb2658228c"
+    },
+    {
+      "sha": "7700d14c910827e0a56a4337284d87b1aa09e63a",
+      "date": "2026-01-08T21:11:48Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/7700d14c910827e0a56a4337284d87b1aa09e63a"
+    },
+    {
+      "sha": "bab9c2aa0c063eef69d77a6fe6a3e41c5767bcd9",
+      "date": "2026-01-08T20:53:51Z",
+      "author": "jakep-allenai",
+      "additions": 5,
+      "deletions": 3,
+      "churn": 8,
+      "html_url": "https://github.com/allenai/olmocr/commit/bab9c2aa0c063eef69d77a6fe6a3e41c5767bcd9"
+    },
+    {
+      "sha": "c6c3a1d8f450d2c3a474031c736015998f89c22d",
+      "date": "2026-01-08T20:50:08Z",
+      "author": "jakep-allenai",
+      "additions": 9,
+      "deletions": 52,
+      "churn": 61,
+      "html_url": "https://github.com/allenai/olmocr/commit/c6c3a1d8f450d2c3a474031c736015998f89c22d"
+    },
+    {
+      "sha": "d479e064c4ab38dfb7549b39c033868d20bf9cd9",
+      "date": "2026-01-08T17:31:38Z",
+      "author": "jakep-allenai",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/d479e064c4ab38dfb7549b39c033868d20bf9cd9"
+    },
+    {
+      "sha": "38d54efc9547c062de2929bcbfb377f4fcd0a99a",
+      "date": "2026-01-08T17:26:26Z",
+      "author": "jakep-allenai",
+      "additions": 10,
+      "deletions": 1,
+      "churn": 11,
+      "html_url": "https://github.com/allenai/olmocr/commit/38d54efc9547c062de2929bcbfb377f4fcd0a99a"
+    },
+    {
+      "sha": "41b0e4939fd2c2934893f3fcc77767247d689648",
+      "date": "2026-01-07T23:32:15Z",
+      "author": "jakep-allenai",
+      "additions": 7,
+      "deletions": 0,
+      "churn": 7,
+      "html_url": "https://github.com/allenai/olmocr/commit/41b0e4939fd2c2934893f3fcc77767247d689648"
+    },
+    {
+      "sha": "9086ff2c6b1897ccca6679da3951500c4d4b8443",
+      "date": "2026-01-07T19:43:37Z",
+      "author": "jakep-allenai",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/allenai/olmocr/commit/9086ff2c6b1897ccca6679da3951500c4d4b8443"
+    },
+    {
+      "sha": "f00c4db54c9773c33cff8145b79a7c8b7279709b",
+      "date": "2026-01-07T19:43:36Z",
+      "author": "jakep-allenai",
+      "additions": 3,
+      "deletions": 2,
+      "churn": 5,
+      "html_url": "https://github.com/allenai/olmocr/commit/f00c4db54c9773c33cff8145b79a7c8b7279709b"
+    }
+  ]
+}

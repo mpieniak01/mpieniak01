@@ -1,0 +1,24 @@
+{
+  "schema": "205f-pipeline-config-v1",
+  "project": {
+    "name": "research-venom",
+    "artifacts_root": "docs_dev/_to_do/205_artifacts"
+  },
+  "runtime": {
+    "step_timeout_sec": 600,
+    "cleanup_office_orphans": true,
+    "skip_bookmark_insert": true
+  },
+  "paths": {
+    "excel_workbook": "produkty/excel/workspace/205F_visualization_workspace_v01.xlsx",
+    "word_map_csv": "205F/inputs/205F_word_embed_map_v01.csv",
+    "word_input_docx": "produkty/word/final/205F_embed_canvas_v01.docx",
+    "word_output_docx": "produkty/word/final/205F_embed_canvas_v02.docx",
+    "embed_run_json": "205F/analysis/205F_word_embed_run_v01.json",
+    "embed_run_md": "205F/analysis/205F_word_embed_run_v01.md",
+    "embed_verify_json": "205F/analysis/205F_word_embed_verify_v01.json",
+    "embed_verify_md": "205F/analysis/205F_word_embed_verify_v01.md",
+    "pipeline_report_json": "205F/analysis/205F_pipeline_run_v01.json",
+    "pipeline_report_md": "205F/analysis/205F_pipeline_run_v01.md"
+  }
+}

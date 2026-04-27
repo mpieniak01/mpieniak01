@@ -1,0 +1,1868 @@
+{
+  "generated_at": "2026-04-22T19:41:29Z",
+  "project_key": "neuropsychology/NeuroKit",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 105,
+    "active_days_q1": 15,
+    "authors_q1": 4,
+    "additions_q1": 83020,
+    "deletions_q1": 40627,
+    "churn_q1": 123647,
+    "truncated": false,
+    "fetched_commits": 105
+  },
+  "daily_rows": [
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-08",
+      "commits": 6,
+      "authors": 1,
+      "additions": 6291,
+      "deletions": 718,
+      "churn": 7009,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-09",
+      "commits": 1,
+      "authors": 1,
+      "additions": 87,
+      "deletions": 57,
+      "churn": 144,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-11",
+      "commits": 5,
+      "authors": 1,
+      "additions": 4252,
+      "deletions": 1208,
+      "churn": 5460,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-20",
+      "commits": 1,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-23",
+      "commits": 4,
+      "authors": 2,
+      "additions": 12,
+      "deletions": 12,
+      "churn": 24,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-25",
+      "commits": 6,
+      "authors": 1,
+      "additions": 167,
+      "deletions": 182,
+      "churn": 349,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-13",
+      "commits": 1,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-18",
+      "commits": 1,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 1,
+      "churn": 3,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-20",
+      "commits": 2,
+      "authors": 2,
+      "additions": 4,
+      "deletions": 3,
+      "churn": 7,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-21",
+      "commits": 15,
+      "authors": 1,
+      "additions": 2688,
+      "deletions": 592,
+      "churn": 3280,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-22",
+      "commits": 36,
+      "authors": 2,
+      "additions": 42958,
+      "deletions": 15711,
+      "churn": 58669,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-23",
+      "commits": 3,
+      "authors": 2,
+      "additions": 23630,
+      "deletions": 19560,
+      "churn": 43190,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-24",
+      "commits": 4,
+      "authors": 1,
+      "additions": 1357,
+      "deletions": 1194,
+      "churn": 2551,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-02-28",
+      "commits": 19,
+      "authors": 2,
+      "additions": 1561,
+      "deletions": 1382,
+      "churn": 2943,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-01",
+      "commits": 1,
+      "authors": 1,
+      "additions": 7,
+      "deletions": 3,
+      "churn": 10,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ff419d983568ef492eb8d229af643c0ef0100b32",
+      "date": "2026-03-01T11:47:10Z",
+      "author": "DerAndereJohannes",
+      "additions": 7,
+      "deletions": 3,
+      "churn": 10,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ff419d983568ef492eb8d229af643c0ef0100b32"
+    },
+    {
+      "sha": "728dc105a3ad09470851141b83e9300caf622551",
+      "date": "2026-02-28T17:34:02Z",
+      "author": "DerAndereJohannes",
+      "additions": 15,
+      "deletions": 9,
+      "churn": 24,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/728dc105a3ad09470851141b83e9300caf622551"
+    },
+    {
+      "sha": "0b22c86637c3aecafd52bca5caf60e64a8f1050e",
+      "date": "2026-02-28T17:23:38Z",
+      "author": "DerAndereJohannes",
+      "additions": 15,
+      "deletions": 10,
+      "churn": 25,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/0b22c86637c3aecafd52bca5caf60e64a8f1050e"
+    },
+    {
+      "sha": "8981521928ba2b30abccc86eb6ebf2d043735993",
+      "date": "2026-02-28T17:09:00Z",
+      "author": "DerAndereJohannes",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8981521928ba2b30abccc86eb6ebf2d043735993"
+    },
+    {
+      "sha": "7fe2090bc0126ec98aec3d827d1a78f333e1d31d",
+      "date": "2026-02-28T15:12:43Z",
+      "author": "DerAndereJohannes",
+      "additions": 6,
+      "deletions": 0,
+      "churn": 6,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/7fe2090bc0126ec98aec3d827d1a78f333e1d31d"
+    },
+    {
+      "sha": "cae5bc63926df2846535a20fecf1d9331c682445",
+      "date": "2026-02-28T15:03:55Z",
+      "author": "DerAndereJohannes",
+      "additions": 6,
+      "deletions": 0,
+      "churn": 6,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/cae5bc63926df2846535a20fecf1d9331c682445"
+    },
+    {
+      "sha": "f378b093ecabd4c5625f4a99416c23c3a479591e",
+      "date": "2026-02-28T15:01:55Z",
+      "author": "DerAndereJohannes",
+      "additions": 2,
+      "deletions": 4,
+      "churn": 6,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/f378b093ecabd4c5625f4a99416c23c3a479591e"
+    },
+    {
+      "sha": "085991525d967966bd5080e5e2f0e36e13981e7f",
+      "date": "2026-02-28T14:53:04Z",
+      "author": "DerAndereJohannes",
+      "additions": 4,
+      "deletions": 2,
+      "churn": 6,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/085991525d967966bd5080e5e2f0e36e13981e7f"
+    },
+    {
+      "sha": "7c17aedcead545ed075cee59aaa21602ec8df25c",
+      "date": "2026-02-28T14:32:16Z",
+      "author": "DerAndereJohannes",
+      "additions": 3,
+      "deletions": 0,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/7c17aedcead545ed075cee59aaa21602ec8df25c"
+    },
+    {
+      "sha": "7fa5081863e6ca76153992209f99e2bdad247f5c",
+      "date": "2026-02-28T14:21:23Z",
+      "author": "DerAndereJohannes",
+      "additions": 3,
+      "deletions": 0,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/7fa5081863e6ca76153992209f99e2bdad247f5c"
+    },
+    {
+      "sha": "e046668430667991936a2124946f68e2dbe4b611",
+      "date": "2026-02-28T14:04:02Z",
+      "author": "DominiqueMakowski",
+      "additions": 15,
+      "deletions": 6,
+      "churn": 21,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/e046668430667991936a2124946f68e2dbe4b611"
+    },
+    {
+      "sha": "04717c4e5a776e96b265362bf72e6cb5217feef5",
+      "date": "2026-02-28T12:43:45Z",
+      "author": "DerAndereJohannes",
+      "additions": 8,
+      "deletions": 2,
+      "churn": 10,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/04717c4e5a776e96b265362bf72e6cb5217feef5"
+    },
+    {
+      "sha": "7468833b73524c21d5144925f041d20e8d609d1a",
+      "date": "2026-02-28T12:33:45Z",
+      "author": "DominiqueMakowski",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/7468833b73524c21d5144925f041d20e8d609d1a"
+    },
+    {
+      "sha": "b0534e6ade01e319e80679ff471ad7663fb7c2e9",
+      "date": "2026-02-28T12:17:34Z",
+      "author": "DerAndereJohannes",
+      "additions": 3,
+      "deletions": 0,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/b0534e6ade01e319e80679ff471ad7663fb7c2e9"
+    },
+    {
+      "sha": "723dc84dfc0e1ede87c33e4952d8043c0e36663e",
+      "date": "2026-02-28T11:47:59Z",
+      "author": "DominiqueMakowski",
+      "additions": 56,
+      "deletions": 72,
+      "churn": 128,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/723dc84dfc0e1ede87c33e4952d8043c0e36663e"
+    },
+    {
+      "sha": "84f498c68d77dc38d9705dff5bd0f234a8daf388",
+      "date": "2026-02-28T10:03:23Z",
+      "author": "DominiqueMakowski",
+      "additions": 17,
+      "deletions": 5,
+      "churn": 22,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/84f498c68d77dc38d9705dff5bd0f234a8daf388"
+    },
+    {
+      "sha": "1bf43b8d52791742ac8e5167d1398db3b38b082d",
+      "date": "2026-02-28T09:31:08Z",
+      "author": "DominiqueMakowski",
+      "additions": 0,
+      "deletions": 3,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/1bf43b8d52791742ac8e5167d1398db3b38b082d"
+    },
+    {
+      "sha": "8e479c969e0a8419d8921984a594e37cd1354ea3",
+      "date": "2026-02-28T09:30:52Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 2,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8e479c969e0a8419d8921984a594e37cd1354ea3"
+    },
+    {
+      "sha": "142bb40c99d0990b1bc0d9d2de22d5b92e9fdfbb",
+      "date": "2026-02-28T09:03:10Z",
+      "author": "DominiqueMakowski",
+      "additions": 48,
+      "deletions": 72,
+      "churn": 120,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/142bb40c99d0990b1bc0d9d2de22d5b92e9fdfbb"
+    },
+    {
+      "sha": "ee63085f83b2b8833799ad4d8ed9f2ee0ae19eb7",
+      "date": "2026-02-28T08:52:02Z",
+      "author": "DominiqueMakowski",
+      "additions": 1354,
+      "deletions": 1191,
+      "churn": 2545,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ee63085f83b2b8833799ad4d8ed9f2ee0ae19eb7"
+    },
+    {
+      "sha": "52d6bf4ec3ea81e2802cd212d5bf78dc16e47137",
+      "date": "2026-02-24T22:31:05Z",
+      "author": "DerAndereJohannes",
+      "additions": 5,
+      "deletions": 13,
+      "churn": 18,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/52d6bf4ec3ea81e2802cd212d5bf78dc16e47137"
+    },
+    {
+      "sha": "dc60280e848fdc6bb29c23693f79bb33a98a9145",
+      "date": "2026-02-24T22:24:16Z",
+      "author": "DerAndereJohannes",
+      "additions": 1348,
+      "deletions": 1171,
+      "churn": 2519,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/dc60280e848fdc6bb29c23693f79bb33a98a9145"
+    },
+    {
+      "sha": "b1c15e18ef32d7cb5d933bded8be90ae20e282ae",
+      "date": "2026-02-24T21:59:40Z",
+      "author": "DerAndereJohannes",
+      "additions": 1,
+      "deletions": 6,
+      "churn": 7,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/b1c15e18ef32d7cb5d933bded8be90ae20e282ae"
+    },
+    {
+      "sha": "1440b1e92ac522de814339448fc8bbc4772efc6d",
+      "date": "2026-02-24T21:54:46Z",
+      "author": "DerAndereJohannes",
+      "additions": 3,
+      "deletions": 4,
+      "churn": 7,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/1440b1e92ac522de814339448fc8bbc4772efc6d"
+    },
+    {
+      "sha": "46be469a10ad6f4f66ff64fe9cd0184c0dc40cb6",
+      "date": "2026-02-23T12:44:07Z",
+      "author": "DominiqueMakowski",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/46be469a10ad6f4f66ff64fe9cd0184c0dc40cb6"
+    },
+    {
+      "sha": "ddc731cbd7eea61278486a54d806763ceb0a07d9",
+      "date": "2026-02-23T12:38:05Z",
+      "author": "DominiqueMakowski",
+      "additions": 16668,
+      "deletions": 10071,
+      "churn": 26739,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ddc731cbd7eea61278486a54d806763ceb0a07d9"
+    },
+    {
+      "sha": "2e233434301585e5f40e0e788008f899ca27e084",
+      "date": "2026-02-23T10:43:23Z",
+      "author": "DerAndereJohannes",
+      "additions": 6958,
+      "deletions": 9485,
+      "churn": 16443,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/2e233434301585e5f40e0e788008f899ca27e084"
+    },
+    {
+      "sha": "a6f173397ff3d535514273f327548b19fceb6676",
+      "date": "2026-02-22T22:03:00Z",
+      "author": "DerAndereJohannes",
+      "additions": 102,
+      "deletions": 107,
+      "churn": 209,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/a6f173397ff3d535514273f327548b19fceb6676"
+    },
+    {
+      "sha": "e43d09e507ea84fa6db3463da417b3c21adec9f6",
+      "date": "2026-02-22T21:25:26Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/e43d09e507ea84fa6db3463da417b3c21adec9f6"
+    },
+    {
+      "sha": "fd855e41cdab84d4bbff8d62fec422096135385b",
+      "date": "2026-02-22T21:25:17Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/fd855e41cdab84d4bbff8d62fec422096135385b"
+    },
+    {
+      "sha": "79f3936f98d7a8d2105071f8841b84b6346e3d7d",
+      "date": "2026-02-22T20:05:29Z",
+      "author": "DerAndereJohannes",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/79f3936f98d7a8d2105071f8841b84b6346e3d7d"
+    },
+    {
+      "sha": "56075c05aae819a4962fcd9eeeac3ddf86b0de51",
+      "date": "2026-02-22T19:55:00Z",
+      "author": "DerAndereJohannes",
+      "additions": 6864,
+      "deletions": 9387,
+      "churn": 16251,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/56075c05aae819a4962fcd9eeeac3ddf86b0de51"
+    },
+    {
+      "sha": "5c84938c8d06016b96fda767ba76ed4e5f241e71",
+      "date": "2026-02-22T19:47:53Z",
+      "author": "DerAndereJohannes",
+      "additions": 6259,
+      "deletions": 674,
+      "churn": 6933,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/5c84938c8d06016b96fda767ba76ed4e5f241e71"
+    },
+    {
+      "sha": "99c2f5d4ab34453c4b970c02111a88c85faaa511",
+      "date": "2026-02-22T19:06:50Z",
+      "author": "DominiqueMakowski",
+      "additions": 570,
+      "deletions": 51,
+      "churn": 621,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/99c2f5d4ab34453c4b970c02111a88c85faaa511"
+    },
+    {
+      "sha": "3d5e7e83cb0b5416377aa09c879fff3d74f07f72",
+      "date": "2026-02-22T17:07:33Z",
+      "author": "DominiqueMakowski",
+      "additions": 1761,
+      "deletions": 474,
+      "churn": 2235,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/3d5e7e83cb0b5416377aa09c879fff3d74f07f72"
+    },
+    {
+      "sha": "2be98684a7ec707a6a2785e88f0d93badd8f0797",
+      "date": "2026-02-22T17:02:08Z",
+      "author": "DominiqueMakowski",
+      "additions": 435,
+      "deletions": 42,
+      "churn": 477,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/2be98684a7ec707a6a2785e88f0d93badd8f0797"
+    },
+    {
+      "sha": "f900131f70091ef57526860898415e5f836291c9",
+      "date": "2026-02-22T17:00:02Z",
+      "author": "DominiqueMakowski",
+      "additions": 30,
+      "deletions": 29,
+      "churn": 59,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/f900131f70091ef57526860898415e5f836291c9"
+    },
+    {
+      "sha": "8b97b7c182e36c235dc4572d781431a343db16d8",
+      "date": "2026-02-22T16:50:33Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8b97b7c182e36c235dc4572d781431a343db16d8"
+    },
+    {
+      "sha": "45a4f7a54257019156d8d15469f4c00c39b2fe1b",
+      "date": "2026-02-22T16:33:09Z",
+      "author": "DominiqueMakowski",
+      "additions": 425,
+      "deletions": 382,
+      "churn": 807,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/45a4f7a54257019156d8d15469f4c00c39b2fe1b"
+    },
+    {
+      "sha": "69cb4815f015118231bbd228aa950e28746f846a",
+      "date": "2026-02-22T16:08:19Z",
+      "author": "DominiqueMakowski",
+      "additions": 5009,
+      "deletions": 687,
+      "churn": 5696,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/69cb4815f015118231bbd228aa950e28746f846a"
+    },
+    {
+      "sha": "72b04c1243e02d766f0f34622f42ec03ecb7e481",
+      "date": "2026-02-22T16:02:09Z",
+      "author": "DominiqueMakowski",
+      "additions": 213,
+      "deletions": 77,
+      "churn": 290,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/72b04c1243e02d766f0f34622f42ec03ecb7e481"
+    },
+    {
+      "sha": "8f118ee67f9dc2d8ad08913107ac3331c7800efc",
+      "date": "2026-02-22T15:58:32Z",
+      "author": "DominiqueMakowski",
+      "additions": 47,
+      "deletions": 43,
+      "churn": 90,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8f118ee67f9dc2d8ad08913107ac3331c7800efc"
+    },
+    {
+      "sha": "66feb3f2bcbc66682f554fb1ad8da0ae06c18056",
+      "date": "2026-02-22T15:35:31Z",
+      "author": "DominiqueMakowski",
+      "additions": 4901,
+      "deletions": 652,
+      "churn": 5553,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/66feb3f2bcbc66682f554fb1ad8da0ae06c18056"
+    },
+    {
+      "sha": "bbf4252d3580f0e30889cfbb294558701a08fe4a",
+      "date": "2026-02-22T15:28:54Z",
+      "author": "DominiqueMakowski",
+      "additions": 3,
+      "deletions": 1,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/bbf4252d3580f0e30889cfbb294558701a08fe4a"
+    },
+    {
+      "sha": "36c6034e4f37ea66e0f85708a374587a275c7ef9",
+      "date": "2026-02-22T15:27:42Z",
+      "author": "DominiqueMakowski",
+      "additions": 3,
+      "deletions": 15,
+      "churn": 18,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/36c6034e4f37ea66e0f85708a374587a275c7ef9"
+    },
+    {
+      "sha": "7a5b6228ac5fef2acb5b6bfef60f5c71b7078d10",
+      "date": "2026-02-22T15:22:58Z",
+      "author": "DominiqueMakowski",
+      "additions": 3109,
+      "deletions": 620,
+      "churn": 3729,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/7a5b6228ac5fef2acb5b6bfef60f5c71b7078d10"
+    },
+    {
+      "sha": "2762e2bc78cd2b624f16d3b5369a8ccf4c27ba3f",
+      "date": "2026-02-22T15:19:39Z",
+      "author": "DominiqueMakowski",
+      "additions": 45,
+      "deletions": 37,
+      "churn": 82,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/2762e2bc78cd2b624f16d3b5369a8ccf4c27ba3f"
+    },
+    {
+      "sha": "3ed298aba9777a4ec00b6fcfd7775d1e618331c8",
+      "date": "2026-02-22T15:19:24Z",
+      "author": "DominiqueMakowski",
+      "additions": 45,
+      "deletions": 48,
+      "churn": 93,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/3ed298aba9777a4ec00b6fcfd7775d1e618331c8"
+    },
+    {
+      "sha": "0df3182de5ba59e4f124c5a396d809405639ef9d",
+      "date": "2026-02-22T13:08:56Z",
+      "author": "DominiqueMakowski",
+      "additions": 5141,
+      "deletions": 641,
+      "churn": 5782,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/0df3182de5ba59e4f124c5a396d809405639ef9d"
+    },
+    {
+      "sha": "b3d732a37db685623807ec666ce5baec55ff87ab",
+      "date": "2026-02-22T13:07:48Z",
+      "author": "DominiqueMakowski",
+      "additions": 137,
+      "deletions": 54,
+      "churn": 191,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/b3d732a37db685623807ec666ce5baec55ff87ab"
+    },
+    {
+      "sha": "86e31c108c242c316c88ea6211b1d441b7cbe3b5",
+      "date": "2026-02-22T12:19:41Z",
+      "author": "DominiqueMakowski",
+      "additions": 2949,
+      "deletions": 552,
+      "churn": 3501,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/86e31c108c242c316c88ea6211b1d441b7cbe3b5"
+    },
+    {
+      "sha": "c945e4aa67d2917c988a653703a01ca207fe7663",
+      "date": "2026-02-22T11:45:07Z",
+      "author": "DominiqueMakowski",
+      "additions": 501,
+      "deletions": 20,
+      "churn": 521,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/c945e4aa67d2917c988a653703a01ca207fe7663"
+    },
+    {
+      "sha": "31068be4199c8ed61c5e13115c9fdf83002d43cf",
+      "date": "2026-02-22T11:33:55Z",
+      "author": "DominiqueMakowski",
+      "additions": 2,
+      "deletions": 1,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/31068be4199c8ed61c5e13115c9fdf83002d43cf"
+    },
+    {
+      "sha": "6ebbff23a4c3d8e48fe3817bf55216d30794469e",
+      "date": "2026-02-22T11:28:50Z",
+      "author": "DominiqueMakowski",
+      "additions": 47,
+      "deletions": 16,
+      "churn": 63,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/6ebbff23a4c3d8e48fe3817bf55216d30794469e"
+    },
+    {
+      "sha": "98340387dea59c5c9242e58bf1aa855646ebbd71",
+      "date": "2026-02-22T11:24:10Z",
+      "author": "DominiqueMakowski",
+      "additions": 1847,
+      "deletions": 518,
+      "churn": 2365,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/98340387dea59c5c9242e58bf1aa855646ebbd71"
+    },
+    {
+      "sha": "cb94e09b72b767156d1cd1b23710ab20bc17a1ed",
+      "date": "2026-02-22T11:17:12Z",
+      "author": "DominiqueMakowski",
+      "additions": 61,
+      "deletions": 30,
+      "churn": 91,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/cb94e09b72b767156d1cd1b23710ab20bc17a1ed"
+    },
+    {
+      "sha": "624b2725a7a88155868bbb9b65d51335303d3972",
+      "date": "2026-02-22T11:16:02Z",
+      "author": "DominiqueMakowski",
+      "additions": 5,
+      "deletions": 5,
+      "churn": 10,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/624b2725a7a88155868bbb9b65d51335303d3972"
+    },
+    {
+      "sha": "8f287bb9f656a14706f24bb9575b45027160da91",
+      "date": "2026-02-22T11:07:55Z",
+      "author": "DominiqueMakowski",
+      "additions": 2348,
+      "deletions": 484,
+      "churn": 2832,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8f287bb9f656a14706f24bb9575b45027160da91"
+    },
+    {
+      "sha": "8b651f6be51a4530b86b6c8549a95430567b6a42",
+      "date": "2026-02-22T10:44:08Z",
+      "author": "DominiqueMakowski",
+      "additions": 9,
+      "deletions": 9,
+      "churn": 18,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8b651f6be51a4530b86b6c8549a95430567b6a42"
+    },
+    {
+      "sha": "e493aee41e32041b186b43537510ef3467b81674",
+      "date": "2026-02-22T10:29:55Z",
+      "author": "DominiqueMakowski",
+      "additions": 25,
+      "deletions": 26,
+      "churn": 51,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/e493aee41e32041b186b43537510ef3467b81674"
+    },
+    {
+      "sha": "027ce9e7ecf67d5d79ec79b9725b58545033147b",
+      "date": "2026-02-22T10:09:19Z",
+      "author": "DominiqueMakowski",
+      "additions": 23,
+      "deletions": 13,
+      "churn": 36,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/027ce9e7ecf67d5d79ec79b9725b58545033147b"
+    },
+    {
+      "sha": "a2824a86c884c0904541e996699efd5328467abf",
+      "date": "2026-02-22T09:55:36Z",
+      "author": "DominiqueMakowski",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/a2824a86c884c0904541e996699efd5328467abf"
+    },
+    {
+      "sha": "ee85ade3f19084792cb6e3b1f39dd4671057107e",
+      "date": "2026-02-22T09:09:22Z",
+      "author": "DominiqueMakowski",
+      "additions": 36,
+      "deletions": 12,
+      "churn": 48,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ee85ade3f19084792cb6e3b1f39dd4671057107e"
+    },
+    {
+      "sha": "ce3e1cb61d5d0eba38654a2d08cca5682397a007",
+      "date": "2026-02-21T22:24:40Z",
+      "author": "DominiqueMakowski",
+      "additions": 6,
+      "deletions": 2,
+      "churn": 8,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ce3e1cb61d5d0eba38654a2d08cca5682397a007"
+    },
+    {
+      "sha": "4ddf8fddabb41216517006a919caec83611a1377",
+      "date": "2026-02-21T21:48:54Z",
+      "author": "DominiqueMakowski",
+      "additions": 5,
+      "deletions": 4,
+      "churn": 9,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/4ddf8fddabb41216517006a919caec83611a1377"
+    },
+    {
+      "sha": "f772f6c2d7625464991f93fad7a750ad7000f48d",
+      "date": "2026-02-21T21:25:45Z",
+      "author": "DominiqueMakowski",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/f772f6c2d7625464991f93fad7a750ad7000f48d"
+    },
+    {
+      "sha": "610e313af8cc23346fc756133848e6ba8abdfcff",
+      "date": "2026-02-21T21:13:00Z",
+      "author": "DominiqueMakowski",
+      "additions": 27,
+      "deletions": 15,
+      "churn": 42,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/610e313af8cc23346fc756133848e6ba8abdfcff"
+    },
+    {
+      "sha": "499dee8c1fa767743a558a3f31f5f660baed33ef",
+      "date": "2026-02-21T20:36:00Z",
+      "author": "DominiqueMakowski",
+      "additions": 2,
+      "deletions": 1,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/499dee8c1fa767743a558a3f31f5f660baed33ef"
+    },
+    {
+      "sha": "1245cb45cfe83649dc0bbe92af51209504c15415",
+      "date": "2026-02-21T19:44:55Z",
+      "author": "DominiqueMakowski",
+      "additions": 186,
+      "deletions": 80,
+      "churn": 266,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/1245cb45cfe83649dc0bbe92af51209504c15415"
+    },
+    {
+      "sha": "3c80a44a77e2a81186346bff68e4caf2463fa11f",
+      "date": "2026-02-21T19:39:56Z",
+      "author": "DominiqueMakowski",
+      "additions": 10,
+      "deletions": 4,
+      "churn": 14,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/3c80a44a77e2a81186346bff68e4caf2463fa11f"
+    },
+    {
+      "sha": "9ab658c2d0d9b4de1d0c43e46dd758febdc44e18",
+      "date": "2026-02-21T19:24:08Z",
+      "author": "DominiqueMakowski",
+      "additions": 342,
+      "deletions": 100,
+      "churn": 442,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/9ab658c2d0d9b4de1d0c43e46dd758febdc44e18"
+    },
+    {
+      "sha": "15596174d887d573cb25c7c8258b843dddf3f518",
+      "date": "2026-02-21T18:52:44Z",
+      "author": "DominiqueMakowski",
+      "additions": 2092,
+      "deletions": 366,
+      "churn": 2458,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/15596174d887d573cb25c7c8258b843dddf3f518"
+    },
+    {
+      "sha": "9dfbfce556427f54f03cf999277318d78aa89382",
+      "date": "2026-02-21T18:52:01Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/9dfbfce556427f54f03cf999277318d78aa89382"
+    },
+    {
+      "sha": "d02c9b69544b213ad7174a8f4bdc01191d30123e",
+      "date": "2026-02-21T18:51:36Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/d02c9b69544b213ad7174a8f4bdc01191d30123e"
+    },
+    {
+      "sha": "d799330346f68fb0257fe06935e416f57d2f5ba4",
+      "date": "2026-02-21T18:48:05Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/d799330346f68fb0257fe06935e416f57d2f5ba4"
+    },
+    {
+      "sha": "0fb907b42da3871677cab85ba8a92a40a10846f8",
+      "date": "2026-02-21T18:47:57Z",
+      "author": "DominiqueMakowski",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/0fb907b42da3871677cab85ba8a92a40a10846f8"
+    },
+    {
+      "sha": "ec3b478552cd6af2e39f0c66483c375d575d67f2",
+      "date": "2026-02-21T18:10:25Z",
+      "author": "DominiqueMakowski",
+      "additions": 2,
+      "deletions": 5,
+      "churn": 7,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ec3b478552cd6af2e39f0c66483c375d575d67f2"
+    },
+    {
+      "sha": "5d452911c69d56543e47b658d86d4d0d6123f409",
+      "date": "2026-02-21T18:05:19Z",
+      "author": "DominiqueMakowski",
+      "additions": 10,
+      "deletions": 9,
+      "churn": 19,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/5d452911c69d56543e47b658d86d4d0d6123f409"
+    },
+    {
+      "sha": "67315d8f551156a1d88a3046b55c3bc7678f7900",
+      "date": "2026-02-20T12:11:19Z",
+      "author": "DerAndereJohannes",
+      "additions": 3,
+      "deletions": 2,
+      "churn": 5,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/67315d8f551156a1d88a3046b55c3bc7678f7900"
+    },
+    {
+      "sha": "b70288a2094a1f44604f28c5a9634f282ea67be2",
+      "date": "2026-02-20T11:13:35Z",
+      "author": "way-ze",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/b70288a2094a1f44604f28c5a9634f282ea67be2"
+    },
+    {
+      "sha": "6171ca6a6e4c48ca1f98212665a8237974fd1729",
+      "date": "2026-02-18T15:19:35Z",
+      "author": "way-ze",
+      "additions": 2,
+      "deletions": 1,
+      "churn": 3,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/6171ca6a6e4c48ca1f98212665a8237974fd1729"
+    },
+    {
+      "sha": "47168bdb2b374d6c0de021375ec2412e968fe165",
+      "date": "2026-02-13T22:09:17Z",
+      "author": "DerAndereJohannes",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/47168bdb2b374d6c0de021375ec2412e968fe165"
+    },
+    {
+      "sha": "647f832f0877edd667b69ee2469ee81fb94168cc",
+      "date": "2026-01-25T21:56:34Z",
+      "author": "DerAndereJohannes",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/647f832f0877edd667b69ee2469ee81fb94168cc"
+    },
+    {
+      "sha": "0c731a7d7562bf8a126805356820a600e6601ce7",
+      "date": "2026-01-25T21:07:54Z",
+      "author": "DerAndereJohannes",
+      "additions": 40,
+      "deletions": 0,
+      "churn": 40,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/0c731a7d7562bf8a126805356820a600e6601ce7"
+    },
+    {
+      "sha": "afa887d298064be5b5bcbf29377978a4f2b81a93",
+      "date": "2026-01-25T20:01:09Z",
+      "author": "DerAndereJohannes",
+      "additions": 1,
+      "deletions": 114,
+      "churn": 115,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/afa887d298064be5b5bcbf29377978a4f2b81a93"
+    },
+    {
+      "sha": "5992ec2fb55e0e806e85313b76f7c5565613a0d6",
+      "date": "2026-01-25T19:54:52Z",
+      "author": "DerAndereJohannes",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/5992ec2fb55e0e806e85313b76f7c5565613a0d6"
+    },
+    {
+      "sha": "b8b16e37e6dca6a40fd4c07b9ba0d40e0c2ba47e",
+      "date": "2026-01-25T19:44:15Z",
+      "author": "DerAndereJohannes",
+      "additions": 0,
+      "deletions": 42,
+      "churn": 42,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/b8b16e37e6dca6a40fd4c07b9ba0d40e0c2ba47e"
+    },
+    {
+      "sha": "01741412db4de052d901de31e771d60eba67bb1c",
+      "date": "2026-01-25T19:43:22Z",
+      "author": "DerAndereJohannes",
+      "additions": 122,
+      "deletions": 22,
+      "churn": 144,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/01741412db4de052d901de31e771d60eba67bb1c"
+    },
+    {
+      "sha": "877002b8fc7778681b34fb789ef2459dba9c6123",
+      "date": "2026-01-09T00:49:57Z",
+      "author": "DerAndereJohannes",
+      "additions": 87,
+      "deletions": 57,
+      "churn": 144,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/877002b8fc7778681b34fb789ef2459dba9c6123"
+    },
+    {
+      "sha": "c9ff88c3903792393673f89b0647c0e349d15c33",
+      "date": "2026-01-08T23:49:12Z",
+      "author": "DerAndereJohannes",
+      "additions": 2,
+      "deletions": 47,
+      "churn": 49,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/c9ff88c3903792393673f89b0647c0e349d15c33"
+    },
+    {
+      "sha": "8442d10360b03658c621966a056f086f1242a343",
+      "date": "2026-01-08T20:04:31Z",
+      "author": "DerAndereJohannes",
+      "additions": 105,
+      "deletions": 0,
+      "churn": 105,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/8442d10360b03658c621966a056f086f1242a343"
+    },
+    {
+      "sha": "779b1c7283424bd518ee579202df74be729b6576",
+      "date": "2026-01-08T20:02:18Z",
+      "author": "DerAndereJohannes",
+      "additions": 118,
+      "deletions": 76,
+      "churn": 194,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/779b1c7283424bd518ee579202df74be729b6576"
+    },
+    {
+      "sha": "ef8f1a973e6a56e5be41d619ea6e9cc1fb5295f3",
+      "date": "2026-01-08T18:14:34Z",
+      "author": "DerAndereJohannes",
+      "additions": 103,
+      "deletions": 1,
+      "churn": 104,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ef8f1a973e6a56e5be41d619ea6e9cc1fb5295f3"
+    },
+    {
+      "sha": "ab943135227066190e5f05243dfaa6e79af4452e",
+      "date": "2026-01-08T17:49:13Z",
+      "author": "DerAndereJohannes",
+      "additions": 11,
+      "deletions": 3,
+      "churn": 14,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/ab943135227066190e5f05243dfaa6e79af4452e"
+    },
+    {
+      "sha": "4cbb43845f025bd12f5556781ba83a6d07c74529",
+      "date": "2026-01-08T17:22:05Z",
+      "author": "DerAndereJohannes",
+      "additions": 5952,
+      "deletions": 591,
+      "churn": 6543,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/4cbb43845f025bd12f5556781ba83a6d07c74529"
+    },
+    {
+      "sha": "b434f3bc97a81969e09e8660dc413b641234a096",
+      "date": "2026-01-23T21:14:43Z",
+      "author": "DerAndereJohannes",
+      "additions": 6,
+      "deletions": 6,
+      "churn": 12,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/b434f3bc97a81969e09e8660dc413b641234a096"
+    },
+    {
+      "sha": "93cde83b209548a0d5001f566152102572e2e422",
+      "date": "2026-01-23T21:07:34Z",
+      "author": "DerAndereJohannes",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/93cde83b209548a0d5001f566152102572e2e422"
+    },
+    {
+      "sha": "37d4ef40bdc157791a15d79d1bb1900869f96b58",
+      "date": "2026-01-23T03:57:22Z",
+      "author": "akshayeshenoi",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/37d4ef40bdc157791a15d79d1bb1900869f96b58"
+    },
+    {
+      "sha": "5ac613175fe1ad5b4e59e16016011b2d34564428",
+      "date": "2026-01-23T03:52:52Z",
+      "author": "akshayeshenoi",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/5ac613175fe1ad5b4e59e16016011b2d34564428"
+    },
+    {
+      "sha": "55a5bd8f15e5d14b7da35c51734cb63a560ec549",
+      "date": "2026-01-20T19:27:58Z",
+      "author": "DerAndereJohannes",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/55a5bd8f15e5d14b7da35c51734cb63a560ec549"
+    },
+    {
+      "sha": "42e39fcbc308f7fb9886391086a8791cb1266590",
+      "date": "2026-01-11T23:52:26Z",
+      "author": "DerAndereJohannes",
+      "additions": 972,
+      "deletions": 159,
+      "churn": 1131,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/42e39fcbc308f7fb9886391086a8791cb1266590"
+    },
+    {
+      "sha": "435bf25a2bb0362f642bbe52b9d518ff0d80d7eb",
+      "date": "2026-01-11T23:13:22Z",
+      "author": "DerAndereJohannes",
+      "additions": 68,
+      "deletions": 32,
+      "churn": 100,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/435bf25a2bb0362f642bbe52b9d518ff0d80d7eb"
+    },
+    {
+      "sha": "0d4ebe75b2eec67008798d0ad5c960856a3077b8",
+      "date": "2026-01-11T20:08:01Z",
+      "author": "DerAndereJohannes",
+      "additions": 1041,
+      "deletions": 154,
+      "churn": 1195,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/0d4ebe75b2eec67008798d0ad5c960856a3077b8"
+    },
+    {
+      "sha": "d7b2a8287cc5abb15681ef59f488218c0161cf6e",
+      "date": "2026-01-11T17:28:59Z",
+      "author": "DerAndereJohannes",
+      "additions": 18,
+      "deletions": 5,
+      "churn": 23,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/d7b2a8287cc5abb15681ef59f488218c0161cf6e"
+    },
+    {
+      "sha": "e6c9a4c66ec30914e486c105ecdf60700cd11f0a",
+      "date": "2026-01-11T17:26:38Z",
+      "author": "DerAndereJohannes",
+      "additions": 2153,
+      "deletions": 858,
+      "churn": 3011,
+      "html_url": "https://github.com/neuropsychology/NeuroKit/commit/e6c9a4c66ec30914e486c105ecdf60700cd11f0a"
+    }
+  ]
+}

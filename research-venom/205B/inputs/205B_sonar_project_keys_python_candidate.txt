@@ -1,0 +1,15 @@
+# 205B - wytypowane project keys (kryteria: LOC >= 50k, pełne 5 metryk)
+# źródło: SonarCloud Explore/API, sortowanie po analysisDate desc
+# znalezione: 9 / cel: 10
+org.opengrok:opengrok-top
+indigo-iam_iam
+Maps-Messaging_mapsmessaging_server
+googleapis_gapic-generator-java
+aws_aws-sdk-java-v2
+geoserver_geoserver-cloud
+element-web
+mediawiki-core
+bcgov-sonarcloud_mds_core-web
+# 205_B_lista.md - dodatkowe projekty wskazane ręcznie
+apache_kvrocks
+mpieniak01_Venom

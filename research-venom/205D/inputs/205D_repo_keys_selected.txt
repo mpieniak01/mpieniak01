@@ -1,0 +1,11 @@
+neuropsychology/NeuroKit
+allenai/olmocr
+virt-manager/virt-manager
+hiddify/Hiddify-Manager
+JefferyHcool/BiliNote
+originalankur/maptoposter
+FreedomIntelligence/OpenClaw-Medical-Skills
+xlenore/ps2-covers
+omkarcloud/botasaurus
+khoj-ai/khoj
+mpieniak01/Venom

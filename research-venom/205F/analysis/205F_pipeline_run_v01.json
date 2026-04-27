@@ -1,0 +1,132 @@
+﻿{
+    "generated_at":  "2026-04-27T15:26:56Z",
+    "repo_root":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..",
+    "config_path":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\config\\205f_pipeline_config_v01.json",
+    "skip_word":  false,
+    "skip_bookmark_insert":  true,
+    "step_timeout_sec":  600,
+    "cleanup_office_orphans":  true,
+    "continue_on_error":  false,
+    "started_at":  "2026-04-27T15:25:37Z",
+    "finished_at":  "2026-04-27T15:26:56Z",
+    "duration_s":  78.297,
+    "totals":  {
+                   "ok":  8,
+                   "failed":  0,
+                   "steps":  8
+               },
+    "steps":  [
+                  {
+                      "step_id":  "S01",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_prepare_sources.py",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:25:37Z",
+                      "finished_at":  "2026-04-27T15:25:38Z",
+                      "duration_s":  0.351,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+
+                                               ]
+                  },
+                  {
+                      "step_id":  "S02",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_build_summary_tables.py",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:25:38Z",
+                      "finished_at":  "2026-04-27T15:25:38Z",
+                      "duration_s":  0.235,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+
+                                               ]
+                  },
+                  {
+                      "step_id":  "S03",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_excel_build_workbook.ps1",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:25:38Z",
+                      "finished_at":  "2026-04-27T15:26:38Z",
+                      "duration_s":  59.503,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+                                                   "EXCEL:27640"
+                                               ]
+                  },
+                  {
+                      "step_id":  "S04",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_excel_add_charts.ps1",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:26:38Z",
+                      "finished_at":  "2026-04-27T15:26:40Z",
+                      "duration_s":  2.15,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+                                                   "EXCEL:2424"
+                                               ]
+                  },
+                  {
+                      "step_id":  "S05",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_excel_apply_advanced_patterns.ps1",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:26:40Z",
+                      "finished_at":  "2026-04-27T15:26:42Z",
+                      "duration_s":  1.841,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+                                                   "EXCEL:24452"
+                                               ]
+                  },
+                  {
+                      "step_id":  "S07",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_word_embed_charts.ps1",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:26:42Z",
+                      "finished_at":  "2026-04-27T15:26:50Z",
+                      "duration_s":  8.108,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+                                                   "EXCEL:9384"
+                                               ]
+                  },
+                  {
+                      "step_id":  "S09",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_verify_word_embeddings.ps1",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:26:50Z",
+                      "finished_at":  "2026-04-27T15:26:54Z",
+                      "duration_s":  4.472,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+
+                                               ]
+                  },
+                  {
+                      "step_id":  "S08",
+                      "script":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\tools\\205f_verify_excel_product.ps1",
+                      "status":  "ok",
+                      "started_at":  "2026-04-27T15:26:54Z",
+                      "finished_at":  "2026-04-27T15:26:56Z",
+                      "duration_s":  1.597,
+                      "exit_code":  0,
+                      "error":  "",
+                      "timeout_s":  600,
+                      "orphan_office_killed":  [
+                                                   "EXCEL:25920"
+                                               ]
+                  }
+              ]
+}

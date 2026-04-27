@@ -1,0 +1,1337 @@
+{
+  "generated_at": "2026-04-22T19:45:01Z",
+  "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 46,
+    "active_days_q1": 11,
+    "authors_q1": 7,
+    "additions_q1": 2132062,
+    "deletions_q1": 36870,
+    "churn_q1": 2168932,
+    "truncated": false,
+    "fetched_commits": 46
+  },
+  "daily_rows": [
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-02-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-08",
+      "commits": 10,
+      "authors": 1,
+      "additions": 2115525,
+      "deletions": 1961,
+      "churn": 2117486,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-09",
+      "commits": 3,
+      "authors": 2,
+      "additions": 42,
+      "deletions": 0,
+      "churn": 42,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-10",
+      "commits": 18,
+      "authors": 2,
+      "additions": 14438,
+      "deletions": 31932,
+      "churn": 46370,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-11",
+      "commits": 5,
+      "authors": 4,
+      "additions": 119,
+      "deletions": 37,
+      "churn": 156,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-14",
+      "commits": 2,
+      "authors": 1,
+      "additions": 51,
+      "deletions": 27,
+      "churn": 78,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-15",
+      "commits": 1,
+      "authors": 1,
+      "additions": 45,
+      "deletions": 21,
+      "churn": 66,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-20",
+      "commits": 1,
+      "authors": 1,
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-21",
+      "commits": 1,
+      "authors": 1,
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-25",
+      "commits": 2,
+      "authors": 1,
+      "additions": 919,
+      "deletions": 1437,
+      "churn": 2356,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-26",
+      "commits": 2,
+      "authors": 2,
+      "additions": 917,
+      "deletions": 1442,
+      "churn": 2359,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-27",
+      "commits": 1,
+      "authors": 1,
+      "additions": 0,
+      "deletions": 7,
+      "churn": 7,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "2aa60d4d86d3a028358f4505684a24efe745a8ea",
+      "date": "2026-03-27T02:21:01Z",
+      "author": "WangRongsheng",
+      "additions": 0,
+      "deletions": 7,
+      "churn": 7,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/2aa60d4d86d3a028358f4505684a24efe745a8ea"
+    },
+    {
+      "sha": "95540ff6dd41855b4bab3fdf5282ed8508c5c078",
+      "date": "2026-03-26T10:41:11Z",
+      "author": "dzx-cc",
+      "additions": 0,
+      "deletions": 7,
+      "churn": 7,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/95540ff6dd41855b4bab3fdf5282ed8508c5c078"
+    },
+    {
+      "sha": "9b5398e2f7e07980eeb3fd8b6705a413d3c780f1",
+      "date": "2026-03-26T05:59:47Z",
+      "author": "WangRongsheng",
+      "additions": 917,
+      "deletions": 1435,
+      "churn": 2352,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/9b5398e2f7e07980eeb3fd8b6705a413d3c780f1"
+    },
+    {
+      "sha": "e2e509055af4838a8098a7acacb5a5457d039e19",
+      "date": "2026-03-25T17:18:59Z",
+      "author": "dzx-cc",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/e2e509055af4838a8098a7acacb5a5457d039e19"
+    },
+    {
+      "sha": "59ede495275c60e4544a7cd22ac57523514f06ae",
+      "date": "2026-03-25T17:04:05Z",
+      "author": "dzx-cc",
+      "additions": 917,
+      "deletions": 1435,
+      "churn": 2352,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/59ede495275c60e4544a7cd22ac57523514f06ae"
+    },
+    {
+      "sha": "8b0c427f6a53ca80ad292daa82ec29aa6d2cb00c",
+      "date": "2026-03-21T03:12:10Z",
+      "author": "WangRongsheng",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/8b0c427f6a53ca80ad292daa82ec29aa6d2cb00c"
+    },
+    {
+      "sha": "396884c2081e20b88cf03131e3da2b9e263184fc",
+      "date": "2026-03-20T10:04:03Z",
+      "author": "frankchenfu",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/396884c2081e20b88cf03131e3da2b9e263184fc"
+    },
+    {
+      "sha": "bbc8290fe18e2d9a0128fd78de96323533a48191",
+      "date": "2026-03-15T00:07:23Z",
+      "author": "WangRongsheng",
+      "additions": 45,
+      "deletions": 21,
+      "churn": 66,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/bbc8290fe18e2d9a0128fd78de96323533a48191"
+    },
+    {
+      "sha": "355a08eaa0f9092c7fb029697ea31a7ae6e2a05b",
+      "date": "2026-03-14T13:35:13Z",
+      "author": "haoyu-haoyu",
+      "additions": 6,
+      "deletions": 6,
+      "churn": 12,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/355a08eaa0f9092c7fb029697ea31a7ae6e2a05b"
+    },
+    {
+      "sha": "6120c48d8eafb6e5382469ca995fec017cd7ae31",
+      "date": "2026-03-14T10:18:49Z",
+      "author": "haoyu-haoyu",
+      "additions": 45,
+      "deletions": 21,
+      "churn": 66,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/6120c48d8eafb6e5382469ca995fec017cd7ae31"
+    },
+    {
+      "sha": "b188633ae16dd0fc758aae680cf0ff04d6e75d6b",
+      "date": "2026-03-11T13:45:57Z",
+      "author": "WangRongsheng",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/b188633ae16dd0fc758aae680cf0ff04d6e75d6b"
+    },
+    {
+      "sha": "062c798f92bd9c0b87f848cabe391bd093dbf714",
+      "date": "2026-03-11T13:45:06Z",
+      "author": "WangRongsheng",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/062c798f92bd9c0b87f848cabe391bd093dbf714"
+    },
+    {
+      "sha": "b2b6b5b3a9960520acfad4adc2c9f24d1fae4a11",
+      "date": "2026-03-11T10:59:26Z",
+      "author": "wabyking",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/b2b6b5b3a9960520acfad4adc2c9f24d1fae4a11"
+    },
+    {
+      "sha": "a01a1c2bb55f86c4a59152df715d4b98334c397b",
+      "date": "2026-03-11T06:45:18Z",
+      "author": "donglihe-hub",
+      "additions": 57,
+      "deletions": 18,
+      "churn": 75,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/a01a1c2bb55f86c4a59152df715d4b98334c397b"
+    },
+    {
+      "sha": "c28720f190b6ee6d7e94a9fc2de003a28d0e3ea3",
+      "date": "2026-03-11T03:08:53Z",
+      "author": "Dongli He",
+      "additions": 57,
+      "deletions": 18,
+      "churn": 75,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/c28720f190b6ee6d7e94a9fc2de003a28d0e3ea3"
+    },
+    {
+      "sha": "547ad39caa9ced843e99ed5f5af79c1975eb44a3",
+      "date": "2026-03-10T15:48:15Z",
+      "author": "donglihe-hub",
+      "additions": 869,
+      "deletions": 869,
+      "churn": 1738,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/547ad39caa9ced843e99ed5f5af79c1975eb44a3"
+    },
+    {
+      "sha": "8a82aaf4a1245df9eb7d50ac840829a67ac48d82",
+      "date": "2026-03-10T15:47:39Z",
+      "author": "donglihe-hub",
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/8a82aaf4a1245df9eb7d50ac840829a67ac48d82"
+    },
+    {
+      "sha": "6ce3392806d937bc8298d5b3a358500a09db0fdc",
+      "date": "2026-03-10T15:47:21Z",
+      "author": "Dongli He",
+      "additions": 869,
+      "deletions": 869,
+      "churn": 1738,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/6ce3392806d937bc8298d5b3a358500a09db0fdc"
+    },
+    {
+      "sha": "4c12360969fbb8d6bdb2e72bfd0bfe77ef685d03",
+      "date": "2026-03-10T15:34:17Z",
+      "author": "donglihe-hub",
+      "additions": 2643,
+      "deletions": 4139,
+      "churn": 6782,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/4c12360969fbb8d6bdb2e72bfd0bfe77ef685d03"
+    },
+    {
+      "sha": "46ed7c42d4a0dd66f2c6c9e073cf38c5b8ea1de1",
+      "date": "2026-03-10T14:50:29Z",
+      "author": "donglihe-hub",
+      "additions": 68,
+      "deletions": 136,
+      "churn": 204,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/46ed7c42d4a0dd66f2c6c9e073cf38c5b8ea1de1"
+    },
+    {
+      "sha": "e3854e05022772711373a14ea9659323fd348481",
+      "date": "2026-03-10T14:37:27Z",
+      "author": "Dongli He",
+      "additions": 2634,
+      "deletions": 4052,
+      "churn": 6686,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/e3854e05022772711373a14ea9659323fd348481"
+    },
+    {
+      "sha": "32520a25744dadc4f468e48feab40820f799a19b",
+      "date": "2026-03-10T13:45:32Z",
+      "author": "Dongli He",
+      "additions": 1,
+      "deletions": 11,
+      "churn": 12,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/32520a25744dadc4f468e48feab40820f799a19b"
+    },
+    {
+      "sha": "8779c40d2bb850d14db1c7872a77fa13935ea680",
+      "date": "2026-03-10T13:22:28Z",
+      "author": "donglihe-hub",
+      "additions": 3483,
+      "deletions": 0,
+      "churn": 3483,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/8779c40d2bb850d14db1c7872a77fa13935ea680"
+    },
+    {
+      "sha": "3cca49e07a3c5daf9c7e7b3a7e114e67eb3cf1a3",
+      "date": "2026-03-10T13:21:26Z",
+      "author": "Dongli He",
+      "additions": 3483,
+      "deletions": 0,
+      "churn": 3483,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/3cca49e07a3c5daf9c7e7b3a7e114e67eb3cf1a3"
+    },
+    {
+      "sha": "75967f892535dcc209055e5312b7a70fec03f067",
+      "date": "2026-03-10T12:35:44Z",
+      "author": "donglihe-hub",
+      "additions": 185,
+      "deletions": 29,
+      "churn": 214,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/75967f892535dcc209055e5312b7a70fec03f067"
+    },
+    {
+      "sha": "2d60c2f020758b6224f300d0a0a4d3ef12ec30fb",
+      "date": "2026-03-10T12:21:13Z",
+      "author": "donglihe-hub",
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/2d60c2f020758b6224f300d0a0a4d3ef12ec30fb"
+    },
+    {
+      "sha": "ef6551c0b77fed8436a219876d7fcbac63884b2c",
+      "date": "2026-03-10T11:26:01Z",
+      "author": "Dongli He",
+      "additions": 2,
+      "deletions": 29,
+      "churn": 31,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/ef6551c0b77fed8436a219876d7fcbac63884b2c"
+    },
+    {
+      "sha": "20e8e85424d1e7aa4b5024e4010870512ad7ad9f",
+      "date": "2026-03-10T08:39:16Z",
+      "author": "Dongli He",
+      "additions": 183,
+      "deletions": 0,
+      "churn": 183,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/20e8e85424d1e7aa4b5024e4010870512ad7ad9f"
+    },
+    {
+      "sha": "d137f53603f870e5c92c4d18e8fd5adee4effb80",
+      "date": "2026-03-10T04:36:48Z",
+      "author": "donglihe-hub",
+      "additions": 9,
+      "deletions": 10899,
+      "churn": 10908,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/d137f53603f870e5c92c4d18e8fd5adee4effb80"
+    },
+    {
+      "sha": "d156cd4038bb1c1945adc4bf29444286189f2ef9",
+      "date": "2026-03-10T03:44:09Z",
+      "author": "Dongli He",
+      "additions": 4,
+      "deletions": 9,
+      "churn": 13,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/d156cd4038bb1c1945adc4bf29444286189f2ef9"
+    },
+    {
+      "sha": "23e5f8c95f59885b7ee2b68210636e429b788bcf",
+      "date": "2026-03-10T03:29:09Z",
+      "author": "Dongli He",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/23e5f8c95f59885b7ee2b68210636e429b788bcf"
+    },
+    {
+      "sha": "2e10a8d7fc7f9a351ab1fe061b2877db306d1fc8",
+      "date": "2026-03-10T03:13:31Z",
+      "author": "Dongli He",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/2e10a8d7fc7f9a351ab1fe061b2877db306d1fc8"
+    },
+    {
+      "sha": "431f69698c21c97cf36f2c067d254067446d77ff",
+      "date": "2026-03-10T02:36:29Z",
+      "author": "Dongli He",
+      "additions": 0,
+      "deletions": 10885,
+      "churn": 10885,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/431f69698c21c97cf36f2c067d254067446d77ff"
+    },
+    {
+      "sha": "82f650910da1067f82606e9168960cd90c9f581d",
+      "date": "2026-03-09T10:24:59Z",
+      "author": "WangRongsheng",
+      "additions": 18,
+      "deletions": 0,
+      "churn": 18,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/82f650910da1067f82606e9168960cd90c9f581d"
+    },
+    {
+      "sha": "ca49237ad5941106b6743ca4c9e4af47dee88ffa",
+      "date": "2026-03-09T10:24:06Z",
+      "author": "WangRongsheng",
+      "additions": 18,
+      "deletions": 0,
+      "churn": 18,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/ca49237ad5941106b6743ca4c9e4af47dee88ffa"
+    },
+    {
+      "sha": "869d6aab276c33e13b17fa256091236ebf86cfa4",
+      "date": "2026-03-09T06:03:16Z",
+      "author": "wabyking",
+      "additions": 6,
+      "deletions": 0,
+      "churn": 6,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/869d6aab276c33e13b17fa256091236ebf86cfa4"
+    },
+    {
+      "sha": "69b44231e548f0b04d4a503cc12e9d0ad76dbe59",
+      "date": "2026-03-08T16:18:50Z",
+      "author": "WangRongsheng",
+      "additions": 2,
+      "deletions": 0,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/69b44231e548f0b04d4a503cc12e9d0ad76dbe59"
+    },
+    {
+      "sha": "62cbe61246af0ab2e770ec0ee9b4befca4eb6e7e",
+      "date": "2026-03-08T12:34:54Z",
+      "author": "WangRongsheng",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/62cbe61246af0ab2e770ec0ee9b4befca4eb6e7e"
+    },
+    {
+      "sha": "e5ccc40ef7917a44a45b3486edeeca7945418dc4",
+      "date": "2026-03-08T12:34:28Z",
+      "author": "WangRongsheng",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/e5ccc40ef7917a44a45b3486edeeca7945418dc4"
+    },
+    {
+      "sha": "edb3efe7f170aaf08de05cc6ba19045fb0d2c7fd",
+      "date": "2026-03-08T11:12:12Z",
+      "author": "WangRongsheng",
+      "additions": 1743,
+      "deletions": 1743,
+      "churn": 3486,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/edb3efe7f170aaf08de05cc6ba19045fb0d2c7fd"
+    },
+    {
+      "sha": "a772b10df3cefcc442ddc68ccea1efb3b744f5a5",
+      "date": "2026-03-08T11:04:10Z",
+      "author": "WangRongsheng",
+      "additions": 2110457,
+      "deletions": 0,
+      "churn": 2110457,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/a772b10df3cefcc442ddc68ccea1efb3b744f5a5"
+    },
+    {
+      "sha": "bb4503efa4d1eb0a7573bdde40d3e7e15e4b683b",
+      "date": "2026-03-08T10:57:15Z",
+      "author": "WangRongsheng",
+      "additions": 8,
+      "deletions": 125,
+      "churn": 133,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/bb4503efa4d1eb0a7573bdde40d3e7e15e4b683b"
+    },
+    {
+      "sha": "65ad74352180b24ba6b96745aae0a0ca990a8c5d",
+      "date": "2026-03-08T10:38:27Z",
+      "author": "WangRongsheng",
+      "additions": 372,
+      "deletions": 45,
+      "churn": 417,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/65ad74352180b24ba6b96745aae0a0ca990a8c5d"
+    },
+    {
+      "sha": "f1122edb3279d7d953288ff2e71ee6be97bdad98",
+      "date": "2026-03-08T10:18:48Z",
+      "author": "WangRongsheng",
+      "additions": 119,
+      "deletions": 45,
+      "churn": 164,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/f1122edb3279d7d953288ff2e71ee6be97bdad98"
+    },
+    {
+      "sha": "48e2e8699a51078942fe98e4cb1d2bd36453c1a6",
+      "date": "2026-03-08T10:02:45Z",
+      "author": "WangRongsheng",
+      "additions": 2821,
+      "deletions": 1,
+      "churn": 2822,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/48e2e8699a51078942fe98e4cb1d2bd36453c1a6"
+    },
+    {
+      "sha": "e90262737ef564f312cec6a2d1ef72a98d7c75d9",
+      "date": "2026-03-08T09:43:53Z",
+      "author": "WangRongsheng",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/commit/e90262737ef564f312cec6a2d1ef72a98d7c75d9"
+    }
+  ]
+}

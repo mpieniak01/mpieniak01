@@ -1,0 +1,14 @@
+script_id,script_name,origin_stage,phase,runtime,input_artifacts,output_artifacts,success_control,priority,status,execution_status,output_status,result_validation
+D01,205C_github_market_benchmark_q1.py,205C,collect,python,"GitHub Search/Repo/Commits API (+ token)","205C: selection + per_repo raw/csv + aggregate csv","zbiory 205C wygenerowane",high,done,executed,non_empty,not_tested
+D02,205D_github_pr_flow_q1.py,205D,collect,python,"GitHub Pull Requests API (+ token)","205D: per_repo raw/csv + aggregate csv","zbiory 205D wygenerowane",high,done,executed,non_empty,not_tested
+D03,205E_github_closed_pr_analysis.py,205E,collect,python,"GitHub Pull Requests API (+ token)","205/205E: json + markdown (closed PR analysis)","raport PR zamknietych wygenerowany",high,done,executed,non_empty,not_tested
+S01,205f_prepare_sources.py,205F,prepare,python,"205B/205C/205D/205E timeseries + layout csv","205F_sources_pack_vNN.json/csv","kolumny+daty+duplikaty",medium,done,executed,non_empty,smoke_tested
+S02,205f_build_summary_tables.py,205F,prepare,python,"205F_sources_pack_vNN","205F_summary_tables_vNN.csv","agregaty kompletne",medium,done,executed,non_empty,smoke_tested
+S03,205f_excel_build_workbook.ps1,205F,excel-build,powershell-com,"layout+sources+summary","205F_visualization_workspace_vNN.xlsx","zakladki+tabele poprawne",high,done,executed,non_empty,smoke_tested
+S04,205f_excel_add_charts.ps1,205F,excel-build,powershell-com,"workspace xlsx + chart_spec_v01","workspace xlsx (z wykresami)","chart_id zgodne i serie niepuste",high,done,executed,non_empty,smoke_tested
+S05,205f_excel_apply_advanced_patterns.ps1,205F,excel-build,powershell-com,"workspace xlsx + advanced_patterns+chart_spec","workspace xlsx (Typ B)","elementy narracyjne obecne",medium,done,executed,non_empty,smoke_tested
+S06,205f_word_insert_bookmarks.ps1,205F,word-embed,powershell-com,"word docx + word_embed_map_v01","word docx_vNN","wszystkie bookmarki istnieja",low,done,executed,non_empty,not_tested
+S07,205f_word_embed_charts.ps1,205F,word-embed,powershell-com,"workspace xlsx + word map + word docx","word docx_vNN","liczba embedow = mapa",high,done,executed,non_empty,smoke_tested
+S08,205f_verify_excel_product.ps1,205F,verify,powershell-com,"workspace xlsx + chart_spec_v01","205F_excel_verify_vNN.json/md","sheet/chart/series check",high,done,executed,non_empty,smoke_tested
+S09,205f_verify_word_embeddings.ps1,205F,verify,powershell-com,"word docx_vNN + word map","205F_word_embed_verify_vNN.json/md","bookmark+obiekty+mapowanie",high,done,executed,non_empty,smoke_tested
+S10,205f_run_pipeline.ps1,205F,orchestrate,powershell,"wszystkie artefakty vNN","raport pipeline + produkty","status per krok",medium,done,executed,non_empty,smoke_tested

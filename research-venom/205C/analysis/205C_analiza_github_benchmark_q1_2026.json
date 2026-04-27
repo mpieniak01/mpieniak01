@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-04-22T20:56:23Z",
+  "mode": "analyze",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "repo_count": 11,
+    "repo_keys": [
+      "neuropsychology/NeuroKit",
+      "allenai/olmocr",
+      "virt-manager/virt-manager",
+      "hiddify/Hiddify-Manager",
+      "JefferyHcool/BiliNote",
+      "originalankur/maptoposter",
+      "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "xlenore/ps2-covers",
+      "omkarcloud/botasaurus",
+      "khoj-ai/khoj",
+      "mpieniak01/Venom"
+    ],
+    "aggregate_csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/205C_github_benchmark_q1_2026.csv",
+    "per_repo_dir": "docs_dev/_to_do/205_artifacts/205C/timeseries"
+  },
+  "projects": [
+    {
+      "project_key": "neuropsychology/NeuroKit",
+      "commits_q1": 105,
+      "active_days_q1": 15,
+      "authors_q1": 4,
+      "additions_q1": 83020,
+      "deletions_q1": 40627,
+      "churn_q1": 123647,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/neuropsychology__NeuroKit.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/neuropsychology__NeuroKit.csv"
+    },
+    {
+      "project_key": "allenai/olmocr",
+      "commits_q1": 94,
+      "active_days_q1": 21,
+      "authors_q1": 2,
+      "additions_q1": 23589,
+      "deletions_q1": 8145,
+      "churn_q1": 31734,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/allenai__olmocr.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/allenai__olmocr.csv"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "commits_q1": 57,
+      "active_days_q1": 13,
+      "authors_q1": 36,
+      "additions_q1": 17235,
+      "deletions_q1": 3597,
+      "churn_q1": 20832,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/virt-manager__virt-manager.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/virt-manager__virt-manager.csv"
+    },
+    {
+      "project_key": "hiddify/Hiddify-Manager",
+      "commits_q1": 65,
+      "active_days_q1": 23,
+      "authors_q1": 3,
+      "additions_q1": 1043,
+      "deletions_q1": 299,
+      "churn_q1": 1342,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/hiddify__Hiddify-Manager.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/hiddify__Hiddify-Manager.csv"
+    },
+    {
+      "project_key": "JefferyHcool/BiliNote",
+      "commits_q1": 62,
+      "active_days_q1": 8,
+      "authors_q1": 8,
+      "additions_q1": 567908,
+      "deletions_q1": 522218,
+      "churn_q1": 1090126,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/JefferyHcool__BiliNote.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/JefferyHcool__BiliNote.csv"
+    },
+    {
+      "project_key": "originalankur/maptoposter",
+      "commits_q1": 51,
+      "active_days_q1": 12,
+      "authors_q1": 16,
+      "additions_q1": 5182,
+      "deletions_q1": 1049,
+      "churn_q1": 6231,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/originalankur__maptoposter.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/originalankur__maptoposter.csv"
+    },
+    {
+      "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "commits_q1": 46,
+      "active_days_q1": 11,
+      "authors_q1": 7,
+      "additions_q1": 2132062,
+      "deletions_q1": 36870,
+      "churn_q1": 2168932,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/FreedomIntelligence__OpenClaw-Medical-Skills.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/FreedomIntelligence__OpenClaw-Medical-Skills.csv"
+    },
+    {
+      "project_key": "xlenore/ps2-covers",
+      "commits_q1": 45,
+      "active_days_q1": 9,
+      "authors_q1": 7,
+      "additions_q1": 83847,
+      "deletions_q1": 670,
+      "churn_q1": 84517,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/xlenore__ps2-covers.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/xlenore__ps2-covers.csv"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "commits_q1": 43,
+      "active_days_q1": 7,
+      "authors_q1": 2,
+      "additions_q1": 1723,
+      "deletions_q1": 576,
+      "churn_q1": 2299,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/omkarcloud__botasaurus.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/omkarcloud__botasaurus.csv"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "commits_q1": 39,
+      "active_days_q1": 11,
+      "authors_q1": 12,
+      "additions_q1": 5031,
+      "deletions_q1": 2550,
+      "churn_q1": 7581,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/khoj-ai__khoj.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/khoj-ai__khoj.csv"
+    },
+    {
+      "project_key": "mpieniak01/Venom",
+      "commits_q1": 1587,
+      "active_days_q1": 64,
+      "authors_q1": 5,
+      "additions_q1": 487909,
+      "deletions_q1": 230682,
+      "churn_q1": 718591,
+      "truncated": false,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/mpieniak01__Venom.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/mpieniak01__Venom.csv"
+    }
+  ]
+}

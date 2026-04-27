@@ -1,0 +1,1436 @@
+{
+  "generated_at": "2026-04-22T19:42:51Z",
+  "project_key": "virt-manager/virt-manager",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 57,
+    "active_days_q1": 13,
+    "authors_q1": 36,
+    "additions_q1": 17235,
+    "deletions_q1": 3597,
+    "churn_q1": 20832,
+    "truncated": false,
+    "fetched_commits": 66
+  },
+  "daily_rows": [
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-08",
+      "commits": 1,
+      "authors": 1,
+      "additions": 6,
+      "deletions": 0,
+      "churn": 6,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-09",
+      "commits": 27,
+      "authors": 26,
+      "additions": 8828,
+      "deletions": 2312,
+      "churn": 11140,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-11",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-06",
+      "commits": 1,
+      "authors": 1,
+      "additions": 142,
+      "deletions": 0,
+      "churn": 142,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-07",
+      "commits": 3,
+      "authors": 1,
+      "additions": 27,
+      "deletions": 9,
+      "churn": 36,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-09",
+      "commits": 5,
+      "authors": 3,
+      "additions": 39,
+      "deletions": 16,
+      "churn": 55,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-19",
+      "commits": 1,
+      "authors": 1,
+      "additions": 8,
+      "deletions": 1,
+      "churn": 9,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-24",
+      "commits": 5,
+      "authors": 1,
+      "additions": 22,
+      "deletions": 4,
+      "churn": 26,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-25",
+      "commits": 4,
+      "authors": 1,
+      "additions": 54,
+      "deletions": 35,
+      "churn": 89,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-02-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-15",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-24",
+      "commits": 6,
+      "authors": 6,
+      "additions": 8104,
+      "deletions": 1216,
+      "churn": 9320,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-27",
+      "commits": 1,
+      "authors": 1,
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-30",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "truncated": "false"
+    },
+    {
+      "project_key": "virt-manager/virt-manager",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "e17091b6da790152cb89d4dad3693eed9c064750",
+      "date": "2026-03-30T15:49:40Z",
+      "author": "dependabot[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/e17091b6da790152cb89d4dad3693eed9c064750"
+    },
+    {
+      "sha": "2450354f39f79af97a7c63f74c22eafdff94942a",
+      "date": "2026-03-27T14:49:48Z",
+      "author": "janotomko",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/2450354f39f79af97a7c63f74c22eafdff94942a"
+    },
+    {
+      "sha": "3fc7a2fa8ae06326b6b08e86d786b87ee316f58f",
+      "date": "2026-03-24T02:58:46Z",
+      "author": "zerng07",
+      "additions": 20,
+      "deletions": 26,
+      "churn": 46,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/3fc7a2fa8ae06326b6b08e86d786b87ee316f58f"
+    },
+    {
+      "sha": "c9f9f165d723fa19e05b0fa088113f9462b24f78",
+      "date": "2026-03-24T02:58:45Z",
+      "author": "panda-lsy",
+      "additions": 5,
+      "deletions": 5,
+      "churn": 10,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/c9f9f165d723fa19e05b0fa088113f9462b24f78"
+    },
+    {
+      "sha": "947a5a2aadf41674570834043a6358bdc1627463",
+      "date": "2026-03-24T02:58:45Z",
+      "author": "woprandi",
+      "additions": 88,
+      "deletions": 104,
+      "churn": 192,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/947a5a2aadf41674570834043a6358bdc1627463"
+    },
+    {
+      "sha": "b4e57abb5e529e66d2a25c2f4c77ed8bff5d7625",
+      "date": "2026-03-24T02:58:45Z",
+      "author": "weblate",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/b4e57abb5e529e66d2a25c2f4c77ed8bff5d7625"
+    },
+    {
+      "sha": "a2052e9596525afd320ecc47ba9c4a15e3d8bd5a",
+      "date": "2026-03-24T02:58:45Z",
+      "author": "Languages add-on",
+      "additions": 6677,
+      "deletions": 0,
+      "churn": 6677,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/a2052e9596525afd320ecc47ba9c4a15e3d8bd5a"
+    },
+    {
+      "sha": "ef9f5cc90f61ccd2b2821133eb3c0014b520a9cd",
+      "date": "2026-03-24T02:58:45Z",
+      "author": "Priit Jõerüüt",
+      "additions": 1313,
+      "deletions": 1081,
+      "churn": 2394,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/ef9f5cc90f61ccd2b2821133eb3c0014b520a9cd"
+    },
+    {
+      "sha": "fad29e937aef1bbb1e257381071733cda2e870c3",
+      "date": "2026-03-15T05:41:56Z",
+      "author": "novel",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/fad29e937aef1bbb1e257381071733cda2e870c3"
+    },
+    {
+      "sha": "b2b32ccc7913bd21530b03dfa6b65e863b6896ed",
+      "date": "2026-02-24T15:40:29Z",
+      "author": "crobinso",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/b2b32ccc7913bd21530b03dfa6b65e863b6896ed"
+    },
+    {
+      "sha": "19f18e9f559496433b25448cb17164e2c378d635",
+      "date": "2026-02-25T10:35:43Z",
+      "author": "crobinso",
+      "additions": 27,
+      "deletions": 9,
+      "churn": 36,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/19f18e9f559496433b25448cb17164e2c378d635"
+    },
+    {
+      "sha": "e5c7317874cf3ffade8839d9995b1bc36d94100d",
+      "date": "2026-02-25T10:35:22Z",
+      "author": "crobinso",
+      "additions": 20,
+      "deletions": 3,
+      "churn": 23,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/e5c7317874cf3ffade8839d9995b1bc36d94100d"
+    },
+    {
+      "sha": "08ec1920422a2525601e591215293ebd996ae224",
+      "date": "2026-02-25T10:39:32Z",
+      "author": "crobinso",
+      "additions": 0,
+      "deletions": 19,
+      "churn": 19,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/08ec1920422a2525601e591215293ebd996ae224"
+    },
+    {
+      "sha": "3eebb61b7b39fc7098987cafd1d7999299cb63b8",
+      "date": "2026-02-25T12:14:43Z",
+      "author": "crobinso",
+      "additions": 7,
+      "deletions": 4,
+      "churn": 11,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/3eebb61b7b39fc7098987cafd1d7999299cb63b8"
+    },
+    {
+      "sha": "09ecf1cfd2d73980db6b133e8f86ba432eab60e1",
+      "date": "2026-02-24T16:56:14Z",
+      "author": "crobinso",
+      "additions": 3,
+      "deletions": 1,
+      "churn": 4,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/09ecf1cfd2d73980db6b133e8f86ba432eab60e1"
+    },
+    {
+      "sha": "48c9076d58f30c43870065ca060b45ae28b0b1e6",
+      "date": "2026-02-24T16:52:16Z",
+      "author": "crobinso",
+      "additions": 5,
+      "deletions": 1,
+      "churn": 6,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/48c9076d58f30c43870065ca060b45ae28b0b1e6"
+    },
+    {
+      "sha": "2c87e485eacad7b25a3b9881ac1f9ea4e7f72be1",
+      "date": "2026-02-24T15:46:01Z",
+      "author": "crobinso",
+      "additions": 10,
+      "deletions": 0,
+      "churn": 10,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/2c87e485eacad7b25a3b9881ac1f9ea4e7f72be1"
+    },
+    {
+      "sha": "20d375a043aacdd83735a2e80034e853da279364",
+      "date": "2026-02-24T15:18:32Z",
+      "author": "crobinso",
+      "additions": 3,
+      "deletions": 1,
+      "churn": 4,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/20d375a043aacdd83735a2e80034e853da279364"
+    },
+    {
+      "sha": "23d6f9088f1007f2468d38d3a1e80d1e8cf9bcde",
+      "date": "2026-02-19T15:40:10Z",
+      "author": "crobinso",
+      "additions": 8,
+      "deletions": 1,
+      "churn": 9,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/23d6f9088f1007f2468d38d3a1e80d1e8cf9bcde"
+    },
+    {
+      "sha": "d306fb6b21e179a3628494810e6947891ffb8498",
+      "date": "2026-02-09T17:22:24Z",
+      "author": "crobinso",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/d306fb6b21e179a3628494810e6947891ffb8498"
+    },
+    {
+      "sha": "198778dfb88ff2d6e4b8cb5fe4b2dfec1a8b6839",
+      "date": "2026-02-09T15:27:32Z",
+      "author": "crobinso",
+      "additions": 24,
+      "deletions": 8,
+      "churn": 32,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/198778dfb88ff2d6e4b8cb5fe4b2dfec1a8b6839"
+    },
+    {
+      "sha": "98921c4dcf0ba218e0d5acc2e31eb24cb3735d54",
+      "date": "2026-02-09T15:25:08Z",
+      "author": "crobinso",
+      "additions": 8,
+      "deletions": 1,
+      "churn": 9,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/98921c4dcf0ba218e0d5acc2e31eb24cb3735d54"
+    },
+    {
+      "sha": "9681c3d43d37cb1a4ddd3d0be0535354b3913ea3",
+      "date": "2026-02-09T15:22:42Z",
+      "author": "Cole Robinson",
+      "additions": 6,
+      "deletions": 5,
+      "churn": 11,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/9681c3d43d37cb1a4ddd3d0be0535354b3913ea3"
+    },
+    {
+      "sha": "b3daef7efa42e02ebe389fc1573dea236563a62e",
+      "date": "2026-02-07T20:27:52Z",
+      "author": "crobinso",
+      "additions": 18,
+      "deletions": 0,
+      "churn": 18,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/b3daef7efa42e02ebe389fc1573dea236563a62e"
+    },
+    {
+      "sha": "ba532d3edac96c270707ae0716d0287343d25d3f",
+      "date": "2026-02-07T20:05:03Z",
+      "author": "crobinso",
+      "additions": 8,
+      "deletions": 8,
+      "churn": 16,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/ba532d3edac96c270707ae0716d0287343d25d3f"
+    },
+    {
+      "sha": "eba62e983aaf0453b7214b39de939aa2d2429884",
+      "date": "2026-02-07T20:04:39Z",
+      "author": "crobinso",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/eba62e983aaf0453b7214b39de939aa2d2429884"
+    },
+    {
+      "sha": "5d7c66378be3d6a73b01fe9ddf5265f00b4eb767",
+      "date": "2026-02-09T19:38:59Z",
+      "author": "phrdina",
+      "additions": 0,
+      "deletions": 1,
+      "churn": 1,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/5d7c66378be3d6a73b01fe9ddf5265f00b4eb767"
+    },
+    {
+      "sha": "23dd48ae94430cb77dfd6fb718578dc91036fa42",
+      "date": "2026-02-06T10:11:10Z",
+      "author": "phrdina",
+      "additions": 142,
+      "deletions": 0,
+      "churn": 142,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/23dd48ae94430cb77dfd6fb718578dc91036fa42"
+    },
+    {
+      "sha": "d13271422e47d9bc827d6ede3e7d5154568115c7",
+      "date": "2026-01-11T19:48:22Z",
+      "author": "phrdina",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/d13271422e47d9bc827d6ede3e7d5154568115c7"
+    },
+    {
+      "sha": "97505a9feab1ecfd23d88dad0f90444108496f83",
+      "date": "2026-01-09T07:51:29Z",
+      "author": "phrdina",
+      "additions": 49,
+      "deletions": 10,
+      "churn": 59,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/97505a9feab1ecfd23d88dad0f90444108496f83"
+    },
+    {
+      "sha": "6f1adcc9251429e1dc9f15ec68e3b00affdb9638",
+      "date": "2026-01-08T20:43:38Z",
+      "author": "6543",
+      "additions": 6,
+      "deletions": 0,
+      "churn": 6,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/6f1adcc9251429e1dc9f15ec68e3b00affdb9638"
+    },
+    {
+      "sha": "60663324961b97661c623b4907221d8c72aaec60",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "yeager",
+      "additions": 7,
+      "deletions": 6,
+      "churn": 13,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/60663324961b97661c623b4907221d8c72aaec60"
+    },
+    {
+      "sha": "04ab5617a1b6fbc58f8ddc4df88bf8b9fa11d367",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "arifpedia",
+      "additions": 85,
+      "deletions": 134,
+      "churn": 219,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/04ab5617a1b6fbc58f8ddc4df88bf8b9fa11d367"
+    },
+    {
+      "sha": "7fd9587708312a0814ed10a367b347f70db1bc14",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "Priit Jõerüüt",
+      "additions": 6693,
+      "deletions": 0,
+      "churn": 6693,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/7fd9587708312a0814ed10a367b347f70db1bc14"
+    },
+    {
+      "sha": "9a926747080f0a361f2b318902774cc2952ac493",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "emintufan",
+      "additions": 214,
+      "deletions": 222,
+      "churn": 436,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/9a926747080f0a361f2b318902774cc2952ac493"
+    },
+    {
+      "sha": "2af8e00c8a9c8229d4df4cba07f49be5e1ef4c97",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "Steinhagen",
+      "additions": 7,
+      "deletions": 6,
+      "churn": 13,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/2af8e00c8a9c8229d4df4cba07f49be5e1ef4c97"
+    },
+    {
+      "sha": "ff0e401ee12eaa7d94038744dfdc6370c3e19cb0",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "jianqing yan",
+      "additions": 4,
+      "deletions": 8,
+      "churn": 12,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/ff0e401ee12eaa7d94038744dfdc6370c3e19cb0"
+    },
+    {
+      "sha": "fe5e1ea17d1715e1aa8a0ca98be7bf455a599d3b",
+      "date": "2026-01-09T06:38:11Z",
+      "author": "rffontenelle",
+      "additions": 7,
+      "deletions": 11,
+      "churn": 18,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/fe5e1ea17d1715e1aa8a0ca98be7bf455a599d3b"
+    },
+    {
+      "sha": "a91f48faa1a96ac93e6e3a8c42d84b3a32ddaf94",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "rottenpants466",
+      "additions": 1382,
+      "deletions": 1403,
+      "churn": 2785,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/a91f48faa1a96ac93e6e3a8c42d84b3a32ddaf94"
+    },
+    {
+      "sha": "0fbc02c6ebaa62d3745dc04a0bbd0a060916ff4f",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "andibing",
+      "additions": 21,
+      "deletions": 36,
+      "churn": 57,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/0fbc02c6ebaa62d3745dc04a0bbd0a060916ff4f"
+    },
+    {
+      "sha": "0881c9c64de29584c57be8ecda6f089c61257c1a",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "salvatore-cocuzza",
+      "additions": 11,
+      "deletions": 15,
+      "churn": 26,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/0881c9c64de29584c57be8ecda6f089c61257c1a"
+    },
+    {
+      "sha": "4afe2b71e7eec8b0180776d8254d3dcf82c417f4",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "oersen",
+      "additions": 16,
+      "deletions": 20,
+      "churn": 36,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/4afe2b71e7eec8b0180776d8254d3dcf82c417f4"
+    },
+    {
+      "sha": "74d5b0f9e683db5da7a4a5d6efbd2cf8619827cd",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "budory",
+      "additions": 6,
+      "deletions": 12,
+      "churn": 18,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/74d5b0f9e683db5da7a4a5d6efbd2cf8619827cd"
+    },
+    {
+      "sha": "cc2bb397e60a9c791774aad086df18247d72d44a",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "panda-lsy",
+      "additions": 5,
+      "deletions": 5,
+      "churn": 10,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/cc2bb397e60a9c791774aad086df18247d72d44a"
+    },
+    {
+      "sha": "39791b73ce2c1b39ef726b3e1ea106b5d9d022e0",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "ButterflyOfFire",
+      "additions": 10,
+      "deletions": 10,
+      "churn": 20,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/39791b73ce2c1b39ef726b3e1ea106b5d9d022e0"
+    },
+    {
+      "sha": "e9bf0bc1261037ea68de5ce93f810868650c0ea8",
+      "date": "2026-01-09T06:38:10Z",
+      "author": "jianqing yan",
+      "additions": 15,
+      "deletions": 24,
+      "churn": 39,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/e9bf0bc1261037ea68de5ce93f810868650c0ea8"
+    },
+    {
+      "sha": "984d2020381bd5213120127861f655857770ba8f",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "Ricky-Tigg",
+      "additions": 12,
+      "deletions": 16,
+      "churn": 28,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/984d2020381bd5213120127861f655857770ba8f"
+    },
+    {
+      "sha": "d150bab3f0b3b0304b7a3cdfe40c8872368bace6",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "ano n",
+      "additions": 167,
+      "deletions": 222,
+      "churn": 389,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/d150bab3f0b3b0304b7a3cdfe40c8872368bace6"
+    },
+    {
+      "sha": "43f4c7859a268c71ab30b2ae4813fd52bb213bad",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "piotrdrag",
+      "additions": 14,
+      "deletions": 19,
+      "churn": 33,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/43f4c7859a268c71ab30b2ae4813fd52bb213bad"
+    },
+    {
+      "sha": "7c2bebaee0b3dae45dc41b06bc8e6c6d56ab562e",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "Ser82-png",
+      "additions": 11,
+      "deletions": 15,
+      "churn": 26,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/7c2bebaee0b3dae45dc41b06bc8e6c6d56ab562e"
+    },
+    {
+      "sha": "f5b56cdecb6679c6a894d131d53296f9779a772f",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "simmon-nplob",
+      "additions": 9,
+      "deletions": 14,
+      "churn": 23,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/f5b56cdecb6679c6a894d131d53296f9779a772f"
+    },
+    {
+      "sha": "904f95291379f6874a8d3ea1f44de1df6cc86550",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "bittin",
+      "additions": 11,
+      "deletions": 14,
+      "churn": 25,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/904f95291379f6874a8d3ea1f44de1df6cc86550"
+    },
+    {
+      "sha": "bc9e5dc15fc20ff4252a829f969313f7f4a5ba81",
+      "date": "2026-01-09T06:38:09Z",
+      "author": "snowcrash79",
+      "additions": 34,
+      "deletions": 38,
+      "churn": 72,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/bc9e5dc15fc20ff4252a829f969313f7f4a5ba81"
+    },
+    {
+      "sha": "015fb0b7f0743f26c1400d114116aeb579efe1c9",
+      "date": "2026-01-09T06:38:08Z",
+      "author": "NorwayFun",
+      "additions": 9,
+      "deletions": 13,
+      "churn": 22,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/015fb0b7f0743f26c1400d114116aeb579efe1c9"
+    },
+    {
+      "sha": "3a66f48e2dc0cb965dc2ca44c77417e9f7978f07",
+      "date": "2026-01-09T06:38:08Z",
+      "author": "yurchor",
+      "additions": 11,
+      "deletions": 13,
+      "churn": 24,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/3a66f48e2dc0cb965dc2ca44c77417e9f7978f07"
+    },
+    {
+      "sha": "a5553cb9134f458d53a3a0efbbcbf67d7aba1b17",
+      "date": "2026-01-09T06:38:08Z",
+      "author": "ramses-70",
+      "additions": 9,
+      "deletions": 13,
+      "churn": 22,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/a5553cb9134f458d53a3a0efbbcbf67d7aba1b17"
+    },
+    {
+      "sha": "87298b9c954ecd4ec18fa3b9ceeaa9bd57d7228c",
+      "date": "2026-01-09T06:38:08Z",
+      "author": "p-bo",
+      "additions": 9,
+      "deletions": 13,
+      "churn": 22,
+      "html_url": "https://github.com/virt-manager/virt-manager/commit/87298b9c954ecd4ec18fa3b9ceeaa9bd57d7228c"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-04-22T20:32:06Z",
+  "mode": "timeseries",
+  "source": {
+    "base_url": "https://sonarcloud.io",
+    "organization": null,
+    "query": null,
+    "from": "2026-01-01T00:00:00+0000",
+    "to": "2026-03-31T23:59:59+0000",
+    "timeseries_dir": "docs_dev/_to_do/205_artifacts/205B/timeseries",
+    "project_keys_explicit": [
+      "org.opengrok:opengrok-top",
+      "indigo-iam_iam",
+      "Maps-Messaging_mapsmessaging_server",
+      "googleapis_gapic-generator-java",
+      "aws_aws-sdk-java-v2",
+      "geoserver_geoserver-cloud",
+      "element-web",
+      "mediawiki-core",
+      "bcgov-sonarcloud_mds_core-web",
+      "apache_kvrocks",
+      "mpieniak01_Venom"
+    ]
+  },
+  "metrics": {
+    "Issues": "violations (fallback: open_issues)",
+    "Technical Debt (days)": "sqale_index / 480",
+    "Lines of Code": "ncloc",
+    "Line Coverage (%)": "coverage",
+    "Unit Tests": "tests"
+  },
+  "projects": [
+    {
+      "project_key": "org.opengrok:opengrok-top",
+      "daily_rows": 90,
+      "non_empty_days": 86,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/org.opengrok_opengrok-top.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/org.opengrok_opengrok-top.csv"
+    },
+    {
+      "project_key": "indigo-iam_iam",
+      "daily_rows": 90,
+      "non_empty_days": 75,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/indigo-iam_iam.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/indigo-iam_iam.csv"
+    },
+    {
+      "project_key": "Maps-Messaging_mapsmessaging_server",
+      "daily_rows": 90,
+      "non_empty_days": 90,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/Maps-Messaging_mapsmessaging_server.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/Maps-Messaging_mapsmessaging_server.csv"
+    },
+    {
+      "project_key": "googleapis_gapic-generator-java",
+      "daily_rows": 90,
+      "non_empty_days": 86,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/googleapis_gapic-generator-java.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/googleapis_gapic-generator-java.csv"
+    },
+    {
+      "project_key": "aws_aws-sdk-java-v2",
+      "daily_rows": 90,
+      "non_empty_days": 89,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/aws_aws-sdk-java-v2.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/aws_aws-sdk-java-v2.csv"
+    },
+    {
+      "project_key": "geoserver_geoserver-cloud",
+      "daily_rows": 90,
+      "non_empty_days": 63,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/geoserver_geoserver-cloud.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/geoserver_geoserver-cloud.csv"
+    },
+    {
+      "project_key": "element-web",
+      "daily_rows": 90,
+      "non_empty_days": 64,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/element-web.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/element-web.csv"
+    },
+    {
+      "project_key": "mediawiki-core",
+      "daily_rows": 90,
+      "non_empty_days": 90,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/mediawiki-core.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/mediawiki-core.csv"
+    },
+    {
+      "project_key": "bcgov-sonarcloud_mds_core-web",
+      "daily_rows": 90,
+      "non_empty_days": 82,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/bcgov-sonarcloud_mds_core-web.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/bcgov-sonarcloud_mds_core-web.csv"
+    },
+    {
+      "project_key": "apache_kvrocks",
+      "daily_rows": 90,
+      "non_empty_days": 90,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/apache_kvrocks.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/apache_kvrocks.csv"
+    },
+    {
+      "project_key": "mpieniak01_Venom",
+      "daily_rows": 90,
+      "non_empty_days": 54,
+      "raw_json": "docs_dev/_to_do/205_artifacts/205B/timeseries/raw/mpieniak01_Venom.json",
+      "csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/csv/mpieniak01_Venom.csv"
+    }
+  ],
+  "aggregated_csv": "docs_dev/_to_do/205_artifacts/205B/timeseries/205B_timeseries_q1_2026.csv"
+}

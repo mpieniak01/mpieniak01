@@ -1,0 +1,19 @@
+# 205 scripts-review export manifest (minimal reviewer package)
+# Goal: external reviewer focuses on script quality, not full research dataset.
+
+# Core context docs
+README.md
+PR_205_REVIEW.md
+tools/README.md
+.gitignore
+.github/copilot-instructions.md
+.github/workflows/scripts-review-ci.yml
+
+# Configs required to understand runtime and export policy
+config/205f_pipeline_config_v01.json
+config/205_export_manifest_v01.txt
+config/205_export_manifest_scripts_review_v01.txt
+
+# Scripts under review
+tools/*.py
+tools/*.ps1

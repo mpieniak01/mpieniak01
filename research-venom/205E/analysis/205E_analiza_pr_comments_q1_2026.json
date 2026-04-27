@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-04-27T09:24:49Z",
+  "source": {
+    "type": "github_api_cached_dataset",
+    "dataset": "docs_dev/_to_do/205_artifacts/205/analysis/205_analiza_pr.json",
+    "project_key": "mpieniak01/Venom",
+    "filter": {
+      "closed_at_from": "2026-01-01T00:00:00Z",
+      "closed_at_to": "2026-03-31T23:59:59Z"
+    }
+  },
+  "stats": {
+    "closed_q1_count": 202,
+    "merged_q1_count": 192,
+    "closed_avg_comments": 9.6485,
+    "closed_median_comments": 7.0,
+    "merged_avg_comments": 9.9896,
+    "merged_median_comments": 8.0,
+    "merged_zero_comment_share": 0.0677
+  },
+  "artifacts": {
+    "per_pr_csv": "docs_dev/_to_do/205_artifacts/205E/timeseries/csv/205E_pr_comments_q1_2026_per_pr.csv",
+    "daily_csv": "docs_dev/_to_do/205_artifacts/205E/timeseries/csv/205E_pr_comments_q1_2026_daily.csv",
+    "summary_csv": "docs_dev/_to_do/205_artifacts/205E/timeseries/csv/205E_pr_comments_q1_2026_summary.csv"
+  }
+}

@@ -1,0 +1,13 @@
+order,sheet_name,role,source_type,notes
+1,summary,dane sumaryczne do pracy,processed,"pierwsza karta do szybkiego odczytu KPI"
+2,charts,główne wykresy do Word,processed,"obiekty wykresów nazwane chart_id"
+3,src_205B_timeseries,źródło 205B,raw,"import 205B_timeseries_q1_2026.csv"
+4,src_205C_timeseries,źródło 205C,raw,"import 205C_github_benchmark_q1_2026.csv"
+5,src_205D_timeseries,źródło 205D,raw,"import 205D_pr_flow_q1_2026.csv"
+6,src_205E_daily,źródło 205E,raw,"import 205E_pr_comments_q1_2026_daily.csv"
+7,wrk_205B_venom,przetworzenie 205B dla Venom,processed,"filtr project_key=mpieniak01_Venom"
+8,wrk_205D_venom,przetworzenie 205D dla Venom,processed,"filtr project_key=mpieniak01/Venom"
+9,wrk_205D_repo_summary,agregaty repo 205D,processed,"median lead time i backlog pressure"
+10,wrk_205E_comments_daily,agregaty komentarzy 205E,processed,"serie do trendu komentarzy"
+11,wrk_summary_benchmark,agregat 205B/205C,processed,"dane pod wykres porównawczy"
+12,meta,słownik i kontrola wersji,meta,"mapa chart_id, wersja pliku i źródeł"

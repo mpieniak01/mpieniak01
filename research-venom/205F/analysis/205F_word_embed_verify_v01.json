@@ -1,0 +1,72 @@
+﻿{
+    "generated_at":  "2026-04-27T15:26:51Z",
+    "word_docx":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\produkty\\word\\final\\205F_embed_canvas_v02.docx",
+    "s07_run_json":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\tools\\..\\..\\..\\..\\docs_dev\\_to_do\\205_artifacts\\205F\\analysis\\205F_word_embed_run_v01.json",
+    "s07_report_exists":  true,
+    "total_inline_shapes_doc":  7,
+    "checks":  [
+                   {
+                       "chart_id":  "C_205B_LOC_TREND_01",
+                       "word_bookmark":  "BM_C_205B_LOC_TREND_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   },
+                   {
+                       "chart_id":  "C_205B_ISSUES_DEBT_01",
+                       "word_bookmark":  "BM_C_205B_ISSUES_DEBT_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   },
+                   {
+                       "chart_id":  "C_205D_PR_FLOW_01",
+                       "word_bookmark":  "BM_C_205D_PR_FLOW_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   },
+                   {
+                       "chart_id":  "C_205D_MEDIAN_LEAD_01",
+                       "word_bookmark":  "BM_C_205D_MEDIAN_LEAD_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   },
+                   {
+                       "chart_id":  "C_205D_BACKLOG_01",
+                       "word_bookmark":  "BM_C_205D_BACKLOG_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   },
+                   {
+                       "chart_id":  "C_205E_COMMENTS_TREND_01",
+                       "word_bookmark":  "BM_C_205E_COMMENTS_TREND_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   },
+                   {
+                       "chart_id":  "C_205B_205C_BENCHMARK_01",
+                       "word_bookmark":  "BM_C_205B_205C_BENCHMARK_01",
+                       "bookmark_exists":  true,
+                       "inline_shapes_in_bookmark_range":  1,
+                       "word_status":  "embedded_in_bookmark_range",
+                       "s07_status":  "ok"
+                   }
+               ],
+    "totals":  {
+                   "mapped_active":  7,
+                   "bookmark_exists":  7,
+                   "final_status":  "ok",
+                   "s07_failed_count":  0,
+                   "embedded_in_bookmark_range":  7
+               }
+}

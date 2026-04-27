@@ -1,0 +1,115 @@
+﻿{
+    "generated_at":  "2026-04-27T14:30:25Z",
+    "step":  "S07",
+    "input_paths":  {
+                        "workbook":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\produkty\\excel\\workspace\\205F_visualization_workspace_v01.xlsx",
+                        "word_input":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\produkty\\word\\final\\Projekt_Koncowy_Pieniak_FINAL8_bibliografia_pl_miesiace_gotowe_v01.docx",
+                        "map_csv":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\205F\\inputs\\205F_word_embed_map_v01.csv"
+                    },
+    "output_paths":  {
+                         "report_md":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\205F\\analysis\\205F_word_embed_run_v04.md",
+                         "word_output":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\produkty\\word\\final\\Projekt_Koncowy_Pieniak_FINAL8_bibliografia_pl_miesiace_gotowe_v12.docx",
+                         "report_json":  "\\\\wsl.localhost\\Ubuntu-Venom\\home\\ubuntu\\venom\\docs_dev\\_to_do\\205_artifacts\\205F\\analysis\\205F_word_embed_run_v04.json"
+                     },
+    "staging":  {
+                    "run_dir":  "C:\\temp\\205F_word_embed_staging\\run_20260427_143016_5b6f2ac3",
+                    "root":  "C:\\temp\\205F_word_embed_staging",
+                    "kept":  false
+                },
+    "run":  {
+                "finished_at":  "2026-04-27T14:30:25Z",
+                "failed_count":  0,
+                "mapped_active":  7,
+                "skipped_count":  0,
+                "invalid_mapping_count":  0,
+                "started_at":  "2026-04-27T14:30:16Z",
+                "embedded_count":  7,
+                "step_timeout_sec":  180
+            },
+    "per_chart":  [
+                      {
+                          "chart_id":  "C_205B_LOC_TREND_01",
+                          "word_bookmark":  "BM_C_205B_LOC_TREND_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205B_LOC_TREND_01",
+                          "started_at":  "2026-04-27T14:30:19Z",
+                          "finished_at":  "2026-04-27T14:30:20Z",
+                          "duration_s":  1.264,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      },
+                      {
+                          "chart_id":  "C_205B_ISSUES_DEBT_01",
+                          "word_bookmark":  "BM_C_205B_ISSUES_DEBT_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205B_ISSUES_DEBT_01",
+                          "started_at":  "2026-04-27T14:30:20Z",
+                          "finished_at":  "2026-04-27T14:30:20Z",
+                          "duration_s":  0.13,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      },
+                      {
+                          "chart_id":  "C_205D_PR_FLOW_01",
+                          "word_bookmark":  "BM_C_205D_PR_FLOW_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205D_PR_FLOW_01",
+                          "started_at":  "2026-04-27T14:30:20Z",
+                          "finished_at":  "2026-04-27T14:30:20Z",
+                          "duration_s":  0.05,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      },
+                      {
+                          "chart_id":  "C_205D_MEDIAN_LEAD_01",
+                          "word_bookmark":  "BM_C_205D_MEDIAN_LEAD_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205D_MEDIAN_LEAD_01",
+                          "started_at":  "2026-04-27T14:30:20Z",
+                          "finished_at":  "2026-04-27T14:30:20Z",
+                          "duration_s":  0.043,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      },
+                      {
+                          "chart_id":  "C_205D_BACKLOG_01",
+                          "word_bookmark":  "BM_C_205D_BACKLOG_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205D_BACKLOG_01",
+                          "started_at":  "2026-04-27T14:30:20Z",
+                          "finished_at":  "2026-04-27T14:30:20Z",
+                          "duration_s":  0.047,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      },
+                      {
+                          "chart_id":  "C_205E_COMMENTS_TREND_01",
+                          "word_bookmark":  "BM_C_205E_COMMENTS_TREND_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205E_COMMENTS_TREND_01",
+                          "started_at":  "2026-04-27T14:30:20Z",
+                          "finished_at":  "2026-04-27T14:30:20Z",
+                          "duration_s":  0.09,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      },
+                      {
+                          "chart_id":  "C_205B_205C_BENCHMARK_01",
+                          "word_bookmark":  "BM_C_205B_205C_BENCHMARK_01",
+                          "excel_sheet":  "charts",
+                          "excel_chart_name":  "C_205B_205C_BENCHMARK_01",
+                          "started_at":  "2026-04-27T14:30:20Z",
+                          "finished_at":  "2026-04-27T14:30:22Z",
+                          "duration_s":  1.796,
+                          "stage":  "insert_picture",
+                          "status":  "ok",
+                          "error":  ""
+                      }
+                  ]
+}

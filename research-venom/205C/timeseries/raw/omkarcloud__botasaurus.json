@@ -1,0 +1,1310 @@
+{
+  "generated_at": "2026-04-22T19:46:15Z",
+  "project_key": "omkarcloud/botasaurus",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 43,
+    "active_days_q1": 7,
+    "authors_q1": 2,
+    "additions_q1": 1723,
+    "deletions_q1": 576,
+    "churn_q1": 2299,
+    "truncated": false,
+    "fetched_commits": 43
+  },
+  "daily_rows": [
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-06",
+      "commits": 15,
+      "authors": 2,
+      "additions": 1200,
+      "deletions": 290,
+      "churn": 1490,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-10",
+      "commits": 7,
+      "authors": 2,
+      "additions": 139,
+      "deletions": 72,
+      "churn": 211,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-01",
+      "commits": 5,
+      "authors": 2,
+      "additions": 17,
+      "deletions": 13,
+      "churn": 30,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-21",
+      "commits": 3,
+      "authors": 2,
+      "additions": 59,
+      "deletions": 13,
+      "churn": 72,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-02-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-03",
+      "commits": 6,
+      "authors": 2,
+      "additions": 199,
+      "deletions": 153,
+      "churn": 352,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-06",
+      "commits": 2,
+      "authors": 2,
+      "additions": 96,
+      "deletions": 28,
+      "churn": 124,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-18",
+      "commits": 5,
+      "authors": 2,
+      "additions": 13,
+      "deletions": 7,
+      "churn": 20,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "omkarcloud/botasaurus",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "7936afad5f8ca78fe0581a9dabd5f7d6964c6b1a",
+      "date": "2026-03-18T07:44:06Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/7936afad5f8ca78fe0581a9dabd5f7d6964c6b1a"
+    },
+    {
+      "sha": "09f4bf5e302c4cd99a0f848e6aa5b0500c7b5b6f",
+      "date": "2026-03-18T07:43:39Z",
+      "author": "Chetan11-dev",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/09f4bf5e302c4cd99a0f848e6aa5b0500c7b5b6f"
+    },
+    {
+      "sha": "15c9ab26c5ff6132e342316a41db646cb84e4417",
+      "date": "2026-03-18T07:42:56Z",
+      "author": "Chetan11-dev",
+      "additions": 1,
+      "deletions": 2,
+      "churn": 3,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/15c9ab26c5ff6132e342316a41db646cb84e4417"
+    },
+    {
+      "sha": "417d4835305c6d8b760addc0d41689a0c8c592e8",
+      "date": "2026-03-18T07:37:43Z",
+      "author": "Chetan11-dev",
+      "additions": 3,
+      "deletions": 1,
+      "churn": 4,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/417d4835305c6d8b760addc0d41689a0c8c592e8"
+    },
+    {
+      "sha": "4dc522a23328ada84d212ea26bcc94995d918b97",
+      "date": "2026-03-18T07:27:13Z",
+      "author": "Chetan11-dev",
+      "additions": 7,
+      "deletions": 2,
+      "churn": 9,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/4dc522a23328ada84d212ea26bcc94995d918b97"
+    },
+    {
+      "sha": "5d98f688e875c1c711e86b7648870ce3531b2944",
+      "date": "2026-03-06T10:15:09Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/5d98f688e875c1c711e86b7648870ce3531b2944"
+    },
+    {
+      "sha": "ec2fcce8e698246a9591d0657d4788c9041361b2",
+      "date": "2026-03-06T10:14:25Z",
+      "author": "Chetan11-dev",
+      "additions": 93,
+      "deletions": 25,
+      "churn": 118,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/ec2fcce8e698246a9591d0657d4788c9041361b2"
+    },
+    {
+      "sha": "12a28f754d6ee9c704c2ed9bb90d45bd0abec910",
+      "date": "2026-03-03T14:57:08Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/12a28f754d6ee9c704c2ed9bb90d45bd0abec910"
+    },
+    {
+      "sha": "f6aeb4526922e38096bc28077d28168e684301a7",
+      "date": "2026-03-03T14:56:22Z",
+      "author": "Chetan11-dev",
+      "additions": 6,
+      "deletions": 6,
+      "churn": 12,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/f6aeb4526922e38096bc28077d28168e684301a7"
+    },
+    {
+      "sha": "cb8b55e73fe306c7cc1374c0ec243cd5f5c267c0",
+      "date": "2026-03-03T14:52:54Z",
+      "author": "github-actions[bot]",
+      "additions": 43,
+      "deletions": 43,
+      "churn": 86,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/cb8b55e73fe306c7cc1374c0ec243cd5f5c267c0"
+    },
+    {
+      "sha": "6a355c0fa1ce9d578f8e9e7ee0f8fa091feb12ae",
+      "date": "2026-03-03T14:52:13Z",
+      "author": "Chetan11-dev",
+      "additions": 10,
+      "deletions": 2,
+      "churn": 12,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/6a355c0fa1ce9d578f8e9e7ee0f8fa091feb12ae"
+    },
+    {
+      "sha": "ab5e836a381bd6284dd6097731f18b1fb8f64744",
+      "date": "2026-03-03T13:14:03Z",
+      "author": "github-actions[bot]",
+      "additions": 83,
+      "deletions": 83,
+      "churn": 166,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/ab5e836a381bd6284dd6097731f18b1fb8f64744"
+    },
+    {
+      "sha": "5fac821c41e2e2e3863b2e1504ab975451e70619",
+      "date": "2026-03-03T13:13:11Z",
+      "author": "Chetan11-dev",
+      "additions": 54,
+      "deletions": 16,
+      "churn": 70,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/5fac821c41e2e2e3863b2e1504ab975451e70619"
+    },
+    {
+      "sha": "9c48218257bd2724bef53c1a789bed21c1ae6b79",
+      "date": "2026-02-21T07:43:52Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/9c48218257bd2724bef53c1a789bed21c1ae6b79"
+    },
+    {
+      "sha": "2950c6fa2a515d8966b8b1a9b617ed15af2f2daa",
+      "date": "2026-02-21T07:43:50Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/2950c6fa2a515d8966b8b1a9b617ed15af2f2daa"
+    },
+    {
+      "sha": "aa59c6c7ebf440a365c2003bf8e8f936a442378c",
+      "date": "2026-02-21T07:42:21Z",
+      "author": "Chetan11-dev",
+      "additions": 53,
+      "deletions": 7,
+      "churn": 60,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/aa59c6c7ebf440a365c2003bf8e8f936a442378c"
+    },
+    {
+      "sha": "ae4d320000ea5e8693c8914a8fd7b95f560b27ab",
+      "date": "2026-02-01T08:26:05Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/ae4d320000ea5e8693c8914a8fd7b95f560b27ab"
+    },
+    {
+      "sha": "80ff3d97dc03c9ca3ef764a94c8314dae8608f17",
+      "date": "2026-02-01T08:25:17Z",
+      "author": "Chetan11-dev",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/80ff3d97dc03c9ca3ef764a94c8314dae8608f17"
+    },
+    {
+      "sha": "acc659cbfe88f199b07022de9a6e51c676f36d91",
+      "date": "2026-02-01T08:25:06Z",
+      "author": "Chetan11-dev",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/acc659cbfe88f199b07022de9a6e51c676f36d91"
+    },
+    {
+      "sha": "dcfc1f6bc805380bfec6b5bee5d86ec532d58cb0",
+      "date": "2026-02-01T08:22:43Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/dcfc1f6bc805380bfec6b5bee5d86ec532d58cb0"
+    },
+    {
+      "sha": "66ffc0de8c5a05e89419271287f166cc6db23b85",
+      "date": "2026-02-01T08:21:59Z",
+      "author": "Chetan11-dev",
+      "additions": 7,
+      "deletions": 3,
+      "churn": 10,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/66ffc0de8c5a05e89419271287f166cc6db23b85"
+    },
+    {
+      "sha": "0961f9e556e1a80537fe585aafee57ab4cc85fd6",
+      "date": "2026-01-10T14:36:07Z",
+      "author": "Chetan11-dev",
+      "additions": 48,
+      "deletions": 36,
+      "churn": 84,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/0961f9e556e1a80537fe585aafee57ab4cc85fd6"
+    },
+    {
+      "sha": "1fb02d7324624e4ce014caa79ab20158c42eb9b6",
+      "date": "2026-01-10T14:23:08Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/1fb02d7324624e4ce014caa79ab20158c42eb9b6"
+    },
+    {
+      "sha": "2ec2cc0088ab7b2069ab34153a9dfdd9c1a40abd",
+      "date": "2026-01-10T14:22:57Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/2ec2cc0088ab7b2069ab34153a9dfdd9c1a40abd"
+    },
+    {
+      "sha": "080057f2ee50e309bf60fa3038f3efe52ee00cd1",
+      "date": "2026-01-10T14:22:54Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/080057f2ee50e309bf60fa3038f3efe52ee00cd1"
+    },
+    {
+      "sha": "4710ad70432c8d46ecf232a623df1b6ba410240c",
+      "date": "2026-01-10T14:22:51Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/4710ad70432c8d46ecf232a623df1b6ba410240c"
+    },
+    {
+      "sha": "4a46091630deae807ae58ec330f81aa4bb42291b",
+      "date": "2026-01-10T14:22:20Z",
+      "author": "Chetan11-dev",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/4a46091630deae807ae58ec330f81aa4bb42291b"
+    },
+    {
+      "sha": "520f4a7f79ca53d9d0c0372b440224e1156a765b",
+      "date": "2026-01-10T14:22:12Z",
+      "author": "Chetan11-dev",
+      "additions": 81,
+      "deletions": 26,
+      "churn": 107,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/520f4a7f79ca53d9d0c0372b440224e1156a765b"
+    },
+    {
+      "sha": "a9e6cd9ce89c33b7af329473f0e03006d07e1719",
+      "date": "2026-01-06T09:16:36Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/a9e6cd9ce89c33b7af329473f0e03006d07e1719"
+    },
+    {
+      "sha": "0a0e59b9d7b5eb07b56801a2d52624d485b8be85",
+      "date": "2026-01-06T09:16:34Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/0a0e59b9d7b5eb07b56801a2d52624d485b8be85"
+    },
+    {
+      "sha": "8be1e90d367e65f4e8918890af48c4f8e114fb92",
+      "date": "2026-01-06T09:16:02Z",
+      "author": "Chetan11-dev",
+      "additions": 6,
+      "deletions": 6,
+      "churn": 12,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/8be1e90d367e65f4e8918890af48c4f8e114fb92"
+    },
+    {
+      "sha": "62771b2dabba2d812cf2abdcc9a8fa9a3602652a",
+      "date": "2026-01-06T09:15:41Z",
+      "author": "Chetan11-dev",
+      "additions": 341,
+      "deletions": 0,
+      "churn": 341,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/62771b2dabba2d812cf2abdcc9a8fa9a3602652a"
+    },
+    {
+      "sha": "5c72a341d9f2d9d7667a2fc072db67728ab719ad",
+      "date": "2026-01-06T07:52:23Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/5c72a341d9f2d9d7667a2fc072db67728ab719ad"
+    },
+    {
+      "sha": "bda65bcbcb39355fdaf5ea87adbe1c60e33ee514",
+      "date": "2026-01-06T07:52:19Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/bda65bcbcb39355fdaf5ea87adbe1c60e33ee514"
+    },
+    {
+      "sha": "d46f253ca1df68742dfbc25b420d184368e49b6d",
+      "date": "2026-01-06T07:51:47Z",
+      "author": "Chetan11-dev",
+      "additions": 11,
+      "deletions": 11,
+      "churn": 22,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/d46f253ca1df68742dfbc25b420d184368e49b6d"
+    },
+    {
+      "sha": "ae04f1879dba8177a3b39bf7e48f9304f177b5dc",
+      "date": "2026-01-06T07:51:44Z",
+      "author": "Chetan11-dev",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/ae04f1879dba8177a3b39bf7e48f9304f177b5dc"
+    },
+    {
+      "sha": "143173d8d5e0f6feee8387fae8a8c32129708a32",
+      "date": "2026-01-06T07:45:56Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/143173d8d5e0f6feee8387fae8a8c32129708a32"
+    },
+    {
+      "sha": "42ecc5f0c63045088c741bea8727bf17f93a0f71",
+      "date": "2026-01-06T07:45:43Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/42ecc5f0c63045088c741bea8727bf17f93a0f71"
+    },
+    {
+      "sha": "e1521088dbc9c0e0fc0b0feef0be4c99df868742",
+      "date": "2026-01-06T07:45:37Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/e1521088dbc9c0e0fc0b0feef0be4c99df868742"
+    },
+    {
+      "sha": "02d36d96754c98a40b394b071e48b41bc468a963",
+      "date": "2026-01-06T07:45:33Z",
+      "author": "github-actions[bot]",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/02d36d96754c98a40b394b071e48b41bc468a963"
+    },
+    {
+      "sha": "a0fb1c439d8aaced65928a1e7487008b8eb08810",
+      "date": "2026-01-06T07:45:30Z",
+      "author": "github-actions[bot]",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/a0fb1c439d8aaced65928a1e7487008b8eb08810"
+    },
+    {
+      "sha": "1e6cf5ccdfa423cee54553b8762048266509583d",
+      "date": "2026-01-06T07:45:01Z",
+      "author": "Chetan11-dev",
+      "additions": 3,
+      "deletions": 3,
+      "churn": 6,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/1e6cf5ccdfa423cee54553b8762048266509583d"
+    },
+    {
+      "sha": "82fe56704028395282ca2bf42c4b98a31d172994",
+      "date": "2026-01-06T07:37:12Z",
+      "author": "Chetan11-dev",
+      "additions": 818,
+      "deletions": 249,
+      "churn": 1067,
+      "html_url": "https://github.com/omkarcloud/botasaurus/commit/82fe56704028395282ca2bf42c4b98a31d172994"
+    }
+  ]
+}

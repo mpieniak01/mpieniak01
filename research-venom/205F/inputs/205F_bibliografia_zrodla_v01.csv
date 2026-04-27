@@ -1,0 +1,15 @@
+source_id,source_type,chapter_scope,citation_short,title_or_artifact,url_or_path,status
+1,external,rozdzial_1,"Kalliamvakou et al. 2023","GitHub Copilot impact on productivity and happiness","https://github.blog/2023-09-27-research-quantifying-github-copilots-impact",active
+2,external,rozdzial_1,"Ziegler et al. 2024","Measuring GitHub Copilot's Impact on Productivity (CACM)","https://cacm.acm.org/research/measuring-github-copilots-impact-on-productivity/",active
+3,external,rozdzial_1,"Deniż et al. 2023","Unleashing developer productivity with generative AI (McKinsey)","https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/unleashing-developer-productivity-with-generative-ai",active
+4,external,rozdzial_1,"Bauer 2024","Does GitHub Copilot improve code quality?",https://resources.github.com/videos/write-more-code-by-writing-less-code-with-github-copilot/,active
+5,external,rozdzial_1,"McKinsey Global Institute 2023","The economic potential of generative AI","",active
+6,external,rozdzial_1,"Stack Overflow 2024","2024 Stack Overflow Developer Survey",https://survey.stackoverflow.co/2024/ai,active
+7,external,rozdzial_1,"Stanford HAI 2024","2024 AI Index Report",https://hai.stanford.edu/ai-index/2024-ai-index-report,active
+W1,internal,rozdzial_3_4,"205 dataset PR","docs_dev/_to_do/205_artifacts/205/analysis/205_analiza_pr.json","docs_dev/_to_do/205_artifacts/205/analysis/205_analiza_pr.json",active
+W2,internal,rozdzial_3,"205B timeseries","docs_dev/_to_do/205_artifacts/205B/timeseries/205B_timeseries_q1_2026.csv","docs_dev/_to_do/205_artifacts/205B/timeseries/205B_timeseries_q1_2026.csv",active
+W3,internal,rozdzial_3,"205C timeseries","docs_dev/_to_do/205_artifacts/205C/timeseries/205C_github_benchmark_q1_2026.csv","docs_dev/_to_do/205_artifacts/205C/timeseries/205C_github_benchmark_q1_2026.csv",active
+W4,internal,rozdzial_4,"205D PR flow","docs_dev/_to_do/205_artifacts/205D/timeseries/205D_pr_flow_q1_2026.csv","docs_dev/_to_do/205_artifacts/205D/timeseries/205D_pr_flow_q1_2026.csv",active
+W5,internal,rozdzial_4,"205E comments daily","docs_dev/_to_do/205_artifacts/205E/timeseries/csv/205E_pr_comments_q1_2026_daily.csv","docs_dev/_to_do/205_artifacts/205E/timeseries/csv/205E_pr_comments_q1_2026_daily.csv",active
+W6,internal,produkt_glowny,"Word final","Projekt_Koncowy_Pieniak_FINAL8_bibliografia_pl_miesiace_gotowe.docx","docs_dev/_to_do/205_artifacts/produkty/word/final/Projekt_Koncowy_Pieniak_FINAL8_bibliografia_pl_miesiace_gotowe.docx",active
+W7,internal,produkt_posredni,"Excel workspace","205F_visualization_workspace.xlsx","docs_dev/_to_do/205_artifacts/produkty/excel/workspace/205F_visualization_workspace.xlsx",active

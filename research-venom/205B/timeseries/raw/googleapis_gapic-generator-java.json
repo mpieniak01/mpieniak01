@@ -1,0 +1,971 @@
+{
+  "project_key": "googleapis_gapic-generator-java",
+  "generated_at": "2026-04-22T17:54:33Z",
+  "source": {
+    "base_url": "https://sonarcloud.io",
+    "organization": null,
+    "query": null,
+    "from": "2026-01-01T00:00:00+0000",
+    "to": "2026-03-31T23:59:59+0000",
+    "metrics": [
+      "violations",
+      "open_issues",
+      "sqale_index",
+      "ncloc",
+      "coverage",
+      "tests"
+    ]
+  },
+  "raw_history": {
+    "violations": [
+      {
+        "date": "2026-01-05T22:11:04+0000",
+        "value": "12074"
+      },
+      {
+        "date": "2026-02-04T20:42:58+0000",
+        "value": "12436"
+      },
+      {
+        "date": "2026-03-02T20:12:31+0000",
+        "value": "12437"
+      },
+      {
+        "date": "2026-03-11T21:43:04+0000",
+        "value": "12440"
+      },
+      {
+        "date": "2026-03-16T14:58:53+0000",
+        "value": "12340"
+      },
+      {
+        "date": "2026-03-21T03:19:21+0000",
+        "value": "12348"
+      },
+      {
+        "date": "2026-03-23T16:00:07+0000",
+        "value": "12348"
+      },
+      {
+        "date": "2026-03-23T18:28:14+0000",
+        "value": "12348"
+      },
+      {
+        "date": "2026-03-27T01:12:43+0000",
+        "value": "12348"
+      }
+    ],
+    "open_issues": [
+      {
+        "date": "2026-01-05T22:11:04+0000",
+        "value": "12074"
+      },
+      {
+        "date": "2026-02-04T20:42:58+0000",
+        "value": "12436"
+      },
+      {
+        "date": "2026-03-02T20:12:31+0000",
+        "value": "12437"
+      },
+      {
+        "date": "2026-03-11T21:43:04+0000",
+        "value": "12440"
+      },
+      {
+        "date": "2026-03-16T14:58:53+0000",
+        "value": "12340"
+      },
+      {
+        "date": "2026-03-21T03:19:21+0000",
+        "value": "12348"
+      },
+      {
+        "date": "2026-03-23T16:00:07+0000",
+        "value": "12348"
+      },
+      {
+        "date": "2026-03-23T18:28:14+0000",
+        "value": "12348"
+      },
+      {
+        "date": "2026-03-27T01:12:43+0000",
+        "value": "12348"
+      }
+    ],
+    "sqale_index": [
+      {
+        "date": "2026-01-05T22:11:04+0000",
+        "value": "78988"
+      },
+      {
+        "date": "2026-02-04T20:42:58+0000",
+        "value": "71785"
+      },
+      {
+        "date": "2026-03-02T20:12:31+0000",
+        "value": "71724"
+      },
+      {
+        "date": "2026-03-11T21:43:04+0000",
+        "value": "71737"
+      },
+      {
+        "date": "2026-03-16T14:58:53+0000",
+        "value": "70744"
+      },
+      {
+        "date": "2026-03-21T03:19:21+0000",
+        "value": "70800"
+      },
+      {
+        "date": "2026-03-23T16:00:07+0000",
+        "value": "70800"
+      },
+      {
+        "date": "2026-03-23T18:28:14+0000",
+        "value": "70803"
+      },
+      {
+        "date": "2026-03-27T01:12:43+0000",
+        "value": "70803"
+      }
+    ],
+    "ncloc": [
+      {
+        "date": "2026-01-05T22:11:04+0000",
+        "value": "389092"
+      },
+      {
+        "date": "2026-02-04T20:42:58+0000",
+        "value": "379900"
+      },
+      {
+        "date": "2026-03-02T20:12:31+0000",
+        "value": "380251"
+      },
+      {
+        "date": "2026-03-11T21:43:04+0000",
+        "value": "380602"
+      },
+      {
+        "date": "2026-03-16T14:58:53+0000",
+        "value": "380679"
+      },
+      {
+        "date": "2026-03-21T03:19:21+0000",
+        "value": "381104"
+      },
+      {
+        "date": "2026-03-23T16:00:07+0000",
+        "value": "381118"
+      },
+      {
+        "date": "2026-03-23T18:28:14+0000",
+        "value": "381312"
+      },
+      {
+        "date": "2026-03-27T01:12:43+0000",
+        "value": "381312"
+      }
+    ],
+    "coverage": [
+      {
+        "date": "2026-01-05T22:11:04+0000",
+        "value": "19.2"
+      },
+      {
+        "date": "2026-02-04T20:42:58+0000",
+        "value": "19.2"
+      },
+      {
+        "date": "2026-03-02T20:12:31+0000",
+        "value": "19.3"
+      },
+      {
+        "date": "2026-03-11T21:43:04+0000",
+        "value": "19.4"
+      },
+      {
+        "date": "2026-03-16T14:58:53+0000",
+        "value": "19.4"
+      },
+      {
+        "date": "2026-03-21T03:19:21+0000",
+        "value": "19.4"
+      },
+      {
+        "date": "2026-03-23T16:00:07+0000",
+        "value": "19.4"
+      },
+      {
+        "date": "2026-03-23T18:28:14+0000",
+        "value": "19.5"
+      },
+      {
+        "date": "2026-03-27T01:12:43+0000",
+        "value": "19.5"
+      }
+    ],
+    "tests": [
+      {
+        "date": "2026-01-05T22:11:04+0000",
+        "value": "2997"
+      },
+      {
+        "date": "2026-02-04T20:42:58+0000",
+        "value": "3000"
+      },
+      {
+        "date": "2026-03-02T20:12:31+0000",
+        "value": "3017"
+      },
+      {
+        "date": "2026-03-11T21:43:04+0000",
+        "value": "3082"
+      },
+      {
+        "date": "2026-03-16T14:58:53+0000",
+        "value": "3090"
+      },
+      {
+        "date": "2026-03-21T03:19:21+0000",
+        "value": "3115"
+      },
+      {
+        "date": "2026-03-23T16:00:07+0000",
+        "value": "3117"
+      },
+      {
+        "date": "2026-03-23T18:28:14+0000",
+        "value": "3125"
+      },
+      {
+        "date": "2026-03-27T01:12:43+0000",
+        "value": "3125"
+      }
+    ]
+  },
+  "daily_rows": [
+    {
+      "date": "2026-01-01",
+      "issues": null,
+      "technical_debt_days": null,
+      "lines_of_code": null,
+      "line_coverage_pct": null,
+      "unit_tests": null
+    },
+    {
+      "date": "2026-01-02",
+      "issues": null,
+      "technical_debt_days": null,
+      "lines_of_code": null,
+      "line_coverage_pct": null,
+      "unit_tests": null
+    },
+    {
+      "date": "2026-01-03",
+      "issues": null,
+      "technical_debt_days": null,
+      "lines_of_code": null,
+      "line_coverage_pct": null,
+      "unit_tests": null
+    },
+    {
+      "date": "2026-01-04",
+      "issues": null,
+      "technical_debt_days": null,
+      "lines_of_code": null,
+      "line_coverage_pct": null,
+      "unit_tests": null
+    },
+    {
+      "date": "2026-01-05",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-06",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-07",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-08",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-09",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-10",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-11",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-12",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-13",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-14",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-15",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-16",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-17",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-18",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-19",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-20",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-21",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-22",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-23",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-24",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-25",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-26",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-27",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-28",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-29",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-30",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-01-31",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-02-01",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-02-02",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-02-03",
+      "issues": 12074.0,
+      "technical_debt_days": 164.5583,
+      "lines_of_code": 389092.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 2997.0
+    },
+    {
+      "date": "2026-02-04",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-05",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-06",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-07",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-08",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-09",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-10",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-11",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-12",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-13",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-14",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-15",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-16",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-17",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-18",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-19",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-20",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-21",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-22",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-23",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-24",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-25",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-26",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-27",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-02-28",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-03-01",
+      "issues": 12436.0,
+      "technical_debt_days": 149.5521,
+      "lines_of_code": 379900.0,
+      "line_coverage_pct": 19.2,
+      "unit_tests": 3000.0
+    },
+    {
+      "date": "2026-03-02",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-03",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-04",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-05",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-06",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-07",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-08",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-09",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-10",
+      "issues": 12437.0,
+      "technical_debt_days": 149.425,
+      "lines_of_code": 380251.0,
+      "line_coverage_pct": 19.3,
+      "unit_tests": 3017.0
+    },
+    {
+      "date": "2026-03-11",
+      "issues": 12440.0,
+      "technical_debt_days": 149.4521,
+      "lines_of_code": 380602.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3082.0
+    },
+    {
+      "date": "2026-03-12",
+      "issues": 12440.0,
+      "technical_debt_days": 149.4521,
+      "lines_of_code": 380602.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3082.0
+    },
+    {
+      "date": "2026-03-13",
+      "issues": 12440.0,
+      "technical_debt_days": 149.4521,
+      "lines_of_code": 380602.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3082.0
+    },
+    {
+      "date": "2026-03-14",
+      "issues": 12440.0,
+      "technical_debt_days": 149.4521,
+      "lines_of_code": 380602.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3082.0
+    },
+    {
+      "date": "2026-03-15",
+      "issues": 12440.0,
+      "technical_debt_days": 149.4521,
+      "lines_of_code": 380602.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3082.0
+    },
+    {
+      "date": "2026-03-16",
+      "issues": 12340.0,
+      "technical_debt_days": 147.3833,
+      "lines_of_code": 380679.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3090.0
+    },
+    {
+      "date": "2026-03-17",
+      "issues": 12340.0,
+      "technical_debt_days": 147.3833,
+      "lines_of_code": 380679.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3090.0
+    },
+    {
+      "date": "2026-03-18",
+      "issues": 12340.0,
+      "technical_debt_days": 147.3833,
+      "lines_of_code": 380679.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3090.0
+    },
+    {
+      "date": "2026-03-19",
+      "issues": 12340.0,
+      "technical_debt_days": 147.3833,
+      "lines_of_code": 380679.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3090.0
+    },
+    {
+      "date": "2026-03-20",
+      "issues": 12340.0,
+      "technical_debt_days": 147.3833,
+      "lines_of_code": 380679.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3090.0
+    },
+    {
+      "date": "2026-03-21",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5,
+      "lines_of_code": 381104.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3115.0
+    },
+    {
+      "date": "2026-03-22",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5,
+      "lines_of_code": 381104.0,
+      "line_coverage_pct": 19.4,
+      "unit_tests": 3115.0
+    },
+    {
+      "date": "2026-03-23",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-24",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-25",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-26",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-27",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-28",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-29",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-30",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    },
+    {
+      "date": "2026-03-31",
+      "issues": 12348.0,
+      "technical_debt_days": 147.5062,
+      "lines_of_code": 381312.0,
+      "line_coverage_pct": 19.5,
+      "unit_tests": 3125.0
+    }
+  ]
+}

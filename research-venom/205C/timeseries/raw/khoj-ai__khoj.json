@@ -1,0 +1,1274 @@
+{
+  "generated_at": "2026-04-22T19:46:38Z",
+  "project_key": "khoj-ai/khoj",
+  "source": {
+    "from": "2026-01-01T00:00:00Z",
+    "to": "2026-03-31T23:59:59Z",
+    "max_commits_per_repo": 0
+  },
+  "summary": {
+    "commits_q1": 39,
+    "active_days_q1": 11,
+    "authors_q1": 12,
+    "additions_q1": 5031,
+    "deletions_q1": 2550,
+    "churn_q1": 7581,
+    "truncated": false,
+    "fetched_commits": 40
+  },
+  "daily_rows": [
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-02",
+      "commits": 2,
+      "authors": 1,
+      "additions": 12,
+      "deletions": 10,
+      "churn": 22,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-03",
+      "commits": 2,
+      "authors": 2,
+      "additions": 2147,
+      "deletions": 109,
+      "churn": 2256,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-06",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-01-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-02",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-06",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-17",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-19",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-22",
+      "commits": 8,
+      "authors": 4,
+      "additions": 1700,
+      "deletions": 1283,
+      "churn": 2983,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-24",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-25",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-26",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-02-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-01",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-02",
+      "commits": 1,
+      "authors": 1,
+      "additions": 3,
+      "deletions": 29,
+      "churn": 32,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-03",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-04",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-05",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-06",
+      "commits": 4,
+      "authors": 3,
+      "additions": 5,
+      "deletions": 11,
+      "churn": 16,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-07",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-08",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-09",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-10",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-11",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-12",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-13",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-14",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-15",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-16",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-17",
+      "commits": 3,
+      "authors": 2,
+      "additions": 873,
+      "deletions": 908,
+      "churn": 1781,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-18",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-19",
+      "commits": 1,
+      "authors": 1,
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-20",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-21",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-22",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-23",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-24",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-25",
+      "commits": 12,
+      "authors": 3,
+      "additions": 247,
+      "deletions": 184,
+      "churn": 431,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-26",
+      "commits": 4,
+      "authors": 2,
+      "additions": 41,
+      "deletions": 13,
+      "churn": 54,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-27",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-28",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-29",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-30",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    },
+    {
+      "project_key": "khoj-ai/khoj",
+      "date": "2026-03-31",
+      "commits": 0,
+      "authors": 0,
+      "additions": 0,
+      "deletions": 0,
+      "churn": 0,
+      "truncated": "false"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "9258f57dceab19d52a1a0bdac54eb38576c29187",
+      "date": "2026-03-26T03:33:47Z",
+      "author": "debanjum",
+      "additions": 10,
+      "deletions": 8,
+      "churn": 18,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/9258f57dceab19d52a1a0bdac54eb38576c29187"
+    },
+    {
+      "sha": "171ac5d243728173886c35c13287d7377781b2d8",
+      "date": "2026-03-26T03:28:26Z",
+      "author": "debanjum",
+      "additions": 26,
+      "deletions": 0,
+      "churn": 26,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/171ac5d243728173886c35c13287d7377781b2d8"
+    },
+    {
+      "sha": "fdd5fd8f744e3fdd500733948af2f5ef79dc20a6",
+      "date": "2026-03-26T03:20:58Z",
+      "author": "debanjum",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/fdd5fd8f744e3fdd500733948af2f5ef79dc20a6"
+    },
+    {
+      "sha": "8965db70874386a5866448d95aee971947101105",
+      "date": "2026-03-25T20:37:42Z",
+      "author": "debanjum",
+      "additions": 31,
+      "deletions": 22,
+      "churn": 53,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/8965db70874386a5866448d95aee971947101105"
+    },
+    {
+      "sha": "8b8504edb8be2cde7ef16f5be476864be0810093",
+      "date": "2026-03-26T02:56:25Z",
+      "author": "majiayu000",
+      "additions": 4,
+      "deletions": 4,
+      "churn": 8,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/8b8504edb8be2cde7ef16f5be476864be0810093"
+    },
+    {
+      "sha": "7475a781bc151bd97240f7c0ff667ce01d6f6378",
+      "date": "2026-03-25T20:10:02Z",
+      "author": "debanjum",
+      "additions": 10,
+      "deletions": 8,
+      "churn": 18,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/7475a781bc151bd97240f7c0ff667ce01d6f6378"
+    },
+    {
+      "sha": "a19e7acd5ad677ebbaea4dbace16bd9c6dfcc257",
+      "date": "2026-03-25T19:52:34Z",
+      "author": "debanjum",
+      "additions": 11,
+      "deletions": 36,
+      "churn": 47,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/a19e7acd5ad677ebbaea4dbace16bd9c6dfcc257"
+    },
+    {
+      "sha": "b8797e00fa90e05bbfb14977a7e1a62d8e5aea5e",
+      "date": "2026-03-25T15:07:55Z",
+      "author": "debanjum",
+      "additions": 10,
+      "deletions": 8,
+      "churn": 18,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/b8797e00fa90e05bbfb14977a7e1a62d8e5aea5e"
+    },
+    {
+      "sha": "f356386f3aed45fed9f98a386f7e0d11cb9692a0",
+      "date": "2026-03-25T15:00:12Z",
+      "author": "debanjum",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/f356386f3aed45fed9f98a386f7e0d11cb9692a0"
+    },
+    {
+      "sha": "d4df9a73ecd469a8277613498d2b97ee7abf253d",
+      "date": "2026-03-25T14:37:43Z",
+      "author": "debanjum",
+      "additions": 9,
+      "deletions": 7,
+      "churn": 16,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/d4df9a73ecd469a8277613498d2b97ee7abf253d"
+    },
+    {
+      "sha": "f7bce4893483e5596f1520af1a9fbfb7302969a7",
+      "date": "2026-03-25T12:37:36Z",
+      "author": "debanjum",
+      "additions": 62,
+      "deletions": 1,
+      "churn": 63,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/f7bce4893483e5596f1520af1a9fbfb7302969a7"
+    },
+    {
+      "sha": "b8f82b27f5885dd2b5419f451b72ab3ffdd1ba54",
+      "date": "2026-03-25T13:44:12Z",
+      "author": "debanjum",
+      "additions": 22,
+      "deletions": 16,
+      "churn": 38,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/b8f82b27f5885dd2b5419f451b72ab3ffdd1ba54"
+    },
+    {
+      "sha": "a9749c7184b076d7070fe9b481c9c95eeb9419ab",
+      "date": "2026-03-25T13:01:47Z",
+      "author": "debanjum",
+      "additions": 83,
+      "deletions": 79,
+      "churn": 162,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/a9749c7184b076d7070fe9b481c9c95eeb9419ab"
+    },
+    {
+      "sha": "51a56af7cabafea56eece5d34e3895b1a73362eb",
+      "date": "2026-03-25T12:38:07Z",
+      "author": "debanjum",
+      "additions": 5,
+      "deletions": 4,
+      "churn": 9,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/51a56af7cabafea56eece5d34e3895b1a73362eb"
+    },
+    {
+      "sha": "7264ebf533709e0e2e6fd676f23aaedc4fcac67c",
+      "date": "2026-03-17T13:17:38Z",
+      "author": "debanjum",
+      "additions": 872,
+      "deletions": 906,
+      "churn": 1778,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/7264ebf533709e0e2e6fd676f23aaedc4fcac67c"
+    },
+    {
+      "sha": "0e169159f8fbaba58d32a60ba2e236fb7225f536",
+      "date": "2026-03-25T12:33:20Z",
+      "author": "buley",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/0e169159f8fbaba58d32a60ba2e236fb7225f536"
+    },
+    {
+      "sha": "530443a4f6ccd5281cefe8bbb82ab146fddf952b",
+      "date": "2026-03-25T12:17:50Z",
+      "author": "BillionClaw",
+      "additions": 1,
+      "deletions": 0,
+      "churn": 1,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/530443a4f6ccd5281cefe8bbb82ab146fddf952b"
+    },
+    {
+      "sha": "e8631261400e0a04c5063e91e498b549976ffc53",
+      "date": "2026-03-19T19:28:44Z",
+      "author": "yang1002378395-cmyk",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/e8631261400e0a04c5063e91e498b549976ffc53"
+    },
+    {
+      "sha": "678549c6b06c9db90aa9156db3bc740f432505b5",
+      "date": "2026-03-17T05:03:52Z",
+      "author": "jnMetaCode",
+      "additions": 0,
+      "deletions": 1,
+      "churn": 1,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/678549c6b06c9db90aa9156db3bc740f432505b5"
+    },
+    {
+      "sha": "6735d33af2ee0e8d6ccacd4b27f56dcb9816ff14",
+      "date": "2026-03-17T04:58:56Z",
+      "author": "jnMetaCode",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/6735d33af2ee0e8d6ccacd4b27f56dcb9816ff14"
+    },
+    {
+      "sha": "0e9878c070993697ed546e46871428dfb40d4c77",
+      "date": "2026-03-06T06:40:20Z",
+      "author": "Olexandr88",
+      "additions": 1,
+      "deletions": 6,
+      "churn": 7,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/0e9878c070993697ed546e46871428dfb40d4c77"
+    },
+    {
+      "sha": "2c829678071f4d8cbf6bec88d390bcfa68b4f973",
+      "date": "2026-03-06T06:34:37Z",
+      "author": "04cb",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/2c829678071f4d8cbf6bec88d390bcfa68b4f973"
+    },
+    {
+      "sha": "17be2d4800c4573c586d99501064955321dc030d",
+      "date": "2026-03-06T06:32:50Z",
+      "author": "debanjum",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/17be2d4800c4573c586d99501064955321dc030d"
+    },
+    {
+      "sha": "aeea1400998ba5489200db41add2c3f4d30b905f",
+      "date": "2026-03-06T05:31:07Z",
+      "author": "debanjum",
+      "additions": 1,
+      "deletions": 2,
+      "churn": 3,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/aeea1400998ba5489200db41add2c3f4d30b905f"
+    },
+    {
+      "sha": "b864cb1f3012b9d204e32eea67d8cdd70a5a8ccb",
+      "date": "2026-03-02T18:35:09Z",
+      "author": "sabaimran",
+      "additions": 3,
+      "deletions": 29,
+      "churn": 32,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/b864cb1f3012b9d204e32eea67d8cdd70a5a8ccb"
+    },
+    {
+      "sha": "0b8cf5112ff49dc9e7c13d8abb09a94ea587a8b0",
+      "date": "2026-02-24T18:46:42Z",
+      "author": "debanjum",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/0b8cf5112ff49dc9e7c13d8abb09a94ea587a8b0"
+    },
+    {
+      "sha": "94bae4789aca60e5bea67e3f96fbeb2ed39fff72",
+      "date": "2026-02-22T19:56:01Z",
+      "author": "debanjum",
+      "additions": 10,
+      "deletions": 8,
+      "churn": 18,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/94bae4789aca60e5bea67e3f96fbeb2ed39fff72"
+    },
+    {
+      "sha": "5a51f17a71f122af7333893e93c745f1d658d6ee",
+      "date": "2026-02-22T19:53:57Z",
+      "author": "majiayu000",
+      "additions": 11,
+      "deletions": 4,
+      "churn": 15,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/5a51f17a71f122af7333893e93c745f1d658d6ee"
+    },
+    {
+      "sha": "b0cd8dc8fd8047e67d47d1b825a46264ad4b8b62",
+      "date": "2026-02-22T19:41:45Z",
+      "author": "kowshik24",
+      "additions": 52,
+      "deletions": 1,
+      "churn": 53,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/b0cd8dc8fd8047e67d47d1b825a46264ad4b8b62"
+    },
+    {
+      "sha": "0ba0f3d0f28ce2be91c8194b2dbef2ac6a8f0c97",
+      "date": "2026-02-22T19:03:17Z",
+      "author": "samhoooo",
+      "additions": 109,
+      "deletions": 7,
+      "churn": 116,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/0ba0f3d0f28ce2be91c8194b2dbef2ac6a8f0c97"
+    },
+    {
+      "sha": "60a2f6d4dadb79754ebbeda6cbe78defab105ccc",
+      "date": "2026-02-22T18:46:18Z",
+      "author": "debanjum",
+      "additions": 52,
+      "deletions": 46,
+      "churn": 98,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/60a2f6d4dadb79754ebbeda6cbe78defab105ccc"
+    },
+    {
+      "sha": "9dfef3f40b74476fb72db9038c1fac1e0d18095e",
+      "date": "2026-02-22T17:50:11Z",
+      "author": "debanjum",
+      "additions": 340,
+      "deletions": 259,
+      "churn": 599,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/9dfef3f40b74476fb72db9038c1fac1e0d18095e"
+    },
+    {
+      "sha": "44b924025325dfdaac5b1009aa876607beac7274",
+      "date": "2026-02-22T17:18:59Z",
+      "author": "debanjum",
+      "additions": 1121,
+      "deletions": 956,
+      "churn": 2077,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/44b924025325dfdaac5b1009aa876607beac7274"
+    },
+    {
+      "sha": "21c51b9ace4eb59ce79ac0a93b917289824195cf",
+      "date": "2026-02-22T16:52:54Z",
+      "author": "debanjum",
+      "additions": 5,
+      "deletions": 2,
+      "churn": 7,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/21c51b9ace4eb59ce79ac0a93b917289824195cf"
+    },
+    {
+      "sha": "9cbf620e45e4f2d589fa0d51121a902334edf1fa",
+      "date": "2026-01-06T20:13:35Z",
+      "author": "debanjum",
+      "additions": 1,
+      "deletions": 1,
+      "churn": 2,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/9cbf620e45e4f2d589fa0d51121a902334edf1fa"
+    },
+    {
+      "sha": "1fd6e16cff416da413da9e5b469dd5ade42bd556",
+      "date": "2026-01-03T07:34:46Z",
+      "author": "hjamet",
+      "additions": 237,
+      "deletions": 92,
+      "churn": 329,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/1fd6e16cff416da413da9e5b469dd5ade42bd556"
+    },
+    {
+      "sha": "d6c2d1fa49cb585259480b993c521b3542aa5ae9",
+      "date": "2026-01-03T03:37:05Z",
+      "author": "sabaimran",
+      "additions": 1910,
+      "deletions": 17,
+      "churn": 1927,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/d6c2d1fa49cb585259480b993c521b3542aa5ae9"
+    },
+    {
+      "sha": "d55a00288bd6257d1b84f2a491ca24fb00530d43",
+      "date": "2026-01-02T03:59:10Z",
+      "author": "debanjum",
+      "additions": 10,
+      "deletions": 8,
+      "churn": 18,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/d55a00288bd6257d1b84f2a491ca24fb00530d43"
+    },
+    {
+      "sha": "19900e42ef0ed744726a1df5c19a3c0c15ac8515",
+      "date": "2026-01-02T03:55:48Z",
+      "author": "debanjum",
+      "additions": 2,
+      "deletions": 2,
+      "churn": 4,
+      "html_url": "https://github.com/khoj-ai/khoj/commit/19900e42ef0ed744726a1df5c19a3c0c15ac8515"
+    }
+  ]
+}

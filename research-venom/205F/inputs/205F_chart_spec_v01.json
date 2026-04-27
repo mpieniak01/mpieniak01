@@ -1,0 +1,87 @@
+{
+  "version": "v01",
+  "generated_at": "2026-04-27",
+  "scope": "205F",
+  "workbook": "docs_dev/_to_do/205_artifacts/produkty/excel/workspace/205F_visualization_workspace.xlsx",
+  "chart_id_format": "C_<SERIA>_<TEMAT>_<NN>",
+  "charts": [
+    {
+      "chart_id": "C_205B_LOC_TREND_01",
+      "sheet": "charts",
+      "chart_type": "line",
+      "title": "LOC trend Venom (Q1 2026)",
+      "x_series": "date",
+      "y_series": ["lines_of_code"],
+      "source_sheet": "wrk_205B_venom",
+      "filters": {"project_key": "mpieniak01_Venom", "date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_205B_ISSUES_DEBT_01",
+      "sheet": "charts",
+      "chart_type": "combo",
+      "title": "Issues vs Technical Debt (Venom)",
+      "x_series": "date",
+      "y_series": ["issues", "technical_debt_days"],
+      "source_sheet": "wrk_205B_venom",
+      "background_series": [],
+      "label_series": [],
+      "reference_lines": [],
+      "annotation_shapes": [],
+      "filters": {"project_key": "mpieniak01_Venom", "date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_205D_PR_FLOW_01",
+      "sheet": "charts",
+      "chart_type": "line",
+      "title": "PR flow daily (Venom)",
+      "x_series": "date",
+      "y_series": ["opened_count", "merged_count", "active_count"],
+      "source_sheet": "wrk_205D_venom",
+      "background_series": ["phase_band"],
+      "label_series": ["milestone_labels"],
+      "reference_lines": ["phase_boundaries"],
+      "annotation_shapes": ["phase_notes"],
+      "filters": {"project_key": "mpieniak01/Venom", "date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_205D_MEDIAN_LEAD_01",
+      "sheet": "charts",
+      "chart_type": "bar_horizontal",
+      "title": "Median lead time PR - porównanie repo",
+      "x_series": "median_lead_time_hours",
+      "y_series": ["project_key"],
+      "source_sheet": "wrk_205D_repo_summary",
+      "filters": {"date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_205D_BACKLOG_01",
+      "sheet": "charts",
+      "chart_type": "bar_horizontal",
+      "title": "Backlog pressure - średnia aktywnych PR",
+      "x_series": "avg_active_pr",
+      "y_series": ["project_key"],
+      "source_sheet": "wrk_205D_repo_summary",
+      "filters": {"date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_205E_COMMENTS_TREND_01",
+      "sheet": "charts",
+      "chart_type": "line",
+      "title": "Komentarze PR (205E) - trend dzienny",
+      "x_series": "date",
+      "y_series": ["avg_comments_closed", "avg_comments_merged"],
+      "source_sheet": "wrk_205E_comments_daily",
+      "filters": {"date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_205B_205C_BENCHMARK_01",
+      "sheet": "charts",
+      "chart_type": "column",
+      "title": "Porównanie benchmarkowe 205B/205C",
+      "x_series": "project_key",
+      "y_series": ["metric_value"],
+      "source_sheet": "wrk_summary_benchmark",
+      "filters": {"metric_set": "selected_kpi_q1_2026"}
+    }
+  ]
+}
