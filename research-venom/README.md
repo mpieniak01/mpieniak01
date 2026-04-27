@@ -25,3 +25,9 @@ Import danych/artefaktów badawczych będzie osobnym PR.
 
 - Tryb bieżący: `scripts-only` + hard ignore dla artefaktów.
 - Procedura publikacji danych: `research-venom/OPERATIONS.md`.
+
+
+## Struktura (obecny etap)
+
+W `scripts-only` celowo NIE utrzymujemy katalogów `205/205B/205C/205D/205E/205F`, `demo/`, `produkty/`.
+Wracają dopiero w osobnym PR danych/artefaktów.

@@ -30,3 +30,9 @@ To stabilizuje PR skryptowy i zapobiega przypadkowemu commitowaniu:
 
 - manifest pełny: `research-venom/config/205_export_manifest_v01.txt`
 - manifest scripts-review: `research-venom/config/205_export_manifest_scripts_review_v01.txt`
+
+
+## Current tree policy
+
+- W gałęzi `scripts-only` katalog `research-venom/` ma zawierać tylko: `tools/`, `config/`, dokumenty root (`README.md`, `PR_205_REVIEW.md`, `OPERATIONS.md`, `.gitignore`).
+- Katalogi serii (`205*`), `demo/`, `produkty/` są poza bieżącym zakresem i nie powinny występować lokalnie.
