@@ -20,3 +20,8 @@ Ten etap publikuje wyłącznie warstwę narzędziową (bez danych badawczych i a
 
 Najpierw stabilizujemy i recenzujemy jakość skryptów.
 Import danych/artefaktów badawczych będzie osobnym PR.
+
+## Operacyjnie
+
+- Tryb bieżący: `scripts-only` + hard ignore dla artefaktów.
+- Procedura publikacji danych: `research-venom/OPERATIONS.md`.
