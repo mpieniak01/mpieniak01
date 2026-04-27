@@ -8,4 +8,3 @@ FreedomIntelligence/OpenClaw-Medical-Skills
 xlenore/ps2-covers
 omkarcloud/botasaurus
 khoj-ai/khoj
-mpieniak01/Venom

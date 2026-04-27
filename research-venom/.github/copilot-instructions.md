@@ -1,5 +1,8 @@
 # Research-Venom Copilot Instructions
 
+> Note: in this repository the active Copilot instructions are at `/.github/copilot-instructions.md`.
+> This file is kept as part of the portable `research-venom` package.
+
 Scope for Copilot suggestions in this repository:
 
 1. This is a **research scripts** project, not a frontend web app.

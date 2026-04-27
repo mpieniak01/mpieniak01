@@ -18,8 +18,8 @@
       "khoj-ai/khoj",
       "mpieniak01/Venom"
     ],
-    "aggregate_csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/205C_github_benchmark_q1_2026.csv",
-    "per_repo_dir": "docs_dev/_to_do/205_artifacts/205C/timeseries"
+    "aggregate_csv": "research-venom/205C/timeseries/205C_github_benchmark_q1_2026.csv",
+    "per_repo_dir": "research-venom/205C/timeseries"
   },
   "projects": [
     {
@@ -31,8 +31,8 @@
       "deletions_q1": 40627,
       "churn_q1": 123647,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/neuropsychology__NeuroKit.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/neuropsychology__NeuroKit.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/neuropsychology__NeuroKit.json",
+      "csv": "research-venom/205C/timeseries/csv/neuropsychology__NeuroKit.csv"
     },
     {
       "project_key": "allenai/olmocr",
@@ -43,8 +43,8 @@
       "deletions_q1": 8145,
       "churn_q1": 31734,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/allenai__olmocr.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/allenai__olmocr.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/allenai__olmocr.json",
+      "csv": "research-venom/205C/timeseries/csv/allenai__olmocr.csv"
     },
     {
       "project_key": "virt-manager/virt-manager",
@@ -55,8 +55,8 @@
       "deletions_q1": 3597,
       "churn_q1": 20832,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/virt-manager__virt-manager.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/virt-manager__virt-manager.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/virt-manager__virt-manager.json",
+      "csv": "research-venom/205C/timeseries/csv/virt-manager__virt-manager.csv"
     },
     {
       "project_key": "hiddify/Hiddify-Manager",
@@ -67,8 +67,8 @@
       "deletions_q1": 299,
       "churn_q1": 1342,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/hiddify__Hiddify-Manager.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/hiddify__Hiddify-Manager.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/hiddify__Hiddify-Manager.json",
+      "csv": "research-venom/205C/timeseries/csv/hiddify__Hiddify-Manager.csv"
     },
     {
       "project_key": "JefferyHcool/BiliNote",
@@ -79,8 +79,8 @@
       "deletions_q1": 522218,
       "churn_q1": 1090126,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/JefferyHcool__BiliNote.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/JefferyHcool__BiliNote.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/JefferyHcool__BiliNote.json",
+      "csv": "research-venom/205C/timeseries/csv/JefferyHcool__BiliNote.csv"
     },
     {
       "project_key": "originalankur/maptoposter",
@@ -91,8 +91,8 @@
       "deletions_q1": 1049,
       "churn_q1": 6231,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/originalankur__maptoposter.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/originalankur__maptoposter.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/originalankur__maptoposter.json",
+      "csv": "research-venom/205C/timeseries/csv/originalankur__maptoposter.csv"
     },
     {
       "project_key": "FreedomIntelligence/OpenClaw-Medical-Skills",
@@ -103,8 +103,8 @@
       "deletions_q1": 36870,
       "churn_q1": 2168932,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/FreedomIntelligence__OpenClaw-Medical-Skills.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/FreedomIntelligence__OpenClaw-Medical-Skills.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/FreedomIntelligence__OpenClaw-Medical-Skills.json",
+      "csv": "research-venom/205C/timeseries/csv/FreedomIntelligence__OpenClaw-Medical-Skills.csv"
     },
     {
       "project_key": "xlenore/ps2-covers",
@@ -115,8 +115,8 @@
       "deletions_q1": 670,
       "churn_q1": 84517,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/xlenore__ps2-covers.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/xlenore__ps2-covers.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/xlenore__ps2-covers.json",
+      "csv": "research-venom/205C/timeseries/csv/xlenore__ps2-covers.csv"
     },
     {
       "project_key": "omkarcloud/botasaurus",
@@ -127,8 +127,8 @@
       "deletions_q1": 576,
       "churn_q1": 2299,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/omkarcloud__botasaurus.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/omkarcloud__botasaurus.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/omkarcloud__botasaurus.json",
+      "csv": "research-venom/205C/timeseries/csv/omkarcloud__botasaurus.csv"
     },
     {
       "project_key": "khoj-ai/khoj",
@@ -139,8 +139,8 @@
       "deletions_q1": 2550,
       "churn_q1": 7581,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/khoj-ai__khoj.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/khoj-ai__khoj.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/khoj-ai__khoj.json",
+      "csv": "research-venom/205C/timeseries/csv/khoj-ai__khoj.csv"
     },
     {
       "project_key": "mpieniak01/Venom",
@@ -151,8 +151,8 @@
       "deletions_q1": 230682,
       "churn_q1": 718591,
       "truncated": false,
-      "raw_json": "docs_dev/_to_do/205_artifacts/205C/timeseries/raw/mpieniak01__Venom.json",
-      "csv": "docs_dev/_to_do/205_artifacts/205C/timeseries/csv/mpieniak01__Venom.csv"
+      "raw_json": "research-venom/205C/timeseries/raw/mpieniak01__Venom.json",
+      "csv": "research-venom/205C/timeseries/csv/mpieniak01__Venom.csv"
     }
   ]
 }

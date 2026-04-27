@@ -27,9 +27,6 @@ produkty/excel/workspace/*_tmp.xlsx
 .env.*
 secrets/
 **/secrets/
-*secret*
-*token*
-*credential*
 *.pem
 *.key
 *.p12

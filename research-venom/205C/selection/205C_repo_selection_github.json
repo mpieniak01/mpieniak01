@@ -5,12 +5,15 @@
     "to_date": "2026-03-31",
     "language": "Python",
     "size_min_kb": 50000,
-    "size_max_kb": 0,
+    "size_max_kb": null,
     "project_limit": 10,
     "candidate_limit": 120,
     "min_commits_q1": 1,
     "search_sort": "updated",
-    "search_order": "desc"
+    "search_order": "desc",
+    "baseline_repo": "mpieniak01/Venom",
+    "selected_market_repos_count": 10,
+    "total_repos_with_baseline": 11
   },
   "selected": [
     {
@@ -44,7 +47,7 @@
       "stargazers_count": 3116,
       "forks_count": 515,
       "pushed_at": "2026-03-30T16:15:41Z",
-      "commits_q1": 66
+      "commits_q1": 57
     },
     {
       "full_name": "hiddify/Hiddify-Manager",
@@ -121,7 +124,7 @@
       "stargazers_count": 34194,
       "forks_count": 2164,
       "pushed_at": "2026-03-26T03:35:43Z",
-      "commits_q1": 40
+      "commits_q1": 39
     }
   ]
 }

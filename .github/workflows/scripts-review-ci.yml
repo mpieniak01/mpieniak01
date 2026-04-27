@@ -1,10 +1,5 @@
 name: Research Scripts Review CI
 
-# NOTE:
-# This file is kept as a research package template.
-# In this repository, the active workflow is at:
-#   /.github/workflows/scripts-review-ci.yml
-
 on:
   push:
     paths:
