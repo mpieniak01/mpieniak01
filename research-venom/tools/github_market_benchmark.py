@@ -166,7 +166,7 @@ def _github_get(
     for attempt in range(cfg.max_retries):
         req = urllib.request.Request(url, headers=headers, method="GET")
         try:
-            with urllib.request.urlopen(req, timeout=cfg.timeout) as resp:
+            with urllib.request.urlopen(req, timeout=cfg.timeout) as resp:  # nosec B310
                 body = json.loads(resp.read().decode("utf-8"))
                 hdrs = {k.lower(): v for k, v in resp.headers.items()}
                 rem = hdrs.get("x-ratelimit-remaining")

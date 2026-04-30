@@ -12,8 +12,9 @@ GITLEAKS_PATHS ?= tools config docs tests artifacts/inputs .github README.md Mak
         test test-contracts test-contracts-ci test-contracts-local-real verify-input-mode-contract-ci verify-input-mode-contract-local-real \
         test-data-local test-static test-powershell-parse test-security \
         fetch-sonar fetch-github-market fetch-pr-flow fetch-pr-comments fetch-all require-api-confirm \
-        process-sources process-summary process process-v4 audit-template audit-template-v4 \
-        product-excel-only product-excel-v4 product-all product-all-v4
+        fetch-sonar-v3 fetch-github-market-v3 fetch-pr-flow-v3 fetch-pr-comments-v3 fetch-all-v3 \
+        process-sources process-summary process process-v3 process-v4 audit-template audit-template-v3 audit-template-v4 \
+        product-excel-only product-excel-v3 product-excel-v4 product-all product-all-v3 product-all-v4
 
 help:
 	@echo "Tests:"
@@ -94,44 +95,71 @@ test-security:
 	@if command -v bandit >/dev/null 2>&1; then bandit -q -r tools -ll; else echo "Missing bandit in PATH"; exit 2; fi
 
 fetch-sonar: require-api-confirm
-	$(PYTHON) tools/sonar_market_benchmark.py --config $(CONFIG_V3) --dataset-id sonar_market --mode timeseries
+	$(PYTHON) tools/sonar_market_benchmark.py --config $(CONFIG_V4) --dataset-id sonar_market --mode timeseries
 
 fetch-github-market: require-api-confirm
-	$(PYTHON) tools/github_market_benchmark.py --config $(CONFIG_V3) --dataset-id github_market --mode analyze --max-commits-per-repo 0
+	$(PYTHON) tools/github_market_benchmark.py --config $(CONFIG_V4) --dataset-id github_market --mode analyze --max-commits-per-repo 0
 
 fetch-pr-flow: require-api-confirm
-	$(PYTHON) tools/github_pr_flow.py --config $(CONFIG_V3) --dataset-id github_pr_flow
+	$(PYTHON) tools/github_pr_flow.py --config $(CONFIG_V4) --dataset-id github_pr_flow
 
 fetch-pr-comments: require-api-confirm
-	$(PYTHON) tools/github_closed_pr_analysis.py --config $(CONFIG_V3) --dataset-id github_pr_comments
+	$(PYTHON) tools/github_closed_pr_analysis.py --config $(CONFIG_V4) --dataset-id github_pr_comments
 
 fetch-all: require-api-confirm fetch-sonar fetch-github-market fetch-pr-flow fetch-pr-comments
 
 process-sources:
-	$(PYTHON) tools/prepare_sources.py --config $(CONFIG_V3) --dataset-id visualization_sources_pack
+	$(PYTHON) tools/prepare_sources.py --config $(CONFIG_V4) --dataset-id visualization_sources_pack
 
 process-summary:
-	$(PYTHON) tools/build_summary_tables.py --config $(CONFIG_V3) --dataset-id visualization_summary_tables
+	$(PYTHON) tools/build_summary_tables.py --config $(CONFIG_V4) --dataset-id visualization_summary_tables
 
 process: process-sources process-summary
 
 audit-template:
-	$(PYTHON) tools/template_chart_audit.py --template artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx --chart-spec artifacts/inputs/visualization/chart_spec_v03.json --out-md artifacts/products_light/visualization/template_chart_audit_v03.md --out-json artifacts/products_light/visualization/template_chart_audit_v03.json
+	$(PYTHON) tools/template_chart_audit.py --template artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx --chart-spec artifacts/inputs/visualization/chart_spec_v04.json --out-md artifacts/products_light/visualization/template_chart_audit_v04.md --out-json artifacts/products_light/visualization/template_chart_audit_v04.json
 
 product-excel-only:
-	powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V3) -SkipWord
+	powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V4) -SkipWord
+
+fetch-sonar-v3: require-api-confirm
+	$(PYTHON) tools/sonar_market_benchmark.py --config $(CONFIG_V3) --dataset-id sonar_market --mode timeseries
+
+fetch-github-market-v3: require-api-confirm
+	$(PYTHON) tools/github_market_benchmark.py --config $(CONFIG_V3) --dataset-id github_market --mode analyze --max-commits-per-repo 0
+
+fetch-pr-flow-v3: require-api-confirm
+	$(PYTHON) tools/github_pr_flow.py --config $(CONFIG_V3) --dataset-id github_pr_flow
+
+fetch-pr-comments-v3: require-api-confirm
+	$(PYTHON) tools/github_closed_pr_analysis.py --config $(CONFIG_V3) --dataset-id github_pr_comments
+
+fetch-all-v3: require-api-confirm fetch-sonar-v3 fetch-github-market-v3 fetch-pr-flow-v3 fetch-pr-comments-v3
+
+process-v3:
+	$(PYTHON) tools/prepare_sources.py --config $(CONFIG_V3) --dataset-id visualization_sources_pack
+	$(PYTHON) tools/build_summary_tables.py --config $(CONFIG_V3) --dataset-id visualization_summary_tables
 
 process-v4:
 	$(PYTHON) tools/prepare_sources.py --config $(CONFIG_V4) --dataset-id visualization_sources_pack
 	$(PYTHON) tools/build_summary_tables.py --config $(CONFIG_V4) --dataset-id visualization_summary_tables
 
+audit-template-v3:
+	$(PYTHON) tools/template_chart_audit.py --template artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx --chart-spec artifacts/inputs/visualization/chart_spec_v03.json --out-md artifacts/products_light/visualization/template_chart_audit_v03.md --out-json artifacts/products_light/visualization/template_chart_audit_v03.json
+
 audit-template-v4:
 	$(PYTHON) tools/template_chart_audit.py --template artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx --chart-spec artifacts/inputs/visualization/chart_spec_v04.json --out-md artifacts/products_light/visualization/template_chart_audit_v04.md --out-json artifacts/products_light/visualization/template_chart_audit_v04.json
+
+product-excel-v3:
+	powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V3) -SkipWord
 
 product-excel-v4:
 	powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V4) -SkipWord
 
 product-all:
+	powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V4)
+
+product-all-v3:
 	powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V3)
 
 product-all-v4:

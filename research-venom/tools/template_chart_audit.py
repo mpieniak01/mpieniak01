@@ -12,9 +12,10 @@ import json
 import posixpath
 import re
 import zipfile
-import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
+
+import defusedxml.ElementTree as ET
 
 from path_config import repo_root_from_script
 

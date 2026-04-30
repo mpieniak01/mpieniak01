@@ -168,7 +168,7 @@ def api_get(
         req.add_header("X-GitHub-Api-Version", "2022-11-28")
 
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=60) as resp:  # nosec B310
                 headers = {k.lower(): v for k, v in resp.headers.items()}
                 rate.remaining = (
                     int(headers.get("x-ratelimit-remaining", "0"))

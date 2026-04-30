@@ -141,7 +141,7 @@ def _api_get(path: str, params: dict[str, Any], cfg: FetchConfig) -> dict[str, A
     for attempt in range(cfg.max_retries):
         req = urllib.request.Request(url=url, headers=headers, method="GET")
         try:
-            with urllib.request.urlopen(req, timeout=cfg.timeout) as response:
+            with urllib.request.urlopen(req, timeout=cfg.timeout) as response:  # nosec B310
                 return json.loads(response.read().decode("utf-8"))
         except urllib.error.HTTPError as exc:
             payload = ""

@@ -9,10 +9,18 @@ STYLE_PROFILE_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart
 CONTROL_PROFILE_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_control_profile_v04.json"
 CHART_SPEC_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_spec_v04.json"
 WORKBOOK_LAYOUT_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "workbook_layout_v04.json"
+MAKEFILE = REPO_ROOT / "Makefile"
+WORD_CREATE_CANVAS = REPO_ROOT / "tools" / "word_create_embed_canvas.ps1"
+WORD_INSERT_BOOKMARKS = REPO_ROOT / "tools" / "word_insert_bookmarks.ps1"
+WORD_VERIFY_EMBEDDINGS = REPO_ROOT / "tools" / "verify_word_embeddings.ps1"
 
 
 def _load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _read(path: Path) -> str:
+    return path.read_text(encoding="utf-8")
 
 
 def test_v4_config_points_to_versioned_artifacts() -> None:
@@ -72,3 +80,29 @@ def test_v4_workbook_layout_is_versioned() -> None:
     layout = _load_json(WORKBOOK_LAYOUT_V4)
     assert layout["version"] == "v04"
     assert "legacy-inspired styling" in layout["notes"]
+
+
+def test_makefile_defaults_use_active_v4_contract() -> None:
+    text = _read(MAKEFILE)
+    assert "fetch-sonar: require-api-confirm\n\t$(PYTHON) tools/sonar_market_benchmark.py --config $(CONFIG_V4)" in text
+    assert "fetch-github-market: require-api-confirm\n\t$(PYTHON) tools/github_market_benchmark.py --config $(CONFIG_V4)" in text
+    assert "process-sources:\n\t$(PYTHON) tools/prepare_sources.py --config $(CONFIG_V4)" in text
+    assert "process-summary:\n\t$(PYTHON) tools/build_summary_tables.py --config $(CONFIG_V4)" in text
+    assert "product-excel-only:\n\tpowershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V4)" in text
+    assert "product-all:\n\tpowershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/run_pipeline.ps1 -ConfigPath $(CONFIG_V4)" in text
+    assert "process-v3:" in text
+    assert "product-all-v3:" in text
+
+
+def test_word_helpers_default_to_active_v4_artifacts() -> None:
+    for path in (WORD_CREATE_CANVAS, WORD_INSERT_BOOKMARKS, WORD_VERIFY_EMBEDDINGS):
+        text = _read(path)
+        assert "word_embed_map_v04.csv" in text
+        assert "_v02" not in text
+
+
+def test_word_bookmark_insert_filters_inactive_map_rows() -> None:
+    text = _read(WORD_INSERT_BOOKMARKS)
+    assert 'status -ne "disabled"' in text
+    assert 'status -ne "skip"' in text
+    assert 'status -ne "inactive"' in text

@@ -23,10 +23,10 @@ function Resolve-DefaultPaths {
     $repoRoot = Get-RepoRoot
     $base = Join-Path $repoRoot "artifacts"
     if (-not $WordOutputDocx) {
-        $WordOutputDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_v02.docx"
+        $WordOutputDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_v04.docx"
     }
     if (-not $WordMapCsv) {
-        $WordMapCsv = Join-Path $base "inputs\visualization\word_embed_map_v02.csv"
+        $WordMapCsv = Join-Path $base "inputs\visualization\word_embed_map_v04.csv"
     }
     return @{
         WordOutputDocx = $WordOutputDocx

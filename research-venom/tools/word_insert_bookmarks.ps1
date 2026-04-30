@@ -26,13 +26,13 @@ function Resolve-DefaultPaths {
     $repoRoot = Get-RepoRoot
     $base = Join-Path $repoRoot "artifacts"
     if (-not $WordInputDocx) {
-        $WordInputDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_v02.docx"
+        $WordInputDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_v04.docx"
     }
     if (-not $WordOutputDocx) {
-        $WordOutputDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_bookmarked_v02.docx"
+        $WordOutputDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_bookmarked_v04.docx"
     }
     if (-not $WordMapCsv) {
-        $WordMapCsv = Join-Path $base "inputs\visualization\word_embed_map_v02.csv"
+        $WordMapCsv = Join-Path $base "inputs\visualization\word_embed_map_v04.csv"
     }
     return @{
         WordInputDocx = $WordInputDocx
@@ -49,7 +49,12 @@ $WordMapCsv = $paths.WordMapCsv
 if (-not (Test-Path -LiteralPath $WordInputDocx)) { throw "Missing Word input docx: $WordInputDocx" }
 if (-not (Test-Path -LiteralPath $WordMapCsv)) { throw "Missing map csv: $WordMapCsv" }
 
-$mapRows = Import-Csv -LiteralPath $WordMapCsv
+$mapRows = @(
+    Import-Csv -LiteralPath $WordMapCsv | Where-Object {
+        $status = ([string]$_.status).Trim().ToLowerInvariant()
+        $status -ne "disabled" -and $status -ne "skip" -and $status -ne "inactive"
+    }
+)
 Write-Host "[S06] Input docx:  $WordInputDocx"
 Write-Host "[S06] Output docx: $WordOutputDocx"
 Write-Host "[S06] Map csv:     $WordMapCsv"

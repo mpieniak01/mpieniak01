@@ -12,12 +12,14 @@ def repo_root_from_script(script_file: str) -> Path:
 
 def load_pipeline_config(config_path: str | None, script_file: str) -> dict[str, Any]:
     repo_root = repo_root_from_script(script_file)
-    candidate = Path(config_path or "")
-    if not candidate:
+    config_text = (config_path or "").strip()
+    if not config_text:
         candidate = repo_root / "config" / "process_pipeline_v01.json"
-    elif not candidate.is_absolute():
-        candidate = repo_root / candidate
-    if not candidate.exists():
+    else:
+        candidate = Path(config_text)
+        if not candidate.is_absolute():
+            candidate = repo_root / candidate
+    if not candidate.is_file():
         return {}
     return json.loads(candidate.read_text(encoding="utf-8"))
 

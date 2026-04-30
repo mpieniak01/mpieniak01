@@ -26,12 +26,12 @@ function Resolve-DefaultPaths {
     $repoRoot = Get-RepoRoot
     $base = Join-Path $repoRoot "artifacts"
     if (-not $WordDocx) {
-        $WordDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_bookmarked_v02.docx"
+        $WordDocx = Join-Path $repoRoot "_external\not_tracked\visualization\embed_canvas_bookmarked_v04.docx"
     }
-    if (-not $WordMapCsv) { $WordMapCsv = Join-Path $base "inputs\visualization\word_embed_map_v02.csv" }
-    if (-not $S07RunJson) { $S07RunJson = Join-Path $base "products_light\visualization\word_embed_run_v02.json" }
-    if (-not $OutJson) { $OutJson = Join-Path $base "products_light\visualization\word_embed_verify_v02.json" }
-    if (-not $OutMd) { $OutMd = Join-Path $base "products_light\visualization\word_embed_verify_v02.md" }
+    if (-not $WordMapCsv) { $WordMapCsv = Join-Path $base "inputs\visualization\word_embed_map_v04.csv" }
+    if (-not $S07RunJson) { $S07RunJson = Join-Path $base "products_light\visualization\word_embed_run_v04.json" }
+    if (-not $OutJson) { $OutJson = Join-Path $base "products_light\visualization\word_embed_verify_v04.json" }
+    if (-not $OutMd) { $OutMd = Join-Path $base "products_light\visualization\word_embed_verify_v04.md" }
     return @{
         WordDocx = $WordDocx
         WordMapCsv = $WordMapCsv
