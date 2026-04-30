@@ -22,6 +22,8 @@ def _assert(cond: bool, msg: str) -> None:
 
 
 def _validate_ci_mode(repo_root: Path) -> None:
+    # Public contract: "*_selected_v01.txt" are CI sample lists in the public repo.
+    # Real/private keys are stored only under _external/not_tracked/*_real_v01.txt.
     v04 = _read_json(repo_root / "config/process_pipeline_v04.json")
     v04_test = _read_json(repo_root / "config/process_pipeline_v04_test.json")
 
@@ -66,6 +68,14 @@ def _validate_ci_mode(repo_root: Path) -> None:
     _assert(
         (repo_root / github_test).exists(),
         f"missing sample github key file: {github_test}",
+    )
+    _assert(
+        not (repo_root / "artifacts/inputs/github_market/repo_keys_selected_sample_v01.txt").exists(),
+        "legacy sample file naming detected: repo_keys_selected_sample_v01.txt should not exist in public contract",
+    )
+    _assert(
+        not (repo_root / "artifacts/inputs/sonar_market/project_keys_selected_sample_v01.txt").exists(),
+        "legacy sample file naming detected: project_keys_selected_sample_v01.txt should not exist in public contract",
     )
 
 

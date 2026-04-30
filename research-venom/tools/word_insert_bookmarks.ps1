@@ -78,6 +78,7 @@ Write-Host "[S06] Staged working: $localOutputDoc"
 $word = New-Object -ComObject Word.Application
 $word.Visible = $false
 $word.DisplayAlerts = 0
+$doc = $null
 
 try {
     $doc = $word.Documents.Open($localOutputDoc)

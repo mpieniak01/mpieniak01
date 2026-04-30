@@ -56,7 +56,7 @@ jobs:
 
       - name: Dependency audit
         run: |
-          python -m pip_audit --progress-spinner off
+          python -m pip_audit -r requirements-ci.txt --progress-spinner off
 
       - name: Bandit (tools)
         run: |
