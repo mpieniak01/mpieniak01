@@ -1,0 +1,143 @@
+{
+  "version": "v04",
+  "template_reference": "artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx",
+  "chart_modes": {
+    "trend": {
+      "default_chart_type": "line",
+      "allow_secondary_axis": true,
+      "allow_combo": false,
+      "description": "Szereg czasowy i trend."
+    },
+    "share": {
+      "default_chart_type": "area_100",
+      "allow_secondary_axis": false,
+      "allow_combo": false,
+      "description": "Udział / miks serii po normalizacji do 100%."
+    },
+    "comparison": {
+      "default_chart_type": "bar_horizontal",
+      "allow_secondary_axis": false,
+      "allow_combo": false,
+      "description": "Porównanie projektów / kategorii."
+    },
+    "combo": {
+      "default_chart_type": "combo",
+      "allow_secondary_axis": true,
+      "allow_combo": true,
+      "description": "Wykres mieszany z serią na osi pomocniczej."
+    },
+    "mix": {
+      "default_chart_type": "combo",
+      "allow_secondary_axis": true,
+      "allow_combo": true,
+      "description": "Tryb roboczy dla różnych skal w jednym wykresie."
+    },
+    "synthetic_combo": {
+      "default_chart_type": "combo",
+      "allow_secondary_axis": true,
+      "allow_combo": true,
+      "description": "Wykres syntetyczny łączący kilka serii o wspólnej narracji."
+    }
+  },
+  "series_roles": {
+    "primary": {
+      "axis_group": "primary",
+      "description": "Główna seria sygnału"
+    },
+    "secondary": {
+      "axis_group": "secondary",
+      "description": "Seria na pomocniczej osi"
+    },
+    "reference": {
+      "axis_group": "primary",
+      "description": "Seria referencyjna / benchmark"
+    },
+    "label": {
+      "axis_group": "primary",
+      "description": "Seria opisowa / etykietowa"
+    },
+    "highlight": {
+      "axis_group": "primary",
+      "description": "Seria lub punkt wyróżniony jako Venom"
+    }
+  },
+  "series_plan_defaults": {
+    "chart_type": "line",
+    "axis_group": "primary",
+    "render": true
+  },
+  "phase_background": {
+    "name": "project_phase_background",
+    "series_fields": [
+      "phase_i",
+      "phase_ii",
+      "phase_iii"
+    ],
+    "labels": {
+      "phase_i": "Faza I — Generowanie",
+      "phase_ii": "Faza II — Oczyszczanie",
+      "phase_iii": "Faza III — Stabilizacja"
+    },
+    "date_ranges": [
+      {
+        "field": "phase_i",
+        "from": "2026-01-01",
+        "to": "2026-02-05"
+      },
+      {
+        "field": "phase_ii",
+        "from": "2026-02-06",
+        "to": "2026-03-06"
+      },
+      {
+        "field": "phase_iii",
+        "from": "2026-03-07",
+        "to": "2026-03-31"
+      }
+    ],
+    "background_value": 100,
+    "fill_transparency": 0.75,
+    "line_visible": false,
+    "secondary_axis_scale": {
+      "minimum": 0,
+      "maximum": 100,
+      "major_unit": 20,
+      "minimum_is_auto": false,
+      "maximum_is_auto": false,
+      "major_unit_is_auto": false
+    },
+    "description": "Globalny kontrakt faz projektu dla wykresow combo w v4.",
+    "render_mode": "column",
+    "gap_width": 0,
+    "overlap": 100
+  },
+  "date_axis": {
+    "category_type": "category",
+    "tick_label_spacing": 7,
+    "tick_mark_spacing": 7,
+    "number_format": "mm-dd",
+    "description": "Globalny kontrakt osi dat dla wykresow v4."
+  },
+  "chart_selection_rules": {
+    "secondary_axis_hints": [
+      "pct",
+      "%",
+      "coverage",
+      "latency",
+      "lead_time"
+    ],
+    "combo_hints": [
+      "mix",
+      "comparison",
+      "trajectory",
+      "benchmark"
+    ]
+  },
+  "validation": {
+    "series_nonnull_ratio_warn": 0.9,
+    "series_nonnull_ratio_sparse": 0.5,
+    "series_dominance_warn_ratio": 0.85,
+    "allow_combo_secondary_axis": true,
+    "min_series_per_combo_chart": 2
+  }
+}

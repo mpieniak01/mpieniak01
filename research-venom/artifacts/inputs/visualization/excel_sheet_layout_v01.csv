@@ -1,0 +1,13 @@
+order,sheet_name,input_table,role,source_type,notes
+1,summary,summary,dane sumaryczne do pracy,processed,"pierwsza karta do szybkiego odczytu KPI"
+2,charts,charts,główne wykresy do Word,processed,"obiekty wykresów nazwane chart_id"
+3,src_sonar_projects_ts_raw,src_205B_timeseries,źródło SonarQube (zbiór projektów),raw,"import SonarQube timeseries dla listy project_key"
+4,src_github_repos_ts_raw,src_205C_timeseries,źródło GitHub API (zbiór repo),raw,"import GitHub benchmark timeseries dla listy owner/repo"
+5,src_git_prflow_ts_raw,src_205D_timeseries,źródło GitHub/Git PR flow (zbiór repo),raw,"import PR flow daily timeseries dla listy owner/repo"
+6,src_github_prcomments_daily_raw,src_205E_daily,źródło GitHub API comments (zbiór repo),raw,"import daily comments dla listy owner/repo"
+7,wrk_sonar_venom_project_ts,wrk_205B_venom,przetworzenie SonarQube dla projektu Venom,processed,"filtr project_key=mpieniak01_Venom"
+8,wrk_git_prflow_venom_repo_ts,wrk_205D_venom,przetworzenie PR flow dla repo Venom,processed,"filtr project_key=mpieniak01/Venom"
+9,wrk_git_prflow_repo_agg,wrk_205D_repo_summary,agregaty PR flow dla zbioru repo,processed,"median lead time i backlog pressure"
+10,wrk_github_prcomments_daily_agg,wrk_205E_comments_daily,agregaty komentarzy dla zbioru repo,processed,"serie do trendu komentarzy"
+11,wrk_market_benchmark_agg,wrk_summary_benchmark,agregat benchmarku rynku (SonarQube+GitHub),processed,"dane pod wykres porównawczy"
+12,meta,meta,słownik i kontrola wersji,meta,"mapa chart_id, wersja pliku i źródeł"

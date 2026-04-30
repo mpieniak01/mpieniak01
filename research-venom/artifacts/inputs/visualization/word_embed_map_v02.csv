@@ -1,0 +1,8 @@
+chart_id,excel_sheet,excel_chart_name,word_bookmark,word_section,caption_pl,status
+C_SONAR_VENOM_LOC_02,W32_LOC,C_SONAR_VENOM_LOC_02,BM_C_SONAR_VENOM_LOC_02,Analiza dynamiki kodu,"Trend LOC Venom w Q1 2026",planned
+C_SONAR_VENOM_ISSUES_DEBT_02,W35_Trajektoria_Q1,C_SONAR_VENOM_ISSUES_DEBT_02,BM_C_SONAR_VENOM_ISSUES_DEBT_02,Analiza jakości kodu,"Issues vs Technical Debt (Venom)",planned
+C_PRFLOW_VENOM_DAILY_FLOW_02,W33_Dzienny_Przeplyw,C_PRFLOW_VENOM_DAILY_FLOW_02,BM_C_PRFLOW_VENOM_DAILY_FLOW_02,Analiza procesu PR,"PR flow dzienny (opened/merged/active)",planned
+C_WP2_MEDIAN_LT_02,WP2_Lead_Time,C_WP2_MEDIAN_LT_02,BM_C_WP2_MEDIAN_LT_02,Benchmark procesu PR,"Medianowy czas realizacji PR",planned
+C_WP4_BACKLOG_02,WP4_Backlog,C_WP4_BACKLOG_02,BM_C_WP4_BACKLOG_02,Benchmark procesu PR,"Backlog pressure - średnia aktywnych PR",planned
+C_WP5_COMMENTS_DAILY_02,WP5_Venom_PR_Daily,C_WP5_COMMENTS_DAILY_02,BM_C_WP5_COMMENTS_DAILY_02,Dowody review,"Trend komentarzy PR",planned
+C_WP6_MARKET_BENCHMARK_02,WP6_Market_Benchmark,C_WP6_MARKET_BENCHMARK_02,BM_C_WP6_MARKET_BENCHMARK_02,Porównanie rynku,"Porównanie benchmarkowe rynku",planned

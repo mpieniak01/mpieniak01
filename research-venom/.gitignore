@@ -1,0 +1,80 @@
+# research-venom
+
+# Python/cache/runtime
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.log
+.venv/
+.venv
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets / credentials
+.env
+.env.*
+secrets/
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Internal operational notes (not for publication)
+docs_pr/
+docs_pr/**
+
+# Archived artifacts snapshot
+config_arch/
+
+# Runtime outputs outside tracked artifacts
+_external/not_tracked/**
+
+# Heavy outputs and binaries (blocked by default)
+**/raw/**
+**/*_raw_*.json
+**/*_per_repo_*.csv
+*.docx
+*.xlsx
+*.png
+
+# Keep tracked project zones
+!docs/
+!docs/**
+!tools/
+!tools/**
+!config/
+!config/**
+!artifacts/
+!artifacts/inputs/
+!artifacts/inputs/**
+!README.md
+!OPERATIONS.md
+!PR_205_REVIEW.md
+!.gitignore
+
+# Artifacts policy:
+# - track only lightweight input contracts under artifacts/inputs/**
+# - keep sources/processing/products/meta outputs ignored
+artifacts/*
+!artifacts/inputs/
+!artifacts/inputs/**
+artifacts/sources/
+artifacts/processing/
+artifacts/products_light/
+artifacts/meta/
+
+# Re-block Python cache under force-included trees
+tools/**/__pycache__/
+tools/**/*.pyc

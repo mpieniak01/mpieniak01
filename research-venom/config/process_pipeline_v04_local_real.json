@@ -1,0 +1,214 @@
+{
+  "project": {
+    "name": "research-venom",
+    "config_version": "v04",
+    "artifact_contract": "process-first",
+    "migration_phase": "G4_legacy_adoption",
+    "config_mode": "public_sample_safe"
+  },
+  "roots": {
+    "repo_root": ".",
+    "artifacts_root": "artifacts",
+    "runtime_root": "_external/not_tracked"
+  },
+  "runtime": {
+    "step_timeout_sec": 600,
+    "cleanup_office_orphans": true,
+    "skip_bookmark_insert": false
+  },
+  "process": {
+    "model": "input -> processing -> result",
+    "sequence": [
+      "sonar_market",
+      "github_market",
+      "github_pr_flow",
+      "github_pr_comments",
+      "visualization_sources_pack",
+      "visualization_summary_tables",
+      "visualization_pipeline"
+    ],
+    "steps": {
+      "sonar_market": {
+        "domain": "sonar_market",
+        "kind": "input",
+        "env_file": ".env.dev",
+        "token_env": "SONAR_TOKEN",
+        "paths": {
+          "project_key_file": "_external/not_tracked/inputs/sonar_market/project_keys_selected_real_v01.txt",
+          "output_json": "artifacts/products_light/sonar_market/benchmark_analysis_2026_v01.json",
+          "output_md": "artifacts/products_light/sonar_market/benchmark_analysis_2026_v01.md",
+          "timeseries_dir": "artifacts/sources/sonar_market/timeseries",
+          "aggregate_csv": "artifacts/products_light/sonar_market/timeseries_agg_2026_v01.csv"
+        }
+      },
+      "github_market": {
+        "domain": "github_market",
+        "kind": "input",
+        "env_file": ".env.dev",
+        "token_env": "GITHUB_TOKEN",
+        "paths": {
+          "repo_file": "_external/not_tracked/inputs/github_market/repo_keys_selected_real_v01.txt",
+          "selection_json": "artifacts/sources/github_market/repo_selection_v01.json",
+          "selection_md": "artifacts/sources/github_market/repo_selection_v01.md",
+          "selection_keys": "_external/not_tracked/inputs/github_market/repo_keys_selected_real_v01.txt",
+          "output_json": "artifacts/products_light/github_market/benchmark_analysis_2026_v01.json",
+          "output_md": "artifacts/products_light/github_market/benchmark_analysis_2026_v01.md",
+          "aggregate_csv": "artifacts/products_light/github_market/timeseries_agg_2026_v01.csv",
+          "per_repo_dir": "artifacts/sources/github_market/per_repo"
+        }
+      },
+      "github_pr_flow": {
+        "domain": "pr_flow",
+        "kind": "processing",
+        "owner": "mpieniak01",
+        "repo": "Venom",
+        "env_file": ".env.dev",
+        "token_env": "GITHUB_TOKEN",
+        "paths": {
+          "output_root": "artifacts/sources/pr_flow/per_repo",
+          "aggregate_csv": "artifacts/products_light/pr_flow/timeseries_agg_2026_v01.csv",
+          "output_json": "artifacts/products_light/pr_flow/analysis_2026_v01.json",
+          "output_md": "artifacts/products_light/pr_flow/analysis_2026_v01.md"
+        }
+      },
+      "github_pr_comments": {
+        "domain": "pr_comments",
+        "kind": "processing",
+        "owner": "mpieniak01",
+        "repo": "Venom",
+        "env_file": ".env.dev",
+        "token_env": "GITHUB_TOKEN",
+        "paths": {
+          "output_json": "artifacts/products_light/pr_comments/analysis_2026_v01.json",
+          "output_md": "artifacts/products_light/pr_comments/analysis_2026_v01.md",
+          "daily_csv": "artifacts/products_light/pr_comments/comments_daily_2026_v01.csv",
+          "summary_csv": "artifacts/products_light/pr_comments/comments_summary_2026_v01.csv"
+        }
+      },
+      "visualization_sources_pack": {
+        "domain": "visualization",
+        "kind": "processing",
+        "venom_205b_key": "mpieniak01_Venom",
+        "venom_205c_key": "mpieniak01/Venom",
+        "venom_205d_key": "mpieniak01/Venom",
+        "comparison_anchor_project_key": "mpieniak01/Venom",
+        "comparison_peer_group_size": 11,
+        "comparison_metrics": {
+          "tpl_WP1_pr_volume": "total_opened_pr",
+          "tpl_WP2_lead_time": "weighted_avg_lead_time_hours",
+          "tpl_WP3_merge_rate": "merge_rate_pct",
+          "tpl_WP4_backlog": "avg_active_pr"
+        },
+        "paths": {
+          "in_205b": "artifacts/products_light/sonar_market/timeseries_agg_2026_v01.csv",
+          "in_205c": "artifacts/products_light/github_market/timeseries_agg_2026_v01.csv",
+          "in_205d": "artifacts/products_light/pr_flow/timeseries_agg_2026_v01.csv",
+          "in_205e_daily": "artifacts/products_light/pr_comments/comments_daily_2026_v01.csv",
+          "layout_csv": "artifacts/inputs/visualization/excel_sheet_layout_v04.csv",
+          "out_json": "artifacts/processing/visualization/sources_pack_v01.json",
+          "out_csv": "artifacts/processing/visualization/sources_pack_v01.csv"
+        }
+      },
+      "visualization_summary_tables": {
+        "domain": "visualization",
+        "kind": "processing",
+        "paths": {
+          "in_pack_json": "artifacts/processing/visualization/sources_pack_v01.json",
+          "chart_spec_json": "artifacts/inputs/visualization/chart_spec_v04.json",
+          "out_summary_csv": "artifacts/processing/visualization/summary_tables_v04.csv",
+          "control_profile_json": "artifacts/inputs/visualization/chart_control_profile_v04.json"
+        }
+      },
+      "visualization_pipeline": {
+        "domain": "visualization",
+        "kind": "result",
+        "paths": {
+          "sources_pack_json": "artifacts/processing/visualization/sources_pack_v01.json",
+          "summary_csv": "artifacts/processing/visualization/summary_tables_v04.csv",
+          "excel_layout_csv": "artifacts/inputs/visualization/excel_sheet_layout_v04.csv",
+          "workbook_layout_json": "artifacts/inputs/visualization/workbook_layout_v04.json",
+          "chart_spec_json": "artifacts/inputs/visualization/chart_spec_v04.json",
+          "chart_style_profile_json": "artifacts/inputs/visualization/chart_style_profile_v04.json",
+          "patterns_doc_md": "docs/EXCEL_ADVANCED_PATTERNS.md",
+          "excel_workbook": "_external/not_tracked/visualization/workbook_v04.xlsx",
+          "excel_verify_json": "artifacts/products_light/visualization/excel_verify_v04.json",
+          "excel_verify_md": "artifacts/products_light/visualization/excel_verify_v04.md",
+          "word_map_csv": "artifacts/inputs/visualization/word_embed_map_v04.csv",
+          "word_input_docx": "_external/not_tracked/visualization/embed_canvas_v04.docx",
+          "word_output_docx": "_external/not_tracked/visualization/embed_canvas_bookmarked_v04.docx",
+          "embed_run_json": "artifacts/products_light/visualization/word_embed_run_v04.json",
+          "embed_run_md": "artifacts/products_light/visualization/word_embed_run_v04.md",
+          "embed_verify_json": "artifacts/products_light/visualization/word_embed_verify_v04.json",
+          "embed_verify_md": "artifacts/products_light/visualization/word_embed_verify_v04.md",
+          "pipeline_report_json": "artifacts/products_light/visualization/pipeline_run_v04.json",
+          "pipeline_report_md": "artifacts/products_light/visualization/pipeline_run_v04.md",
+          "chart_control_profile_json": "artifacts/inputs/visualization/chart_control_profile_v04.json"
+        }
+      }
+    }
+  },
+  "paths": {
+    "sources_pack_json": "artifacts/processing/visualization/sources_pack_v01.json",
+    "summary_csv": "artifacts/processing/visualization/summary_tables_v04.csv",
+    "excel_layout_csv": "artifacts/inputs/visualization/excel_sheet_layout_v04.csv",
+    "workbook_layout_json": "artifacts/inputs/visualization/workbook_layout_v04.json",
+    "chart_spec_json": "artifacts/inputs/visualization/chart_spec_v04.json",
+    "chart_style_profile_json": "artifacts/inputs/visualization/chart_style_profile_v04.json",
+    "patterns_doc_md": "docs/EXCEL_ADVANCED_PATTERNS.md",
+    "excel_workbook": "_external/not_tracked/visualization/workbook_v04.xlsx",
+    "excel_verify_json": "artifacts/products_light/visualization/excel_verify_v04.json",
+    "excel_verify_md": "artifacts/products_light/visualization/excel_verify_v04.md",
+    "word_map_csv": "artifacts/inputs/visualization/word_embed_map_v04.csv",
+    "word_input_docx": "_external/not_tracked/visualization/embed_canvas_v04.docx",
+    "word_output_docx": "_external/not_tracked/visualization/embed_canvas_bookmarked_v04.docx",
+    "embed_run_json": "artifacts/products_light/visualization/word_embed_run_v04.json",
+    "embed_run_md": "artifacts/products_light/visualization/word_embed_run_v04.md",
+    "embed_verify_json": "artifacts/products_light/visualization/word_embed_verify_v04.json",
+    "embed_verify_md": "artifacts/products_light/visualization/word_embed_verify_v04.md",
+    "pipeline_report_json": "artifacts/products_light/visualization/pipeline_run_v04.json",
+    "pipeline_report_md": "artifacts/products_light/visualization/pipeline_run_v04.md",
+    "chart_control_profile_json": "artifacts/inputs/visualization/chart_control_profile_v04.json"
+  },
+  "profiles": {
+    "export": {
+      "full": [
+        "README.md",
+        "Makefile",
+        "pytest.ini",
+        ".gitignore",
+        ".github/copilot-instructions.md",
+        ".github/workflows/scripts-review-ci.yml",
+        "tests/*.py",
+        "tests/**/*.py",
+        "tools/*.py",
+        "tools/*.ps1",
+        "config/process_pipeline_v04.json",
+        "docs/*.md",
+        "artifacts/inputs/*",
+        "artifacts/analysis/*",
+        "artifacts/timeseries_agg/*",
+        "artifacts/meta/*",
+        "artifacts/sources/*",
+        "artifacts/processing/*",
+        "artifacts/products_light/*"
+      ],
+      "scripts_review": [
+        "README.md",
+        "Makefile",
+        "pytest.ini",
+        ".gitignore",
+        ".github/copilot-instructions.md",
+        ".github/workflows/scripts-review-ci.yml",
+        "tests/*.py",
+        "tests/**/*.py",
+        "tools/*.py",
+        "tools/*.ps1",
+        "config/process_pipeline_v04.json",
+        "docs/SCRIPTS_REFERENCE.md",
+        "docs_pr/_arch/SCRIPTS_MIGRATION_206G.md",
+        "docs/EXECUTION_ENV.md",
+        "docs_pr/_arch/ARTIFACT_CONTRACT_205H.md"
+      ]
+    }
+  }
+}

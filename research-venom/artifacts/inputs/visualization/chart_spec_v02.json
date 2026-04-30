@@ -1,0 +1,565 @@
+{
+  "version": "v02",
+  "generated_at": "2026-04-28",
+  "scope": "205F",
+  "workbook": "_external/not_tracked/visualization/workbook_v02.xlsx",
+  "chart_id_format": "C_<SOURCE>_<SCOPE>_<TOPIC>_<NN>",
+  "charts": [
+    {
+      "chart_id": "C_GITHUB_MARKET_COMMITS_02",
+      "sheet": "W31_Commity",
+      "chart_type": "area_100",
+      "title": "GitHub market activity mix (Q1, normalized)",
+      "x_series": "date",
+      "y_series": [
+        "commits",
+        "authors",
+        "additions",
+        "deletions",
+        "churn"
+      ],
+      "series_labels": [
+        "Commits",
+        "Authors",
+        "Additions",
+        "Deletions",
+        "Churn"
+      ],
+      "source_sheet": "src_205C_timeseries",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W31 Commity",
+      "table_description": "Dzienne wskaźniki commit/activity dla repozytoriów GitHub (Q1 2026)."
+    },
+    {
+      "chart_id": "C_GITHUB_MARKET_AUTHORS_02",
+      "sheet": "W31_Commity",
+      "chart_type": "area",
+      "title": "GitHub: authors trend (Q1)",
+      "x_series": "date",
+      "y_series": [
+        "authors"
+      ],
+      "series_labels": [
+        "Authors"
+      ],
+      "source_sheet": "src_205C_timeseries",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W31 Commity",
+      "table_description": "Dzienne wskaźniki commit/activity dla repozytoriów GitHub (Q1 2026)."
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_LOC_02",
+      "sheet": "W32_LOC",
+      "chart_type": "bar_horizontal",
+      "title": "SonarQube: LOC trend Venom",
+      "x_series": "date",
+      "y_series": [
+        "lines_of_code"
+      ],
+      "series_labels": [
+        "Linie kodu"
+      ],
+      "source_sheet": "wrk_205B_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W32 LOC",
+      "table_description": "Trend linii kodu w projekcie Venom (SonarQube)."
+    },
+    {
+      "chart_id": "C_SONAR_PROJECTS_DEBT_BAR_02",
+      "sheet": "W36_Dlug_Projekty",
+      "chart_type": "bar_horizontal",
+      "title": "SonarQube: dług techniczny wg projektu",
+      "x_series": "technical_debt_days",
+      "y_series": [
+        "project_key"
+      ],
+      "series_labels": [
+        "Dług techniczny (dni)"
+      ],
+      "source_sheet": "src_205B_timeseries",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W36 Dlug Projekty",
+      "table_description": "Porównanie długu technicznego między projektami."
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_DEBT_TREND_02",
+      "sheet": "W37_Trajektoria_Dlug",
+      "chart_type": "area",
+      "title": "SonarQube: trajektoria długu",
+      "x_series": "date",
+      "y_series": [
+        "technical_debt_days"
+      ],
+      "series_labels": [
+        "Dług techniczny (dni)"
+      ],
+      "source_sheet": "wrk_205B_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W37 Trajektoria Dlug",
+      "table_description": "Zmiana długu technicznego i issues w czasie."
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_ISSUES_TREND_02",
+      "sheet": "W37_Trajektoria_Dlug",
+      "chart_type": "area",
+      "title": "SonarQube: trajektoria issues",
+      "x_series": "date",
+      "y_series": [
+        "issues"
+      ],
+      "series_labels": [
+        "Issues"
+      ],
+      "source_sheet": "wrk_205B_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W37 Trajektoria Dlug",
+      "table_description": "Zmiana długu technicznego i issues w czasie."
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_ISSUES_DEBT_02",
+      "sheet": "W35_Trajektoria_Q1",
+      "chart_type": "area",
+      "title": "Projekt Venom: jakość kodu (Q1 2026)",
+      "x_series": "date",
+      "y_series": [
+        "issues",
+        "technical_debt_days",
+        "lines_of_code",
+        "line_coverage_pct",
+        "unit_tests"
+      ],
+      "series_labels": [
+        "Issues",
+        "Technical Debt",
+        "Lines of code",
+        "Line coverage %",
+        "Unit tests"
+      ],
+      "source_sheet": "wrk_205B_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W35 Trajektoria Q1",
+      "table_description": "Wskaźniki jakości Venom w trakcie kwartału."
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_COVERAGE_02",
+      "sheet": "W35_Trajektoria_Q1",
+      "chart_type": "area",
+      "title": "SonarQube: line coverage Venom",
+      "x_series": "date",
+      "y_series": [
+        "line_coverage_pct"
+      ],
+      "series_labels": [
+        "Line coverage %"
+      ],
+      "source_sheet": "wrk_205B_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W35 Trajektoria Q1",
+      "table_description": "Wskaźniki jakości Venom w trakcie kwartału."
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_UNIT_TESTS_02",
+      "sheet": "W35_Trajektoria_Q1",
+      "chart_type": "area",
+      "title": "SonarQube: unit tests Venom",
+      "x_series": "date",
+      "y_series": [
+        "unit_tests"
+      ],
+      "series_labels": [
+        "Unit tests"
+      ],
+      "source_sheet": "wrk_205B_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W35 Trajektoria Q1",
+      "table_description": "Wskaźniki jakości Venom w trakcie kwartału."
+    },
+    {
+      "chart_id": "C_PRFLOW_VENOM_OPENED_MERGED_02",
+      "sheet": "W42_FazaII",
+      "chart_type": "area",
+      "title": "PR flow: opened vs merged (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_opened_count_daily",
+        "pr_merged_count_daily",
+        "pr_closed_not_merged_daily",
+        "pr_active_daily"
+      ],
+      "series_labels": [
+        "Opened",
+        "Merged",
+        "Closed not merged",
+        "Active"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "reference_lines": [
+        "phase_boundaries"
+      ],
+      "table_title": "W42 Faza II",
+      "table_description": "Operacyjne metryki przepływu PR (opened/merged/active)."
+    },
+    {
+      "chart_id": "C_PRFLOW_VENOM_ACTIVE_02",
+      "sheet": "W42_FazaII",
+      "chart_type": "area",
+      "title": "PR flow: active PR (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_active_daily"
+      ],
+      "series_labels": [
+        "Active"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W42 Faza II",
+      "table_description": "Operacyjne metryki przepływu PR (opened/merged/active)."
+    },
+    {
+      "chart_id": "C_PRFLOW_VENOM_REVIEW_LATENCY_02",
+      "sheet": "W42_FazaII",
+      "chart_type": "area",
+      "title": "PR flow: lead time and activity (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_active_daily",
+        "pr_daily_avg_lead_time_hours",
+        "pr_daily_median_lead_time_hours"
+      ],
+      "series_labels": [
+        "Active PRs",
+        "Avg lead time h",
+        "Median lead time h"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "none",
+      "table_title": "W42 Faza II",
+      "table_description": "Operacyjne metryki przepływu PR (opened/merged/active)."
+    },
+    {
+      "chart_id": "C_PRFLOW_VENOM_MEDIAN_LT_02",
+      "sheet": "W43_FazaII",
+      "chart_type": "area",
+      "title": "PR flow: median lead time (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_daily_median_lead_time_hours"
+      ],
+      "series_labels": [
+        "Median lead time h"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "none",
+      "table_title": "W43 Faza II",
+      "table_description": "Metryki czasu realizacji PR (median/avg lead time)."
+    },
+    {
+      "chart_id": "C_PRFLOW_VENOM_AVG_LT_02",
+      "sheet": "W43_FazaII",
+      "chart_type": "area",
+      "title": "PR flow: avg lead time (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_daily_avg_lead_time_hours"
+      ],
+      "series_labels": [
+        "Avg lead time h"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "none",
+      "table_title": "W43 Faza II",
+      "table_description": "Metryki czasu realizacji PR (median/avg lead time)."
+    },
+    {
+      "chart_id": "C_PRFLOW_VENOM_DAILY_FLOW_02",
+      "sheet": "W33_Dzienny_Przeplyw",
+      "chart_type": "area",
+      "title": "Dzienny przepływ PR (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_opened_count_daily",
+        "pr_merged_count_daily",
+        "pr_closed_not_merged_daily",
+        "pr_active_daily"
+      ],
+      "series_labels": [
+        "Opened",
+        "Merged",
+        "Closed not merged",
+        "Active"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "W33 Dzienny Przeplyw",
+      "table_description": "Dzienny przepływ PR dla Venom."
+    },
+    {
+      "chart_id": "C_WP1_PR_VOLUME_02",
+      "sheet": "WP1_PR_Wolumen",
+      "chart_type": "bar_horizontal",
+      "title": "PR volume: średnia aktywnych PR",
+      "x_series": "project_key",
+      "y_series": [
+        "avg_active_pr",
+        "total_opened_pr",
+        "total_merged_pr",
+        "total_closed_not_merged_pr"
+      ],
+      "series_labels": [
+        "Avg active PR",
+        "Opened PR",
+        "Merged PR",
+        "Closed not merged PR"
+      ],
+      "source_sheet": "wrk_205D_repo_summary",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "WP1 PR Wolumen",
+      "table_description": "Wolumen i presja backlogu w repozytoriach."
+    },
+    {
+      "chart_id": "C_WP2_MEDIAN_LT_02",
+      "sheet": "WP2_Lead_Time",
+      "chart_type": "bar_horizontal",
+      "title": "PR lead time: mediana (repo)",
+      "x_series": "project_key",
+      "y_series": [
+        "median_lead_time_hours",
+        "avg_lead_time_hours",
+        "avg_active_pr"
+      ],
+      "series_labels": [
+        "Median lead time h",
+        "Avg lead time h",
+        "Avg active PR"
+      ],
+      "source_sheet": "wrk_205D_repo_summary",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "WP2 Lead Time",
+      "table_description": "Porównanie czasu realizacji PR między repozytoriami."
+    },
+    {
+      "chart_id": "C_WP2_AVG_LT_02",
+      "sheet": "WP2_Lead_Time",
+      "chart_type": "bar_horizontal",
+      "title": "PR lead time: średnia (repo)",
+      "x_series": "avg_lead_time_hours",
+      "y_series": [
+        "project_key"
+      ],
+      "series_labels": [
+        "Avg lead time h"
+      ],
+      "source_sheet": "wrk_205D_repo_summary",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "none",
+      "table_title": "WP2 Lead Time",
+      "table_description": "Porównanie czasu realizacji PR między repozytoriami."
+    },
+    {
+      "chart_id": "C_WP3_MERGE_RATE_02",
+      "sheet": "WP3_Merge_Rate",
+      "chart_type": "bar_horizontal",
+      "title": "Merge rate (Venom)",
+      "x_series": "date",
+      "y_series": [
+        "pr_merged_count_daily",
+        "pr_opened_count_daily",
+        "pr_closed_not_merged_daily"
+      ],
+      "series_labels": [
+        "Merged",
+        "Opened",
+        "Closed not merged"
+      ],
+      "source_sheet": "wrk_205D_venom",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "WP3 Merge Rate",
+      "table_description": "Relacja merged/opened jako sygnał merge rate."
+    },
+    {
+      "chart_id": "C_WP4_BACKLOG_02",
+      "sheet": "WP4_Backlog",
+      "chart_type": "bar_horizontal",
+      "title": "Backlog pressure (repo)",
+      "x_series": "project_key",
+      "y_series": [
+        "avg_active_pr",
+        "total_opened_pr",
+        "total_merged_pr",
+        "total_closed_not_merged_pr"
+      ],
+      "series_labels": [
+        "Backlog pressure",
+        "Opened PR",
+        "Merged PR",
+        "Closed not merged PR"
+      ],
+      "source_sheet": "wrk_205D_repo_summary",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "WP4 Backlog",
+      "table_description": "Średnia liczba aktywnych PR jako backlog pressure.",
+      "source_metadata_fields": [
+        "days_in_window"
+      ]
+    },
+    {
+      "chart_id": "C_WP5_COMMENTS_DAILY_02",
+      "sheet": "WP5_Venom_PR_Daily",
+      "chart_type": "area",
+      "title": "Komentarze PR: trend dzienny",
+      "x_series": "date",
+      "y_series": [
+        "avg_comments_closed_daily",
+        "avg_comments_merged_daily",
+        "median_comments_closed_daily",
+        "median_comments_merged_daily"
+      ],
+      "series_labels": [
+        "Avg closed",
+        "Avg merged",
+        "Median closed",
+        "Median merged"
+      ],
+      "source_sheet": "wrk_205E_comments_daily",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "WP5 Venom PR Daily",
+      "table_description": "Dzienny trend komentarzy do PR."
+    },
+    {
+      "chart_id": "C_WP6_MARKET_BENCHMARK_02",
+      "sheet": "WP6_Market_Benchmark",
+      "chart_type": "bar_horizontal",
+      "title": "Market benchmark KPI",
+      "x_series": "project_key",
+      "y_series": [
+        "issues_avg_q1",
+        "technical_debt_days_avg_q1",
+        "lines_of_code_avg_q1",
+        "line_coverage_pct_avg_q1",
+        "unit_tests_avg_q1"
+      ],
+      "series_labels": [
+        "Issues",
+        "Technical debt days",
+        "Lines of code",
+        "Line coverage %",
+        "Unit tests"
+      ],
+      "source_sheet": "wrk_summary_benchmark",
+      "style_profile": "v02_template",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "WP6 Market Benchmark",
+      "table_description": "Porównanie benchmarkowe metryk rynkowych."
+    }
+  ]
+}

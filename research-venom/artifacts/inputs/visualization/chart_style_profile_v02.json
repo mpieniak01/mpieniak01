@@ -1,0 +1,98 @@
+{
+  "version": "v02",
+  "template_reference": "artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx",
+  "table_header": {
+    "font_name": "Calibri",
+    "font_size": 11,
+    "bold": true,
+    "italic": false,
+    "font_color_rgb": "FFFFFFFF",
+    "fill_color_rgb": "1F5FA8"
+  },
+  "chart_title": {
+    "font_name": "Calibri",
+    "font_size": 13,
+    "bold": true,
+    "italic": false,
+    "font_color_rgb": "1F5FA8"
+  },
+  "axis_labels": {
+    "font_name": "Calibri",
+    "font_size": 9,
+    "bold": false,
+    "italic": true,
+    "font_color_rgb": "666666"
+  },
+  "legend": {
+    "font_name": "Calibri",
+    "font_size": 9,
+    "bold": false,
+    "italic": false,
+    "font_color_rgb": "0D3B73",
+    "position": "right"
+  },
+  "plot": {
+    "chart_area_fill_rgb": "FFFFFF",
+    "plot_area_fill_rgb": "F4F8FC",
+    "border_line_rgb": "1F5FA8",
+    "border_line_weight": 1.0
+  },
+  "series_palette_rgb": [
+    "1F5FA8",
+    "6EA8DC",
+    "0D3B73",
+    "9DC3E6",
+    "5B9BD5",
+    "2F75B5",
+    "4472C4",
+    "A9C4E8"
+  ],
+  "table_body": {
+    "font_name": "Calibri",
+    "font_size": 10,
+    "font_color_rgb": "000000",
+    "border_color_rgb": "B7C9DE",
+    "alternate_fill_rgb": "F4F8FC",
+    "enable_filter": true,
+    "freeze_panes": true
+  },
+  "column_aliases": {
+    "project_key": "Projekt (klucz)",
+    "date": "Data",
+    "commits": "Commits",
+    "authors": "Authors",
+    "additions": "Additions",
+    "deletions": "Deletions",
+    "churn": "Churn",
+    "truncated": "Truncated",
+    "issues": "Issues",
+    "technical_debt_days": "Technical debt (days)",
+    "lines_of_code": "Lines of code",
+    "line_coverage_pct": "Line coverage %",
+    "unit_tests": "Unit tests",
+    "source_domain": "Źródło",
+    "metric_name": "Metryka",
+    "metric_value": "Wartość",
+    "pr_opened_count_daily": "PR opened",
+    "pr_merged_count_daily": "PR merged",
+    "pr_closed_not_merged_daily": "PR closed not merged",
+    "pr_active_daily": "PR active",
+    "pr_daily_avg_lead_time_hours": "Avg lead time h",
+    "pr_daily_median_lead_time_hours": "Median lead time h",
+    "pr_daily_avg_review_latency_hours": "Avg review latency h",
+    "lead_time_sample_size": "Lead time sample",
+    "avg_active_pr": "Avg active PR",
+    "median_lead_time_hours": "Median lead time h",
+    "avg_lead_time_hours": "Avg lead time h"
+  },
+  "layout_defaults": {
+    "prefer_sheet_chart_region": true,
+    "chart_width": 640,
+    "chart_height": 320,
+    "data_start_row": 1
+  },
+  "validation": {
+    "series_nonnull_ratio_warn": 0.9,
+    "series_nonnull_ratio_sparse": 0.5
+  }
+}

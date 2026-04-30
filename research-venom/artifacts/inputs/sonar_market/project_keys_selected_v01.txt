@@ -1,0 +1,5 @@
+# sample list for CI/offline contract tests
+# production list: project_keys_selected_v01.txt
+org.sample.alpha:repo-a
+org.sample.beta:repo-b
+mpieniak01_Venom

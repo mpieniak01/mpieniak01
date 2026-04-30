@@ -1,0 +1,1393 @@
+{
+  "version": "v04",
+  "artifact": "chart_spec",
+  "scope": "v04_legacy_adopted",
+  "workbook": "_external/not_tracked/visualization/workbook_v04.xlsx",
+  "template_reference": "artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx",
+  "charts": [
+    {
+      "chart_id": "C_W31_COMMITS_03",
+      "sheet": "W31_Commity",
+      "chart_type": "bar_horizontal",
+      "title": "Łączna liczba commitów (Q1 2026)",
+      "x_series": "project_key",
+      "y_series": [
+        "commits_sum_q1"
+      ],
+      "series_labels": [
+        "Liczba commitów"
+      ],
+      "source_sheet": "tpl_W31_commits",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Łączna liczba commitów (Q1 2026)",
+      "table_description": "Zrodlo: GitHub API -> src_205C_timeseries -> tpl_W31_commits. 11 projektow wejściowych, 11 renderowanych. Tabela z sumami commitow per projekt.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "commits_sum_q1",
+          "label": "Liczba commitów",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "GitHub API",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "JefferyHcool/BiliNote",
+        "allenai/olmocr",
+        "hiddify/Hiddify-Manager",
+        "khoj-ai/khoj",
+        "mpieniak01/Venom",
+        "neuropsychology/NeuroKit",
+        "omkarcloud/botasaurus",
+        "originalankur/maptoposter",
+        "virt-manager/virt-manager",
+        "xlenore/ps2-covers"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_W32_ADDITIONS_03",
+      "sheet": "W32_LOC",
+      "chart_type": "bar_horizontal",
+      "title": "Łączna liczba dodanych linii kodu (Q1 2026)",
+      "x_series": "project_key",
+      "y_series": [
+        "additions_sum_q1"
+      ],
+      "series_labels": [
+        "Dodane linie kodu"
+      ],
+      "source_sheet": "tpl_W32_additions",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Łączna liczba dodanych linii kodu (Q1 2026)",
+      "table_description": "Zrodlo: GitHub API -> src_205C_timeseries -> tpl_W32_additions. 11 projektow wejściowych, 11 renderowanych. Tabela z sumami additions per projekt.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "additions_sum_q1",
+          "label": "Dodane linie kodu",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "GitHub API",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "JefferyHcool/BiliNote",
+        "allenai/olmocr",
+        "hiddify/Hiddify-Manager",
+        "khoj-ai/khoj",
+        "mpieniak01/Venom",
+        "neuropsychology/NeuroKit",
+        "omkarcloud/botasaurus",
+        "originalankur/maptoposter",
+        "virt-manager/virt-manager",
+        "xlenore/ps2-covers"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_W36_DEBT_PROJECTS_03",
+      "sheet": "W36_Dlug_Projekty",
+      "chart_type": "bar_horizontal",
+      "title": "Dług techniczny SonarQube — projekty (Q1 2026)",
+      "x_series": "project_key",
+      "y_series": [
+        "technical_debt_days_sum_q1"
+      ],
+      "series_labels": [
+        "Dług (dni rob.)"
+      ],
+      "source_sheet": "tpl_W36_debt_projects",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Dług techniczny SonarQube - projekty (Q1 2026)",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> tpl_W36_debt_projects. 11 projektow wejściowych, 11 renderowanych. Tabela z suma dlugu technicznego per projekt.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "technical_debt_days_sum_q1",
+          "label": "Dług (dni rob.)",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "Maps-Messaging_mapsmessaging_server",
+        "apache_kvrocks",
+        "aws_aws-sdk-java-v2",
+        "bcgov-sonarcloud_mds_core-web",
+        "element-web",
+        "geoserver_geoserver-cloud",
+        "googleapis_gapic-generator-java",
+        "indigo-iam_iam",
+        "mediawiki-core",
+        "mpieniak01_Venom",
+        "org.opengrok:opengrok-top"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_W37_DEBT_03",
+      "sheet": "W37_Trajektoria_Dlug",
+      "chart_type": "combo",
+      "title": "Dług techniczny (dni)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "phase_iii",
+        "technical_debt_days"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Dług tech. (dni)"
+      ],
+      "source_sheet": "tpl_W37_debt_issues",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - trajektoria długu technicznego i zgłoszeń (Q1 2026)",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W37_debt_issues. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dlug techniczny Venom i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dlug techniczny spada po fazie I, a najsilniejsza poprawa przypada na fazy II-III; wykres pokazuje przebieg Venom wraz z kontekstem fazowym.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "technical_debt_days",
+          "label": "Dług tech. (dni)",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_W37_ISSUES_03",
+      "sheet": "W37_Trajektoria_Dlug",
+      "chart_type": "combo",
+      "title": "Zgłoszenia (issues)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "phase_iii",
+        "issues"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Issues"
+      ],
+      "source_sheet": "tpl_W37_debt_issues",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - trajektoria długu technicznego i zgłoszeń (Q1 2026)",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W37_debt_issues. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Issues Venom i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Liczba issues jest najwyzsza na starcie i wygasa wraz z przejsciem do fazy stabilizacji; tlo faz pomaga czytac dynamike spadku.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "issues",
+          "label": "Issues",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_W35_ISSUES_03",
+      "sheet": "W35_Trajektoria_Q1",
+      "chart_type": "combo",
+      "title": "Zgłoszenia (issues)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "phase_iii",
+        "issues"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Issues"
+      ],
+      "source_sheet": "tpl_W35_quality",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - trajektoria jakości kodu (Q1 2026)",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W35_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Issues Venom i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Pokrycie testami poprawia sie w czasie, a fazy wyznaczaja kontekst kiedy nastepuje skok i stabilizacja.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "issues",
+          "label": "Issues",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_W35_COVERAGE_03",
+      "sheet": "W35_Trajektoria_Q1",
+      "chart_type": "combo",
+      "title": "Pokrycie testami (%)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "phase_iii",
+        "line_coverage_pct"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Pokrycie (%)"
+      ],
+      "source_sheet": "tpl_W35_quality",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - trajektoria jakości kodu (Q1 2026)",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W35_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Pokrycie testami Venom i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny przeplyw PR dla Venom czyta sie najlepiej razem z tlem faz, bo skoki wolumenu koreluja z etapami procesu.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "line_coverage_pct",
+          "label": "Pokrycie (%)",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_W35_UNIT_TESTS_03",
+      "sheet": "W35_Trajektoria_Q1",
+      "chart_type": "combo",
+      "title": "Liczba testów",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "phase_iii",
+        "unit_tests"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Testy jedn."
+      ],
+      "source_sheet": "tpl_W35_quality",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - trajektoria jakości kodu (Q1 2026)",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W35_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Testy jednolite Venom i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Liczba testow rosnie skokowo i stabilizuje sie w dalszej czesci okresu; tlo faz pokazuje kiedy nastepuja przelomy.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "unit_tests",
+          "label": "Testy jedn.",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_W42_ISSUES_03",
+      "sheet": "W42_FazaII",
+      "chart_type": "combo",
+      "title": "Zgłoszenia (issues)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "issues"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Issues"
+      ],
+      "source_sheet": "tpl_W42_phase2_quality",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - Faza II: Issues + LOC + Testy",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W42_phase2_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Issues w fazie II i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Zakres fazy II pokazuje, ze issues w tym oknie wygasaja i najlepiej czytac je razem z tlem fazowym.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "issues",
+          "label": "Issues",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "declared_phase_only",
+      "active_phase_fields": [
+        "phase_ii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-06"
+    },
+    {
+      "chart_id": "C_W42_LOC_03",
+      "sheet": "W42_FazaII",
+      "chart_type": "combo",
+      "title": "Linie kodu (LOC)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "lines_of_code"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "LOC"
+      ],
+      "source_sheet": "tpl_W42_phase2_quality",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - Faza II: Issues + LOC + Testy",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W42_phase2_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). LOC w fazie II i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "LOC w fazie II jest lepiej czytelny jako przebieg z tlem fazowym, bo sam sygnal ma charakter trendu, a nie stalego poziomu.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "lines_of_code",
+          "label": "LOC",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "declared_phase_only",
+      "active_phase_fields": [
+        "phase_ii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-06"
+    },
+    {
+      "chart_id": "C_W42_UNIT_TESTS_03",
+      "sheet": "W42_FazaII",
+      "chart_type": "combo",
+      "title": "Liczba testów",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "unit_tests"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Testy jedn."
+      ],
+      "source_sheet": "tpl_W42_phase2_quality",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - Faza II: Issues + LOC + Testy",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W42_phase2_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Testy w fazie II i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny przeplyw PR dla Venom czyta sie najlepiej razem z tlem faz, bo skoki wolumenu koreluja z etapami procesu.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "unit_tests",
+          "label": "Testy jedn.",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "declared_phase_only",
+      "active_phase_fields": [
+        "phase_ii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-06"
+    },
+    {
+      "chart_id": "C_W43_DEBT_03",
+      "sheet": "W43_FazaII",
+      "chart_type": "combo",
+      "title": "Dług techniczny (dni)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "technical_debt_days"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Dług tech. (dni)"
+      ],
+      "source_sheet": "tpl_W43_phase2_debt_coverage",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - Faza II: Dług + Pokrycie",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W43_phase2_debt_coverage. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dlug techniczny w fazie II i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny lead time PR dla Venom ma rzadkie i skokowe obserwacje; slupki z tlem faz czytelniej pokazuja anomalie niz linia ciagla.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "technical_debt_days",
+          "label": "Dług tech. (dni)",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "declared_phase_only",
+      "active_phase_fields": [
+        "phase_ii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-06"
+    },
+    {
+      "chart_id": "C_W43_COVERAGE_03",
+      "sheet": "W43_FazaII",
+      "chart_type": "combo",
+      "title": "Pokrycie testami (%)",
+      "x_series": "date",
+      "y_series": [
+        "phase_ii",
+        "line_coverage_pct"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Pokrycie (%)"
+      ],
+      "source_sheet": "tpl_W43_phase2_debt_coverage",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - Faza II: Dług + Pokrycie",
+      "table_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W43_phase2_debt_coverage. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Pokrycie w fazie II i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny przeplyw PR dla Venom czyta sie najlepiej razem z tlem faz, bo skoki wolumenu koreluja z etapami procesu.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "line_coverage_pct",
+          "label": "Pokrycie (%)",
+          "chart_type": "line",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "continuous_state"
+        }
+      ],
+      "source_domain": "SonarCloud API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01_Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "declared_phase_only",
+      "active_phase_fields": [
+        "phase_ii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-02-06",
+      "x_axis_end": "2026-03-06"
+    },
+    {
+      "chart_id": "C_W33_CODE_FLOW_03",
+      "sheet": "W33_Dzienny_Przeplyw",
+      "chart_type": "combo",
+      "title": "Projekt Venom — dzienny przepływ kodu (Q1 2026)",
+      "x_series": "date",
+      "y_series": [
+        "phase_i",
+        "phase_ii",
+        "phase_iii",
+        "additions",
+        "deletions_negative"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Dodane linie (+)",
+        "Usunięte linie (−)"
+      ],
+      "source_sheet": "tpl_W33_code_flow",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - dzienny przepływ kodu (Q1 2026)",
+      "table_description": "Zrodlo: GitHub API -> src_205C_timeseries -> tpl_W33_code_flow. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). additions/deletions dla mpieniak01/Venom i tlo faz.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny lead time PR dla Venom ma rzadkie i skokowe obserwacje; slupki z tlem faz czytelniej pokazuja anomalie niz linia ciagla.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_i",
+          "label": "Faza I — Generowanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "additions",
+          "label": "Dodane linie (+)",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "daily_event"
+        },
+        {
+          "role": "y",
+          "field": "deletions_negative",
+          "label": "Usunięte linie (−)",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "daily_event"
+        }
+      ],
+      "source_domain": "GitHub API",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01/Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_i",
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-01-01",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_WP1_PR_VOLUME_03",
+      "sheet": "WP1_PR_Wolumen",
+      "chart_type": "bar_stacked",
+      "title": "Wolumen PR — wszystkie projekty (Q1 2026)",
+      "x_series": "project_key",
+      "y_series": [
+        "total_opened_pr",
+        "total_merged_pr",
+        "total_closed_not_merged_pr"
+      ],
+      "series_labels": [
+        "PR otwarte",
+        "PR zmergowane",
+        "PR zamknięte"
+      ],
+      "source_sheet": "tpl_WP1_pr_volume",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Wolumen procesu PR - wszystkie projekty (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_repo_summary -> tpl_WP1_pr_volume. 11 repozytoriow wejściowych, 11 pokazanych. Venom anchor + pelny kontekst PR wedlug opened PR.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "total_opened_pr",
+          "label": "PR otwarte",
+          "chart_type": "bar_stacked",
+          "axis_group": "primary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "total_merged_pr",
+          "label": "PR zmergowane",
+          "chart_type": "bar_stacked",
+          "axis_group": "primary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "total_closed_not_merged_pr",
+          "label": "PR zamknięte",
+          "chart_type": "bar_stacked",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "mpieniak01/Venom",
+        "originalankur/maptoposter",
+        "khoj-ai/khoj",
+        "JefferyHcool/BiliNote",
+        "virt-manager/virt-manager",
+        "neuropsychology/NeuroKit",
+        "hiddify/Hiddify-Manager",
+        "allenai/olmocr",
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "xlenore/ps2-covers",
+        "omkarcloud/botasaurus"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_WP2_WEIGHTED_AVG_LT_03",
+      "sheet": "WP2_Lead_Time",
+      "chart_type": "bar_horizontal",
+      "title": "Średni ważony czas realizacji PR (waga = liczba PR/dzień)",
+      "x_series": "project_key",
+      "y_series": [
+        "weighted_avg_lead_time_hours"
+      ],
+      "series_labels": [
+        "Avg ważony lead time (h)"
+      ],
+      "source_sheet": "tpl_WP2_lead_time",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Czas realizacji PR (lead time) - wszystkie projekty (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> tpl_WP2_lead_time. 11 repozytoriow wejściowych, 11 pokazanych. Venom anchor + pelny kontekst PR wedlug lead time.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "weighted_avg_lead_time_hours",
+          "label": "Avg ważony lead time (h)",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "mpieniak01/Venom",
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "originalankur/maptoposter",
+        "allenai/olmocr",
+        "JefferyHcool/BiliNote",
+        "virt-manager/virt-manager",
+        "xlenore/ps2-covers",
+        "hiddify/Hiddify-Manager",
+        "khoj-ai/khoj",
+        "neuropsychology/NeuroKit",
+        "omkarcloud/botasaurus"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_WP2_MEDIAN_LT_03",
+      "sheet": "WP2_Lead_Time",
+      "chart_type": "bar_horizontal",
+      "title": "Medianowy czas realizacji PR (h)",
+      "x_series": "project_key",
+      "y_series": [
+        "median_lead_time_hours"
+      ],
+      "series_labels": [
+        "Median lead time (h)"
+      ],
+      "source_sheet": "tpl_WP2_lead_time",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Czas realizacji PR (lead time) - wszystkie projekty (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> tpl_WP2_lead_time. 11 repozytoriow wejściowych, 11 pokazanych. Venom anchor + pelny kontekst PR wedlug lead time.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "median_lead_time_hours",
+          "label": "Median lead time (h)",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "mpieniak01/Venom",
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "originalankur/maptoposter",
+        "allenai/olmocr",
+        "JefferyHcool/BiliNote",
+        "virt-manager/virt-manager",
+        "xlenore/ps2-covers",
+        "hiddify/Hiddify-Manager",
+        "khoj-ai/khoj",
+        "neuropsychology/NeuroKit",
+        "omkarcloud/botasaurus"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_WP3_MERGE_RATE_03",
+      "sheet": "WP3_Merge_Rate",
+      "chart_type": "bar_horizontal",
+      "title": "Merge rate — udział zmergowanych PR (Q1 2026)",
+      "x_series": "project_key",
+      "y_series": [
+        "merge_rate_pct"
+      ],
+      "series_labels": [
+        "Merge rate (%)"
+      ],
+      "source_sheet": "tpl_WP3_merge_rate",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Merge rate - udział zmergowanych PR (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_repo_summary -> tpl_WP3_merge_rate. 11 repozytoriow wejściowych, 11 pokazanych. Venom anchor + pelny kontekst PR wedlug merge rate.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "merge_rate_pct",
+          "label": "Merge rate (%)",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "mpieniak01/Venom",
+        "JefferyHcool/BiliNote",
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "neuropsychology/NeuroKit",
+        "virt-manager/virt-manager",
+        "hiddify/Hiddify-Manager",
+        "khoj-ai/khoj",
+        "originalankur/maptoposter",
+        "allenai/olmocr",
+        "omkarcloud/botasaurus",
+        "xlenore/ps2-covers"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_WP4_BACKLOG_03",
+      "sheet": "WP4_Backlog",
+      "chart_type": "bar_horizontal",
+      "title": "Backlog pressure — średnia liczba aktywnych PR (Q1 2026)",
+      "x_series": "project_key",
+      "y_series": [
+        "avg_active_pr"
+      ],
+      "series_labels": [
+        "Backlog"
+      ],
+      "source_sheet": "tpl_WP4_backlog",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Backlog pressure - średnia liczba aktywnych PR (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_repo_summary -> tpl_WP4_backlog. 11 repozytoriow wejściowych, 11 pokazanych. Venom anchor + pelny kontekst PR wedlug backlog pressure.",
+      "chart_mode": "comparison",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "avg_active_pr",
+          "label": "Backlog",
+          "chart_type": "bar_horizontal",
+          "axis_group": "primary",
+          "render": true
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 11,
+      "rendered_project_keys": [
+        "mpieniak01/Venom",
+        "FreedomIntelligence/OpenClaw-Medical-Skills",
+        "xlenore/ps2-covers",
+        "omkarcloud/botasaurus",
+        "JefferyHcool/BiliNote",
+        "neuropsychology/NeuroKit",
+        "khoj-ai/khoj",
+        "virt-manager/virt-manager",
+        "hiddify/Hiddify-Manager",
+        "allenai/olmocr",
+        "originalankur/maptoposter"
+      ],
+      "project_key_label_mode": "full",
+      "project_key_labels_truncated": false,
+      "highlight_project_key": "mpieniak01/Venom"
+    },
+    {
+      "chart_id": "C_WP5_PR_DAILY_03",
+      "sheet": "WP5_Venom_PR_Daily",
+      "chart_type": "combo",
+      "title": "Projekt Venom — dzienny przepływ PR (Q1 2026)",
+      "x_series": "date",
+      "y_series": [
+        "phase_i",
+        "phase_ii",
+        "phase_iii",
+        "pr_opened_count_daily",
+        "pr_merged_count_daily",
+        "pr_closed_not_merged_daily"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "PR otwarte",
+        "PR zmergowane",
+        "PR zamknięte"
+      ],
+      "source_sheet": "tpl_WP5_pr_daily",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - dzienny przepływ PR (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_venom -> tpl_WP5_pr_daily. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dzienny PR flow Venom z fazami jako tlem.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny przeplyw PR dla Venom czyta sie najlepiej razem z tlem faz, bo skoki wolumenu koreluja z etapami procesu.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_i",
+          "label": "Faza I — Generowanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "pr_opened_count_daily",
+          "label": "PR otwarte",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "daily_event"
+        },
+        {
+          "role": "y",
+          "field": "pr_merged_count_daily",
+          "label": "PR zmergowane",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "daily_event"
+        },
+        {
+          "role": "y",
+          "field": "pr_closed_not_merged_daily",
+          "label": "PR zamknięte",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "daily_event"
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01/Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_i",
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-01-01",
+      "x_axis_end": "2026-03-31"
+    },
+    {
+      "chart_id": "C_WP6_LEAD_TIME_DAILY_03",
+      "sheet": "WP6_Venom_Lead_Time",
+      "chart_type": "combo",
+      "title": "Projekt Venom — dzienny czas realizacji PR (Q1 2026)",
+      "x_series": "date",
+      "y_series": [
+        "phase_i",
+        "phase_ii",
+        "phase_iii",
+        "pr_daily_avg_lead_time_hours",
+        "pr_daily_median_lead_time_hours"
+      ],
+      "series_labels": [
+        "Faza I — Generowanie",
+        "Faza II — Oczyszczanie",
+        "Faza III — Stabilizacja",
+        "Avg lead time (h)",
+        "Median lead time (h)"
+      ],
+      "source_sheet": "tpl_WP6_lead_time",
+      "style_profile": "v04_legacy_adopted",
+      "chart_size": {
+        "width": 640,
+        "height": 300
+      },
+      "legend_position": "right",
+      "table_title": "Projekt Venom - dzienny czas realizacji PR (Q1 2026)",
+      "table_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_venom -> tpl_WP6_lead_time. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dzienny lead time Venom z fazami jako tlem.",
+      "chart_mode": "synthetic_combo",
+      "analysis_caption": "Dzienny lead time PR dla Venom ma rzadkie i skokowe obserwacje; slupki z tlem faz czytelniej pokazuja anomalie niz linia ciagla.",
+      "series_plan": [
+        {
+          "role": "y",
+          "field": "phase_i",
+          "label": "Faza I — Generowanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_ii",
+          "label": "Faza II — Oczyszczanie",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "phase_iii",
+          "label": "Faza III — Stabilizacja",
+          "chart_type": "column",
+          "axis_group": "secondary",
+          "render": true
+        },
+        {
+          "role": "y",
+          "field": "pr_daily_avg_lead_time_hours",
+          "label": "Avg lead time (h)",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "sparse_event"
+        },
+        {
+          "role": "y",
+          "field": "pr_daily_median_lead_time_hours",
+          "label": "Median lead time (h)",
+          "chart_type": "column",
+          "axis_group": "primary",
+          "render": true,
+          "metric_semantics": "sparse_event"
+        }
+      ],
+      "source_domain": "PR flow",
+      "input_project_count": 11,
+      "rendered_project_count": 1,
+      "rendered_project_keys": [
+        "mpieniak01/Venom"
+      ],
+      "focus_project_key": "mpieniak01/Venom",
+      "phase_scope_mode": "active_data_only",
+      "active_phase_fields": [
+        "phase_i",
+        "phase_ii",
+        "phase_iii"
+      ],
+      "x_axis_scope_mode": "active_phase_range",
+      "x_axis_start": "2026-01-01",
+      "x_axis_end": "2026-03-31"
+    }
+  ],
+  "control_profile": "artifacts/inputs/visualization/chart_control_profile_v04.json"
+}
