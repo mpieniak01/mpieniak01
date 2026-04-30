@@ -4,7 +4,7 @@
     "config_version": "v04",
     "artifact_contract": "process-first",
     "migration_phase": "G4_legacy_adoption",
-    "config_mode": "public_sample_safe"
+    "config_mode": "local_real_inputs"
   },
   "roots": {
     "repo_root": ".",

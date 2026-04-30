@@ -19,7 +19,7 @@ python -m pip install -r requirements-ci.txt
 
 Tryby list kluczy:
 - `*_selected_v01.txt` to listy public sample (bez realnych kluczy).
-- - CI i testy kontraktowe korzystaja z `config/process_pipeline_v04_test.json`.
+- CI i testy kontraktowe korzystaja z `config/process_pipeline_v04_test.json`.
 - Realny fetch API korzysta lokalnie z `config/process_pipeline_v04_local_real.json` i prywatnych plikow w `_external/not_tracked/inputs/**`.
 - Egzekwowanie kontraktu:
   - `make verify-input-mode-contract-ci`
