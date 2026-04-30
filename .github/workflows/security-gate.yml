@@ -1,0 +1,107 @@
+name: Security Gate
+
+on:
+  pull_request:
+    paths:
+      - "research-venom/tools/**"
+      - "research-venom/config/**"
+      - "research-venom/docs/**"
+      - "research-venom/tests/**"
+      - "research-venom/artifacts/inputs/**"
+      - ".github/workflows/security-gate.yml"
+      - "research-venom/requirements*.txt"
+      - "research-venom/pyproject.toml"
+      - "research-venom/setup.cfg"
+      - "research-venom/setup.py"
+      - "research-venom/Makefile"
+      - "research-venom/.gitignore"
+  schedule:
+    - cron: "21 3 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  python-security:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: research-venom
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install security tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-ci.txt
+
+      - name: Dependency audit
+        run: |
+          python -m pip_audit -r requirements-ci.txt --progress-spinner off
+
+      - name: Bandit (tools)
+        run: |
+          bandit -q -r tools -lll
+
+  powershell-security:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: research-venom
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: PSScriptAnalyzer
+        shell: pwsh
+        run: |
+          Install-Module -Name PSScriptAnalyzer -Scope CurrentUser -Force
+          $issues = Invoke-ScriptAnalyzer -Path tools -Recurse -Severity Error
+          if ($issues.Count -gt 0) {
+            $issues | Format-Table -AutoSize
+            throw "PSScriptAnalyzer found issues."
+          }
+
+  codeql:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ "python" ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3

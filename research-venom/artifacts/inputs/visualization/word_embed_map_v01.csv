@@ -1,0 +1,8 @@
+chart_id,excel_sheet,excel_chart_name,word_bookmark,word_section,caption_pl,status
+C_SONAR_VENOM_LOC_TREND_01,charts,C_SONAR_VENOM_LOC_TREND_01,BM_C_SONAR_VENOM_LOC_TREND_01,Analiza dynamiki kodu,"Trend LOC Venom w Q1 2026",planned
+C_SONAR_VENOM_ISSUES_DEBT_01,charts,C_SONAR_VENOM_ISSUES_DEBT_01,BM_C_SONAR_VENOM_ISSUES_DEBT_01,Analiza jakości kodu,"Issues vs Technical Debt (Venom)",planned
+C_GIT_VENOM_PR_FLOW_01,charts,C_GIT_VENOM_PR_FLOW_01,BM_C_GIT_VENOM_PR_FLOW_01,Analiza procesu PR,"PR flow dzienny (opened/merged/active)",planned
+C_GIT_REPO_MEDIAN_LEAD_01,charts,C_GIT_REPO_MEDIAN_LEAD_01,BM_C_GIT_REPO_MEDIAN_LEAD_01,Benchmark procesu PR,"Medianowy czas realizacji PR",planned
+C_GIT_REPO_BACKLOG_01,charts,C_GIT_REPO_BACKLOG_01,BM_C_GIT_REPO_BACKLOG_01,Benchmark procesu PR,"Backlog pressure - średnia aktywnych PR",planned
+C_GITHUB_REPO_COMMENTS_TREND_01,charts,C_GITHUB_REPO_COMMENTS_TREND_01,BM_C_GITHUB_REPO_COMMENTS_TREND_01,Dowody review,"Trend komentarzy PR",planned
+C_MARKET_REPO_BENCHMARK_01,charts,C_MARKET_REPO_BENCHMARK_01,BM_C_MARKET_REPO_BENCHMARK_01,Porównanie rynku,"Porównanie benchmarkowe rynku",planned

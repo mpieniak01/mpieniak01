@@ -1,0 +1,94 @@
+{
+  "version": "v01",
+  "generated_at": "2026-04-27",
+  "scope": "205F",
+  "workbook": "_external/not_tracked/205F_visualization_workspace_v01.xlsx",
+  "chart_id_format": "C_<SOURCE>_<SCOPE>_<TOPIC>_<NN>",
+  "charts": [
+    {
+      "chart_id": "C_SONAR_VENOM_LOC_TREND_01",
+      "sheet": "charts",
+      "chart_type": "line",
+      "title": "Trend LOC Venom (Q1 2026)",
+      "x_series": "date",
+      "y_series": ["lines_of_code"],
+      "series_labels": ["Linie kodu"],
+      "source_sheet": "wrk_sonar_venom_project_ts",
+      "filters": {"project_key": "mpieniak01_Venom", "date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_SONAR_VENOM_ISSUES_DEBT_01",
+      "sheet": "charts",
+      "chart_type": "combo",
+      "title": "Liczba zgłoszeń i dług techniczny (Venom)",
+      "x_series": "date",
+      "y_series": ["issues", "technical_debt_days"],
+      "series_labels": ["Zgłoszenia", "Dług techniczny (dni)"],
+      "source_sheet": "wrk_sonar_venom_project_ts",
+      "background_series": [],
+      "label_series": [],
+      "reference_lines": [],
+      "annotation_shapes": [],
+      "filters": {"project_key": "mpieniak01_Venom", "date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_GIT_VENOM_PR_FLOW_01",
+      "sheet": "charts",
+      "chart_type": "line",
+      "title": "Przepływ PR dziennie (Venom)",
+      "x_series": "date",
+      "y_series": ["opened_count", "merged_count", "active_count"],
+      "series_labels": ["Otwarte PR", "Scalone PR", "Aktywne PR"],
+      "source_sheet": "wrk_git_prflow_venom_repo_ts",
+      "background_series": ["phase_band"],
+      "label_series": ["milestone_labels"],
+      "reference_lines": ["phase_boundaries"],
+      "annotation_shapes": ["phase_notes"],
+      "filters": {"project_key": "mpieniak01/Venom", "date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_GIT_REPO_MEDIAN_LEAD_01",
+      "sheet": "charts",
+      "chart_type": "bar_horizontal",
+      "title": "Mediana czasu realizacji PR - porównanie repo",
+      "x_series": "median_lead_time_hours",
+      "y_series": ["project_key"],
+      "series_labels": ["Repozytorium"],
+      "source_sheet": "wrk_git_prflow_repo_agg",
+      "filters": {"date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_GIT_REPO_BACKLOG_01",
+      "sheet": "charts",
+      "chart_type": "bar_horizontal",
+      "title": "Presja backlogu - średnia aktywnych PR",
+      "x_series": "avg_active_pr",
+      "y_series": ["project_key"],
+      "series_labels": ["Repozytorium"],
+      "source_sheet": "wrk_git_prflow_repo_agg",
+      "filters": {"date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_GITHUB_REPO_COMMENTS_TREND_01",
+      "sheet": "charts",
+      "chart_type": "line",
+      "title": "Komentarze PR - trend dzienny",
+      "x_series": "date",
+      "y_series": ["avg_comments_closed", "avg_comments_merged"],
+      "series_labels": ["Śr. komentarze zamknięte PR", "Śr. komentarze scalone PR"],
+      "source_sheet": "wrk_github_prcomments_daily_agg",
+      "filters": {"date_from": "2026-01-01", "date_to": "2026-03-31"}
+    },
+    {
+      "chart_id": "C_MARKET_REPO_BENCHMARK_01",
+      "sheet": "charts",
+      "chart_type": "column",
+      "title": "Porównanie benchmarkowe metryk rynku",
+      "x_series": "project_key",
+      "y_series": ["metric_value"],
+      "series_labels": ["Wartość metryki"],
+      "source_sheet": "wrk_market_benchmark_agg",
+      "filters": {"metric_set": "selected_kpi_q1_2026"}
+    }
+  ]
+}

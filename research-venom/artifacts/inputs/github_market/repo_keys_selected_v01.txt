@@ -1,0 +1,5 @@
+# sample list for CI/offline contract tests
+# real production list is maintained locally in _external/not_tracked/inputs/github_market/repo_keys_selected_real_v01.txt
+org-sample-alpha/repo-a
+org-sample-beta/repo-b
+mpieniak01/Venom

@@ -1,0 +1,377 @@
+{
+  "version": "v03",
+  "sheet_count_target": 17,
+  "sheets": [
+    {
+      "order": 1,
+      "sheet_name": "Surowe_GitHub_Q1",
+      "input_table": "src_205C_timeseries",
+      "role": "raw",
+      "source_type": "github",
+      "data_start_row": 1,
+      "table_layout": {
+        "header_row": 1,
+        "data_start_row": 2
+      },
+      "sheet_description": "Zrodlo: src_205C_timeseries (GitHub API benchmark Q1 2026)."
+    },
+    {
+      "order": 2,
+      "sheet_name": "Surowe_SonarQube_Q1",
+      "input_table": "src_205B_timeseries",
+      "role": "raw",
+      "source_type": "sonarqube",
+      "data_start_row": 1,
+      "table_layout": {
+        "header_row": 1,
+        "data_start_row": 2
+      },
+      "sheet_description": "Zrodlo: src_205B_timeseries (SonarCloud API benchmark Q1 2026)."
+    },
+    {
+      "order": 3,
+      "sheet_name": "Surowe_PRFlow_Q1",
+      "input_table": "src_205D_timeseries",
+      "role": "raw",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "table_layout": {
+        "header_row": 1,
+        "data_start_row": 2
+      },
+      "sheet_description": "Zrodlo: src_205D_timeseries (GitHub PR flow Q1 2026)."
+    },
+    {
+      "order": 4,
+      "sheet_name": "W31_Commity",
+      "input_table": "tpl_W31_commits",
+      "role": "analysis",
+      "source_type": "github",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 265.5,
+        "top": 48.75,
+        "width": 675,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Łączna liczba commitów (Q1 2026)",
+      "sheet_description": "Zrodlo: GitHub API -> src_205C_timeseries -> tpl_W31_commits. 11 projektow wejściowych, 11 renderowanych. Tabela z sumami commitow per projekt."
+    },
+    {
+      "order": 5,
+      "sheet_name": "W32_LOC",
+      "input_table": "tpl_W32_additions",
+      "role": "analysis",
+      "source_type": "sonarqube",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 265.5,
+        "top": 48.75,
+        "width": 675,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Łączna liczba dodanych linii kodu (Q1 2026)",
+      "sheet_description": "Zrodlo: GitHub API -> src_205C_timeseries -> tpl_W32_additions. 11 projektow wejściowych, 11 renderowanych. Tabela z sumami additions per projekt."
+    },
+    {
+      "order": 6,
+      "sheet_name": "W36_Dlug_Projekty",
+      "input_table": "tpl_W36_debt_projects",
+      "role": "analysis",
+      "source_type": "sonarqube",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 265.5,
+        "top": 48.75,
+        "width": 675,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Dług techniczny SonarQube - projekty (Q1 2026)",
+      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> tpl_W36_debt_projects. 11 projektow wejściowych, 11 renderowanych. Tabela z suma dlugu technicznego per projekt."
+    },
+    {
+      "order": 7,
+      "sheet_name": "W37_Trajektoria_Dlug",
+      "input_table": "tpl_W37_debt_issues",
+      "role": "analysis",
+      "source_type": "sonarqube",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 570.75,
+        "top": 48.75,
+        "width": 525,
+        "height": 300
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - trajektoria długu technicznego i zgłoszeń (Q1 2026)",
+      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W37_debt_issues. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dlug techniczny Venom i tlo faz."
+    },
+    {
+      "order": 8,
+      "sheet_name": "W35_Trajektoria_Q1",
+      "input_table": "tpl_W35_quality",
+      "role": "analysis",
+      "source_type": "sonarqube",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 570.75,
+        "top": 48.75,
+        "width": 525,
+        "height": 300
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - trajektoria jakości kodu (Q1 2026)",
+      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W35_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Trajektoria Venom i tlo faz."
+    },
+    {
+      "order": 9,
+      "sheet_name": "W42_FazaII",
+      "input_table": "tpl_W42_phase2_quality",
+      "role": "analysis",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 570.75,
+        "top": 48.75,
+        "width": 525,
+        "height": 300
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - Faza II: Issues + LOC + Testy",
+      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W42_phase2_quality. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dane fazy II Venom i tlo faz."
+    },
+    {
+      "order": 10,
+      "sheet_name": "W43_FazaII",
+      "input_table": "tpl_W43_phase2_debt_coverage",
+      "role": "analysis",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 570.75,
+        "top": 48.75,
+        "width": 525,
+        "height": 300
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - Faza II: Dług + Pokrycie",
+      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> wrk_205b_venom -> tpl_W43_phase2_debt_coverage. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dane fazy II Venom i tlo faz."
+    },
+    {
+      "order": 11,
+      "sheet_name": "W33_Dzienny_Przeplyw",
+      "input_table": "tpl_W33_code_flow",
+      "role": "analysis",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 501,
+        "top": 48.75,
+        "width": 825,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - dzienny przepływ kodu (Q1 2026)",
+      "sheet_description": "Zrodlo: GitHub API -> src_205C_timeseries -> tpl_W33_code_flow. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). additions/deletions dla mpieniak01/Venom i tlo faz."
+    },
+    {
+      "order": 12,
+      "sheet_name": "WP1_PR_Wolumen",
+      "input_table": "tpl_WP1_pr_volume",
+      "role": "comparison",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 512.25,
+        "top": 48.75,
+        "width": 825,
+        "height": 412.5
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Wolumen procesu PR - wszystkie projekty (Q1 2026)",
+      "sheet_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_repo_summary -> tpl_WP1_pr_volume. 11 projektow wejściowych, 6 renderowanych. Venom anchor + najblizsza grupa projektow wedlug opened PR."
+    },
+    {
+      "order": 13,
+      "sheet_name": "WP2_Lead_Time",
+      "input_table": "tpl_WP2_lead_time",
+      "role": "comparison",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 644.25,
+        "top": 48.75,
+        "width": 825,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Czas realizacji PR (lead time) - wszystkie projekty (Q1 2026)",
+      "sheet_description": "Zrodlo: PR flow -> src_205D_timeseries -> tpl_WP2_lead_time. 11 projektow wejściowych, 6 renderowanych. Venom anchor + najblizsza grupa projektow wedlug lead time."
+    },
+    {
+      "order": 14,
+      "sheet_name": "WP3_Merge_Rate",
+      "input_table": "tpl_WP3_merge_rate",
+      "role": "comparison",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 430.5,
+        "top": 48.75,
+        "width": 750,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Merge rate - udział zmergowanych PR (Q1 2026)",
+      "sheet_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_repo_summary -> tpl_WP3_merge_rate. 11 projektow wejściowych, 6 renderowanych. Venom anchor + najblizsza grupa projektow wedlug merge rate."
+    },
+    {
+      "order": 15,
+      "sheet_name": "WP4_Backlog",
+      "input_table": "tpl_WP4_backlog",
+      "role": "comparison",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 286.5,
+        "top": 48.75,
+        "width": 750,
+        "height": 375
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Backlog pressure - średnia liczba aktywnych PR (Q1 2026)",
+      "sheet_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_repo_summary -> tpl_WP4_backlog. 11 projektow wejściowych, 6 renderowanych. Venom anchor + najblizsza grupa projektow wedlug backlog pressure."
+    },
+    {
+      "order": 16,
+      "sheet_name": "WP5_Venom_PR_Daily",
+      "input_table": "tpl_WP5_pr_daily",
+      "role": "comparison",
+      "source_type": "github_comments",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 578.25,
+        "top": 48.75,
+        "width": 900,
+        "height": 412.5
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - dzienny przepływ PR (Q1 2026)",
+      "sheet_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_venom -> tpl_WP5_pr_daily. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dzienny PR flow Venom z fazami jako tlem."
+    },
+    {
+      "order": 17,
+      "sheet_name": "WP6_Venom_Lead_Time",
+      "input_table": "tpl_WP6_lead_time",
+      "role": "comparison",
+      "source_type": "git_prflow",
+      "data_start_row": 1,
+      "chart_region": {
+        "left": 578.25,
+        "top": 48.75,
+        "width": 900,
+        "height": 412.5
+      },
+      "table_layout": {
+        "title_row": 1,
+        "description_row": 2,
+        "spacer_row": 3,
+        "header_row": 4,
+        "data_start_row": 5
+      },
+      "sheet_title": "Projekt Venom - dzienny czas realizacji PR (Q1 2026)",
+      "sheet_description": "Zrodlo: PR flow -> src_205D_timeseries -> wrk_205d_venom -> tpl_WP6_lead_time. 11 projektow wejściowych, 1 renderowany (mpieniak01/Venom). Dzienny lead time Venom z fazami jako tlem."
+    }
+  ],
+  "table_layout_defaults": {
+    "title_row": 1,
+    "description_row": 2,
+    "spacer_row": 3,
+    "header_row": 4,
+    "data_start_row": 5
+  },
+  "chart_layout_mode": "advanced_control",
+  "chart_control_profile": "artifacts/inputs/visualization/chart_control_profile_v03.json",
+  "notes": "v03 mirrors artifacts/template/Wykresy_Venom_FORMULY_v6.xlsx chart data shape and chart selection."
+}

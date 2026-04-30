@@ -1,0 +1,189 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+CONTROL_PROFILE = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_control_profile_v04.json"
+PIPELINE_CONFIG = REPO_ROOT / "config" / "process_pipeline_v04.json"
+CHART_SPEC = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_spec_v04.json"
+LAYOUT_SPEC = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "workbook_layout_v04.json"
+EXCEL_ADD_CHARTS = REPO_ROOT / "tools" / "excel_add_charts.ps1"
+EXCEL_VERIFY = REPO_ROOT / "tools" / "verify_excel_product.ps1"
+
+
+def _load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def test_phase_background_profile_defines_global_scale_contract() -> None:
+    profile = _load_json(CONTROL_PROFILE)
+    phase_background = profile["phase_background"]
+
+    assert phase_background["series_fields"] == ["phase_i", "phase_ii", "phase_iii"]
+    assert phase_background["background_value"] == 100
+    assert phase_background["fill_transparency"] == 0.75
+    assert phase_background["line_visible"] is False
+    assert phase_background["render_mode"] == "column"
+    assert phase_background["gap_width"] == 0
+    assert phase_background["overlap"] == 100
+    assert phase_background["secondary_axis_scale"] == {
+        "minimum": 0,
+        "maximum": 100,
+        "major_unit": 20,
+        "minimum_is_auto": False,
+        "maximum_is_auto": False,
+        "major_unit_is_auto": False,
+    }
+    assert [row["field"] for row in phase_background["date_ranges"]] == [
+        "phase_i",
+        "phase_ii",
+        "phase_iii",
+    ]
+
+
+def test_date_axis_profile_defines_global_weekly_date_contract() -> None:
+    profile = _load_json(CONTROL_PROFILE)
+    date_axis = profile["date_axis"]
+
+    assert date_axis["category_type"] == "category"
+    assert date_axis["tick_label_spacing"] == 7
+    assert date_axis["tick_mark_spacing"] == 7
+    assert date_axis["number_format"] == "mm-dd"
+
+
+def test_visualization_sources_pack_defines_venom_anchor_peer_group_contract() -> None:
+    cfg = _load_json(PIPELINE_CONFIG)
+    step = cfg["process"]["steps"]["visualization_sources_pack"]
+
+    assert step["comparison_anchor_project_key"] == "mpieniak01/Venom"
+    assert step["comparison_peer_group_size"] == 11
+    assert step["comparison_metrics"] == {
+        "tpl_WP1_pr_volume": "total_opened_pr",
+        "tpl_WP2_lead_time": "weighted_avg_lead_time_hours",
+        "tpl_WP3_merge_rate": "merge_rate_pct",
+        "tpl_WP4_backlog": "avg_active_pr",
+    }
+
+
+def test_workbook_layout_descriptions_are_source_first() -> None:
+    layout = _load_json(LAYOUT_SPEC)
+
+    for sheet in layout["sheets"]:
+        desc = sheet.get("sheet_description")
+        if not desc:
+            continue
+        assert desc.startswith("Zrodlo:"), sheet["sheet_name"]
+        assert "Dane pipeline" not in desc, sheet["sheet_name"]
+
+
+def test_workbook_layout_source_types_match_declared_data_domain() -> None:
+    layout = _load_json(LAYOUT_SPEC)
+    expected = {
+        "Surowe_GitHub_Q1": "github",
+        "Surowe_SonarQube_Q1": "sonarqube",
+        "Surowe_PRFlow_Q1": "git_prflow",
+        "W31_Commity": "github",
+        "W32_LOC": "github",
+        "W36_Dlug_Projekty": "sonarqube",
+        "W37_Trajektoria_Dlug": "sonarqube",
+        "W35_Trajektoria_Q1": "sonarqube",
+        "W42_FazaII": "sonarqube",
+        "W43_FazaII": "sonarqube",
+        "W33_Dzienny_Przeplyw": "github",
+        "WP1_PR_Wolumen": "git_prflow",
+        "WP2_Lead_Time": "git_prflow",
+        "WP3_Merge_Rate": "git_prflow",
+        "WP4_Backlog": "git_prflow",
+        "WP5_Venom_PR_Daily": "git_prflow",
+        "WP6_Venom_Lead_Time": "git_prflow",
+    }
+
+    by_name = {sheet["sheet_name"]: sheet["source_type"] for sheet in layout["sheets"]}
+    assert by_name == expected
+
+
+def test_worksheet_banner_matches_template_contract() -> None:
+    style = _load_json(REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_style_profile_v04.json")
+
+    assert style["chart_title"]["font_size"] == 14
+    assert style["chart_title"]["font_color_rgb"] == "1A56A0"
+    assert style["axis_labels"]["font_size"] == 9
+    assert style["axis_labels"]["font_color_rgb"] == "666666"
+    assert style["worksheet_style"]["show_gridlines_for_analysis"] is False
+
+
+def test_chart_table_descriptions_are_source_first() -> None:
+    chart_spec = _load_json(CHART_SPEC)
+
+    for chart in chart_spec["charts"]:
+        desc = chart.get("table_description")
+        assert desc, chart["chart_id"]
+        assert desc.startswith("Zrodlo:"), chart["chart_id"]
+        assert "Dane pipeline" not in desc, chart["chart_id"]
+
+
+def test_phase_series_are_rendered_as_secondary_columns() -> None:
+    chart_spec = _load_json(CHART_SPEC)
+
+    for chart in chart_spec["charts"]:
+        phase_series = [s for s in chart.get("series_plan", []) if str(s.get("field", "")).startswith("phase_")]
+        if not phase_series:
+            continue
+        assert all(s["chart_type"] == "column" for s in phase_series), chart["chart_id"]
+        assert all(s["axis_group"] == "secondary" for s in phase_series), chart["chart_id"]
+
+
+def test_excel_generator_reenforces_phase_axis_after_combo_grouping() -> None:
+    script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
+
+    assert "function Enforce-PhaseSeriesAsSecondaryColumns" in script
+    assert script.count("Enforce-PhaseSeriesAsSecondaryColumns -Chart $chart -ChartCfg $chartCfg") >= 2
+    assert "Get-PhaseSeriesLabels -ChartCfg $ChartCfg" in script
+    assert "try { $series.AxisGroup = 2 } catch {}" in script
+
+
+def test_excel_generator_uses_unmerged_template_banner_rows() -> None:
+    script = (REPO_ROOT / "tools" / "excel_build_workbook.ps1").read_text(encoding="utf-8")
+
+    assert "Merge() | Out-Null" not in script
+    assert "WrapText = $true" not in script
+    assert "RowHeight = 17.25" in script
+    assert "NumberFormat = 'dd\".\"mm\".\"yyyy'" in script
+    assert 'NumberFormatLocal = "dd.mm.rrrr"' in script
+    assert "function Try-ParseDateValue" in script
+    assert ".Value2 = [double]$dateValue.ToOADate()" in script
+    assert "Formula = $formula" not in script
+    assert "=DATE($" not in script
+    assert "$Worksheet.Range($Worksheet.Cells.Item($HeaderRow, 1), $Worksheet.Cells.Item($lastRow, $headers.Count)).Columns.AutoFit()" in script or "$dataRange.Columns.AutoFit()" in script
+
+
+def test_excel_generator_filters_chart_rows_by_configured_date_axis_scope() -> None:
+    script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
+
+    assert "function Get-ScopedDataRowBounds" in script
+    assert "x_axis_scope_mode" in script
+    assert "x_axis_start" in script
+    assert "x_axis_end" in script
+    assert "$chartDataStartRow" in script
+    assert "$chartLastRow" in script
+
+
+def test_excel_verifier_fails_when_phase_series_leave_secondary_axis() -> None:
+    script = EXCEL_VERIFY.read_text(encoding="utf-8")
+
+    assert "phase_series_axis_group_ok" in script
+    assert "$axisGroup -ne 2" in script
+    assert "$check.phase_series_axis_group_ok = $false" in script
+    assert 'if ($SeriesName -like "phase_*") {' in script
+    assert '$result.status = "ok"' in script
+
+
+def test_excel_verifier_checks_rendered_date_axis_scope() -> None:
+    script = EXCEL_VERIFY.read_text(encoding="utf-8")
+
+    assert "date_axis_scope_ok" in script
+    assert "x_axis_scope_mode" in script
+    assert "x_axis_start" in script
+    assert "x_axis_end" in script
+    assert "Convert-ExcelDateToIso" in script

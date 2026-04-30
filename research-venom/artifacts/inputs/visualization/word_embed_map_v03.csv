@@ -1,0 +1,8 @@
+chart_id,excel_sheet,excel_chart_name,word_bookmark,word_section,caption_pl,status
+C_W32_ADDITIONS_03,W32_LOC,C_W32_ADDITIONS_03,BM_C_W32_ADDITIONS_03,Analiza dynamiki kodu,Dodane linie kodu Venom/benchmark Q1 2026,planned
+C_W35_ISSUES_03,W35_Trajektoria_Q1,C_W35_ISSUES_03,BM_C_W35_ISSUES_03,Analiza jakości kodu,Issues Venom z tłem faz,planned
+C_W33_CODE_FLOW_03,W33_Dzienny_Przeplyw,C_W33_CODE_FLOW_03,BM_C_W33_CODE_FLOW_03,Analiza procesu kodu,Dzienny przepływ kodu Venom,planned
+C_WP2_MEDIAN_LT_03,WP2_Lead_Time,C_WP2_MEDIAN_LT_03,BM_C_WP2_MEDIAN_LT_03,Benchmark procesu PR,Medianowy czas realizacji PR,planned
+C_WP4_BACKLOG_03,WP4_Backlog,C_WP4_BACKLOG_03,BM_C_WP4_BACKLOG_03,Benchmark procesu PR,Backlog pressure - średnia aktywnych PR,planned
+C_WP5_PR_DAILY_03,WP5_Venom_PR_Daily,C_WP5_PR_DAILY_03,BM_C_WP5_PR_DAILY_03,Proces PR Venom,Dzienny przepływ PR,planned
+C_WP6_LEAD_TIME_DAILY_03,WP6_Venom_Lead_Time,C_WP6_LEAD_TIME_DAILY_03,BM_C_WP6_LEAD_TIME_DAILY_03,Proces PR Venom,Dzienny czas realizacji PR,planned
