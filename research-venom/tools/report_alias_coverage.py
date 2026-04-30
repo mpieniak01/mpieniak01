@@ -46,6 +46,8 @@ def main() -> int:
     args = parse_args()
     repo_root = repo_root_from_script(__file__)
     cfg = load_pipeline_config(args.config, __file__)
+    if not cfg:
+        raise SystemExit(f"missing or empty pipeline config: {args.config}")
 
     datasets = cfg_get(cfg, "process", "steps", default={}) or {}
     scripts = cfg_get(cfg, "scripts", default={}) or {}

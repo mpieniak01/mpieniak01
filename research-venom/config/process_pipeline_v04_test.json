@@ -184,7 +184,7 @@
         "tools/*.ps1",
         "config/process_pipeline_v04.json",
         "docs/*.md",
-        "artifacts/inputs/*",
+        "artifacts/inputs/**",
         "artifacts/analysis/*",
         "artifacts/timeseries_agg/*",
         "artifacts/meta/*",

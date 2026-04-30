@@ -137,7 +137,9 @@ try {
     }
 
     $outDir = Split-Path -Parent $OutJson
-    if (-not (Test-Path -LiteralPath $outDir)) { New-Item -Path $outDir -ItemType Directory -Force | Out-Null }
+    if ($outDir -and -not (Test-Path -LiteralPath $outDir)) {
+        New-Item -Path $outDir -ItemType Directory -Force | Out-Null
+    }
 
     $payload | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $OutJson -Encoding UTF8
 
@@ -158,6 +160,10 @@ try {
     $md += "|---|---|---|---|---:|"
     foreach ($row in $checks) {
         $md += "| $($row.chart_id) | $($row.word_bookmark) | $($row.word_status) | $($row.s07_status) | $($row.inline_shapes_in_bookmark_range) |"
+    }
+    $outMdDir = Split-Path -Parent $OutMd
+    if ($outMdDir -and -not (Test-Path -LiteralPath $outMdDir)) {
+        New-Item -Path $outMdDir -ItemType Directory -Force | Out-Null
     }
     $md -join "`n" | Set-Content -LiteralPath $OutMd -Encoding UTF8
 

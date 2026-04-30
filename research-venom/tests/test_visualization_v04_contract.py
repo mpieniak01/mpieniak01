@@ -5,6 +5,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_V4 = REPO_ROOT / "config" / "process_pipeline_v04.json"
+CONFIG_V4_TEST = REPO_ROOT / "config" / "process_pipeline_v04_test.json"
+CONFIG_V4_LOCAL_REAL = REPO_ROOT / "config" / "process_pipeline_v04_local_real.json"
 STYLE_PROFILE_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_style_profile_v04.json"
 CONTROL_PROFILE_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_control_profile_v04.json"
 CHART_SPEC_V4 = REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_spec_v04.json"
@@ -31,6 +33,26 @@ def test_v4_config_points_to_versioned_artifacts() -> None:
     assert config["paths"]["excel_verify_json"].endswith("excel_verify_v04.json")
     assert config["paths"]["word_input_docx"].endswith("embed_canvas_v04.docx")
     assert config["paths"]["word_output_docx"].endswith("embed_canvas_bookmarked_v04.docx")
+
+
+def test_v4_configs_export_inputs_recursively() -> None:
+    for path in (CONFIG_V4, CONFIG_V4_TEST, CONFIG_V4_LOCAL_REAL):
+        config = _load_json(path)
+        full_profile = config["profiles"]["export"]["full"]
+        assert "artifacts/inputs/**" in full_profile
+        assert "artifacts/inputs/*" not in full_profile
+
+
+def test_v4_sample_key_paths_are_exact_public_contract_paths() -> None:
+    expected_sonar = "artifacts/inputs/sonar_market/project_keys_selected_v01.txt"
+    expected_github = "artifacts/inputs/github_market/repo_keys_selected_v01.txt"
+    for path in (CONFIG_V4, CONFIG_V4_TEST):
+        config = _load_json(path)
+        sonar_paths = config["process"]["steps"]["sonar_market"]["paths"]
+        github_paths = config["process"]["steps"]["github_market"]["paths"]
+        assert sonar_paths["project_key_file"] == expected_sonar
+        assert github_paths["repo_file"] == expected_github
+        assert github_paths["selection_keys"] == expected_github
 
 
 def test_v4_style_profile_contains_legacy_adopted_extensions() -> None:

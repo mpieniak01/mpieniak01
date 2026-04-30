@@ -21,6 +21,18 @@ def _assert(cond: bool, msg: str) -> None:
         raise SystemExit(msg)
 
 
+def _assert_exact_relative_path(value: str, expected: str, label: str) -> None:
+    path = Path(value)
+    _assert(not path.is_absolute(), f"{label} must be a relative path, got absolute path: {value}")
+    _assert(".." not in path.parts, f"{label} must not contain '..' segments, got: {value}")
+    normalized = path.as_posix()
+    _assert(normalized == expected, f"{label} must be {expected}, got: {value}")
+
+
+def _assert_existing_file(repo_root: Path, value: str, label: str) -> None:
+    _assert((repo_root / value).is_file(), f"missing {label}: {value}")
+
+
 def _validate_ci_mode(repo_root: Path) -> None:
     # Public contract: "*_selected_v01.txt" are CI sample lists in the public repo.
     # Real/private keys are stored only under _external/not_tracked/*_real_v01.txt.
@@ -35,40 +47,22 @@ def _validate_ci_mode(repo_root: Path) -> None:
     github_test = _step_paths(v04_test, "github_market")["repo_file"]
     github_test_sel = _step_paths(v04_test, "github_market")["selection_keys"]
 
-    _assert(
-        sonar_public.endswith("project_keys_selected_v01.txt"),
-        f"v04 sonar path must point to public sample list, got: {sonar_public}",
-    )
-    _assert(
-        github_public.endswith("repo_keys_selected_v01.txt"),
-        f"v04 github repo path must point to public sample list, got: {github_public}",
-    )
-    _assert(
-        github_public_sel.endswith("repo_keys_selected_v01.txt"),
-        f"v04 github selection path must point to public sample list, got: {github_public_sel}",
-    )
+    sonar_expected = "artifacts/inputs/sonar_market/project_keys_selected_v01.txt"
+    github_expected = "artifacts/inputs/github_market/repo_keys_selected_v01.txt"
 
-    _assert(
-        sonar_test.endswith("project_keys_selected_v01.txt"),
-        f"v04_test sonar path must point to public sample list, got: {sonar_test}",
-    )
-    _assert(
-        github_test.endswith("repo_keys_selected_v01.txt"),
-        f"v04_test github repo path must point to public sample list, got: {github_test}",
-    )
-    _assert(
-        github_test_sel.endswith("repo_keys_selected_v01.txt"),
-        f"v04_test github selection path must point to public sample list, got: {github_test_sel}",
-    )
+    _assert_exact_relative_path(sonar_public, sonar_expected, "v04 sonar sample path")
+    _assert_exact_relative_path(github_public, github_expected, "v04 github repo sample path")
+    _assert_exact_relative_path(github_public_sel, github_expected, "v04 github selection sample path")
+    _assert_exact_relative_path(sonar_test, sonar_expected, "v04_test sonar sample path")
+    _assert_exact_relative_path(github_test, github_expected, "v04_test github repo sample path")
+    _assert_exact_relative_path(github_test_sel, github_expected, "v04_test github selection sample path")
 
-    _assert(
-        (repo_root / sonar_test).exists(),
-        f"missing sample sonar key file: {sonar_test}",
-    )
-    _assert(
-        (repo_root / github_test).exists(),
-        f"missing sample github key file: {github_test}",
-    )
+    _assert_existing_file(repo_root, sonar_public, "v04 sample sonar key file")
+    _assert_existing_file(repo_root, github_public, "v04 sample github key file")
+    _assert_existing_file(repo_root, github_public_sel, "v04 sample github selection key file")
+    _assert_existing_file(repo_root, sonar_test, "v04_test sample sonar key file")
+    _assert_existing_file(repo_root, github_test, "v04_test sample github key file")
+    _assert_existing_file(repo_root, github_test_sel, "v04_test sample github selection key file")
     _assert(
         not (repo_root / "artifacts/inputs/github_market/repo_keys_selected_sample_v01.txt").exists(),
         "legacy sample file naming detected: repo_keys_selected_sample_v01.txt should not exist in public contract",
