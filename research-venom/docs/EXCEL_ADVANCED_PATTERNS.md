@@ -8,6 +8,8 @@ Podstawowe wykresy pokazują serie danych. Wzorce zaawansowane dodają kontekst 
 
 Ten krok nie jest źródłem danych. Dane i serie wykresów wynikają ze specyfikacji chartów oraz workbooka.
 
+Od `v04` workbook wspiera też tryb `sheet_synthesis`: wykres zbiorczy dla arkusza z wieloma wykresami szczegółowymi. Ten wykres jest renderowany jako pierwszy na danej zakładce, a pozostałe wykresy są automatycznie przesuwane niżej w stałym kroku layoutu.
+
 ## Zakres
 
 - `background_series` - serie lub obszary tła,

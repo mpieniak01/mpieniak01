@@ -57,6 +57,16 @@ function Parse-HexColorToCom {
     return ($b * 65536) + ($g * 256) + $r
 }
 
+function Get-IsAcademicModeEnabled {
+    param($StyleProfile)
+    if (-not $StyleProfile) { return $false }
+    if ($StyleProfile.PSObject.Properties.Name -contains "academic_style") {
+        $ac = $StyleProfile.academic_style
+        if ($ac -and ($ac.PSObject.Properties.Name -contains "enabled") -and $ac.enabled -eq $true) { return $true }
+    }
+    return $false
+}
+
 function Get-StyleValidationThresholds {
     param($StyleProfile)
     $warnRatio = 0.9
@@ -296,6 +306,48 @@ function Get-CleanSeriesName {
     return $name.Trim("=""""")
 }
 
+function Get-MaxSourceMetricValue {
+    param(
+        $Worksheet,
+        [int]$HeaderRow,
+        [int]$DataStartRow,
+        $SeriesDefs,
+        $StyleProfile,
+        [string]$AxisGroup = ""
+    )
+    if (-not $Worksheet -or -not $SeriesDefs) { return $null }
+    $used = $Worksheet.UsedRange
+    if (-not $used) { return $null }
+    $lastRow = [int]$used.Row + [int]$used.Rows.Count - 1
+    if ($lastRow -lt $DataStartRow) { return $null }
+    $maxValue = $null
+    foreach ($def in @($SeriesDefs)) {
+        if (-not $def) { continue }
+        if ([string]$def.role -ne "y") { continue }
+        $seriesName = [string]$def.name
+        if (-not $seriesName -or $seriesName -like "phase_*") { continue }
+        if ($AxisGroup) {
+            $seriesAxisGroup = "primary"
+            if (($def.PSObject.Properties.Name -contains "axis_group") -and $def.axis_group) {
+                $seriesAxisGroup = [string]$def.axis_group
+            }
+            if ($seriesAxisGroup -ne $AxisGroup) { continue }
+        }
+        $col = Find-HeaderColumnIndex -Worksheet $Worksheet -HeaderRow $HeaderRow -Candidates (Get-HeaderCandidates -HeaderName $seriesName -StyleProfile $StyleProfile)
+        if ($null -eq $col) { continue }
+        for ($row = $DataStartRow; $row -le $lastRow; $row++) {
+            $raw = $Worksheet.Cells.Item($row, [int]$col).Value2
+            if ($null -eq $raw -or $raw -eq "") { continue }
+            $num = 0.0
+            $ok = [double]::TryParse([string]$raw, [ref]$num)
+            if (-not $ok) { continue }
+            if ($num -lt 0) { $num = [Math]::Abs($num) }
+            if ($null -eq $maxValue -or $num -gt $maxValue) { $maxValue = $num }
+        }
+    }
+    return $maxValue
+}
+
 function Get-ChartSeriesDefinitions {
     param($Cfg)
     $defs = @()
@@ -312,9 +364,13 @@ function Get-ChartSeriesDefinitions {
             if (-not $field) { $field = [string]($item.name) }
             if (-not $field) { $field = [string]($item.series) }
             if (-not $field) { continue }
-            $role = if ($item.PSObject.Properties.Name -contains "role" -and $item.role) { [string]$item.role } else { "y" }
-            $label = if ($item.PSObject.Properties.Name -contains "label" -and $item.label) { [string]$item.label } else { "" }
-            $defs += [pscustomobject]@{ role = $role; name = $field; label = $label }
+            $role = if (($item.PSObject.Properties.Name -contains "role") -and $item.role) { [string]$item.role } else { "y" }
+            $label = if (($item.PSObject.Properties.Name -contains "label") -and $item.label) { [string]$item.label } else { "" }
+            $axisGroup = "primary"
+            if (($item.PSObject.Properties.Name -contains "axis_group") -and $item.axis_group) {
+                $axisGroup = [string]$item.axis_group
+            }
+            $defs += [pscustomobject]@{ role = $role; name = $field; label = $label; axis_group = $axisGroup }
         }
         return @($defs)
     }
@@ -325,7 +381,7 @@ function Get-ChartSeriesDefinitions {
         if ($Cfg.series_labels -and $idx -ge 0 -and $idx -lt @($Cfg.series_labels).Count) {
             $label = [string]@($Cfg.series_labels)[$idx]
         }
-        $defs += [pscustomobject]@{ role = "y"; name = [string]$yHeader; label = $label }
+        $defs += [pscustomobject]@{ role = "y"; name = [string]$yHeader; label = $label; axis_group = "primary" }
     }
     return @($defs)
 }
@@ -359,12 +415,39 @@ $dateAxisScale = Get-DateAxisConfig -ControlProfile $controlProfile
 $expectedTitleSize = $null
 $expectedLegendSize = $null
 $expectedFirstSeriesColor = $null
+$academicModeActive = Get-IsAcademicModeEnabled -StyleProfile $styleProfile
 if ($styleProfile) {
-    if ($styleProfile.chart_title -and $styleProfile.chart_title.font_size) { $expectedTitleSize = [double]$styleProfile.chart_title.font_size }
-    if ($styleProfile.legend -and $styleProfile.legend.font_size) { $expectedLegendSize = [double]$styleProfile.legend.font_size }
-    if ($styleProfile.series_palette_rgb -and @($styleProfile.series_palette_rgb).Count -gt 0) {
-        $expectedFirstSeriesColor = Parse-HexColorToCom -Rgb ([string]$styleProfile.series_palette_rgb[0])
+    if ($academicModeActive -and $styleProfile.PSObject.Properties.Name -contains "academic_typography") {
+        $at = $styleProfile.academic_typography
+        if ($at -and ($at.PSObject.Properties.Name -contains "chart_title") -and $at.chart_title -and ($at.chart_title.PSObject.Properties.Name -contains "font_size")) {
+            $expectedTitleSize = [double]$at.chart_title.font_size
+        }
+        if ($at -and ($at.PSObject.Properties.Name -contains "legend") -and $at.legend -and ($at.legend.PSObject.Properties.Name -contains "font_size")) {
+            $expectedLegendSize = [double]$at.legend.font_size
+        }
+    } else {
+        if ($styleProfile.chart_title -and $styleProfile.chart_title.font_size) { $expectedTitleSize = [double]$styleProfile.chart_title.font_size }
+        if ($styleProfile.legend -and $styleProfile.legend.font_size) { $expectedLegendSize = [double]$styleProfile.legend.font_size }
     }
+    # Series color: accept any color from all domain palettes (academic or standard) + fallback palette
+    $allDomainColors = New-Object System.Collections.Generic.HashSet[int]
+    $paletteKey = if ($academicModeActive) { "series_palette_academic" } else { "series_palette_by_source_type" }
+    if ($styleProfile.PSObject.Properties.Name -contains $paletteKey) {
+        foreach ($domain in @($styleProfile.$paletteKey.PSObject.Properties.Name)) {
+            foreach ($hex in @($styleProfile.$paletteKey.$domain)) {
+                $cv = Parse-HexColorToCom -Rgb ([string]$hex)
+                if ($null -ne $cv) { [void]$allDomainColors.Add([int]$cv) }
+            }
+        }
+    }
+    # Also include fallback series_palette_rgb
+    if ($styleProfile.series_palette_rgb) {
+        foreach ($hex in @($styleProfile.series_palette_rgb)) {
+            $cv = Parse-HexColorToCom -Rgb ([string]$hex)
+            if ($null -ne $cv) { [void]$allDomainColors.Add([int]$cv) }
+        }
+    }
+    if ($allDomainColors.Count -gt 0) { $expectedFirstSeriesColor = $allDomainColors }
 }
 
 $inputTableToSheetMap = @{}
@@ -401,6 +484,15 @@ try {
         $targetSheetName = [string]$cfg.sheet
         $sourceSheetName = [string]$cfg.source_sheet
         $seriesDefs = @(Get-ChartSeriesDefinitions -Cfg $cfg)
+        $chartExpectedFirstSeriesColor = $expectedFirstSeriesColor
+        if (($cfg.PSObject.Properties.Name -contains "series_palette_override") -and $cfg.series_palette_override) {
+            $overrideColors = New-Object System.Collections.Generic.HashSet[int]
+            foreach ($hex in @($cfg.series_palette_override)) {
+                $cv = Parse-HexColorToCom -Rgb ([string]$hex)
+                if ($null -ne $cv) { [void]$overrideColors.Add([int]$cv) }
+            }
+            if ($overrideColors.Count -gt 0) { $chartExpectedFirstSeriesColor = $overrideColors }
+        }
         $hasSecondarySeries = $false
         if ($cfg.series_plan) {
             foreach ($item in @($cfg.series_plan)) {
@@ -410,7 +502,6 @@ try {
                 }
             }
         }
-
         $check = [ordered]@{
             chart_id = $chartId
             target_sheet = $targetSheetName
@@ -427,6 +518,12 @@ try {
             style_title_font_size_ok = $true
             style_legend_font_size_ok = $true
             style_first_series_color_ok = $true
+            stacked_bar_palette_ok = $true
+            stacked_bar_overlap_ok = $true
+            stacked_bar_border_ok = $true
+            stacked_bar_data_labels_ok = $true
+            stacked_bar_axis_titles_ok = $true
+            stacked_bar_highlight_ok = $true
             secondary_axis_scale_ok = $true
             secondary_axis_min = $null
             secondary_axis_max = $null
@@ -593,17 +690,104 @@ try {
                 if ($null -ne $expectedLegendSize -and $chartObj.Chart.HasLegend) {
                     $check.style_legend_font_size_ok = ([math]::Abs([double]$chartObj.Chart.Legend.Font.Size - $expectedLegendSize) -lt 0.01)
                 }
-                if ($null -ne $expectedFirstSeriesColor -and $check.series_count -gt 0) {
+                if ($null -ne $chartExpectedFirstSeriesColor -and $check.series_count -gt 0) {
                     $seriesObj = $chartObj.Chart.SeriesCollection(1)
                     $actualFillColor = $null
                     $actualLineColor = $null
                     try { $actualFillColor = [int]$seriesObj.Format.Fill.ForeColor.RGB } catch {}
                     try { $actualLineColor = [int]$seriesObj.Format.Line.ForeColor.RGB } catch {}
-                    $check.style_first_series_color_ok = (($actualFillColor -eq $expectedFirstSeriesColor) -or ($actualLineColor -eq $expectedFirstSeriesColor))
+                    if ($chartExpectedFirstSeriesColor -is [System.Collections.Generic.HashSet[int]]) {
+                        $check.style_first_series_color_ok = ($chartExpectedFirstSeriesColor.Contains($actualFillColor) -or $chartExpectedFirstSeriesColor.Contains($actualLineColor))
+                    } else {
+                        $check.style_first_series_color_ok = (($actualFillColor -eq $chartExpectedFirstSeriesColor) -or ($actualLineColor -eq $chartExpectedFirstSeriesColor))
+                    }
+                }
+                if ([string]$cfg.chart_type -eq "bar_stacked") {
+                    $stackedPalette = @()
+                    if (($cfg.PSObject.Properties.Name -contains "series_palette_override") -and $cfg.series_palette_override) {
+                        foreach ($hex in @($cfg.series_palette_override)) {
+                            $cv = Parse-HexColorToCom -Rgb ([string]$hex)
+                            if ($null -ne $cv) { $stackedPalette += [int]$cv }
+                        }
+                    }
+                    if ($stackedPalette.Count -ge 3 -and $check.series_count -ge 3) {
+                        $stackedOk = $true
+                        for ($si = 1; $si -le 3; $si++) {
+                            $seriesObj = $chartObj.Chart.SeriesCollection($si)
+                            $fillColor = $null
+                            $lineColor = $null
+                            try { $fillColor = [int]$seriesObj.Format.Fill.ForeColor.RGB } catch {}
+                            try { $lineColor = [int]$seriesObj.Format.Line.ForeColor.RGB } catch {}
+                            if (($fillColor -ne $stackedPalette[$si - 1]) -and ($lineColor -ne $stackedPalette[$si - 1])) {
+                                $stackedOk = $false
+                                break
+                            }
+                        }
+                        $check.stacked_bar_palette_ok = $stackedOk
+                    }
+                    try {
+                        $group = $chartObj.Chart.ChartGroups(1)
+                        if ($group) {
+                            $overlap = $null
+                            try { $overlap = [int]$group.Overlap } catch {}
+                            if ($null -ne $overlap) { $check.stacked_bar_overlap_ok = ($overlap -eq 100) }
+                            $firstBorderVisible = $true
+                            $firstBorderWeight = $null
+                            try { $firstBorderVisible = [bool]$chartObj.Chart.SeriesCollection(1).Format.Line.Visible } catch {}
+                            try { $firstBorderWeight = [double]$chartObj.Chart.SeriesCollection(1).Format.Line.Weight } catch {}
+                            if ($firstBorderVisible -eq $false) { $check.stacked_bar_border_ok = $false }
+                            if ($null -ne $firstBorderWeight -and $firstBorderWeight -lt 0.25) { $check.stacked_bar_border_ok = $false }
+                        }
+                    } catch {}
+                    $stackedDataLabelsOk = $true
+                    try {
+                        for ($si = 1; $si -le [int]$chartObj.Chart.SeriesCollection().Count; $si++) {
+                            if ([bool]$chartObj.Chart.SeriesCollection($si).HasDataLabels) {
+                                $stackedDataLabelsOk = $false
+                                break
+                            }
+                        }
+                    } catch {}
+                    $check.stacked_bar_data_labels_ok = $stackedDataLabelsOk
+                    if (($cfg.PSObject.Properties.Name -contains "disable_point_highlight") -and $cfg.disable_point_highlight -eq $true) {
+                        $check.stacked_bar_highlight_ok = $true
+                    }
+                    $axisTitlesOk = $true
+                    if (($cfg.PSObject.Properties.Name -contains "x_axis_title") -and $cfg.x_axis_title) {
+                        try {
+                            $catAxis = $chartObj.Chart.Axes(1)
+                            $titleText = ""
+                            if ($catAxis -and $catAxis.HasTitle) {
+                                try { $titleText = [string]$catAxis.AxisTitle.Text } catch {}
+                            }
+                            if ($titleText -ne [string]$cfg.x_axis_title) { $axisTitlesOk = $false }
+                        } catch { $axisTitlesOk = $false }
+                    }
+                    if (($cfg.PSObject.Properties.Name -contains "y_axis_title") -and $cfg.y_axis_title) {
+                        try {
+                            $valAxis = $chartObj.Chart.Axes(2)
+                            $titleText = ""
+                            if ($valAxis -and $valAxis.HasTitle) {
+                                try { $titleText = [string]$valAxis.AxisTitle.Text } catch {}
+                            }
+                            if ($titleText -ne [string]$cfg.y_axis_title) { $axisTitlesOk = $false }
+                        } catch { $axisTitlesOk = $false }
+                    }
+                    $check.stacked_bar_axis_titles_ok = $axisTitlesOk
                 }
                 if ($hasSecondarySeries -and $chartObj.Chart.ChartType) {
                     $expectedMin = 0.0
                     $expectedMax = 100.0
+                    $dynamicPhaseScaleEnabled = $false
+                    $hasPhaseSeriesConfigured = $false
+                    if ($cfg.series_plan) {
+                        foreach ($sp in @($cfg.series_plan)) {
+                            if ($sp -and [string]$sp.field -like "phase_*") { $hasPhaseSeriesConfigured = $true; break }
+                        }
+                    }
+                    if ($controlProfile -and $controlProfile.phase_background -and ($controlProfile.phase_background.PSObject.Properties.Name -contains "dynamic_scale_enabled")) {
+                        $dynamicPhaseScaleEnabled = [bool]$controlProfile.phase_background.dynamic_scale_enabled
+                    }
                     if ($secondaryAxisScale) {
                         if (($secondaryAxisScale.PSObject.Properties.Name -contains "minimum") -and $null -ne $secondaryAxisScale.minimum) {
                             $expectedMin = [double]$secondaryAxisScale.minimum
@@ -617,9 +801,42 @@ try {
                         if ($secondaryAxis) {
                             $check.secondary_axis_min = [double]$secondaryAxis.MinimumScale
                             $check.secondary_axis_max = [double]$secondaryAxis.MaximumScale
-                            $minOk = ([math]::Abs([double]$secondaryAxis.MinimumScale - $expectedMin) -lt 0.01)
-                            $maxOk = ([math]::Abs([double]$secondaryAxis.MaximumScale - $expectedMax) -lt 0.01)
-                            $check.secondary_axis_scale_ok = ($minOk -and $maxOk)
+                            if ($dynamicPhaseScaleEnabled -and $hasPhaseSeriesConfigured) {
+                                $primarySourceMax = Get-MaxSourceMetricValue -Worksheet $sourceSheet -HeaderRow $headerRow -DataStartRow $dataStartRow -SeriesDefs $seriesDefs -StyleProfile $styleProfile -AxisGroup "primary"
+                                $secondarySourceMax = Get-MaxSourceMetricValue -Worksheet $sourceSheet -HeaderRow $headerRow -DataStartRow $dataStartRow -SeriesDefs $seriesDefs -StyleProfile $styleProfile -AxisGroup "secondary"
+                                $check.primary_source_max_metric_value = $primarySourceMax
+                                $check.secondary_source_max_metric_value = $secondarySourceMax
+                                $minOk = ([math]::Abs([double]$secondaryAxis.MinimumScale - 0.0) -lt 0.01)
+                                $maxOk = ([double]$secondaryAxis.MaximumScale -gt 0.0)
+                                if ($null -ne $secondarySourceMax -and $secondarySourceMax -gt 0) {
+                                    $maxOk = $maxOk -and ([double]$secondaryAxis.MaximumScale -ge [double]$secondarySourceMax)
+                                }
+                                $check.secondary_axis_scale_mode = "dynamic_phase"
+                                $check.secondary_axis_scale_ok = ($minOk -and $maxOk)
+
+                                try {
+                                    $primaryAxis = $chartObj.Chart.Axes(2, 1)
+                                    if ($primaryAxis) {
+                                        $check.primary_axis_min = [double]$primaryAxis.MinimumScale
+                                        $check.primary_axis_max = [double]$primaryAxis.MaximumScale
+                                        $primaryMinOk = ([math]::Abs([double]$primaryAxis.MinimumScale - 0.0) -lt 0.01)
+                                        $primaryMaxOk = ([double]$primaryAxis.MaximumScale -gt 0.0)
+                                        if ($null -ne $primarySourceMax -and $primarySourceMax -gt 0) {
+                                            $primaryMaxOk = $primaryMaxOk -and ([double]$primaryAxis.MaximumScale -ge [double]$primarySourceMax)
+                                        }
+                                        $check.primary_axis_scale_ok = ($primaryMinOk -and $primaryMaxOk)
+                                    } else {
+                                        $check.primary_axis_scale_ok = $false
+                                    }
+                                } catch {
+                                    $check.primary_axis_scale_ok = $false
+                                }
+                            } else {
+                                $minOk = ([math]::Abs([double]$secondaryAxis.MinimumScale - $expectedMin) -lt 0.01)
+                                $maxOk = ([math]::Abs([double]$secondaryAxis.MaximumScale - $expectedMax) -lt 0.01)
+                                $check.secondary_axis_scale_mode = "fixed_profile"
+                                $check.secondary_axis_scale_ok = ($minOk -and $maxOk)
+                            }
                         } else {
                             $check.secondary_axis_scale_ok = $false
                         }
@@ -766,7 +983,11 @@ try {
             }
         }
 
-        $styleOk = ($check.style_title_font_size_ok -and $check.style_legend_font_size_ok -and $check.style_first_series_color_ok -and $check.secondary_axis_scale_ok -and $check.phase_series_axis_group_ok -and $check.chart_type_semantics_ok -and $check.phase_scope_ok -and $check.date_axis_scope_ok -and $check.date_axis_ok)
+        $stackedContractOk = $true
+        if ([string]$cfg.chart_type -eq "bar_stacked") {
+            $stackedContractOk = ($check.stacked_bar_palette_ok -and $check.stacked_bar_overlap_ok -and $check.stacked_bar_border_ok -and $check.stacked_bar_data_labels_ok -and $check.stacked_bar_axis_titles_ok -and $check.stacked_bar_highlight_ok)
+        }
+        $styleOk = ($check.style_title_font_size_ok -and $check.style_legend_font_size_ok -and $check.style_first_series_color_ok -and $check.secondary_axis_scale_ok -and $check.phase_series_axis_group_ok -and $check.chart_type_semantics_ok -and $check.phase_scope_ok -and $check.date_axis_scope_ok -and $check.date_axis_ok -and $stackedContractOk)
         $metadataOk = ($check.source_domain_ok -and $check.project_key_contract_ok)
         $check.style_ok = $styleOk
         if ($check.source_sheet_exists -and $check.source_sheet_has_rows -and $check.target_sheet_exists -and $check.chart_exists -and $check.series_count -gt 0 -and $check.series_health_status -eq "ok" -and $styleOk -and $metadataOk) {

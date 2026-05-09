@@ -113,6 +113,7 @@ Dobór typu wykresu wynika z semantyki danych.
 | Zdarzenia dzienne i sparse metrics | `column` |
 | Tło faz | `column` na osi pomocniczej |
 | Wykres syntetyczny | `synthetic_combo` / `combo` z jawnie opisanym celem |
+| Wykres zbiorczy arkusza | `sheet_synthesis` |
 
 Regresja niedozwolona:
 
@@ -139,7 +140,7 @@ Obowiązujące kolory i fonty z profilu `v04`:
 |---|---|
 | Tytuł wykresu / arkusza | Calibri 14, bold, `#1A56A0` |
 | Etykiety osi | Calibri 9, italic, `#666666` |
-| Legenda | Calibri 9, `#0D3B73`, pozycja prawa |
+| Legenda | Calibri 9, `#0D3B73`, pozycja dolna |
 | Nagłówek tabeli | fill `#1F5FA8`, font biały |
 | Chart area | `#FFFFFF` |
 | Plot area | `#F4F8FC` |
@@ -174,7 +175,7 @@ Oczekiwane warunki:
 
 1. `make test` przechodzi.
 2. Pipeline `v04` kończy się statusem `ok`.
-3. `S04` tworzy 21 wykresów.
+3. `S04` tworzy 26 wykresów.
 4. `excel_verify_v04` ma `charts_failed: 0`.
 5. Ostrzeżenia `series_too_sparse` są dopuszczalne dla sparse metrics, jeśli nie ma brakujących kolumn źródłowych.
 6. `WP1`-`WP4` mają `rendered_project_count: 11`.
@@ -188,3 +189,4 @@ Oczekiwane warunki:
 4. `docs/PROCESS_DATA_MAP.md` - ścieżka danych od źródła do workbooka.
 5. `docs/EXCEL_ADVANCED_PATTERNS.md` - wzorce zaawansowanych wykresów i narracji.
 6. `docs_pr/_todo/211A_pr_visualization_legacy_style_and_synthetic_charts_v01.md` - zakres i decyzje PR 211A.
+7. `docs_pr/_todo/214A_pr_visualization_sheet_level_synthetic_charts_v01.md` - zakres i decyzje dla wykresów zbiorczych arkusza.

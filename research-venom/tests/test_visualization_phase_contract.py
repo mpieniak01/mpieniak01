@@ -27,6 +27,9 @@ def test_phase_background_profile_defines_global_scale_contract() -> None:
     assert phase_background["render_mode"] == "column"
     assert phase_background["gap_width"] == 0
     assert phase_background["overlap"] == 100
+    assert phase_background["dynamic_scale_enabled"] is True
+    assert phase_background["dynamic_scale_padding_pct"] == 0.10
+    assert phase_background["sheet_synthesis_fill_transparency"] == 0.35
     assert phase_background["secondary_axis_scale"] == {
         "minimum": 0,
         "maximum": 100,
@@ -103,14 +106,34 @@ def test_workbook_layout_source_types_match_declared_data_domain() -> None:
     assert by_name == expected
 
 
+def test_w36_debt_comparison_uses_max_snapshot_not_sum() -> None:
+    chart_spec = _load_json(CHART_SPEC)
+    layout = _load_json(LAYOUT_SPEC)
+
+    chart = next(chart for chart in chart_spec["charts"] if chart["chart_id"] == "C_W36_DEBT_PROJECTS_03")
+    assert chart["y_series"] == ["technical_debt_days_max_q1"]
+    assert chart["series_plan"][0]["field"] == "technical_debt_days_max_q1"
+    assert "maksymalnym dziennym stanem" in chart["table_description"]
+    assert "sum" not in chart["table_description"].lower()
+    assert "skumulowany" not in chart["analysis_caption"].lower()
+    assert "nie jest sumowana" in chart["analysis_caption"].lower()
+
+    sheet = next(sheet for sheet in layout["sheets"] if sheet["sheet_name"] == "W36_Dlug_Projekty")
+    assert "maksymalnym dziennym stanem" in sheet["sheet_description"]
+    assert "sum" not in sheet["sheet_description"].lower()
+
+
 def test_worksheet_banner_matches_template_contract() -> None:
     style = _load_json(REPO_ROOT / "artifacts" / "inputs" / "visualization" / "chart_style_profile_v04.json")
 
     assert style["chart_title"]["font_size"] == 14
-    assert style["chart_title"]["font_color_rgb"] == "1A56A0"
-    assert style["axis_labels"]["font_size"] == 9
-    assert style["axis_labels"]["font_color_rgb"] == "666666"
+    assert style["chart_title"]["font_color_rgb"] == "0F172A"
+    assert style["axis_labels"]["font_size"] == 10
+    assert style["axis_labels"]["font_color_rgb"] == "374151"
     assert style["worksheet_style"]["show_gridlines_for_analysis"] is False
+    # sheet_title: dark navy background + white text (adopted from template styleTitle())
+    assert style["sheet_title"]["fill_color_rgb"] == "0F172A"
+    assert style["sheet_title"]["font_color_rgb"] == "FFFFFF"
 
 
 def test_chart_table_descriptions_are_source_first() -> None:
@@ -187,3 +210,60 @@ def test_excel_verifier_checks_rendered_date_axis_scope() -> None:
     assert "x_axis_start" in script
     assert "x_axis_end" in script
     assert "Convert-ExcelDateToIso" in script
+
+
+def test_excel_verifier_supports_dynamic_phase_secondary_axis_scale() -> None:
+    script = EXCEL_VERIFY.read_text(encoding="utf-8")
+    assert "function Get-MaxSourceMetricValue" in script
+    assert "dynamic_scale_enabled" in script
+    assert "secondary_axis_scale_mode = \"dynamic_phase\"" in script
+    assert "primary_source_max_metric_value" in script
+    assert "secondary_source_max_metric_value" in script
+    assert "primary_axis_scale_ok" in script
+    assert "[double]$secondaryAxis.MaximumScale -ge [double]$secondarySourceMax" in script
+
+
+def test_excel_generator_enforces_stacked_bar_shared_plane() -> None:
+    script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
+    assert '$chartType -eq "bar_stacked"' in script
+    assert "if ($null -eq $overlap) { $overlap = 100 }" in script
+    assert "SeriesCollection($si).AxisGroup = 1" in script
+
+
+def test_excel_generator_enforces_phase_background_shared_plane() -> None:
+    script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
+    assert "function Apply-PhaseBackgroundLayout" in script
+    assert "$groupAxisGroup = [int]$group.AxisGroup" in script
+    assert "if ($groupHasPhase -and" in script
+    assert "$groupAxisGroup -eq 2" in script
+    assert "$phaseGroupsStyled += 1" in script
+    assert "if ($phaseGroupsStyled -eq 0 -and $phaseLabels.Count -gt 0)" in script
+    assert '$ChartCfg.PSObject.Properties.Name -contains "column_gap_width"' in script
+    assert "$phaseGroup = $groups[$groups.Count - 1]" in script
+    assert "try { $group.GapWidth = $gapWidth } catch {}" in script
+    assert "try { $group.Overlap = $overlap } catch {}" in script
+
+
+def test_excel_generator_applies_dynamic_phase_scale_from_data() -> None:
+    script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
+    assert "function Get-ChartDataSeriesMax" in script
+    assert "function Get-ChartDataSeriesBounds" in script
+    assert "function Get-RenderedChartSeriesBounds" in script
+    assert "function Test-IsPhaseSeriesName" in script
+    assert "function Test-IsPhaseSeriesObject" in script
+    assert "function Get-PhaseSeriesIndexes" in script
+    assert "function Get-LeadingPhaseSeriesCount" in script
+    assert "function Apply-PrimaryAxisScale" in script
+    assert "function Apply-ValueAxisScale" in script
+    assert "function Try-ConvertToDouble" in script
+    assert "function Convert-ComSeriesValuesToArray" in script
+    assert "function Apply-DynamicPhaseScale" in script
+    assert "dynamic_scale_enabled" in script
+    assert "dynamic_scale_padding_pct" in script
+    assert "Convert-ComSeriesValuesToArray -Values $ser.Values" in script
+    assert "$active = (Try-ConvertToDouble -Value $raw -Result ([ref]$num)) -and $num -gt 0" in script
+    assert "$vals[$pi] = $null" in script
+    assert "Get-RenderedChartSeriesBounds -Chart $chart -ChartCfg $chartCfg -AxisGroup 1" in script
+    assert "Get-RenderedChartSeriesBounds -Chart $chart -ChartCfg $chartCfg -AxisGroup 2" in script
+    assert "Apply-DynamicPhaseScale -Chart $chart -ChartCfg $chartCfg -ControlProfile $controlProfile -PrimaryDataBounds $primaryDataBounds -SecondaryDataBounds $secondaryDataBounds" in script
+    assert "sheet_synthesis_fill_transparency" in script

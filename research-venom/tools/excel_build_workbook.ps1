@@ -50,7 +50,8 @@ function Apply-HeaderStyle {
         [Parameter(Mandatory = $true)]$Worksheet,
         [Parameter(Mandatory = $true)][int]$HeaderRow,
         [Parameter(Mandatory = $true)][int]$LastCol,
-        $StyleProfile
+        $StyleProfile,
+        $SourceTypeStyle = $null
     )
 
     $headerRange = $Worksheet.Range($Worksheet.Cells.Item($HeaderRow, 1), $Worksheet.Cells.Item($HeaderRow, $LastCol))
@@ -58,16 +59,20 @@ function Apply-HeaderStyle {
 
     if ($StyleProfile -and $StyleProfile.table_header) {
         $th = $StyleProfile.table_header
-        if ($th.font_name) { $headerRange.Font.Name = [string]$th.font_name }
-        if ($th.font_size) { $headerRange.Font.Size = [double]$th.font_size }
-        $headerRange.Font.Bold = [bool]$th.bold
-        $headerRange.Font.Italic = [bool]$th.italic
-        if ($th.font_color_rgb) {
+        if (($th.PSObject.Properties.Name -contains "font_name") -and $th.font_name) { $headerRange.Font.Name = [string]$th.font_name }
+        if (($th.PSObject.Properties.Name -contains "font_size") -and $null -ne $th.font_size) { $headerRange.Font.Size = [double]$th.font_size }
+        if ($th.PSObject.Properties.Name -contains "bold") { $headerRange.Font.Bold = [bool]$th.bold }
+        if ($th.PSObject.Properties.Name -contains "italic") { $headerRange.Font.Italic = [bool]$th.italic }
+        if (($th.PSObject.Properties.Name -contains "font_color_rgb") -and $th.font_color_rgb) {
             $fontColor = Parse-HexColorToCom -Rgb ([string]$th.font_color_rgb)
             if ($null -ne $fontColor) { $headerRange.Font.Color = $fontColor }
         }
-        if ($th.fill_color_rgb) {
-            $fillColor = Parse-HexColorToCom -Rgb ([string]$th.fill_color_rgb)
+        # Domain-specific header fill overrides generic table_header fill
+        $headerFillRgb = if ($SourceTypeStyle -and ($SourceTypeStyle.PSObject.Properties.Name -contains "header_fill_rgb") -and $SourceTypeStyle.header_fill_rgb) `
+                         { [string]$SourceTypeStyle.header_fill_rgb } `
+                         elseif (($th.PSObject.Properties.Name -contains "fill_color_rgb") -and $th.fill_color_rgb) { [string]$th.fill_color_rgb } else { "" }
+        if ($headerFillRgb) {
+            $fillColor = Parse-HexColorToCom -Rgb $headerFillRgb
             if ($null -ne $fillColor) { $headerRange.Interior.Color = $fillColor }
         }
     }
@@ -83,6 +88,16 @@ function Parse-HexColorToCom {
     $g = [Convert]::ToInt32($clean.Substring(2, 2), 16)
     $b = [Convert]::ToInt32($clean.Substring(4, 2), 16)
     return ($b * 65536) + ($g * 256) + $r
+}
+
+function Get-IsAcademicModeEnabled {
+    param($StyleProfile)
+    if (-not $StyleProfile) { return $false }
+    if ($StyleProfile.PSObject.Properties.Name -contains "academic_style") {
+        $ac = $StyleProfile.academic_style
+        if ($ac -and ($ac.PSObject.Properties.Name -contains "enabled") -and $ac.enabled -eq $true) { return $true }
+    }
+    return $false
 }
 
 function Resolve-ColumnLabel {
@@ -168,14 +183,14 @@ function Apply-TableBodyStyle {
     if (-not $StyleProfile -or -not $StyleProfile.table_body) { return }
     $tb = $StyleProfile.table_body
     $allRange = $Worksheet.Range($Worksheet.Cells.Item($HeaderRow, 1), $Worksheet.Cells.Item($LastRow, $LastCol))
-    if ($tb.font_name) { $allRange.Font.Name = [string]$tb.font_name }
-    if ($tb.font_size) { $allRange.Font.Size = [double]$tb.font_size }
-    if ($tb.font_color_rgb) {
+    if (($tb.PSObject.Properties.Name -contains "font_name") -and $tb.font_name) { $allRange.Font.Name = [string]$tb.font_name }
+    if (($tb.PSObject.Properties.Name -contains "font_size") -and $null -ne $tb.font_size) { $allRange.Font.Size = [double]$tb.font_size }
+    if (($tb.PSObject.Properties.Name -contains "font_color_rgb") -and $tb.font_color_rgb) {
         $fontColor = Parse-HexColorToCom -Rgb ([string]$tb.font_color_rgb)
         if ($null -ne $fontColor) { $allRange.Font.Color = $fontColor }
     }
 
-    if ($tb.border_color_rgb) {
+    if (($tb.PSObject.Properties.Name -contains "border_color_rgb") -and $tb.border_color_rgb) {
         $borderColor = Parse-HexColorToCom -Rgb ([string]$tb.border_color_rgb)
         if ($null -ne $borderColor) {
             foreach ($idx in @(7, 8, 9, 10, 11, 12)) {
@@ -186,7 +201,7 @@ function Apply-TableBodyStyle {
         }
     }
 
-    if ($tb.alternate_fill_rgb) {
+    if (($tb.PSObject.Properties.Name -contains "alternate_fill_rgb") -and $tb.alternate_fill_rgb) {
         $altColor = Parse-HexColorToCom -Rgb ([string]$tb.alternate_fill_rgb)
         if ($null -ne $altColor) {
             for ($r = $DataStartRow; $r -le $LastRow; $r++) {
@@ -341,13 +356,39 @@ function Write-ObjectsToSheet {
         $titleCell = $Worksheet.Cells.Item(1, 1)
         $titleCell.Value2 = $TableTitle
         $titleCell.Font.Bold = $true
-        if ($StyleProfile -and $StyleProfile.chart_title) {
-            if ($StyleProfile.chart_title.font_name) { $titleCell.Font.Name = [string]$StyleProfile.chart_title.font_name }
-            if ($StyleProfile.chart_title.font_size) { $titleCell.Font.Size = [double]$StyleProfile.chart_title.font_size }
-            $titleCell.Font.Italic = [bool]$StyleProfile.chart_title.italic
-            if ($StyleProfile.chart_title.font_color_rgb) {
-                $titleColor = Parse-HexColorToCom -Rgb ([string]$StyleProfile.chart_title.font_color_rgb)
-                if ($null -ne $titleColor) { $titleCell.Font.Color = $titleColor }
+        if ($StyleProfile) {
+            $academicMode = Get-IsAcademicModeEnabled -StyleProfile $StyleProfile
+            # Precedence: academic_typography.chart_title > sheet_title > chart_title
+            $titleStyleNode = if ($academicMode -and $StyleProfile.PSObject.Properties.Name -contains "academic_typography" -and $StyleProfile.academic_typography.PSObject.Properties.Name -contains "chart_title") `
+                                { $StyleProfile.academic_typography.chart_title } `
+                              elseif ($StyleProfile.PSObject.Properties.Name -contains "sheet_title") { $StyleProfile.sheet_title } `
+                              elseif ($StyleProfile.PSObject.Properties.Name -contains "chart_title") { $StyleProfile.chart_title } else { $null }
+            if ($titleStyleNode) {
+                if (($titleStyleNode.PSObject.Properties.Name -contains "font_name") -and $titleStyleNode.font_name) { $titleCell.Font.Name = [string]$titleStyleNode.font_name }
+                if (($titleStyleNode.PSObject.Properties.Name -contains "font_size") -and $null -ne $titleStyleNode.font_size) { $titleCell.Font.Size = [double]$titleStyleNode.font_size }
+                if ($titleStyleNode.PSObject.Properties.Name -contains "bold") { $titleCell.Font.Bold = [bool]$titleStyleNode.bold }
+                if ($titleStyleNode.PSObject.Properties.Name -contains "italic") { $titleCell.Font.Italic = [bool]$titleStyleNode.italic }
+                if (($titleStyleNode.PSObject.Properties.Name -contains "font_color_rgb") -and $titleStyleNode.font_color_rgb) {
+                    $titleColor = Parse-HexColorToCom -Rgb ([string]$titleStyleNode.font_color_rgb)
+                    if ($null -ne $titleColor) { $titleCell.Font.Color = $titleColor }
+                }
+            }
+            $titleFillRgb = ""
+            if (($StyleProfile.PSObject.Properties.Name -contains "table_header") -and $StyleProfile.table_header.PSObject.Properties.Name -contains "fill_color_rgb") {
+                $titleFillRgb = [string]$StyleProfile.table_header.fill_color_rgb
+            }
+            if ($sourceTypeStyle -and ($sourceTypeStyle.PSObject.Properties.Name -contains "header_fill_rgb") -and $sourceTypeStyle.header_fill_rgb) {
+                $titleFillRgb = [string]$sourceTypeStyle.header_fill_rgb
+            }
+            if ($titleFillRgb) {
+                $titleFill = Parse-HexColorToCom -Rgb $titleFillRgb
+                if ($null -ne $titleFill) {
+                    $titleBand = $Worksheet.Range($Worksheet.Cells.Item(1, 1), $Worksheet.Cells.Item(1, $headers.Count))
+                    try { $titleBand.Interior.Color = 16777215 } catch {}
+                    $titleBlue = $titleFill
+                    $titleBand.Font.Color = $titleBlue
+                    $titleCell.Font.Color = $titleBlue
+                }
             }
         }
     }
@@ -363,13 +404,19 @@ function Write-ObjectsToSheet {
         }
         $descCell = $Worksheet.Cells.Item(2, 1)
         $descCell.Value2 = $descText
-        if ($StyleProfile -and $StyleProfile.axis_labels) {
-            if ($StyleProfile.axis_labels.font_name) { $descCell.Font.Name = [string]$StyleProfile.axis_labels.font_name }
-            if ($StyleProfile.axis_labels.font_size) { $descCell.Font.Size = [double]$StyleProfile.axis_labels.font_size }
-            $descCell.Font.Italic = $true
-            if ($StyleProfile.axis_labels.font_color_rgb) {
-                $descColor = Parse-HexColorToCom -Rgb ([string]$StyleProfile.axis_labels.font_color_rgb)
-                if ($null -ne $descColor) { $descCell.Font.Color = $descColor }
+        if ($StyleProfile) {
+            $academicMode = Get-IsAcademicModeEnabled -StyleProfile $StyleProfile
+            $captionStyleNode = if ($academicMode -and $StyleProfile.PSObject.Properties.Name -contains "academic_typography" -and $StyleProfile.academic_typography.PSObject.Properties.Name -contains "caption") `
+                                  { $StyleProfile.academic_typography.caption } `
+                                elseif ($StyleProfile.PSObject.Properties.Name -contains "axis_labels") { $StyleProfile.axis_labels } else { $null }
+            if ($captionStyleNode) {
+                if (($captionStyleNode.PSObject.Properties.Name -contains "font_name") -and $captionStyleNode.font_name) { $descCell.Font.Name = [string]$captionStyleNode.font_name }
+                if (($captionStyleNode.PSObject.Properties.Name -contains "font_size") -and $null -ne $captionStyleNode.font_size) { $descCell.Font.Size = [double]$captionStyleNode.font_size }
+                $descCell.Font.Italic = $true
+                if (($captionStyleNode.PSObject.Properties.Name -contains "font_color_rgb") -and $captionStyleNode.font_color_rgb) {
+                    $descColor = Parse-HexColorToCom -Rgb ([string]$captionStyleNode.font_color_rgb)
+                    if ($null -ne $descColor) { $descCell.Font.Color = $descColor }
+                }
             }
         }
     } elseif ($AnalysisCaption) {
@@ -378,7 +425,7 @@ function Write-ObjectsToSheet {
 
     $lastRow = $DataStartRow + $rowsArray.Count - 1
     Apply-TableBodyStyle -Worksheet $Worksheet -HeaderRow $HeaderRow -DataStartRow $DataStartRow -LastRow $lastRow -LastCol $headers.Count -StyleProfile $StyleProfile
-    Apply-HeaderStyle -Worksheet $Worksheet -HeaderRow $HeaderRow -LastCol $headers.Count -StyleProfile $StyleProfile
+    Apply-HeaderStyle -Worksheet $Worksheet -HeaderRow $HeaderRow -LastCol $headers.Count -StyleProfile $StyleProfile -SourceTypeStyle $sourceTypeStyle
     try { $Worksheet.Rows.Item(1).RowHeight = 17.25 } catch {}
     try { $Worksheet.Rows.Item(2).RowHeight = 15.75 } catch {}
     try { $Worksheet.Rows.Item(3).RowHeight = 8.25 } catch {}

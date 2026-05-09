@@ -18,8 +18,8 @@ def _charts() -> list[dict]:
     return json.loads(CHART_SPEC.read_text(encoding="utf-8"))["charts"]
 
 
-def test_v4_chart_spec_has_exactly_template_chart_count() -> None:
-    assert len(_charts()) == 21
+def test_v4_chart_spec_has_expected_chart_count_with_sheet_synthesis() -> None:
+    assert len(_charts()) == 26
 
 
 def test_v4_chart_spec_excludes_removed_market_benchmark() -> None:
@@ -57,6 +57,8 @@ def test_wp6_matches_template_series_without_review_latency() -> None:
         "phase_iii",
         "pr_daily_avg_lead_time_hours",
         "pr_daily_median_lead_time_hours",
+        "period_avg_lead_time_hours_ref",
+        "period_median_lead_time_hours_ref",
     ]
     assert "pr_daily_avg_review_latency_hours" not in fields
     metric_types = {
@@ -67,7 +69,11 @@ def test_wp6_matches_template_series_without_review_latency() -> None:
     assert metric_types == {
         "pr_daily_avg_lead_time_hours": "column",
         "pr_daily_median_lead_time_hours": "column",
+        "period_avg_lead_time_hours_ref": "line",
+        "period_median_lead_time_hours_ref": "line",
     }
+    assert fields.index("period_avg_lead_time_hours_ref") > fields.index("pr_daily_median_lead_time_hours")
+    assert fields.index("period_median_lead_time_hours_ref") > fields.index("pr_daily_median_lead_time_hours")
 
 
 def test_event_metrics_are_not_rendered_as_lines() -> None:
