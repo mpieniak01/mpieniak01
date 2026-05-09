@@ -57,6 +57,46 @@ function Parse-HexColorToCom {
     return ($b * 65536) + ($g * 256) + $r
 }
 
+function Try-ConvertToDouble {
+    param(
+        $Value,
+        [ref]$Result
+    )
+    if ($null -eq $Value -or [string]$Value -eq "") { return $false }
+    try {
+        if ($Value -is [double] -or $Value -is [float] -or $Value -is [decimal] -or $Value -is [int] -or $Value -is [long]) {
+            $Result.Value = [double]$Value
+            return $true
+        }
+    } catch {}
+    $text = ([string]$Value).Trim()
+    if (-not $text) { return $false }
+    $num = 0.0
+    if ([double]::TryParse($text, [Globalization.NumberStyles]::Float, [Globalization.CultureInfo]::CurrentCulture, [ref]$num)) {
+        $Result.Value = $num
+        return $true
+    }
+    if ([double]::TryParse($text, [Globalization.NumberStyles]::Float, [Globalization.CultureInfo]::InvariantCulture, [ref]$num)) {
+        $Result.Value = $num
+        return $true
+    }
+    $normalized = $text.Replace(",", ".")
+    if ([double]::TryParse($normalized, [Globalization.NumberStyles]::Float, [Globalization.CultureInfo]::InvariantCulture, [ref]$num)) {
+        $Result.Value = $num
+        return $true
+    }
+    return $false
+}
+
+function Convert-ComRangeValuesToFlatArray {
+    param($Values)
+    if ($null -eq $Values) { return @() }
+    if (-not ($Values -is [System.Array])) { return @($Values) }
+    $flat = @()
+    foreach ($value in $Values) { $flat += $value }
+    return $flat
+}
+
 function Get-IsAcademicModeEnabled {
     param($StyleProfile)
     if (-not $StyleProfile) { return $false }
@@ -306,7 +346,7 @@ function Get-CleanSeriesName {
     return $name.Trim("=""""")
 }
 
-function Get-MaxSourceMetricValue {
+function Get-SourceMetricBounds {
     param(
         $Worksheet,
         [int]$HeaderRow,
@@ -320,6 +360,7 @@ function Get-MaxSourceMetricValue {
     if (-not $used) { return $null }
     $lastRow = [int]$used.Row + [int]$used.Rows.Count - 1
     if ($lastRow -lt $DataStartRow) { return $null }
+    $minValue = $null
     $maxValue = $null
     foreach ($def in @($SeriesDefs)) {
         if (-not $def) { continue }
@@ -335,17 +376,40 @@ function Get-MaxSourceMetricValue {
         }
         $col = Find-HeaderColumnIndex -Worksheet $Worksheet -HeaderRow $HeaderRow -Candidates (Get-HeaderCandidates -HeaderName $seriesName -StyleProfile $StyleProfile)
         if ($null -eq $col) { continue }
-        for ($row = $DataStartRow; $row -le $lastRow; $row++) {
-            $raw = $Worksheet.Cells.Item($row, [int]$col).Value2
+        $rangeValues = @()
+        try {
+            $range = $Worksheet.Range($Worksheet.Cells.Item($DataStartRow, [int]$col), $Worksheet.Cells.Item($lastRow, [int]$col))
+            $rangeValues = @(Convert-ComRangeValuesToFlatArray -Values $range.Value2)
+        } catch {
+            $rangeValues = @()
+        }
+        foreach ($raw in $rangeValues) {
             if ($null -eq $raw -or $raw -eq "") { continue }
             $num = 0.0
-            $ok = [double]::TryParse([string]$raw, [ref]$num)
-            if (-not $ok) { continue }
-            if ($num -lt 0) { $num = [Math]::Abs($num) }
+            if (-not (Try-ConvertToDouble -Value $raw -Result ([ref]$num))) { continue }
+            if ($null -eq $minValue -or $num -lt $minValue) { $minValue = $num }
             if ($null -eq $maxValue -or $num -gt $maxValue) { $maxValue = $num }
         }
     }
-    return $maxValue
+    if ($null -eq $minValue -or $null -eq $maxValue) { return $null }
+    return [pscustomobject]@{
+        min = [double]$minValue
+        max = [double]$maxValue
+    }
+}
+
+function Get-MaxSourceMetricValue {
+    param(
+        $Worksheet,
+        [int]$HeaderRow,
+        [int]$DataStartRow,
+        $SeriesDefs,
+        $StyleProfile,
+        [string]$AxisGroup = ""
+    )
+    $bounds = Get-SourceMetricBounds -Worksheet $Worksheet -HeaderRow $HeaderRow -DataStartRow $DataStartRow -SeriesDefs $SeriesDefs -StyleProfile $StyleProfile -AxisGroup $AxisGroup
+    if ($null -eq $bounds) { return $null }
+    return [double]$bounds.max
 }
 
 function Get-ChartSeriesDefinitions {
@@ -525,6 +589,11 @@ try {
             stacked_bar_axis_titles_ok = $true
             stacked_bar_highlight_ok = $true
             secondary_axis_scale_ok = $true
+            primary_axis_scale_ok = $true
+            primary_source_min_metric_value = $null
+            primary_source_max_metric_value = $null
+            secondary_source_min_metric_value = $null
+            secondary_source_max_metric_value = $null
             secondary_axis_min = $null
             secondary_axis_max = $null
             phase_series_axis_group_ok = $true
@@ -802,14 +871,19 @@ try {
                             $check.secondary_axis_min = [double]$secondaryAxis.MinimumScale
                             $check.secondary_axis_max = [double]$secondaryAxis.MaximumScale
                             if ($dynamicPhaseScaleEnabled -and $hasPhaseSeriesConfigured) {
-                                $primarySourceMax = Get-MaxSourceMetricValue -Worksheet $sourceSheet -HeaderRow $headerRow -DataStartRow $dataStartRow -SeriesDefs $seriesDefs -StyleProfile $styleProfile -AxisGroup "primary"
-                                $secondarySourceMax = Get-MaxSourceMetricValue -Worksheet $sourceSheet -HeaderRow $headerRow -DataStartRow $dataStartRow -SeriesDefs $seriesDefs -StyleProfile $styleProfile -AxisGroup "secondary"
+                                $primarySourceBounds = Get-SourceMetricBounds -Worksheet $sourceSheet -HeaderRow $headerRow -DataStartRow $dataStartRow -SeriesDefs $seriesDefs -StyleProfile $styleProfile -AxisGroup "primary"
+                                $secondarySourceBounds = Get-SourceMetricBounds -Worksheet $sourceSheet -HeaderRow $headerRow -DataStartRow $dataStartRow -SeriesDefs $seriesDefs -StyleProfile $styleProfile -AxisGroup "secondary"
+                                $primarySourceMax = if ($primarySourceBounds) { [double]$primarySourceBounds.max } else { $null }
+                                $secondarySourceMax = if ($secondarySourceBounds) { [double]$secondarySourceBounds.max } else { $null }
+                                $check.primary_source_min_metric_value = if ($primarySourceBounds) { [double]$primarySourceBounds.min } else { $null }
                                 $check.primary_source_max_metric_value = $primarySourceMax
+                                $check.secondary_source_min_metric_value = if ($secondarySourceBounds) { [double]$secondarySourceBounds.min } else { $null }
                                 $check.secondary_source_max_metric_value = $secondarySourceMax
-                                $minOk = ([math]::Abs([double]$secondaryAxis.MinimumScale - 0.0) -lt 0.01)
-                                $maxOk = ([double]$secondaryAxis.MaximumScale -gt 0.0)
-                                if ($null -ne $secondarySourceMax -and $secondarySourceMax -gt 0) {
-                                    $maxOk = $maxOk -and ([double]$secondaryAxis.MaximumScale -ge [double]$secondarySourceMax)
+                                $minOk = $true
+                                $maxOk = ([double]$secondaryAxis.MaximumScale -gt [double]$secondaryAxis.MinimumScale)
+                                if ($secondarySourceBounds) {
+                                    $minOk = ([double]$secondaryAxis.MinimumScale -le ([double]$secondarySourceBounds.min + 0.01))
+                                    $maxOk = $maxOk -and ([double]$secondaryAxis.MaximumScale -ge ([double]$secondarySourceBounds.max - 0.01))
                                 }
                                 $check.secondary_axis_scale_mode = "dynamic_phase"
                                 $check.secondary_axis_scale_ok = ($minOk -and $maxOk)
@@ -819,10 +893,11 @@ try {
                                     if ($primaryAxis) {
                                         $check.primary_axis_min = [double]$primaryAxis.MinimumScale
                                         $check.primary_axis_max = [double]$primaryAxis.MaximumScale
-                                        $primaryMinOk = ([math]::Abs([double]$primaryAxis.MinimumScale - 0.0) -lt 0.01)
-                                        $primaryMaxOk = ([double]$primaryAxis.MaximumScale -gt 0.0)
-                                        if ($null -ne $primarySourceMax -and $primarySourceMax -gt 0) {
-                                            $primaryMaxOk = $primaryMaxOk -and ([double]$primaryAxis.MaximumScale -ge [double]$primarySourceMax)
+                                        $primaryMinOk = $true
+                                        $primaryMaxOk = ([double]$primaryAxis.MaximumScale -gt [double]$primaryAxis.MinimumScale)
+                                        if ($primarySourceBounds) {
+                                            $primaryMinOk = ([double]$primaryAxis.MinimumScale -le ([double]$primarySourceBounds.min + 0.01))
+                                            $primaryMaxOk = $primaryMaxOk -and ([double]$primaryAxis.MaximumScale -ge ([double]$primarySourceBounds.max - 0.01))
                                         }
                                         $check.primary_axis_scale_ok = ($primaryMinOk -and $primaryMaxOk)
                                     } else {
@@ -987,7 +1062,7 @@ try {
         if ([string]$cfg.chart_type -eq "bar_stacked") {
             $stackedContractOk = ($check.stacked_bar_palette_ok -and $check.stacked_bar_overlap_ok -and $check.stacked_bar_border_ok -and $check.stacked_bar_data_labels_ok -and $check.stacked_bar_axis_titles_ok -and $check.stacked_bar_highlight_ok)
         }
-        $styleOk = ($check.style_title_font_size_ok -and $check.style_legend_font_size_ok -and $check.style_first_series_color_ok -and $check.secondary_axis_scale_ok -and $check.phase_series_axis_group_ok -and $check.chart_type_semantics_ok -and $check.phase_scope_ok -and $check.date_axis_scope_ok -and $check.date_axis_ok -and $stackedContractOk)
+        $styleOk = ($check.style_title_font_size_ok -and $check.style_legend_font_size_ok -and $check.style_first_series_color_ok -and $check.primary_axis_scale_ok -and $check.secondary_axis_scale_ok -and $check.phase_series_axis_group_ok -and $check.chart_type_semantics_ok -and $check.phase_scope_ok -and $check.date_axis_scope_ok -and $check.date_axis_ok -and $stackedContractOk)
         $metadataOk = ($check.source_domain_ok -and $check.project_key_contract_ok)
         $check.style_ok = $styleOk
         if ($check.source_sheet_exists -and $check.source_sheet_has_rows -and $check.target_sheet_exists -and $check.chart_exists -and $check.series_count -gt 0 -and $check.series_health_status -eq "ok" -and $styleOk -and $metadataOk) {

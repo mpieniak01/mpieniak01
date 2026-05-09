@@ -138,13 +138,14 @@ Obowiązujące kolory i fonty z profilu `v04`:
 
 | Element | Wartość |
 |---|---|
-| Tytuł wykresu / arkusza | Calibri 14, bold, `#1A56A0` |
-| Etykiety osi | Calibri 9, italic, `#666666` |
-| Legenda | Calibri 9, `#0D3B73`, pozycja dolna |
-| Nagłówek tabeli | fill `#1F5FA8`, font biały |
+| Tytuł wykresu | Calibri 14, bold, `#0F172A` |
+| Tytuł arkusza A1 | Calibri 14, bold, tło `#FFFFFF`, font z koloru tła nagłówka tabeli/domeny |
+| Etykiety osi | Calibri 10, `#374151` |
+| Legenda | Calibri 11, bold, `#1E3A8A`, domyślnie z profilu `top`, w v04 chart spec wymusza zwykle `bottom` |
+| Nagłówek tabeli | fill `#1E3A8A` albo domenowy `source_type_palette.*.header_fill_rgb`, font biały |
 | Chart area | `#FFFFFF` |
-| Plot area | `#F4F8FC` |
-| Ramka chart area | `#1F5FA8` |
+| Plot area | `#FFFFFF` |
+| Ramka chart area | `#D1D5DB`, 0.5 pt |
 
 Paleta domenowa:
 

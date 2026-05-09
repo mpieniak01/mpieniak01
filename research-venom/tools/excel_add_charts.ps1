@@ -378,6 +378,15 @@ function Get-ChartDataSeriesMax {
     return [double]$bounds.max
 }
 
+function Convert-ComRangeValuesToFlatArray {
+    param($Values)
+    if ($null -eq $Values) { return @() }
+    if (-not ($Values -is [System.Array])) { return @($Values) }
+    $flat = @()
+    foreach ($value in $Values) { $flat += $value }
+    return $flat
+}
+
 function Get-ChartDataSeriesBounds {
     param(
         $Worksheet,
@@ -404,8 +413,14 @@ function Get-ChartDataSeriesBounds {
         }
         $col = Get-ColumnIndexByHeader -Worksheet $Worksheet -Header (Resolve-SeriesHeaderAlias -Header $field) -HeaderRow $HeaderRow -StyleProfile $StyleProfile
         if ($col -lt 1) { continue }
-        for ($row = $DataStartRow; $row -le $LastDataRow; $row++) {
-            $raw = $Worksheet.Cells.Item($row, $col).Value2
+        $rangeValues = @()
+        try {
+            $range = $Worksheet.Range($Worksheet.Cells.Item($DataStartRow, $col), $Worksheet.Cells.Item($LastDataRow, $col))
+            $rangeValues = @(Convert-ComRangeValuesToFlatArray -Values $range.Value2)
+        } catch {
+            $rangeValues = @()
+        }
+        foreach ($raw in $rangeValues) {
             if ($null -eq $raw -or $raw -eq "") { continue }
             $value = 0.0
             if (-not (Try-ConvertToDouble -Value $raw -Result ([ref]$value))) { continue }
@@ -1802,16 +1817,25 @@ try {
                 $secondaryDataBounds = Get-RenderedChartSeriesBounds -Chart $chart -ChartCfg $chartCfg -AxisGroup 2
                 Apply-DynamicPhaseScale -Chart $chart -ChartCfg $chartCfg -ControlProfile $controlProfile -PrimaryDataBounds $primaryDataBounds -SecondaryDataBounds $secondaryDataBounds
             }
-            if ($chartId -eq "C_W43_PHASE2_COVERAGE_DEBT_SYNTHESIS_04") {
-                Apply-PrimaryAxisScale -Chart $chart -ScaleConfig ([pscustomobject]@{ minimum = 0; maximum = 90; major_unit = 10; minimum_is_auto = $false; maximum_is_auto = $false; major_unit_is_auto = $false })
-                Apply-SecondaryAxisScale -Chart $chart -ScaleConfig ([pscustomobject]@{ minimum = 0; maximum = 20; major_unit = 4; minimum_is_auto = $false; maximum_is_auto = $false; major_unit_is_auto = $false })
-                try {
-                    $phaseSeries = $chart.SeriesCollection(1)
-                    $pointCount = [int]$phaseSeries.Points().Count
-                    $phaseVals = New-Object object[] $pointCount
-                    for ($pv = 0; $pv -lt $pointCount; $pv++) { $phaseVals[$pv] = 20.0 }
-                    $phaseSeries.Values = $phaseVals
-                } catch {}
+            if (($chartCfg.PSObject.Properties.Name -contains "primary_axis_scale") -and $chartCfg.primary_axis_scale) {
+                Apply-PrimaryAxisScale -Chart $chart -ScaleConfig $chartCfg.primary_axis_scale
+            }
+            if (($chartCfg.PSObject.Properties.Name -contains "secondary_axis_scale") -and $chartCfg.secondary_axis_scale) {
+                Apply-SecondaryAxisScale -Chart $chart -ScaleConfig $chartCfg.secondary_axis_scale
+            }
+            if (($chartCfg.PSObject.Properties.Name -contains "phase_background_value") -and $null -ne $chartCfg.phase_background_value) {
+                $phaseValue = 0.0
+                if (Try-ConvertToDouble -Value $chartCfg.phase_background_value -Result ([ref]$phaseValue)) {
+                    foreach ($phaseIndex in @(Get-PhaseSeriesIndexes -ChartCfg $chartCfg)) {
+                        try {
+                            $phaseSeries = $chart.SeriesCollection([int]$phaseIndex)
+                            $pointCount = [int]$phaseSeries.Points().Count
+                            $phaseVals = New-Object object[] $pointCount
+                            for ($pv = 0; $pv -lt $pointCount; $pv++) { $phaseVals[$pv] = [double]$phaseValue }
+                            $phaseSeries.Values = $phaseVals
+                        } catch {}
+                    }
+                }
             }
             $indexPerSheet[$targetSheetName] = $sheetIdx + 1
             $created++

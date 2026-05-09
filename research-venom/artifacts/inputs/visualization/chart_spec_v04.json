@@ -1780,7 +1780,24 @@
         "D9E8F7",
         "14B8A6",
         "F97316"
-      ]
+      ],
+      "primary_axis_scale": {
+        "minimum": 0,
+        "maximum": 90,
+        "major_unit": 10,
+        "minimum_is_auto": false,
+        "maximum_is_auto": false,
+        "major_unit_is_auto": false
+      },
+      "secondary_axis_scale": {
+        "minimum": 0,
+        "maximum": 20,
+        "major_unit": 4,
+        "minimum_is_auto": false,
+        "maximum_is_auto": false,
+        "major_unit_is_auto": false
+      },
+      "phase_background_value": 20
     },
     {
       "chart_id": "C_WP2_LEAD_TIME_SYNTHESIS_04",

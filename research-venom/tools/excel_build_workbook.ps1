@@ -357,37 +357,36 @@ function Write-ObjectsToSheet {
         $titleCell.Value2 = $TableTitle
         $titleCell.Font.Bold = $true
         if ($StyleProfile) {
-            $academicMode = Get-IsAcademicModeEnabled -StyleProfile $StyleProfile
-            # Precedence: academic_typography.chart_title > sheet_title > chart_title
-            $titleStyleNode = if ($academicMode -and $StyleProfile.PSObject.Properties.Name -contains "academic_typography" -and $StyleProfile.academic_typography.PSObject.Properties.Name -contains "chart_title") `
-                                { $StyleProfile.academic_typography.chart_title } `
-                              elseif ($StyleProfile.PSObject.Properties.Name -contains "sheet_title") { $StyleProfile.sheet_title } `
-                              elseif ($StyleProfile.PSObject.Properties.Name -contains "chart_title") { $StyleProfile.chart_title } else { $null }
+            $titleStyleNode = if ($StyleProfile.PSObject.Properties.Name -contains "sheet_title") { $StyleProfile.sheet_title } elseif ($StyleProfile.PSObject.Properties.Name -contains "chart_title") { $StyleProfile.chart_title } else { $null }
+            $headerFillRgb = ""
+            if (($StyleProfile.PSObject.Properties.Name -contains "table_header") -and $StyleProfile.table_header.PSObject.Properties.Name -contains "fill_color_rgb") {
+                $headerFillRgb = [string]$StyleProfile.table_header.fill_color_rgb
+            }
+            if ($sourceTypeStyle -and ($sourceTypeStyle.PSObject.Properties.Name -contains "header_fill_rgb") -and $sourceTypeStyle.header_fill_rgb) {
+                $headerFillRgb = [string]$sourceTypeStyle.header_fill_rgb
+            }
             if ($titleStyleNode) {
                 if (($titleStyleNode.PSObject.Properties.Name -contains "font_name") -and $titleStyleNode.font_name) { $titleCell.Font.Name = [string]$titleStyleNode.font_name }
                 if (($titleStyleNode.PSObject.Properties.Name -contains "font_size") -and $null -ne $titleStyleNode.font_size) { $titleCell.Font.Size = [double]$titleStyleNode.font_size }
                 if ($titleStyleNode.PSObject.Properties.Name -contains "bold") { $titleCell.Font.Bold = [bool]$titleStyleNode.bold }
                 if ($titleStyleNode.PSObject.Properties.Name -contains "italic") { $titleCell.Font.Italic = [bool]$titleStyleNode.italic }
-                if (($titleStyleNode.PSObject.Properties.Name -contains "font_color_rgb") -and $titleStyleNode.font_color_rgb) {
-                    $titleColor = Parse-HexColorToCom -Rgb ([string]$titleStyleNode.font_color_rgb)
-                    if ($null -ne $titleColor) { $titleCell.Font.Color = $titleColor }
-                }
-            }
-            $titleFillRgb = ""
-            if (($StyleProfile.PSObject.Properties.Name -contains "table_header") -and $StyleProfile.table_header.PSObject.Properties.Name -contains "fill_color_rgb") {
-                $titleFillRgb = [string]$StyleProfile.table_header.fill_color_rgb
-            }
-            if ($sourceTypeStyle -and ($sourceTypeStyle.PSObject.Properties.Name -contains "header_fill_rgb") -and $sourceTypeStyle.header_fill_rgb) {
-                $titleFillRgb = [string]$sourceTypeStyle.header_fill_rgb
-            }
-            if ($titleFillRgb) {
+
+                $titleBand = $Worksheet.Range($Worksheet.Cells.Item(1, 1), $Worksheet.Cells.Item(1, $headers.Count))
+                $titleFillRgb = if (($titleStyleNode.PSObject.Properties.Name -contains "fill_color_rgb") -and $titleStyleNode.fill_color_rgb) { [string]$titleStyleNode.fill_color_rgb } else { "FFFFFF" }
                 $titleFill = Parse-HexColorToCom -Rgb $titleFillRgb
-                if ($null -ne $titleFill) {
-                    $titleBand = $Worksheet.Range($Worksheet.Cells.Item(1, 1), $Worksheet.Cells.Item(1, $headers.Count))
-                    try { $titleBand.Interior.Color = 16777215 } catch {}
-                    $titleBlue = $titleFill
-                    $titleBand.Font.Color = $titleBlue
-                    $titleCell.Font.Color = $titleBlue
+                if ($null -ne $titleFill) { try { $titleBand.Interior.Color = $titleFill } catch {} }
+
+                $titleFontRgb = ""
+                if (($titleStyleNode.PSObject.Properties.Name -contains "font_color_source") -and [string]$titleStyleNode.font_color_source -eq "table_header_fill") {
+                    $titleFontRgb = $headerFillRgb
+                }
+                if (-not $titleFontRgb -and ($titleStyleNode.PSObject.Properties.Name -contains "font_color_rgb") -and $titleStyleNode.font_color_rgb) {
+                    $titleFontRgb = [string]$titleStyleNode.font_color_rgb
+                }
+                $titleColor = Parse-HexColorToCom -Rgb $titleFontRgb
+                if ($null -ne $titleColor) {
+                    try { $titleBand.Font.Color = $titleColor } catch {}
+                    try { $titleCell.Font.Color = $titleColor } catch {}
                 }
             }
         }

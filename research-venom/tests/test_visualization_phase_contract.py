@@ -131,9 +131,9 @@ def test_worksheet_banner_matches_template_contract() -> None:
     assert style["axis_labels"]["font_size"] == 10
     assert style["axis_labels"]["font_color_rgb"] == "374151"
     assert style["worksheet_style"]["show_gridlines_for_analysis"] is False
-    # sheet_title: dark navy background + white text (adopted from template styleTitle())
-    assert style["sheet_title"]["fill_color_rgb"] == "0F172A"
-    assert style["sheet_title"]["font_color_rgb"] == "FFFFFF"
+    # sheet_title follows the current worksheet contract: white row, domain/header colored font.
+    assert style["sheet_title"]["fill_color_rgb"] == "FFFFFF"
+    assert style["sheet_title"]["font_color_source"] == "table_header_fill"
 
 
 def test_chart_table_descriptions_are_source_first() -> None:
@@ -215,12 +215,17 @@ def test_excel_verifier_checks_rendered_date_axis_scope() -> None:
 def test_excel_verifier_supports_dynamic_phase_secondary_axis_scale() -> None:
     script = EXCEL_VERIFY.read_text(encoding="utf-8")
     assert "function Get-MaxSourceMetricValue" in script
+    assert "function Get-SourceMetricBounds" in script
+    assert "function Try-ConvertToDouble" in script
     assert "dynamic_scale_enabled" in script
     assert "secondary_axis_scale_mode = \"dynamic_phase\"" in script
+    assert "primary_source_min_metric_value" in script
     assert "primary_source_max_metric_value" in script
+    assert "secondary_source_min_metric_value" in script
     assert "secondary_source_max_metric_value" in script
     assert "primary_axis_scale_ok" in script
-    assert "[double]$secondaryAxis.MaximumScale -ge [double]$secondarySourceMax" in script
+    assert "[double]$secondaryAxis.MinimumScale -le ([double]$secondarySourceBounds.min + 0.01)" in script
+    assert "[double]$secondaryAxis.MaximumScale -ge ([double]$secondarySourceBounds.max - 0.01)" in script
 
 
 def test_excel_generator_enforces_stacked_bar_shared_plane() -> None:
@@ -248,6 +253,7 @@ def test_excel_generator_applies_dynamic_phase_scale_from_data() -> None:
     script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
     assert "function Get-ChartDataSeriesMax" in script
     assert "function Get-ChartDataSeriesBounds" in script
+    assert "function Convert-ComRangeValuesToFlatArray" in script
     assert "function Get-RenderedChartSeriesBounds" in script
     assert "function Test-IsPhaseSeriesName" in script
     assert "function Test-IsPhaseSeriesObject" in script
@@ -258,6 +264,20 @@ def test_excel_generator_applies_dynamic_phase_scale_from_data() -> None:
     assert "function Try-ConvertToDouble" in script
     assert "function Convert-ComSeriesValuesToArray" in script
     assert "function Apply-DynamicPhaseScale" in script
+    assert "$Worksheet.Range($Worksheet.Cells.Item($DataStartRow, $col), $Worksheet.Cells.Item($LastDataRow, $col))" in script
+
+
+def test_chart_specific_axis_overrides_are_configuration_driven() -> None:
+    spec = _load_json(CHART_SPEC)
+    by_id = {chart["chart_id"]: chart for chart in spec["charts"]}
+    w43 = by_id["C_W43_PHASE2_COVERAGE_DEBT_SYNTHESIS_04"]
+    script = EXCEL_ADD_CHARTS.read_text(encoding="utf-8")
+
+    assert w43["primary_axis_scale"]["maximum"] == 90
+    assert w43["secondary_axis_scale"]["maximum"] == 20
+    assert w43["phase_background_value"] == 20
+    assert "phase_background_value" in script
+    assert 'if ($chartId -eq "C_W43_PHASE2_COVERAGE_DEBT_SYNTHESIS_04")' not in script
     assert "dynamic_scale_enabled" in script
     assert "dynamic_scale_padding_pct" in script
     assert "Convert-ComSeriesValuesToArray -Values $ser.Values" in script

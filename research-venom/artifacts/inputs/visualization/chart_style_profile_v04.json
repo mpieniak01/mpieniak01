@@ -345,7 +345,8 @@
     "font_size": 14,
     "bold": true,
     "italic": false,
-    "font_color_rgb": "FFFFFF",
-    "fill_color_rgb": "0F172A"
+    "font_color_source": "table_header_fill",
+    "font_color_rgb": "1E3A8A",
+    "fill_color_rgb": "FFFFFF"
   }
 }
