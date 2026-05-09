@@ -385,6 +385,29 @@ def _ceil_to_step(value: float | int | None, step: int) -> int:
     return int(math.ceil(float(value) / float(step)) * step)
 
 
+def _value_index(value: Any, min_value: float | None, max_value: float | None) -> float | None:
+    if value is None or min_value is None or max_value is None:
+        return None
+    value_f = float(value)
+    if math.isclose(max_value, min_value):
+        return 100.0
+    return round(((value_f - min_value) / (max_value - min_value)) * 100.0, 4)
+
+
+def _improvement_index(value: Any, min_value: float | None, max_value: float | None) -> float | None:
+    idx = _value_index(value, min_value, max_value)
+    if idx is None:
+        return None
+    return round(100.0 - idx, 4)
+
+
+def _metric_min_max(rows: list[dict[str, Any]], field: str) -> tuple[float | None, float | None]:
+    values = [float(row[field]) for row in rows if row.get(field) is not None]
+    if not values:
+        return None, None
+    return min(values), max(values)
+
+
 def _mk_template_w31_commits(src_205c: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for project_key, items in sorted(_group_by_project(src_205c).items()):
@@ -420,7 +443,7 @@ def _mk_template_w36_debt(src_205b: list[dict[str, Any]]) -> list[dict[str, Any]
         out.append(
             {
                 "project_key": project_key,
-                "technical_debt_days_sum_q1": round(sum(debt_values), 4),
+                "technical_debt_days_max_q1": round(max(debt_values), 4) if debt_values else None,
             }
         )
     return out
@@ -430,6 +453,8 @@ def _mk_template_w37_debt_issues(
     wrk_205b_venom: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
+    debt_min, debt_max = _metric_min_max(wrk_205b_venom, "technical_debt_days")
+    issues_min, issues_max = _metric_min_max(wrk_205b_venom, "issues")
     for row in wrk_205b_venom:
         out.append(
             {
@@ -437,6 +462,10 @@ def _mk_template_w37_debt_issues(
                 "project_key": row.get("project_key", "mpieniak01/Venom"),
                 "technical_debt_days": row["technical_debt_days"],
                 "issues": row["issues"],
+                "technical_debt_days_index": _value_index(row["technical_debt_days"], debt_min, debt_max),
+                "issues_index": _value_index(row["issues"], issues_min, issues_max),
+                "technical_debt_improvement_index": _improvement_index(row["technical_debt_days"], debt_min, debt_max),
+                "issues_improvement_index": _improvement_index(row["issues"], issues_min, issues_max),
                 **_phase_columns(row["date"], PHASE_BACKGROUND_VALUE),
             }
         )
@@ -445,6 +474,9 @@ def _mk_template_w37_debt_issues(
 
 def _mk_template_w35_quality(wrk_205b_venom: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
+    coverage_min, coverage_max = _metric_min_max(wrk_205b_venom, "line_coverage_pct")
+    issues_min, issues_max = _metric_min_max(wrk_205b_venom, "issues")
+    tests_min, tests_max = _metric_min_max(wrk_205b_venom, "unit_tests")
     for row in wrk_205b_venom:
         out.append(
             {
@@ -453,6 +485,9 @@ def _mk_template_w35_quality(wrk_205b_venom: list[dict[str, Any]]) -> list[dict[
                 "issues": row["issues"],
                 "line_coverage_pct": row["line_coverage_pct"],
                 "unit_tests": row["unit_tests"],
+                "coverage_index": _value_index(row["line_coverage_pct"], coverage_min, coverage_max),
+                "issues_improvement_index": _improvement_index(row["issues"], issues_min, issues_max),
+                "unit_tests_index": _value_index(row["unit_tests"], tests_min, tests_max),
                 **_phase_columns(row["date"], PHASE_BACKGROUND_VALUE),
             }
         )
@@ -464,8 +499,16 @@ def _mk_template_w42_phase2_quality(
 ) -> list[dict[str, Any]]:
     phase2_start = dt.date(2026, 2, 6)
     phase2_end = dt.date(2026, 3, 6)
+    phase_rows = [
+        row
+        for row in wrk_205b_venom
+        if phase2_start <= _parse_date(row["date"]) <= phase2_end
+    ]
+    issues_min, issues_max = _metric_min_max(phase_rows, "issues")
+    loc_min, loc_max = _metric_min_max(phase_rows, "lines_of_code")
+    tests_min, tests_max = _metric_min_max(phase_rows, "unit_tests")
     out: list[dict[str, Any]] = []
-    for row in wrk_205b_venom:
+    for row in phase_rows:
         d = _parse_date(row["date"])
         if not (phase2_start <= d <= phase2_end):
             continue
@@ -476,6 +519,9 @@ def _mk_template_w42_phase2_quality(
                 "issues": row["issues"],
                 "lines_of_code": row["lines_of_code"],
                 "unit_tests": row["unit_tests"],
+                "issues_improvement_index": _improvement_index(row["issues"], issues_min, issues_max),
+                "loc_index": _value_index(row["lines_of_code"], loc_min, loc_max),
+                "unit_tests_index": _value_index(row["unit_tests"], tests_min, tests_max),
                 **_phase_columns(row["date"], PHASE_BACKGROUND_VALUE),
             }
         )
@@ -487,8 +533,15 @@ def _mk_template_w43_phase2_debt_coverage(
 ) -> list[dict[str, Any]]:
     phase2_start = dt.date(2026, 2, 6)
     phase2_end = dt.date(2026, 3, 6)
+    phase_rows = [
+        row
+        for row in wrk_205b_venom
+        if phase2_start <= _parse_date(row["date"]) <= phase2_end
+    ]
+    debt_min, debt_max = _metric_min_max(phase_rows, "technical_debt_days")
+    coverage_min, coverage_max = _metric_min_max(phase_rows, "line_coverage_pct")
     out: list[dict[str, Any]] = []
-    for row in wrk_205b_venom:
+    for row in phase_rows:
         d = _parse_date(row["date"])
         if not (phase2_start <= d <= phase2_end):
             continue
@@ -498,6 +551,8 @@ def _mk_template_w43_phase2_debt_coverage(
                 "project_key": row.get("project_key", "mpieniak01/Venom"),
                 "technical_debt_days": row["technical_debt_days"],
                 "line_coverage_pct": row["line_coverage_pct"],
+                "technical_debt_improvement_index": _improvement_index(row["technical_debt_days"], debt_min, debt_max),
+                "coverage_index": _value_index(row["line_coverage_pct"], coverage_min, coverage_max),
                 **_phase_columns(row["date"], PHASE_BACKGROUND_VALUE),
             }
         )
@@ -661,6 +716,31 @@ def _mk_template_wp5_pr_daily(wrk_205d_venom: list[dict[str, Any]]) -> list[dict
 
 def _mk_template_wp6_lead_time(wrk_205d_venom: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
+    productive_rows = [
+        row for row in wrk_205d_venom if int(row.get("lead_time_sample_size") or 0) > 0
+    ]
+    weighted_avg_num = 0.0
+    weighted_avg_den = 0
+    avg_daily: list[float] = []
+    median_daily: list[float] = []
+    for row in productive_rows:
+        sample = int(row.get("lead_time_sample_size") or 0)
+        avg_value = row.get("pr_daily_avg_lead_time_hours")
+        if avg_value is not None:
+            avg_daily.append(float(avg_value))
+            weighted_avg_num += float(avg_value) * sample
+            weighted_avg_den += sample
+        median_value = row.get("pr_daily_median_lead_time_hours")
+        if median_value is not None:
+            median_daily.append(float(median_value))
+
+    period_avg_ref = (
+        round(weighted_avg_num / weighted_avg_den, 4)
+        if weighted_avg_den
+        else (round(_avg(avg_daily), 4) if avg_daily else None)
+    )
+    period_median_ref = round(_median(median_daily), 4) if median_daily else None
+
     for row in wrk_205d_venom:
         out.append(
             {
@@ -670,6 +750,9 @@ def _mk_template_wp6_lead_time(wrk_205d_venom: list[dict[str, Any]]) -> list[dic
                 "pr_daily_median_lead_time_hours": row[
                     "pr_daily_median_lead_time_hours"
                 ],
+                "lead_time_sample_size": row.get("lead_time_sample_size"),
+                "period_avg_lead_time_hours_ref": period_avg_ref,
+                "period_median_lead_time_hours_ref": period_median_ref,
                 **_phase_columns(row["date"], PHASE_BACKGROUND_VALUE),
             }
         )

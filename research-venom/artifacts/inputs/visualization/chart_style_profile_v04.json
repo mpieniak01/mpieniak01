@@ -7,35 +7,35 @@
     "bold": true,
     "italic": false,
     "font_color_rgb": "FFFFFFFF",
-    "fill_color_rgb": "1F5FA8"
+    "fill_color_rgb": "1E3A8A"
   },
   "chart_title": {
     "font_name": "Calibri",
     "font_size": 14,
     "bold": true,
     "italic": false,
-    "font_color_rgb": "1A56A0"
+    "font_color_rgb": "0F172A"
   },
   "axis_labels": {
     "font_name": "Calibri",
-    "font_size": 9,
+    "font_size": 10,
     "bold": false,
-    "italic": true,
-    "font_color_rgb": "666666"
+    "italic": false,
+    "font_color_rgb": "374151"
   },
   "legend": {
     "font_name": "Calibri",
-    "font_size": 9,
-    "bold": false,
+    "font_size": 11,
+    "bold": true,
     "italic": false,
-    "font_color_rgb": "0D3B73",
-    "position": "right"
+    "font_color_rgb": "1E3A8A",
+    "position": "top"
   },
   "plot": {
     "chart_area_fill_rgb": "FFFFFF",
-    "plot_area_fill_rgb": "F4F8FC",
-    "border_line_rgb": "1F5FA8",
-    "border_line_weight": 1.0
+    "plot_area_fill_rgb": "FFFFFF",
+    "border_line_rgb": "D1D5DB",
+    "border_line_weight": 0.5
   },
   "worksheet_style": {
     "show_gridlines_for_analysis": false
@@ -60,12 +60,65 @@
   },
   "bar_style": {
     "gap_width": 45,
-    "overlap": 0
+    "overlap": 0,
+    "series_border_visible": true,
+    "series_border_rgb": "000000",
+    "series_border_weight_pt": 0.5
+  },
+  "stacked_status_bar_style": {
+    "gap_width": 45,
+    "overlap": 100,
+    "series_border_visible": true,
+    "series_border_rgb": "333333",
+    "series_border_weight_pt": 0.25,
+    "data_labels_enabled": false
+  },
+  "status_series_palette": {
+    "pr_opened_rgb": "9DC3E6",
+    "pr_merged_rgb": "5BB370",
+    "pr_closed_rgb": "E89B7C"
+  },
+  "column_style": {
+    "gap_width": 40,
+    "overlap": 0,
+    "series_border_visible": false
+  },
+  "semantic_series_colors": {
+    "additions_positive_rgb": "2E7D32",
+    "deletions_negative_rgb": "C62828"
   },
   "highlight": {
     "project_key": "mpieniak01/Venom",
     "highlight_fill_rgb": "1D4ED8",
-    "context_fill_rgb": "BFDBFE"
+    "context_fill_rgb": "BFDBFE",
+    "domain_highlight": {
+      "github": {
+        "venom_fill_rgb": "1D4ED8",
+        "peer_fill_rgb": "BFDBFE"
+      },
+      "sonarqube": {
+        "venom_fill_rgb": "0F766E",
+        "peer_fill_rgb": "CCFBF1"
+      },
+      "git_prflow": {
+        "venom_fill_rgb": "1D4ED8",
+        "peer_fill_rgb": "BFDBFE"
+      }
+    },
+    "domain_highlight_academic": {
+      "github": {
+        "venom_fill_rgb": "1E40AF",
+        "peer_fill_rgb": "BFDBFE"
+      },
+      "sonarqube": {
+        "venom_fill_rgb": "1B6358",
+        "peer_fill_rgb": "CEEEE5"
+      },
+      "git_prflow": {
+        "venom_fill_rgb": "1E40AF",
+        "peer_fill_rgb": "BFDBFE"
+      }
+    }
   },
   "series_palette_rgb": [
     "1F5FA8",
@@ -92,6 +145,7 @@
     "commits_sum_q1": "Liczba commitów",
     "additions_sum_q1": "Dodane linie kodu",
     "technical_debt_days_sum_q1": "Dług (dni rob.)",
+    "technical_debt_days_max_q1": "Maks. dług (dni rob.)",
     "phase_i": "Faza I",
     "phase_ii": "Faza II",
     "phase_iii": "Faza III",
@@ -105,7 +159,9 @@
     "churn": "Churn",
     "truncated": "Truncated",
     "issues": "Issues",
+    "issues_index": "Issues - indeks poziomu",
     "technical_debt_days": "Technical debt (days)",
+    "technical_debt_days_index": "Dług - indeks poziomu",
     "lines_of_code": "Lines of code",
     "line_coverage_pct": "Line coverage %",
     "unit_tests": "Unit tests",
@@ -122,7 +178,9 @@
     "lead_time_sample_size": "Lead time sample",
     "avg_active_pr": "Avg active PR",
     "median_lead_time_hours": "Median lead time h",
-    "avg_lead_time_hours": "Avg lead time h"
+    "avg_lead_time_hours": "Avg lead time h",
+    "period_avg_lead_time_hours_ref": "Śr. Avg lead time Q1 (h)",
+    "period_median_lead_time_hours_ref": "Śr. Median lead time Q1 (h)"
   },
   "layout_defaults": {
     "prefer_sheet_chart_region": true,
@@ -133,5 +191,162 @@
   "validation": {
     "series_nonnull_ratio_warn": 0.9,
     "series_nonnull_ratio_sparse": 0.5
+  },
+  "series_palette_by_source_type": {
+    "github": [
+      "7C3AED",
+      "9D5CF2",
+      "A78BFA",
+      "C4B5FD",
+      "6D28D9",
+      "5B21B6",
+      "8B5CF6",
+      "DDD6FE"
+    ],
+    "sonarqube": [
+      "0F766E",
+      "14B8A6",
+      "2DD4BF",
+      "99F6E4",
+      "0D9488",
+      "134E4A",
+      "5EEAD4",
+      "CCFBF1"
+    ],
+    "git_prflow": [
+      "1E3A8A",
+      "1D4ED8",
+      "3B82F6",
+      "93C5FD",
+      "1E40AF",
+      "2563EB",
+      "60A5FA",
+      "DBEAFE"
+    ]
+  },
+  "series_palette_academic": {
+    "github": [
+      "4A3580",
+      "6350A0",
+      "7E68B5",
+      "9C89CA",
+      "BAA9DE",
+      "D4CCF0",
+      "EAE5F8",
+      "F5F3FD"
+    ],
+    "sonarqube": [
+      "1B6358",
+      "2E7D68",
+      "458F7B",
+      "62A892",
+      "85C0AB",
+      "AAD8C7",
+      "CEEEE5",
+      "E8F7F4"
+    ],
+    "git_prflow": [
+      "1E3A5F",
+      "2C527F",
+      "3E6EA0",
+      "5588BA",
+      "73A4D1",
+      "95C0E3",
+      "BCDAF1",
+      "DFF0FA"
+    ]
+  },
+  "line_style": {
+    "primary_line_width_pt": 2.0,
+    "secondary_line_width_pt": 1.0,
+    "marker_style": "none",
+    "marker_size_pt": 4,
+    "marker_visible": false,
+    "phase_series_line_visible": false,
+    "reference_line_dash_style": 4
+  },
+  "data_labels": {
+    "comparison_bar": {
+      "enabled": true,
+      "position": "outside_end",
+      "font_size": 9,
+      "font_color_rgb": "4B5563",
+      "number_format": "#,##0"
+    },
+    "comparison_pct": {
+      "enabled": true,
+      "position": "outside_end",
+      "font_size": 9,
+      "font_color_rgb": "4B5563",
+      "number_format": "0.0\"%\""
+    }
+  },
+  "bar_style_academic": {
+    "gap_width": 60,
+    "overlap": 0,
+    "series_border_visible": false,
+    "series_border_weight_pt": 0.0
+  },
+  "academic_style": {
+    "enabled": false,
+    "plot_area_fill_rgb": "FFFFFF",
+    "chart_area_fill_rgb": "FFFFFF",
+    "chart_border": {
+      "color_rgb": "C8D0DC",
+      "weight_pt": 0.5
+    },
+    "plot_area_border": {
+      "visible": false
+    },
+    "axis": {
+      "line_color_rgb": "9AA5B4",
+      "line_weight_pt": 0.5
+    },
+    "gridlines": {
+      "major_visible": true,
+      "major_color_rgb": "E8ECF0",
+      "major_weight_pt": 0.5,
+      "minor_visible": false
+    }
+  },
+  "academic_typography": {
+    "chart_title": {
+      "font_size": 12,
+      "bold": false,
+      "font_color_rgb": "1A2B42"
+    },
+    "axis_labels": {
+      "font_size": 8,
+      "italic": false,
+      "font_color_rgb": "6B7A8D"
+    },
+    "legend": {
+      "font_size": 8,
+      "font_color_rgb": "4A5568"
+    },
+    "data_labels": {
+      "font_size": 7,
+      "font_color_rgb": "4B5563"
+    },
+    "caption": {
+      "font_size": 8,
+      "italic": true,
+      "font_color_rgb": "64748B"
+    },
+    "table_header": {
+      "font_size": 10
+    },
+    "table_body": {
+      "font_size": 9
+    }
+  },
+  "sheet_title": {
+    "font_name": "Calibri",
+    "font_size": 14,
+    "bold": true,
+    "italic": false,
+    "font_color_source": "table_header_fill",
+    "font_color_rgb": "1E3A8A",
+    "fill_color_rgb": "FFFFFF"
   }
 }

@@ -102,9 +102,9 @@ def _minimal_inputs(tmp_path: Path, *, include_venom_205c: bool = True) -> Path:
             "pr_merged_count_daily": 0,
             "pr_closed_not_merged_daily": 0,
             "pr_active_daily": 2,
-            "pr_daily_avg_lead_time_hours": "",
-            "pr_daily_median_lead_time_hours": "",
-            "pr_daily_avg_review_latency_hours": "",
+            "pr_daily_avg_lead_time_hours": 99.0,
+            "pr_daily_median_lead_time_hours": 77.0,
+            "pr_daily_avg_review_latency_hours": 11.0,
             "lead_time_sample_size": 0,
         },
     ]
@@ -213,6 +213,21 @@ def test_w33_uses_github_205c_for_venom_code_flow(tmp_path: Path) -> None:
     assert [row["additions"] for row in w33] == [100, 50]
     assert [row["deletions_negative"] for row in w33] == [-30, -20]
     assert [row["phase_i"] for row in w33] == [100, 100]
+
+
+def test_wp6_lead_time_has_constant_q1_reference_lines(tmp_path: Path) -> None:
+    config = _minimal_inputs(tmp_path, include_venom_205c=True)
+
+    result = _run_prepare_sources(config)
+
+    assert result.returncode == 0, result.stderr
+    pack = json.loads((tmp_path / "sources_pack.json").read_text(encoding="utf-8"))
+    wp6 = pack["tables"]["tpl_WP6_lead_time"]
+    assert {row["period_avg_lead_time_hours_ref"] for row in wp6} == {12.0}
+    assert {row["period_median_lead_time_hours_ref"] for row in wp6} == {10.0}
+    assert wp6[0]["pr_daily_avg_lead_time_hours"] == 12.0
+    assert wp6[1]["pr_daily_avg_lead_time_hours"] == 99.0
+    assert wp6[1]["lead_time_sample_size"] == 0
 
 
 def test_missing_venom_in_205c_is_hard_error_not_local_git_fallback(tmp_path: Path) -> None:

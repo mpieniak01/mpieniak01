@@ -37,6 +37,12 @@
       "allow_secondary_axis": true,
       "allow_combo": true,
       "description": "Wykres syntetyczny łączący kilka serii o wspólnej narracji."
+    },
+    "sheet_synthesis": {
+      "default_chart_type": "combo",
+      "allow_secondary_axis": true,
+      "allow_combo": true,
+      "description": "Wykres zbiorczy arkusza budowany z serii widocznych na innych wykresach tej samej zakladki."
     }
   },
   "series_roles": {
@@ -109,7 +115,20 @@
     "description": "Globalny kontrakt faz projektu dla wykresow combo w v4.",
     "render_mode": "column",
     "gap_width": 0,
-    "overlap": 100
+    "overlap": 100,
+    "phase_fill_colors": {
+      "phase_i": "FEF9C3",
+      "phase_ii": "A7F3D0",
+      "phase_iii": "BFDBFE"
+    },
+    "phase_fill_colors_academic": {
+      "phase_i": "FFFBEB",
+      "phase_ii": "F0FDF4",
+      "phase_iii": "EFF6FF"
+    },
+    "dynamic_scale_enabled": true,
+    "dynamic_scale_padding_pct": 0.1,
+    "sheet_synthesis_fill_transparency": 0.35
   },
   "date_axis": {
     "category_type": "category",
@@ -139,5 +158,12 @@
     "series_dominance_warn_ratio": 0.85,
     "allow_combo_secondary_axis": true,
     "min_series_per_combo_chart": 2
+  },
+  "legend_position_by_mode": {
+    "comparison": "bottom",
+    "synthetic_combo": "bottom",
+    "trend": "bottom",
+    "combo": "bottom",
+    "mix": "bottom"
   }
 }

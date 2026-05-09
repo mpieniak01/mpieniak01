@@ -107,8 +107,8 @@
         "header_row": 4,
         "data_start_row": 5
       },
-      "sheet_title": "Dług techniczny SonarQube - projekty (Q1 2026)",
-      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> tpl_W36_debt_projects. 11 projektow wejściowych, 11 renderowanych. Tabela z suma dlugu technicznego per projekt."
+      "sheet_title": "Maksymalny dług techniczny SonarQube - projekty (Q1 2026)",
+      "sheet_description": "Zrodlo: SonarCloud API -> src_205B_timeseries -> tpl_W36_debt_projects. 11 projektow wejściowych, 11 renderowanych. Tabela z maksymalnym dziennym stanem dlugu technicznego per projekt w Q1."
     },
     {
       "order": 7,
