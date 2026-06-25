@@ -25,8 +25,8 @@ Main direction:
 I publish selected research and long-form analyses related to AI-assisted software development, decision systems, autonomy, and human-AI collaboration. 
 Main research report: 
 - **Project Venom — software development process automation case study**
-- [Polish version](https://badania.strefa.org/)
-- [English version](https://research.strefa.org/)
+  - [Polish version](https://badania.strefa.org/)
+  - [English version](https://research.strefa.org/)
 
 The research focuses on the impact of AI coding agents on the software development process, including productivity, quality, traceability, human oversight, and the changing role of the analyst, architect, and developer in AI-supported delivery.
 
